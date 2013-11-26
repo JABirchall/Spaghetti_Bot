@@ -1,0 +1,73 @@
+[2013-11-25 15:09:47] >> PASS oauth:323igsfqd7a5ti3azfvg7iksxnmzlb0
+[2013-11-25 15:09:47] >> NICK Spaghetti_Bot
+[2013-11-25 15:09:47] >> USER Speghetti_Bot 0 199.9.250.229 :DrWhat's Bot
+[2013-11-25 15:09:47] << :tmi.twitch.tv 001 spaghetti_bot :connected to TMI
+[2013-11-25 15:09:48] << :tmi.twitch.tv 002 spaghetti_bot :your host is TMI
+[2013-11-25 15:09:48] << :tmi.twitch.tv 003 spaghetti_bot :this server is pretty new
+[2013-11-25 15:09:48] << :tmi.twitch.tv 004 spaghetti_bot tmi.twitch.tv 0.0.1 w n
+[2013-11-25 15:09:48] << :tmi.twitch.tv 375 spaghetti_bot :- tmi.twitch.tv Message of the day -
+[2013-11-25 15:09:48] << :tmi.twitch.tv 372 spaghetti_bot :- not much to say here
+[2013-11-25 15:09:48] << :tmi.twitch.tv 376 spaghetti_bot :End of /MOTD command
+[2013-11-25 15:09:48] >> PRIVMSG NickServ :identify 
+[2013-11-25 15:09:53] >> JOIN #nodrwhat
+[2013-11-25 15:09:53] << :spaghetti_bot!spaghetti_bot@spaghetti_bot.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 15:09:53] >> WHO #nodrwhat
+[2013-11-25 15:09:53] << :spaghetti_bot.tmi.twitch.tv 353 spaghetti_bot = #nodrwhat :spaghetti_bot
+[2013-11-25 15:09:53] << :spaghetti_bot.tmi.twitch.tv 366 spaghetti_bot #nodrwhat :End of /NAMES list
+[2013-11-25 15:09:53] << :jtv!jtv@jtv.tmi.twitch.tv PRIVMSG spaghetti_bot :HISTORYEND nodrwhat
+[2013-11-25 15:09:54] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 15:10:06] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 15:10:06] >> WHO #nodrwhat
+[2013-11-25 15:10:06] << :jtv MODE #nodrwhat +o nodrwhat
+[2013-11-25 15:10:06] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat nodrwhat spaghetti_bot.tmi.twitch.tv tmi.twitch.tv nodrwhat H :0 nodrwhat
+[2013-11-25 15:10:06] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat spaghetti_bot spaghetti_bot.tmi.twitch.tv tmi.twitch.tv spaghetti_bot H :0 spaghetti_bot
+[2013-11-25 15:10:06] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 15:11:51] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :Hello
+[2013-11-25 15:12:00] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!md5 Hello
+[2013-11-25 15:12:00] >> PRIVMSG #nodrwhat :md5("Hello") => 8b1a9953c4611296a827abf8c47804d7
+[2013-11-25 15:16:33] << PING tmi.twitch.tv
+[2013-11-25 15:16:33] >> PONG :tmi.twitch.tv
+[2013-11-25 15:21:12] << PING tmi.twitch.tv
+[2013-11-25 15:21:12] >> PONG :tmi.twitch.tv
+[2013-11-25 15:25:13] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PART #nodrwhat
+[2013-11-25 15:25:14] << :jtv MODE #nodrwhat -o nodrwhat
+[2013-11-25 15:25:57] << PING tmi.twitch.tv
+[2013-11-25 15:25:57] >> PONG :tmi.twitch.tv
+[2013-11-25 15:30:39] << PING tmi.twitch.tv
+[2013-11-25 15:30:39] >> PONG :tmi.twitch.tv
+[2013-11-25 15:34:51] << PING tmi.twitch.tv
+[2013-11-25 15:34:51] >> PONG :tmi.twitch.tv
+[2013-11-25 15:38:59] << PING tmi.twitch.tv
+[2013-11-25 15:38:59] >> PONG :tmi.twitch.tv
+[2013-11-25 15:43:47] << PING tmi.twitch.tv
+[2013-11-25 15:43:47] >> PONG :tmi.twitch.tv
+[2013-11-25 15:48:24] << PING tmi.twitch.tv
+[2013-11-25 15:48:24] >> PONG :tmi.twitch.tv
+[2013-11-25 15:52:41] << PING tmi.twitch.tv
+[2013-11-25 15:52:41] >> PONG :tmi.twitch.tv
+[2013-11-25 15:56:50] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :\Blashh
+[2013-11-25 15:56:58] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!md5 Blah
+[2013-11-25 15:56:58] >> PRIVMSG #nodrwhat :md5("Blah") => 5437946e31c4250716ce2322937f19e5
+[2013-11-25 15:57:05] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 15:57:05] >> WHO #nodrwhat
+[2013-11-25 15:57:05] << :jtv MODE #nodrwhat +o nodrwhat
+[2013-11-25 15:57:05] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat nodrwhat spaghetti_bot.tmi.twitch.tv tmi.twitch.tv nodrwhat H :0 nodrwhat
+[2013-11-25 15:57:05] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat spaghetti_bot spaghetti_bot.tmi.twitch.tv tmi.twitch.tv spaghetti_bot H :0 spaghetti_bot
+[2013-11-25 15:57:05] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 15:59:09] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!crypt Hi
+[2013-11-25 15:59:35] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!hash Super epic hash
+[2013-11-25 15:59:35] >> PRIVMSG #nodrwhat :ALGO: sha512 - ITERATIONS: 10000 - SALT: yHCknvbw0GQ= - HASH: GxNcC3Iw6Ls9k/M1A2oAiyQs9ATE07tnvTEdxWzycDa1Zuw5vqOmfPrg04fdmUakFhEdf+fc3uYRheSOxFGvWd2EOm1jazaayl5mvK8cJbrRnf2ohkFPcyEljIwjxVhCy8/puwiNl8uYTfDCO71v5t0BUNemdHPh9NjWGelIOkU=
+[2013-11-25 16:01:28] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PART #nodrwhat
+[2013-11-25 16:01:50] << :jtv MODE #nodrwhat -o nodrwhat
+[2013-11-25 16:03:59] << PING tmi.twitch.tv
+[2013-11-25 16:03:59] >> PONG :tmi.twitch.tv
+[2013-11-25 16:08:29] << PING tmi.twitch.tv
+[2013-11-25 16:08:29] >> PONG :tmi.twitch.tv
+[2013-11-25 16:12:48] << PING tmi.twitch.tv
+[2013-11-25 16:12:48] >> PONG :tmi.twitch.tv
+[2013-11-25 16:16:55] << PING tmi.twitch.tv
+[2013-11-25 16:16:55] >> PONG :tmi.twitch.tv
+[2013-11-25 16:21:18] << PING tmi.twitch.tv
+[2013-11-25 16:21:18] >> PONG :tmi.twitch.tv
+[2013-11-25 16:26:01] << PING tmi.twitch.tv
+[2013-11-25 16:26:01] >> PONG :tmi.twitch.tv

@@ -1,0 +1,27 @@
+[2013-11-25 16:54:31] >> PASS oauth:323igsfqd7a5ti3azfvg7iksxnmzlb0
+[2013-11-25 16:54:31] >> NICK Spaghetti_Bot
+[2013-11-25 16:54:31] >> USER Speghetti_Bot 0 199.9.250.229 :DrWhat's Bot
+[2013-11-25 16:54:32] << :tmi.twitch.tv 001 spaghetti_bot :connected to TMI
+[2013-11-25 16:54:32] << :tmi.twitch.tv 002 spaghetti_bot :your host is TMI
+[2013-11-25 16:54:32] << :tmi.twitch.tv 003 spaghetti_bot :this server is pretty new
+[2013-11-25 16:54:32] << :tmi.twitch.tv 004 spaghetti_bot tmi.twitch.tv 0.0.1 w n
+[2013-11-25 16:54:32] << :tmi.twitch.tv 375 spaghetti_bot :- tmi.twitch.tv Message of the day -
+[2013-11-25 16:54:32] << :tmi.twitch.tv 372 spaghetti_bot :- not much to say here
+[2013-11-25 16:54:32] << :tmi.twitch.tv 376 spaghetti_bot :End of /MOTD command
+[2013-11-25 16:54:32] >> PRIVMSG NickServ :identify 
+[2013-11-25 16:54:37] >> JOIN #nodrwhat
+[2013-11-25 16:54:38] << :spaghetti_bot!spaghetti_bot@spaghetti_bot.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 16:54:38] >> WHO #nodrwhat
+[2013-11-25 16:54:38] << :spaghetti_bot.tmi.twitch.tv 353 spaghetti_bot = #nodrwhat :spaghetti_bot
+[2013-11-25 16:54:38] << :spaghetti_bot.tmi.twitch.tv 366 spaghetti_bot #nodrwhat :End of /NAMES list
+[2013-11-25 16:54:38] << :jtv!jtv@jtv.tmi.twitch.tv PRIVMSG spaghetti_bot :HISTORYEND nodrwhat
+[2013-11-25 16:54:38] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 16:55:36] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :Hi
+[2013-11-25 16:55:46] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!md5 File.php
+[2013-11-25 16:55:46] >> PRIVMSG #nodrwhat :md5("File.php") => 21ccad0d6b45e47a016b429b3d45fb2b
+[2013-11-25 16:55:49] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 16:55:49] >> WHO #nodrwhat
+[2013-11-25 16:55:49] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat nodrwhat spaghetti_bot.tmi.twitch.tv tmi.twitch.tv nodrwhat H :0 nodrwhat
+[2013-11-25 16:55:49] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat spaghetti_bot spaghetti_bot.tmi.twitch.tv tmi.twitch.tv spaghetti_bot H :0 spaghetti_bot
+[2013-11-25 16:55:49] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 16:56:00] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!bet 1

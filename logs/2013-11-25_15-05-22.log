@@ -1,0 +1,24 @@
+[2013-11-25 15:05:22] >> PASS oauth:iw2vdbvp7nmn4hxwijwyk1advhywsen
+[2013-11-25 15:05:22] >> NICK NoDrWhat
+[2013-11-25 15:05:22] >> USER Speghetti_Bot 0 199.9.250.229 :DrWhat's Bot
+[2013-11-25 15:05:22] << :tmi.twitch.tv 001 nodrwhat :connected to TMI
+[2013-11-25 15:05:23] << :tmi.twitch.tv 002 nodrwhat :your host is TMI
+[2013-11-25 15:05:23] << :tmi.twitch.tv 003 nodrwhat :this server is pretty new
+[2013-11-25 15:05:23] << :tmi.twitch.tv 004 nodrwhat tmi.twitch.tv 0.0.1 w n
+[2013-11-25 15:05:23] << :tmi.twitch.tv 375 nodrwhat :- tmi.twitch.tv Message of the day -
+[2013-11-25 15:05:23] << :tmi.twitch.tv 372 nodrwhat :- not much to say here
+[2013-11-25 15:05:23] << :tmi.twitch.tv 376 nodrwhat :End of /MOTD command
+[2013-11-25 15:05:23] >> PRIVMSG NickServ :identify 
+[2013-11-25 15:05:28] >> JOIN #nodrwhat
+[2013-11-25 15:05:28] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 15:05:28] >> WHO #nodrwhat
+[2013-11-25 15:05:28] << :nodrwhat.tmi.twitch.tv 353 nodrwhat = #nodrwhat :nodrwhat
+[2013-11-25 15:05:28] << :nodrwhat.tmi.twitch.tv 366 nodrwhat #nodrwhat :End of /NAMES list
+[2013-11-25 15:05:28] << :jtv!jtv@jtv.tmi.twitch.tv PRIVMSG nodrwhat :HISTORYEND nodrwhat
+[2013-11-25 15:05:29] << :nodrwhat.tmi.twitch.tv 315 nodrwhat #nodrwhat :End of /WHO list
+[2013-11-25 15:05:48] << :spaghetti_bot!spaghetti_bot@spaghetti_bot.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 15:05:48] >> WHO #nodrwhat
+[2013-11-25 15:05:48] << :jtv MODE #nodrwhat +o nodrwhat
+[2013-11-25 15:05:48] << :nodrwhat.tmi.twitch.tv 352 nodrwhat #nodrwhat nodrwhat nodrwhat.tmi.twitch.tv tmi.twitch.tv nodrwhat H :0 nodrwhat
+[2013-11-25 15:05:48] << :nodrwhat.tmi.twitch.tv 352 nodrwhat #nodrwhat spaghetti_bot nodrwhat.tmi.twitch.tv tmi.twitch.tv spaghetti_bot H :0 spaghetti_bot
+[2013-11-25 15:05:48] << :nodrwhat.tmi.twitch.tv 315 nodrwhat #nodrwhat :End of /WHO list

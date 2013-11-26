@@ -1,0 +1,60 @@
+<?php
+
+/*
+	This file is part of Nimda - An advanced event-driven IRC Bot written in PHP with a nice plugin system
+	Copyright (C) 2009  noother [noothy@gmail.com]
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+*/
+
+class Translate extends Plugin {
+
+	function isTriggered() {
+		if(!isset($this->info['text'])) {
+			$this->sendOutput("Usage: ".$this->info['triggerUsed']." text");
+			return;
+		}
+		$trigger = substr($this->info['triggerUsed'],1);
+		$tmp = explode("-",$trigger);
+		$sl = $tmp[0];
+		$tl = $tmp[1];
+		
+		$translation = libInternet::googleTranslate($this->info['text'], $sl, $tl);
+		
+		$translation = preg_replace_callback(
+			'/\\\u([0-9a-f]{4})/',
+			create_function(
+				'$m',
+				'return chr(hexdec($m[1]));'
+			),
+			$translation
+		);
+		$translation = $this->unhtmlentities($translation);
+		
+		$this->sendOutput("\x02Translation: \x02".$translation);
+	}
+	
+	function unhtmlentities($string) {
+		// replace numeric entities
+		$string = preg_replace('~&#x([0-9a-f]+);~ei', 'chr(hexdec("\\1"))', $string);
+		$string = preg_replace('~&#([0-9]+);~e', 'chr("\\1")', $string);
+		// replace literal entities
+		$trans_tbl = get_html_translation_table(HTML_ENTITIES);
+		$trans_tbl = array_flip($trans_tbl);
+		return strtr($string, $trans_tbl);
+	}
+	
+}
+?>

@@ -1,0 +1,2324 @@
+[2013-09-30 19:28:22] >> NICK DrBot
+[2013-09-30 19:28:22] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-09-30 19:28:22] << :arvel.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-09-30 19:28:22] << :arvel.cryto.net NOTICE AUTH :*** Found your hostname (cached)
+[2013-09-30 19:28:22] << PING :25887DD9
+[2013-09-30 19:28:22] >> PONG :25887DD9
+[2013-09-30 19:28:23] << :arvel.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com
+[2013-09-30 19:28:23] << :arvel.cryto.net 002 DrBot :Your host is arvel.cryto.net, running version Unreal3.2.8.1
+[2013-09-30 19:28:23] << :arvel.cryto.net 003 DrBot :This server was created Mon Sep 30 2013 at 17:07:44 CEST
+[2013-09-30 19:28:23] << :arvel.cryto.net 004 DrBot arvel.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-09-30 19:28:23] << :arvel.cryto.net 005 DrBot UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+[2013-09-30 19:28:23] << :arvel.cryto.net 005 DrBot WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+[2013-09-30 19:28:23] << :arvel.cryto.net 005 DrBot EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+[2013-09-30 19:28:23] << :arvel.cryto.net 251 DrBot :There are 1 users and 106 invisible on 5 servers
+[2013-09-30 19:28:23] << :arvel.cryto.net 252 DrBot 32 :operator(s) online
+[2013-09-30 19:28:23] << :arvel.cryto.net 254 DrBot 17 :channels formed
+[2013-09-30 19:28:23] << :arvel.cryto.net 255 DrBot :I have 6 clients and 1 servers
+[2013-09-30 19:28:23] << :arvel.cryto.net 265 DrBot :Current Local Users: 6  Max: 7
+[2013-09-30 19:28:23] << :arvel.cryto.net 266 DrBot :Current Global Users: 107  Max: 2021
+[2013-09-30 19:28:23] << :arvel.cryto.net 375 DrBot :- arvel.cryto.net Message of the Day -
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- 30/9/2013 17:12
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                   (                           )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                      ((                           ))
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                        ((                       ((
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-        Server: arvel.cryto.net              ISP: BlueVM
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-        Physical location: Chicago, US       Your host: joepie91
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- bot policy, etc.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- visible).
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- flood themselves.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- state his reasons.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- unjust judgments.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :-
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-09-30 19:28:23] << :arvel.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-09-30 19:28:23] << :arvel.cryto.net 376 DrBot :End of /MOTD command.
+[2013-09-30 19:28:23] >> JOIN #drwhat
+[2013-09-30 19:28:23] << :DrBot MODE DrBot :+iwx
+[2013-09-30 19:28:23] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :Welcome to Cryto IRC, DrBot! Here on Cryto IRC, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+[2013-09-30 19:28:23] << :DrBot!Nimda@cryto-C0B73CE6.cable.virginmedia.com JOIN :#drwhat
+[2013-09-30 19:28:23] >> WHO #drwhat
+[2013-09-30 19:28:23] << :arvel.cryto.net 332 DrBot #drwhat :
+[2013-09-30 19:28:23] << :arvel.cryto.net 333 DrBot #drwhat Macbeth 1380500571
+[2013-09-30 19:28:23] << :arvel.cryto.net 353 DrBot = #drwhat :DrBot DrWhat joepie91
+[2013-09-30 19:28:23] << :arvel.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-09-30 19:28:23] << :arvel.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com arvel.cryto.net DrBot H :0 noother's Bot
+[2013-09-30 19:28:23] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :0 AnacønÐa ns2.15
+[2013-09-30 19:28:23] << :arvel.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :2 joepie91
+[2013-09-30 19:28:23] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-09-30 19:28:25] << :DrWhat!Snake@DrWhat.users.cryto PRIVMSG #drwhat :!amf 0A0B0107636D64062173686F702E6275795265736F7572636509646174610A011173746F6E6555736504000F776F6F6455736504000F69726F6E557365040011636173746C65496404AB99170F666F6F6455736504010101
+[2013-09-30 19:28:25] >> PRIVMSG #drwhat :Packet 0A0B0107636D64062173686F702E6275795265736F7572636509646174610A011173746F6E6555736504000F776F6F6455736504000F69726F6E557365040011636173746C65496404AB99170F666F6F6455736504010101.
+[2013-09-30 19:28:26] >> PRIVMSG #drwhat :data => foodUse => 1
+[2013-09-30 19:29:56] << PING :arvel.cryto.net
+[2013-09-30 19:29:56] >> PONG :arvel.cryto.net
+[2013-09-30 19:31:29] << PING :arvel.cryto.net
+[2013-09-30 19:31:29] >> PONG :arvel.cryto.net
+[2013-09-30 20:16:33] << PING :arvel.cryto.net
+[2013-09-30 20:16:33] >> PONG :arvel.cryto.net
+[2013-09-30 20:16:34] >> PING DrBot arvel.cryto.net
+[2013-09-30 20:16:34] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-09-30 20:16:34] << ERROR :Closing Link: DrBot[cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com] (Ping timeout)
+[2013-09-30 20:21:34] >> PING DrBot arvel.cryto.net
+[2013-09-30 20:21:34] >> QUIT :Connection timed out. Reconnecting..
+[2013-09-30 20:21:38] >> NICK DrBot
+[2013-09-30 20:21:39] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-09-30 20:21:39] << :haless.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-09-30 20:21:39] << :haless.cryto.net NOTICE AUTH :*** Found your hostname
+[2013-09-30 20:21:39] << PING :A0C7BA15
+[2013-09-30 20:21:39] >> PONG :A0C7BA15
+[2013-09-30 20:21:39] << :haless.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com
+[2013-09-30 20:21:39] << :haless.cryto.net 002 DrBot :Your host is haless.cryto.net, running version Unreal3.2.8.1
+[2013-09-30 20:21:39] << :haless.cryto.net 003 DrBot :This server was created Tue Aug 9 2011 at 15:06:39 MSD
+[2013-09-30 20:21:39] << :haless.cryto.net 004 DrBot haless.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-09-30 20:21:39] << :haless.cryto.net 005 DrBot UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+[2013-09-30 20:21:39] << :haless.cryto.net 005 DrBot WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+[2013-09-30 20:21:39] << :haless.cryto.net 005 DrBot EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+[2013-09-30 20:21:39] << :haless.cryto.net 251 DrBot :There are 1 users and 108 invisible on 5 servers
+[2013-09-30 20:21:39] << :haless.cryto.net 252 DrBot 32 :operator(s) online
+[2013-09-30 20:21:39] << :haless.cryto.net 254 DrBot 16 :channels formed
+[2013-09-30 20:21:39] << :haless.cryto.net 255 DrBot :I have 65 clients and 1 servers
+[2013-09-30 20:21:39] << :haless.cryto.net 265 DrBot :Current Local Users: 65  Max: 500
+[2013-09-30 20:21:39] << :haless.cryto.net 266 DrBot :Current Global Users: 109  Max: 2021
+[2013-09-30 20:21:39] << :haless.cryto.net 375 DrBot :- haless.cryto.net Message of the Day -
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- 19/4/2012 18:08
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                   (                           )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                      ((                           ))
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                        ((                       ((
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-   Server: haless.cryto.net                      ISP: VPS-Forge
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-   Physical location: Falkenstein, Germany       Your host: joepie91
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- bot policy, etc.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- visible).
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- flood themselves.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- state his reasons.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- unjust judgments.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :-
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-09-30 20:21:39] << :haless.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-09-30 20:21:39] << :haless.cryto.net 376 DrBot :End of /MOTD command.
+[2013-09-30 20:21:39] >> JOIN #drwhat
+[2013-09-30 20:21:39] << :DrBot MODE DrBot :+iwx
+[2013-09-30 20:21:39] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :Welcome to Cryto IRC, DrBot! Here on Cryto IRC, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+[2013-09-30 20:21:39] << :DrBot!Nimda@cryto-C0B73CE6.cable.virginmedia.com JOIN :#drwhat
+[2013-09-30 20:21:39] >> WHO #drwhat
+[2013-09-30 20:21:40] << :haless.cryto.net 332 DrBot #drwhat :
+[2013-09-30 20:21:40] << :haless.cryto.net 333 DrBot #drwhat Macbeth 1380500571
+[2013-09-30 20:21:40] << :haless.cryto.net 353 DrBot = #drwhat :DrBot DrWhat
+[2013-09-30 20:21:40] << :haless.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-09-30 20:21:40] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-09-30 20:21:40] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-09-30 20:21:40] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-09-30 20:23:17] << PING :haless.cryto.net
+[2013-09-30 20:23:17] >> PONG :haless.cryto.net
+[2013-09-30 20:24:52] << PING :haless.cryto.net
+[2013-09-30 20:24:52] >> PONG :haless.cryto.net
+[2013-09-30 20:26:22] << PING :haless.cryto.net
+[2013-09-30 20:26:22] >> PONG :haless.cryto.net
+[2013-09-30 20:27:59] << PING :haless.cryto.net
+[2013-09-30 20:27:59] >> PONG :haless.cryto.net
+[2013-09-30 20:29:34] << PING :haless.cryto.net
+[2013-09-30 20:29:34] >> PONG :haless.cryto.net
+[2013-09-30 20:31:07] << PING :haless.cryto.net
+[2013-09-30 20:31:07] >> PONG :haless.cryto.net
+[2013-09-30 20:32:42] << PING :haless.cryto.net
+[2013-09-30 20:32:42] >> PONG :haless.cryto.net
+[2013-09-30 20:34:16] << PING :haless.cryto.net
+[2013-09-30 20:34:16] >> PONG :haless.cryto.net
+[2013-09-30 20:35:50] << PING :haless.cryto.net
+[2013-09-30 20:35:50] >> PONG :haless.cryto.net
+[2013-09-30 20:37:21] << PING :haless.cryto.net
+[2013-09-30 20:37:21] >> PONG :haless.cryto.net
+[2013-09-30 20:38:56] << PING :haless.cryto.net
+[2013-09-30 20:38:56] >> PONG :haless.cryto.net
+[2013-09-30 20:40:26] << PING :haless.cryto.net
+[2013-09-30 20:40:26] >> PONG :haless.cryto.net
+[2013-09-30 20:41:59] << PING :haless.cryto.net
+[2013-09-30 20:41:59] >> PONG :haless.cryto.net
+[2013-09-30 20:43:37] << PING :haless.cryto.net
+[2013-09-30 20:43:37] >> PONG :haless.cryto.net
+[2013-09-30 20:45:09] << PING :haless.cryto.net
+[2013-09-30 20:45:09] >> PONG :haless.cryto.net
+[2013-09-30 20:46:46] << PING :haless.cryto.net
+[2013-09-30 20:46:46] >> PONG :haless.cryto.net
+[2013-09-30 20:48:18] << PING :haless.cryto.net
+[2013-09-30 20:48:18] >> PONG :haless.cryto.net
+[2013-09-30 20:49:52] << PING :haless.cryto.net
+[2013-09-30 20:49:52] >> PONG :haless.cryto.net
+[2013-09-30 20:51:30] << PING :haless.cryto.net
+[2013-09-30 20:51:30] >> PONG :haless.cryto.net
+[2013-09-30 20:53:01] << PING :haless.cryto.net
+[2013-09-30 20:53:01] >> PONG :haless.cryto.net
+[2013-09-30 20:54:32] << PING :haless.cryto.net
+[2013-09-30 20:54:32] >> PONG :haless.cryto.net
+[2013-09-30 20:56:10] << PING :haless.cryto.net
+[2013-09-30 20:56:10] >> PONG :haless.cryto.net
+[2013-09-30 20:57:48] << PING :haless.cryto.net
+[2013-09-30 20:57:48] >> PONG :haless.cryto.net
+[2013-09-30 20:59:18] << PING :haless.cryto.net
+[2013-09-30 20:59:18] >> PONG :haless.cryto.net
+[2013-09-30 21:00:48] << PING :haless.cryto.net
+[2013-09-30 21:00:48] >> PONG :haless.cryto.net
+[2013-09-30 21:02:21] << PING :haless.cryto.net
+[2013-09-30 21:02:21] >> PONG :haless.cryto.net
+[2013-09-30 21:03:56] << PING :haless.cryto.net
+[2013-09-30 21:03:56] >> PONG :haless.cryto.net
+[2013-09-30 21:05:30] << PING :haless.cryto.net
+[2013-09-30 21:05:30] >> PONG :haless.cryto.net
+[2013-09-30 21:07:04] << PING :haless.cryto.net
+[2013-09-30 21:07:04] >> PONG :haless.cryto.net
+[2013-09-30 21:08:38] << PING :haless.cryto.net
+[2013-09-30 21:08:38] >> PONG :haless.cryto.net
+[2013-09-30 21:10:12] << PING :haless.cryto.net
+[2013-09-30 21:10:12] >> PONG :haless.cryto.net
+[2013-09-30 21:11:44] << PING :haless.cryto.net
+[2013-09-30 21:11:44] >> PONG :haless.cryto.net
+[2013-09-30 21:13:20] << PING :haless.cryto.net
+[2013-09-30 21:13:20] >> PONG :haless.cryto.net
+[2013-09-30 21:14:50] << PING :haless.cryto.net
+[2013-09-30 21:14:50] >> PONG :haless.cryto.net
+[2013-09-30 21:16:21] << PING :haless.cryto.net
+[2013-09-30 21:16:21] >> PONG :haless.cryto.net
+[2013-09-30 21:17:50] << PING :haless.cryto.net
+[2013-09-30 21:17:50] >> PONG :haless.cryto.net
+[2013-09-30 21:19:23] << PING :haless.cryto.net
+[2013-09-30 21:19:23] >> PONG :haless.cryto.net
+[2013-09-30 21:20:56] << PING :haless.cryto.net
+[2013-09-30 21:20:56] >> PONG :haless.cryto.net
+[2013-09-30 21:22:32] << PING :haless.cryto.net
+[2013-09-30 21:22:32] >> PONG :haless.cryto.net
+[2013-09-30 21:24:05] << PING :haless.cryto.net
+[2013-09-30 21:24:05] >> PONG :haless.cryto.net
+[2013-09-30 21:25:39] << PING :haless.cryto.net
+[2013-09-30 21:25:39] >> PONG :haless.cryto.net
+[2013-09-30 21:27:13] << PING :haless.cryto.net
+[2013-09-30 21:27:13] >> PONG :haless.cryto.net
+[2013-09-30 21:28:49] << PING :haless.cryto.net
+[2013-09-30 21:28:49] >> PONG :haless.cryto.net
+[2013-09-30 21:30:19] << PING :haless.cryto.net
+[2013-09-30 21:30:19] >> PONG :haless.cryto.net
+[2013-09-30 21:31:53] << PING :haless.cryto.net
+[2013-09-30 21:31:53] >> PONG :haless.cryto.net
+[2013-09-30 21:33:30] << PING :haless.cryto.net
+[2013-09-30 21:33:30] >> PONG :haless.cryto.net
+[2013-09-30 21:35:03] << PING :haless.cryto.net
+[2013-09-30 21:35:04] >> PONG :haless.cryto.net
+[2013-09-30 21:36:35] << PING :haless.cryto.net
+[2013-09-30 21:36:35] >> PONG :haless.cryto.net
+[2013-09-30 21:38:10] << PING :haless.cryto.net
+[2013-09-30 21:38:10] >> PONG :haless.cryto.net
+[2013-09-30 21:39:45] << PING :haless.cryto.net
+[2013-09-30 21:39:45] >> PONG :haless.cryto.net
+[2013-09-30 21:41:18] << PING :haless.cryto.net
+[2013-09-30 21:41:18] >> PONG :haless.cryto.net
+[2013-09-30 21:42:51] << PING :haless.cryto.net
+[2013-09-30 21:42:51] >> PONG :haless.cryto.net
+[2013-09-30 21:44:23] << PING :haless.cryto.net
+[2013-09-30 21:44:23] >> PONG :haless.cryto.net
+[2013-09-30 21:45:59] << PING :haless.cryto.net
+[2013-09-30 21:45:59] >> PONG :haless.cryto.net
+[2013-09-30 21:47:32] << PING :haless.cryto.net
+[2013-09-30 21:47:32] >> PONG :haless.cryto.net
+[2013-09-30 21:49:03] << PING :haless.cryto.net
+[2013-09-30 21:49:03] >> PONG :haless.cryto.net
+[2013-09-30 21:50:39] << PING :haless.cryto.net
+[2013-09-30 21:50:39] >> PONG :haless.cryto.net
+[2013-09-30 21:52:13] << PING :haless.cryto.net
+[2013-09-30 21:52:13] >> PONG :haless.cryto.net
+[2013-09-30 21:53:47] << PING :haless.cryto.net
+[2013-09-30 21:53:47] >> PONG :haless.cryto.net
+[2013-09-30 21:55:22] << PING :haless.cryto.net
+[2013-09-30 21:55:22] >> PONG :haless.cryto.net
+[2013-09-30 21:56:54] << PING :haless.cryto.net
+[2013-09-30 21:56:54] >> PONG :haless.cryto.net
+[2013-09-30 21:58:29] << PING :haless.cryto.net
+[2013-09-30 21:58:29] >> PONG :haless.cryto.net
+[2013-09-30 22:00:03] << PING :haless.cryto.net
+[2013-09-30 22:00:03] >> PONG :haless.cryto.net
+[2013-09-30 22:01:35] << PING :haless.cryto.net
+[2013-09-30 22:01:35] >> PONG :haless.cryto.net
+[2013-09-30 22:03:08] << PING :haless.cryto.net
+[2013-09-30 22:03:08] >> PONG :haless.cryto.net
+[2013-09-30 22:04:44] << PING :haless.cryto.net
+[2013-09-30 22:04:44] >> PONG :haless.cryto.net
+[2013-09-30 22:06:13] << PING :haless.cryto.net
+[2013-09-30 22:06:13] >> PONG :haless.cryto.net
+[2013-09-30 22:07:46] << PING :haless.cryto.net
+[2013-09-30 22:07:46] >> PONG :haless.cryto.net
+[2013-09-30 22:09:16] << PING :haless.cryto.net
+[2013-09-30 22:09:16] >> PONG :haless.cryto.net
+[2013-09-30 22:10:50] << PING :haless.cryto.net
+[2013-09-30 22:10:50] >> PONG :haless.cryto.net
+[2013-09-30 22:12:22] << PING :haless.cryto.net
+[2013-09-30 22:12:22] >> PONG :haless.cryto.net
+[2013-09-30 22:13:56] << PING :haless.cryto.net
+[2013-09-30 22:13:56] >> PONG :haless.cryto.net
+[2013-09-30 22:15:30] << PING :haless.cryto.net
+[2013-09-30 22:15:30] >> PONG :haless.cryto.net
+[2013-09-30 22:17:00] << PING :haless.cryto.net
+[2013-09-30 22:17:00] >> PONG :haless.cryto.net
+[2013-09-30 22:18:36] << PING :haless.cryto.net
+[2013-09-30 22:18:36] >> PONG :haless.cryto.net
+[2013-09-30 22:20:11] << PING :haless.cryto.net
+[2013-09-30 22:20:11] >> PONG :haless.cryto.net
+[2013-09-30 22:21:45] << PING :haless.cryto.net
+[2013-09-30 22:21:45] >> PONG :haless.cryto.net
+[2013-09-30 22:23:22] << PING :haless.cryto.net
+[2013-09-30 22:23:22] >> PONG :haless.cryto.net
+[2013-09-30 22:24:52] << PING :haless.cryto.net
+[2013-09-30 22:24:52] >> PONG :haless.cryto.net
+[2013-09-30 22:26:28] << PING :haless.cryto.net
+[2013-09-30 22:26:28] >> PONG :haless.cryto.net
+[2013-09-30 22:28:01] << PING :haless.cryto.net
+[2013-09-30 22:28:01] >> PONG :haless.cryto.net
+[2013-09-30 22:29:33] << PING :haless.cryto.net
+[2013-09-30 22:29:33] >> PONG :haless.cryto.net
+[2013-09-30 22:31:08] << PING :haless.cryto.net
+[2013-09-30 22:31:08] >> PONG :haless.cryto.net
+[2013-09-30 22:32:44] << PING :haless.cryto.net
+[2013-09-30 22:32:44] >> PONG :haless.cryto.net
+[2013-09-30 22:34:18] << PING :haless.cryto.net
+[2013-09-30 22:34:18] >> PONG :haless.cryto.net
+[2013-09-30 22:35:51] << PING :haless.cryto.net
+[2013-09-30 22:35:51] >> PONG :haless.cryto.net
+[2013-09-30 22:37:28] << PING :haless.cryto.net
+[2013-09-30 22:37:28] >> PONG :haless.cryto.net
+[2013-09-30 22:39:07] << PING :haless.cryto.net
+[2013-09-30 22:39:07] >> PONG :haless.cryto.net
+[2013-09-30 22:40:39] << PING :haless.cryto.net
+[2013-09-30 22:40:39] >> PONG :haless.cryto.net
+[2013-09-30 22:42:18] << PING :haless.cryto.net
+[2013-09-30 22:42:18] >> PONG :haless.cryto.net
+[2013-09-30 22:43:48] << PING :haless.cryto.net
+[2013-09-30 22:43:48] >> PONG :haless.cryto.net
+[2013-09-30 22:45:22] << PING :haless.cryto.net
+[2013-09-30 22:45:22] >> PONG :haless.cryto.net
+[2013-09-30 22:46:55] << PING :haless.cryto.net
+[2013-09-30 22:46:55] >> PONG :haless.cryto.net
+[2013-09-30 22:48:29] << PING :haless.cryto.net
+[2013-09-30 22:48:29] >> PONG :haless.cryto.net
+[2013-09-30 22:50:03] << PING :haless.cryto.net
+[2013-09-30 22:50:03] >> PONG :haless.cryto.net
+[2013-09-30 22:51:38] << PING :haless.cryto.net
+[2013-09-30 22:51:38] >> PONG :haless.cryto.net
+[2013-09-30 22:53:10] << PING :haless.cryto.net
+[2013-09-30 22:53:10] >> PONG :haless.cryto.net
+[2013-09-30 22:54:45] << PING :haless.cryto.net
+[2013-09-30 22:54:45] >> PONG :haless.cryto.net
+[2013-09-30 22:56:17] << PING :haless.cryto.net
+[2013-09-30 22:56:17] >> PONG :haless.cryto.net
+[2013-09-30 22:57:50] << PING :haless.cryto.net
+[2013-09-30 22:57:50] >> PONG :haless.cryto.net
+[2013-09-30 22:59:27] << PING :haless.cryto.net
+[2013-09-30 22:59:27] >> PONG :haless.cryto.net
+[2013-09-30 23:01:00] << PING :haless.cryto.net
+[2013-09-30 23:01:00] >> PONG :haless.cryto.net
+[2013-09-30 23:02:33] << PING :haless.cryto.net
+[2013-09-30 23:02:33] >> PONG :haless.cryto.net
+[2013-09-30 23:04:07] << PING :haless.cryto.net
+[2013-09-30 23:04:07] >> PONG :haless.cryto.net
+[2013-09-30 23:05:39] << PING :haless.cryto.net
+[2013-09-30 23:05:39] >> PONG :haless.cryto.net
+[2013-09-30 23:07:13] << PING :haless.cryto.net
+[2013-09-30 23:07:13] >> PONG :haless.cryto.net
+[2013-09-30 23:08:50] << PING :haless.cryto.net
+[2013-09-30 23:08:50] >> PONG :haless.cryto.net
+[2013-09-30 23:10:22] << PING :haless.cryto.net
+[2013-09-30 23:10:22] >> PONG :haless.cryto.net
+[2013-09-30 23:11:57] << PING :haless.cryto.net
+[2013-09-30 23:11:57] >> PONG :haless.cryto.net
+[2013-09-30 23:13:31] << PING :haless.cryto.net
+[2013-09-30 23:13:31] >> PONG :haless.cryto.net
+[2013-09-30 23:15:04] << PING :haless.cryto.net
+[2013-09-30 23:15:04] >> PONG :haless.cryto.net
+[2013-09-30 23:16:36] << PING :haless.cryto.net
+[2013-09-30 23:16:36] >> PONG :haless.cryto.net
+[2013-09-30 23:18:09] << PING :haless.cryto.net
+[2013-09-30 23:18:09] >> PONG :haless.cryto.net
+[2013-09-30 23:19:40] << PING :haless.cryto.net
+[2013-09-30 23:19:40] >> PONG :haless.cryto.net
+[2013-09-30 23:21:19] << PING :haless.cryto.net
+[2013-09-30 23:21:19] >> PONG :haless.cryto.net
+[2013-09-30 23:22:53] << PING :haless.cryto.net
+[2013-09-30 23:22:53] >> PONG :haless.cryto.net
+[2013-09-30 23:24:26] << PING :haless.cryto.net
+[2013-09-30 23:24:26] >> PONG :haless.cryto.net
+[2013-09-30 23:26:00] << PING :haless.cryto.net
+[2013-09-30 23:26:00] >> PONG :haless.cryto.net
+[2013-09-30 23:27:33] << PING :haless.cryto.net
+[2013-09-30 23:27:33] >> PONG :haless.cryto.net
+[2013-09-30 23:29:04] << PING :haless.cryto.net
+[2013-09-30 23:29:04] >> PONG :haless.cryto.net
+[2013-09-30 23:30:40] << PING :haless.cryto.net
+[2013-09-30 23:30:40] >> PONG :haless.cryto.net
+[2013-09-30 23:32:17] << PING :haless.cryto.net
+[2013-09-30 23:32:17] >> PONG :haless.cryto.net
+[2013-09-30 23:33:51] << PING :haless.cryto.net
+[2013-09-30 23:33:51] >> PONG :haless.cryto.net
+[2013-09-30 23:35:28] << PING :haless.cryto.net
+[2013-09-30 23:35:28] >> PONG :haless.cryto.net
+[2013-09-30 23:37:00] << PING :haless.cryto.net
+[2013-09-30 23:37:00] >> PONG :haless.cryto.net
+[2013-09-30 23:38:30] << PING :haless.cryto.net
+[2013-09-30 23:38:30] >> PONG :haless.cryto.net
+[2013-09-30 23:40:05] << PING :haless.cryto.net
+[2013-09-30 23:40:05] >> PONG :haless.cryto.net
+[2013-09-30 23:41:37] << PING :haless.cryto.net
+[2013-09-30 23:41:37] >> PONG :haless.cryto.net
+[2013-09-30 23:43:12] << PING :haless.cryto.net
+[2013-09-30 23:43:12] >> PONG :haless.cryto.net
+[2013-09-30 23:44:43] << PING :haless.cryto.net
+[2013-09-30 23:44:43] >> PONG :haless.cryto.net
+[2013-09-30 23:46:17] << PING :haless.cryto.net
+[2013-09-30 23:46:17] >> PONG :haless.cryto.net
+[2013-09-30 23:47:52] << PING :haless.cryto.net
+[2013-09-30 23:47:52] >> PONG :haless.cryto.net
+[2013-09-30 23:49:25] << PING :haless.cryto.net
+[2013-09-30 23:49:25] >> PONG :haless.cryto.net
+[2013-09-30 23:50:57] << PING :haless.cryto.net
+[2013-09-30 23:50:57] >> PONG :haless.cryto.net
+[2013-09-30 23:52:32] << PING :haless.cryto.net
+[2013-09-30 23:52:32] >> PONG :haless.cryto.net
+[2013-09-30 23:54:08] << PING :haless.cryto.net
+[2013-09-30 23:54:08] >> PONG :haless.cryto.net
+[2013-09-30 23:55:45] << PING :haless.cryto.net
+[2013-09-30 23:55:45] >> PONG :haless.cryto.net
+[2013-09-30 23:57:16] << PING :haless.cryto.net
+[2013-09-30 23:57:16] >> PONG :haless.cryto.net
+[2013-09-30 23:58:49] << PING :haless.cryto.net
+[2013-09-30 23:58:49] >> PONG :haless.cryto.net
+[2013-10-01 00:00:25] << PING :haless.cryto.net
+[2013-10-01 00:00:25] >> PONG :haless.cryto.net
+[2013-10-01 00:01:57] << PING :haless.cryto.net
+[2013-10-01 00:01:57] >> PONG :haless.cryto.net
+[2013-10-01 00:03:27] << PING :haless.cryto.net
+[2013-10-01 00:03:27] >> PONG :haless.cryto.net
+[2013-10-01 00:05:02] << PING :haless.cryto.net
+[2013-10-01 00:05:02] >> PONG :haless.cryto.net
+[2013-10-01 00:06:35] << PING :haless.cryto.net
+[2013-10-01 00:06:35] >> PONG :haless.cryto.net
+[2013-10-01 00:08:11] << PING :haless.cryto.net
+[2013-10-01 00:08:11] >> PONG :haless.cryto.net
+[2013-10-01 00:09:48] << PING :haless.cryto.net
+[2013-10-01 00:09:48] >> PONG :haless.cryto.net
+[2013-10-01 00:11:19] << PING :haless.cryto.net
+[2013-10-01 00:11:19] >> PONG :haless.cryto.net
+[2013-10-01 00:12:55] << PING :haless.cryto.net
+[2013-10-01 00:12:55] >> PONG :haless.cryto.net
+[2013-10-01 00:14:28] << PING :haless.cryto.net
+[2013-10-01 00:14:28] >> PONG :haless.cryto.net
+[2013-10-01 00:16:01] << PING :haless.cryto.net
+[2013-10-01 00:16:01] >> PONG :haless.cryto.net
+[2013-10-01 00:17:34] << PING :haless.cryto.net
+[2013-10-01 00:17:34] >> PONG :haless.cryto.net
+[2013-10-01 00:19:08] << PING :haless.cryto.net
+[2013-10-01 00:19:08] >> PONG :haless.cryto.net
+[2013-10-01 00:20:43] << PING :haless.cryto.net
+[2013-10-01 00:20:43] >> PONG :haless.cryto.net
+[2013-10-01 00:22:16] << PING :haless.cryto.net
+[2013-10-01 00:22:16] >> PONG :haless.cryto.net
+[2013-10-01 00:23:48] << PING :haless.cryto.net
+[2013-10-01 00:23:48] >> PONG :haless.cryto.net
+[2013-10-01 00:25:24] << PING :haless.cryto.net
+[2013-10-01 00:25:24] >> PONG :haless.cryto.net
+[2013-10-01 00:26:58] << PING :haless.cryto.net
+[2013-10-01 00:26:58] >> PONG :haless.cryto.net
+[2013-10-01 00:28:32] << PING :haless.cryto.net
+[2013-10-01 00:28:32] >> PONG :haless.cryto.net
+[2013-10-01 00:30:01] << PING :haless.cryto.net
+[2013-10-01 00:30:01] >> PONG :haless.cryto.net
+[2013-10-01 00:31:38] << PING :haless.cryto.net
+[2013-10-01 00:31:38] >> PONG :haless.cryto.net
+[2013-10-01 00:33:12] << PING :haless.cryto.net
+[2013-10-01 00:33:12] >> PONG :haless.cryto.net
+[2013-10-01 00:34:44] << PING :haless.cryto.net
+[2013-10-01 00:34:44] >> PONG :haless.cryto.net
+[2013-10-01 00:36:20] << PING :haless.cryto.net
+[2013-10-01 00:36:20] >> PONG :haless.cryto.net
+[2013-10-01 00:37:53] << PING :haless.cryto.net
+[2013-10-01 00:37:53] >> PONG :haless.cryto.net
+[2013-10-01 00:39:23] << PING :haless.cryto.net
+[2013-10-01 00:39:23] >> PONG :haless.cryto.net
+[2013-10-01 00:40:59] << PING :haless.cryto.net
+[2013-10-01 00:40:59] >> PONG :haless.cryto.net
+[2013-10-01 00:42:34] << PING :haless.cryto.net
+[2013-10-01 00:42:34] >> PONG :haless.cryto.net
+[2013-10-01 00:44:05] << PING :haless.cryto.net
+[2013-10-01 00:44:05] >> PONG :haless.cryto.net
+[2013-10-01 00:45:42] << PING :haless.cryto.net
+[2013-10-01 00:45:42] >> PONG :haless.cryto.net
+[2013-10-01 00:47:14] << PING :haless.cryto.net
+[2013-10-01 00:47:14] >> PONG :haless.cryto.net
+[2013-10-01 00:48:48] << PING :haless.cryto.net
+[2013-10-01 00:48:48] >> PONG :haless.cryto.net
+[2013-10-01 00:50:24] << PING :haless.cryto.net
+[2013-10-01 00:50:24] >> PONG :haless.cryto.net
+[2013-10-01 00:51:57] << PING :haless.cryto.net
+[2013-10-01 00:51:57] >> PONG :haless.cryto.net
+[2013-10-01 00:53:30] << PING :haless.cryto.net
+[2013-10-01 00:53:30] >> PONG :haless.cryto.net
+[2013-10-01 00:55:03] << PING :haless.cryto.net
+[2013-10-01 00:55:03] >> PONG :haless.cryto.net
+[2013-10-01 00:56:41] << PING :haless.cryto.net
+[2013-10-01 00:56:41] >> PONG :haless.cryto.net
+[2013-10-01 00:58:13] << PING :haless.cryto.net
+[2013-10-01 00:58:13] >> PONG :haless.cryto.net
+[2013-10-01 00:59:44] << PING :haless.cryto.net
+[2013-10-01 00:59:44] >> PONG :haless.cryto.net
+[2013-10-01 01:01:20] << PING :haless.cryto.net
+[2013-10-01 01:01:20] >> PONG :haless.cryto.net
+[2013-10-01 01:02:52] << PING :haless.cryto.net
+[2013-10-01 01:02:52] >> PONG :haless.cryto.net
+[2013-10-01 01:04:28] << PING :haless.cryto.net
+[2013-10-01 01:04:28] >> PONG :haless.cryto.net
+[2013-10-01 01:06:02] << PING :haless.cryto.net
+[2013-10-01 01:06:02] >> PONG :haless.cryto.net
+[2013-10-01 01:07:35] << PING :haless.cryto.net
+[2013-10-01 01:07:35] >> PONG :haless.cryto.net
+[2013-10-01 01:09:12] << PING :haless.cryto.net
+[2013-10-01 01:09:12] >> PONG :haless.cryto.net
+[2013-10-01 01:10:42] << PING :haless.cryto.net
+[2013-10-01 01:10:42] >> PONG :haless.cryto.net
+[2013-10-01 01:12:13] << PING :haless.cryto.net
+[2013-10-01 01:12:13] >> PONG :haless.cryto.net
+[2013-10-01 01:13:44] << PING :haless.cryto.net
+[2013-10-01 01:13:44] >> PONG :haless.cryto.net
+[2013-10-01 01:15:23] << PING :haless.cryto.net
+[2013-10-01 01:15:23] >> PONG :haless.cryto.net
+[2013-10-01 01:16:57] << PING :haless.cryto.net
+[2013-10-01 01:16:57] >> PONG :haless.cryto.net
+[2013-10-01 01:18:31] << PING :haless.cryto.net
+[2013-10-01 01:18:31] >> PONG :haless.cryto.net
+[2013-10-01 01:20:04] << PING :haless.cryto.net
+[2013-10-01 01:20:04] >> PONG :haless.cryto.net
+[2013-10-01 01:21:39] << PING :haless.cryto.net
+[2013-10-01 01:21:39] >> PONG :haless.cryto.net
+[2013-10-01 01:23:12] << PING :haless.cryto.net
+[2013-10-01 01:23:12] >> PONG :haless.cryto.net
+[2013-10-01 01:24:47] << PING :haless.cryto.net
+[2013-10-01 01:24:47] >> PONG :haless.cryto.net
+[2013-10-01 01:26:22] << PING :haless.cryto.net
+[2013-10-01 01:26:22] >> PONG :haless.cryto.net
+[2013-10-01 01:27:52] << PING :haless.cryto.net
+[2013-10-01 01:27:52] >> PONG :haless.cryto.net
+[2013-10-01 01:29:25] << PING :haless.cryto.net
+[2013-10-01 01:29:25] >> PONG :haless.cryto.net
+[2013-10-01 01:31:02] << PING :haless.cryto.net
+[2013-10-01 01:31:02] >> PONG :haless.cryto.net
+[2013-10-01 01:32:38] << PING :haless.cryto.net
+[2013-10-01 01:32:38] >> PONG :haless.cryto.net
+[2013-10-01 01:34:09] << PING :haless.cryto.net
+[2013-10-01 01:34:09] >> PONG :haless.cryto.net
+[2013-10-01 01:35:42] << PING :haless.cryto.net
+[2013-10-01 01:35:42] >> PONG :haless.cryto.net
+[2013-10-01 01:37:17] << PING :haless.cryto.net
+[2013-10-01 01:37:17] >> PONG :haless.cryto.net
+[2013-10-01 01:38:53] << PING :haless.cryto.net
+[2013-10-01 01:38:53] >> PONG :haless.cryto.net
+[2013-10-01 01:40:23] << PING :haless.cryto.net
+[2013-10-01 01:40:23] >> PONG :haless.cryto.net
+[2013-10-01 01:41:59] << PING :haless.cryto.net
+[2013-10-01 01:41:59] >> PONG :haless.cryto.net
+[2013-10-01 01:43:34] << PING :haless.cryto.net
+[2013-10-01 01:43:34] >> PONG :haless.cryto.net
+[2013-10-01 01:45:06] << PING :haless.cryto.net
+[2013-10-01 01:45:06] >> PONG :haless.cryto.net
+[2013-10-01 01:46:40] << PING :haless.cryto.net
+[2013-10-01 01:46:40] >> PONG :haless.cryto.net
+[2013-10-01 01:48:12] << PING :haless.cryto.net
+[2013-10-01 01:48:12] >> PONG :haless.cryto.net
+[2013-10-01 01:49:47] << PING :haless.cryto.net
+[2013-10-01 01:49:47] >> PONG :haless.cryto.net
+[2013-10-01 01:51:23] << PING :haless.cryto.net
+[2013-10-01 01:51:23] >> PONG :haless.cryto.net
+[2013-10-01 01:52:55] << PING :haless.cryto.net
+[2013-10-01 01:52:55] >> PONG :haless.cryto.net
+[2013-10-01 01:54:32] << PING :haless.cryto.net
+[2013-10-01 01:54:32] >> PONG :haless.cryto.net
+[2013-10-01 01:56:04] << PING :haless.cryto.net
+[2013-10-01 01:56:04] >> PONG :haless.cryto.net
+[2013-10-01 01:57:38] << PING :haless.cryto.net
+[2013-10-01 01:57:38] >> PONG :haless.cryto.net
+[2013-10-01 01:59:12] << PING :haless.cryto.net
+[2013-10-01 01:59:12] >> PONG :haless.cryto.net
+[2013-10-01 02:00:46] << PING :haless.cryto.net
+[2013-10-01 02:00:46] >> PONG :haless.cryto.net
+[2013-10-01 02:02:16] << PING :haless.cryto.net
+[2013-10-01 02:02:16] >> PONG :haless.cryto.net
+[2013-10-01 02:03:54] << PING :haless.cryto.net
+[2013-10-01 02:03:54] >> PONG :haless.cryto.net
+[2013-10-01 02:05:26] << PING :haless.cryto.net
+[2013-10-01 02:05:26] >> PONG :haless.cryto.net
+[2013-10-01 02:07:04] << PING :haless.cryto.net
+[2013-10-01 02:07:04] >> PONG :haless.cryto.net
+[2013-10-01 02:08:36] << PING :haless.cryto.net
+[2013-10-01 02:08:36] >> PONG :haless.cryto.net
+[2013-10-01 02:10:08] << PING :haless.cryto.net
+[2013-10-01 02:10:08] >> PONG :haless.cryto.net
+[2013-10-01 02:11:45] << PING :haless.cryto.net
+[2013-10-01 02:11:45] >> PONG :haless.cryto.net
+[2013-10-01 02:13:16] << PING :haless.cryto.net
+[2013-10-01 02:13:16] >> PONG :haless.cryto.net
+[2013-10-01 02:14:49] << PING :haless.cryto.net
+[2013-10-01 02:14:49] >> PONG :haless.cryto.net
+[2013-10-01 02:16:26] << PING :haless.cryto.net
+[2013-10-01 02:16:26] >> PONG :haless.cryto.net
+[2013-10-01 02:17:59] << PING :haless.cryto.net
+[2013-10-01 02:17:59] >> PONG :haless.cryto.net
+[2013-10-01 02:19:32] << PING :haless.cryto.net
+[2013-10-01 02:19:32] >> PONG :haless.cryto.net
+[2013-10-01 02:21:04] << PING :haless.cryto.net
+[2013-10-01 02:21:04] >> PONG :haless.cryto.net
+[2013-10-01 02:22:36] << PING :haless.cryto.net
+[2013-10-01 02:22:36] >> PONG :haless.cryto.net
+[2013-10-01 02:24:15] << PING :haless.cryto.net
+[2013-10-01 02:24:15] >> PONG :haless.cryto.net
+[2013-10-01 02:25:47] << PING :haless.cryto.net
+[2013-10-01 02:25:47] >> PONG :haless.cryto.net
+[2013-10-01 02:27:22] << PING :haless.cryto.net
+[2013-10-01 02:27:22] >> PONG :haless.cryto.net
+[2013-10-01 02:29:00] << PING :haless.cryto.net
+[2013-10-01 02:29:00] >> PONG :haless.cryto.net
+[2013-10-01 02:30:37] << PING :haless.cryto.net
+[2013-10-01 02:30:37] >> PONG :haless.cryto.net
+[2013-10-01 02:32:12] << PING :haless.cryto.net
+[2013-10-01 02:32:12] >> PONG :haless.cryto.net
+[2013-10-01 02:33:46] << PING :haless.cryto.net
+[2013-10-01 02:33:46] >> PONG :haless.cryto.net
+[2013-10-01 02:35:21] << PING :haless.cryto.net
+[2013-10-01 02:35:21] >> PONG :haless.cryto.net
+[2013-10-01 02:36:53] << PING :haless.cryto.net
+[2013-10-01 02:36:53] >> PONG :haless.cryto.net
+[2013-10-01 02:38:24] << PING :haless.cryto.net
+[2013-10-01 02:38:24] >> PONG :haless.cryto.net
+[2013-10-01 02:39:58] << PING :haless.cryto.net
+[2013-10-01 02:39:58] >> PONG :haless.cryto.net
+[2013-10-01 02:41:36] << PING :haless.cryto.net
+[2013-10-01 02:41:36] >> PONG :haless.cryto.net
+[2013-10-01 02:43:07] << PING :haless.cryto.net
+[2013-10-01 02:43:07] >> PONG :haless.cryto.net
+[2013-10-01 02:44:40] << PING :haless.cryto.net
+[2013-10-01 02:44:40] >> PONG :haless.cryto.net
+[2013-10-01 02:46:11] << PING :haless.cryto.net
+[2013-10-01 02:46:11] >> PONG :haless.cryto.net
+[2013-10-01 02:47:49] << PING :haless.cryto.net
+[2013-10-01 02:47:49] >> PONG :haless.cryto.net
+[2013-10-01 02:49:22] << PING :haless.cryto.net
+[2013-10-01 02:49:22] >> PONG :haless.cryto.net
+[2013-10-01 02:51:00] << PING :haless.cryto.net
+[2013-10-01 02:51:00] >> PONG :haless.cryto.net
+[2013-10-01 02:52:38] << PING :haless.cryto.net
+[2013-10-01 02:52:38] >> PONG :haless.cryto.net
+[2013-10-01 02:54:12] << PING :haless.cryto.net
+[2013-10-01 02:54:12] >> PONG :haless.cryto.net
+[2013-10-01 02:55:46] << PING :haless.cryto.net
+[2013-10-01 02:55:46] >> PONG :haless.cryto.net
+[2013-10-01 02:57:19] << PING :haless.cryto.net
+[2013-10-01 02:57:19] >> PONG :haless.cryto.net
+[2013-10-01 02:58:51] << PING :haless.cryto.net
+[2013-10-01 02:58:51] >> PONG :haless.cryto.net
+[2013-10-01 03:00:28] << PING :haless.cryto.net
+[2013-10-01 03:00:28] >> PONG :haless.cryto.net
+[2013-10-01 03:02:02] << PING :haless.cryto.net
+[2013-10-01 03:02:02] >> PONG :haless.cryto.net
+[2013-10-01 03:03:33] << PING :haless.cryto.net
+[2013-10-01 03:03:33] >> PONG :haless.cryto.net
+[2013-10-01 03:05:08] << PING :haless.cryto.net
+[2013-10-01 03:05:08] >> PONG :haless.cryto.net
+[2013-10-01 03:06:41] << PING :haless.cryto.net
+[2013-10-01 03:06:41] >> PONG :haless.cryto.net
+[2013-10-01 03:08:16] << PING :haless.cryto.net
+[2013-10-01 03:08:16] >> PONG :haless.cryto.net
+[2013-10-01 03:09:49] << PING :haless.cryto.net
+[2013-10-01 03:09:49] >> PONG :haless.cryto.net
+[2013-10-01 03:11:23] << PING :haless.cryto.net
+[2013-10-01 03:11:23] >> PONG :haless.cryto.net
+[2013-10-01 03:12:56] << PING :haless.cryto.net
+[2013-10-01 03:12:56] >> PONG :haless.cryto.net
+[2013-10-01 03:14:28] << PING :haless.cryto.net
+[2013-10-01 03:14:28] >> PONG :haless.cryto.net
+[2013-10-01 03:16:03] << PING :haless.cryto.net
+[2013-10-01 03:16:03] >> PONG :haless.cryto.net
+[2013-10-01 03:17:37] << PING :haless.cryto.net
+[2013-10-01 03:17:37] >> PONG :haless.cryto.net
+[2013-10-01 03:19:12] << PING :haless.cryto.net
+[2013-10-01 03:19:12] >> PONG :haless.cryto.net
+[2013-10-01 03:20:47] << PING :haless.cryto.net
+[2013-10-01 03:20:47] >> PONG :haless.cryto.net
+[2013-10-01 03:22:16] << PING :haless.cryto.net
+[2013-10-01 03:22:16] >> PONG :haless.cryto.net
+[2013-10-01 03:23:52] << PING :haless.cryto.net
+[2013-10-01 03:23:52] >> PONG :haless.cryto.net
+[2013-10-01 03:25:27] << PING :haless.cryto.net
+[2013-10-01 03:25:27] >> PONG :haless.cryto.net
+[2013-10-01 03:27:00] << PING :haless.cryto.net
+[2013-10-01 03:27:00] >> PONG :haless.cryto.net
+[2013-10-01 03:28:35] << PING :haless.cryto.net
+[2013-10-01 03:28:35] >> PONG :haless.cryto.net
+[2013-10-01 03:30:08] << PING :haless.cryto.net
+[2013-10-01 03:30:08] >> PONG :haless.cryto.net
+[2013-10-01 03:31:42] << PING :haless.cryto.net
+[2013-10-01 03:31:42] >> PONG :haless.cryto.net
+[2013-10-01 03:33:14] << PING :haless.cryto.net
+[2013-10-01 03:33:14] >> PONG :haless.cryto.net
+[2013-10-01 03:34:48] << PING :haless.cryto.net
+[2013-10-01 03:34:48] >> PONG :haless.cryto.net
+[2013-10-01 03:36:23] << PING :haless.cryto.net
+[2013-10-01 03:36:23] >> PONG :haless.cryto.net
+[2013-10-01 03:37:56] << PING :haless.cryto.net
+[2013-10-01 03:37:56] >> PONG :haless.cryto.net
+[2013-10-01 03:39:28] << PING :haless.cryto.net
+[2013-10-01 03:39:28] >> PONG :haless.cryto.net
+[2013-10-01 03:41:07] << PING :haless.cryto.net
+[2013-10-01 03:41:07] >> PONG :haless.cryto.net
+[2013-10-01 03:42:39] << PING :haless.cryto.net
+[2013-10-01 03:42:39] >> PONG :haless.cryto.net
+[2013-10-01 03:44:11] << PING :haless.cryto.net
+[2013-10-01 03:44:11] >> PONG :haless.cryto.net
+[2013-10-01 03:45:46] << PING :haless.cryto.net
+[2013-10-01 03:45:46] >> PONG :haless.cryto.net
+[2013-10-01 03:47:22] << PING :haless.cryto.net
+[2013-10-01 03:47:22] >> PONG :haless.cryto.net
+[2013-10-01 03:48:54] << PING :haless.cryto.net
+[2013-10-01 03:48:54] >> PONG :haless.cryto.net
+[2013-10-01 03:49:34] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 03:49:34] >> WHO #drwhat
+[2013-10-01 03:49:34] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 03:49:34] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 03:49:34] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 03:49:34] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 03:51:06] << PING :haless.cryto.net
+[2013-10-01 03:51:06] >> PONG :haless.cryto.net
+[2013-10-01 03:52:42] << PING :haless.cryto.net
+[2013-10-01 03:52:42] >> PONG :haless.cryto.net
+[2013-10-01 03:54:16] << PING :haless.cryto.net
+[2013-10-01 03:54:16] >> PONG :haless.cryto.net
+[2013-10-01 03:55:50] << PING :haless.cryto.net
+[2013-10-01 03:55:50] >> PONG :haless.cryto.net
+[2013-10-01 03:57:22] << PING :haless.cryto.net
+[2013-10-01 03:57:22] >> PONG :haless.cryto.net
+[2013-10-01 03:58:58] << PING :haless.cryto.net
+[2013-10-01 03:58:58] >> PONG :haless.cryto.net
+[2013-10-01 04:00:29] << PING :haless.cryto.net
+[2013-10-01 04:00:29] >> PONG :haless.cryto.net
+[2013-10-01 04:02:04] << PING :haless.cryto.net
+[2013-10-01 04:02:04] >> PONG :haless.cryto.net
+[2013-10-01 04:03:38] << PING :haless.cryto.net
+[2013-10-01 04:03:38] >> PONG :haless.cryto.net
+[2013-10-01 04:05:13] << PING :haless.cryto.net
+[2013-10-01 04:05:13] >> PONG :haless.cryto.net
+[2013-10-01 04:06:47] << PING :haless.cryto.net
+[2013-10-01 04:06:47] >> PONG :haless.cryto.net
+[2013-10-01 04:08:20] << PING :haless.cryto.net
+[2013-10-01 04:08:20] >> PONG :haless.cryto.net
+[2013-10-01 04:09:54] << PING :haless.cryto.net
+[2013-10-01 04:09:54] >> PONG :haless.cryto.net
+[2013-10-01 04:11:29] << PING :haless.cryto.net
+[2013-10-01 04:11:29] >> PONG :haless.cryto.net
+[2013-10-01 04:12:59] << PING :haless.cryto.net
+[2013-10-01 04:12:59] >> PONG :haless.cryto.net
+[2013-10-01 04:14:37] << PING :haless.cryto.net
+[2013-10-01 04:14:37] >> PONG :haless.cryto.net
+[2013-10-01 04:16:07] << PING :haless.cryto.net
+[2013-10-01 04:16:07] >> PONG :haless.cryto.net
+[2013-10-01 04:17:46] << PING :haless.cryto.net
+[2013-10-01 04:17:46] >> PONG :haless.cryto.net
+[2013-10-01 04:19:20] << PING :haless.cryto.net
+[2013-10-01 04:19:20] >> PONG :haless.cryto.net
+[2013-10-01 04:20:53] << PING :haless.cryto.net
+[2013-10-01 04:20:53] >> PONG :haless.cryto.net
+[2013-10-01 04:22:25] << PING :haless.cryto.net
+[2013-10-01 04:22:25] >> PONG :haless.cryto.net
+[2013-10-01 04:23:59] << PING :haless.cryto.net
+[2013-10-01 04:23:59] >> PONG :haless.cryto.net
+[2013-10-01 04:25:34] << PING :haless.cryto.net
+[2013-10-01 04:25:34] >> PONG :haless.cryto.net
+[2013-10-01 04:27:06] << PING :haless.cryto.net
+[2013-10-01 04:27:06] >> PONG :haless.cryto.net
+[2013-10-01 04:28:40] << PING :haless.cryto.net
+[2013-10-01 04:28:40] >> PONG :haless.cryto.net
+[2013-10-01 04:30:15] << PING :haless.cryto.net
+[2013-10-01 04:30:15] >> PONG :haless.cryto.net
+[2013-10-01 04:31:50] << PING :haless.cryto.net
+[2013-10-01 04:31:50] >> PONG :haless.cryto.net
+[2013-10-01 04:33:20] << PING :haless.cryto.net
+[2013-10-01 04:33:20] >> PONG :haless.cryto.net
+[2013-10-01 04:34:57] << PING :haless.cryto.net
+[2013-10-01 04:34:57] >> PONG :haless.cryto.net
+[2013-10-01 04:36:29] << PING :haless.cryto.net
+[2013-10-01 04:36:29] >> PONG :haless.cryto.net
+[2013-10-01 04:38:05] << PING :haless.cryto.net
+[2013-10-01 04:38:05] >> PONG :haless.cryto.net
+[2013-10-01 04:39:39] << PING :haless.cryto.net
+[2013-10-01 04:39:39] >> PONG :haless.cryto.net
+[2013-10-01 04:41:12] << PING :haless.cryto.net
+[2013-10-01 04:41:12] >> PONG :haless.cryto.net
+[2013-10-01 04:42:46] << PING :haless.cryto.net
+[2013-10-01 04:42:46] >> PONG :haless.cryto.net
+[2013-10-01 04:44:19] << PING :haless.cryto.net
+[2013-10-01 04:44:19] >> PONG :haless.cryto.net
+[2013-10-01 04:45:54] << PING :haless.cryto.net
+[2013-10-01 04:45:54] >> PONG :haless.cryto.net
+[2013-10-01 04:47:27] << PING :haless.cryto.net
+[2013-10-01 04:47:27] >> PONG :haless.cryto.net
+[2013-10-01 04:49:03] << PING :haless.cryto.net
+[2013-10-01 04:49:03] >> PONG :haless.cryto.net
+[2013-10-01 04:50:34] << PING :haless.cryto.net
+[2013-10-01 04:50:34] >> PONG :haless.cryto.net
+[2013-10-01 04:52:11] << PING :haless.cryto.net
+[2013-10-01 04:52:11] >> PONG :haless.cryto.net
+[2013-10-01 05:00:03] >> PING DrBot haless.cryto.net
+[2013-10-01 05:00:03] >> QUIT :Connection timed out. Reconnecting..
+[2013-10-01 05:00:06] >> NICK DrBot
+[2013-10-01 05:00:06] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-10-01 05:00:06] << :haless.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-10-01 05:00:06] << :haless.cryto.net NOTICE AUTH :*** Found your hostname
+[2013-10-01 05:00:06] << PING :5FD15F44
+[2013-10-01 05:00:06] >> PONG :5FD15F44
+[2013-10-01 05:00:07] << :haless.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com
+[2013-10-01 05:00:07] << :haless.cryto.net 002 DrBot :Your host is haless.cryto.net, running version Unreal3.2.8.1
+[2013-10-01 05:00:07] << :haless.cryto.net 003 DrBot :This server was created Tue Aug 9 2011 at 15:06:39 MSD
+[2013-10-01 05:00:07] << :haless.cryto.net 004 DrBot haless.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-10-01 05:00:07] << :haless.cryto.net 005 DrBot UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+[2013-10-01 05:00:07] << :haless.cryto.net 005 DrBot WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+[2013-10-01 05:00:07] << :haless.cryto.net 005 DrBot EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+[2013-10-01 05:00:07] << :haless.cryto.net 251 DrBot :There are 1 users and 90 invisible on 5 servers
+[2013-10-01 05:00:07] << :haless.cryto.net 252 DrBot 32 :operator(s) online
+[2013-10-01 05:00:07] << :haless.cryto.net 254 DrBot 16 :channels formed
+[2013-10-01 05:00:07] << :haless.cryto.net 255 DrBot :I have 52 clients and 1 servers
+[2013-10-01 05:00:07] << :haless.cryto.net 265 DrBot :Current Local Users: 52  Max: 500
+[2013-10-01 05:00:07] << :haless.cryto.net 266 DrBot :Current Global Users: 91  Max: 2021
+[2013-10-01 05:00:07] << :haless.cryto.net 375 DrBot :- haless.cryto.net Message of the Day -
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- 19/4/2012 18:08
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                   (                           )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                      ((                           ))
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                        ((                       ((
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-   Server: haless.cryto.net                      ISP: VPS-Forge
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-   Physical location: Falkenstein, Germany       Your host: joepie91
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- bot policy, etc.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- visible).
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- flood themselves.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- state his reasons.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- unjust judgments.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-10-01 05:00:07] << :haless.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-10-01 05:00:07] << :haless.cryto.net 376 DrBot :End of /MOTD command.
+[2013-10-01 05:00:07] >> JOIN #drwhat
+[2013-10-01 05:00:07] << :DrBot MODE DrBot :+iwx
+[2013-10-01 05:00:07] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :Welcome to Cryto IRC, DrBot! Here on Cryto IRC, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+[2013-10-01 05:00:07] << :DrBot!Nimda@cryto-C0B73CE6.cable.virginmedia.com JOIN :#drwhat
+[2013-10-01 05:00:07] >> WHO #drwhat
+[2013-10-01 05:00:07] << :haless.cryto.net 332 DrBot #drwhat :
+[2013-10-01 05:00:07] << :haless.cryto.net 333 DrBot #drwhat Macbeth 1380500571
+[2013-10-01 05:00:07] << :haless.cryto.net 353 DrBot = #drwhat :DrBot DrWhat joepie91
+[2013-10-01 05:00:07] << :haless.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-10-01 05:00:07] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 05:00:07] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 05:00:07] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 05:00:07] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 05:01:42] << PING :haless.cryto.net
+[2013-10-01 05:01:42] >> PONG :haless.cryto.net
+[2013-10-01 05:03:15] << PING :haless.cryto.net
+[2013-10-01 05:03:15] >> PONG :haless.cryto.net
+[2013-10-01 05:04:50] << PING :haless.cryto.net
+[2013-10-01 05:04:50] >> PONG :haless.cryto.net
+[2013-10-01 05:06:23] << PING :haless.cryto.net
+[2013-10-01 05:06:23] >> PONG :haless.cryto.net
+[2013-10-01 05:07:55] << PING :haless.cryto.net
+[2013-10-01 05:07:55] >> PONG :haless.cryto.net
+[2013-10-01 05:09:29] << PING :haless.cryto.net
+[2013-10-01 05:09:29] >> PONG :haless.cryto.net
+[2013-10-01 05:11:07] << PING :haless.cryto.net
+[2013-10-01 05:11:07] >> PONG :haless.cryto.net
+[2013-10-01 05:12:39] << PING :haless.cryto.net
+[2013-10-01 05:12:39] >> PONG :haless.cryto.net
+[2013-10-01 05:14:13] << PING :haless.cryto.net
+[2013-10-01 05:14:13] >> PONG :haless.cryto.net
+[2013-10-01 05:15:47] << PING :haless.cryto.net
+[2013-10-01 05:15:47] >> PONG :haless.cryto.net
+[2013-10-01 05:17:22] << PING :haless.cryto.net
+[2013-10-01 05:17:22] >> PONG :haless.cryto.net
+[2013-10-01 05:18:54] << PING :haless.cryto.net
+[2013-10-01 05:18:54] >> PONG :haless.cryto.net
+[2013-10-01 05:20:29] << PING :haless.cryto.net
+[2013-10-01 05:20:29] >> PONG :haless.cryto.net
+[2013-10-01 05:22:04] << PING :haless.cryto.net
+[2013-10-01 05:22:04] >> PONG :haless.cryto.net
+[2013-10-01 05:23:37] << PING :haless.cryto.net
+[2013-10-01 05:23:37] >> PONG :haless.cryto.net
+[2013-10-01 05:25:08] << PING :haless.cryto.net
+[2013-10-01 05:25:08] >> PONG :haless.cryto.net
+[2013-10-01 05:26:43] << PING :haless.cryto.net
+[2013-10-01 05:26:43] >> PONG :haless.cryto.net
+[2013-10-01 05:28:18] << PING :haless.cryto.net
+[2013-10-01 05:28:18] >> PONG :haless.cryto.net
+[2013-10-01 05:29:51] << PING :haless.cryto.net
+[2013-10-01 05:29:51] >> PONG :haless.cryto.net
+[2013-10-01 05:31:25] << PING :haless.cryto.net
+[2013-10-01 05:31:25] >> PONG :haless.cryto.net
+[2013-10-01 05:32:56] << PING :haless.cryto.net
+[2013-10-01 05:32:56] >> PONG :haless.cryto.net
+[2013-10-01 05:34:33] << PING :haless.cryto.net
+[2013-10-01 05:34:33] >> PONG :haless.cryto.net
+[2013-10-01 05:36:09] << PING :haless.cryto.net
+[2013-10-01 05:36:09] >> PONG :haless.cryto.net
+[2013-10-01 05:37:43] << PING :haless.cryto.net
+[2013-10-01 05:37:43] >> PONG :haless.cryto.net
+[2013-10-01 05:39:18] << PING :haless.cryto.net
+[2013-10-01 05:39:18] >> PONG :haless.cryto.net
+[2013-10-01 05:40:49] << PING :haless.cryto.net
+[2013-10-01 05:40:49] >> PONG :haless.cryto.net
+[2013-10-01 05:42:26] << PING :haless.cryto.net
+[2013-10-01 05:42:26] >> PONG :haless.cryto.net
+[2013-10-01 05:43:56] << PING :haless.cryto.net
+[2013-10-01 05:43:56] >> PONG :haless.cryto.net
+[2013-10-01 05:45:33] << PING :haless.cryto.net
+[2013-10-01 05:45:33] >> PONG :haless.cryto.net
+[2013-10-01 05:47:04] << PING :haless.cryto.net
+[2013-10-01 05:47:04] >> PONG :haless.cryto.net
+[2013-10-01 05:48:40] << PING :haless.cryto.net
+[2013-10-01 05:48:40] >> PONG :haless.cryto.net
+[2013-10-01 05:49:37] << :DrWhat!Snake@DrWhat.users.cryto QUIT :haless.cryto.net nexus.cryto.net
+[2013-10-01 05:50:18] << PING :haless.cryto.net
+[2013-10-01 05:50:18] >> PONG :haless.cryto.net
+[2013-10-01 05:51:48] << PING :haless.cryto.net
+[2013-10-01 05:51:48] >> PONG :haless.cryto.net
+[2013-10-01 05:53:18] << PING :haless.cryto.net
+[2013-10-01 05:53:18] >> PONG :haless.cryto.net
+[2013-10-01 05:54:48] << PING :haless.cryto.net
+[2013-10-01 05:54:48] >> PONG :haless.cryto.net
+[2013-10-01 05:56:20] << PING :haless.cryto.net
+[2013-10-01 05:56:20] >> PONG :haless.cryto.net
+[2013-10-01 05:57:56] << PING :haless.cryto.net
+[2013-10-01 05:57:56] >> PONG :haless.cryto.net
+[2013-10-01 05:59:29] << PING :haless.cryto.net
+[2013-10-01 05:59:29] >> PONG :haless.cryto.net
+[2013-10-01 06:01:01] << PING :haless.cryto.net
+[2013-10-01 06:01:01] >> PONG :haless.cryto.net
+[2013-10-01 06:02:30] << PING :haless.cryto.net
+[2013-10-01 06:02:30] >> PONG :haless.cryto.net
+[2013-10-01 06:04:01] << PING :haless.cryto.net
+[2013-10-01 06:04:01] >> PONG :haless.cryto.net
+[2013-10-01 06:05:35] << PING :haless.cryto.net
+[2013-10-01 06:05:35] >> PONG :haless.cryto.net
+[2013-10-01 06:07:09] << PING :haless.cryto.net
+[2013-10-01 06:07:09] >> PONG :haless.cryto.net
+[2013-10-01 06:08:43] << PING :haless.cryto.net
+[2013-10-01 06:08:43] >> PONG :haless.cryto.net
+[2013-10-01 06:10:17] << PING :haless.cryto.net
+[2013-10-01 06:10:18] >> PONG :haless.cryto.net
+[2013-10-01 06:11:48] << PING :haless.cryto.net
+[2013-10-01 06:11:48] >> PONG :haless.cryto.net
+[2013-10-01 06:13:18] << PING :haless.cryto.net
+[2013-10-01 06:13:18] >> PONG :haless.cryto.net
+[2013-10-01 06:14:48] << PING :haless.cryto.net
+[2013-10-01 06:14:48] >> PONG :haless.cryto.net
+[2013-10-01 06:16:19] << PING :haless.cryto.net
+[2013-10-01 06:16:19] >> PONG :haless.cryto.net
+[2013-10-01 06:17:56] << PING :haless.cryto.net
+[2013-10-01 06:17:56] >> PONG :haless.cryto.net
+[2013-10-01 06:19:34] << PING :haless.cryto.net
+[2013-10-01 06:19:34] >> PONG :haless.cryto.net
+[2013-10-01 06:21:03] << PING :haless.cryto.net
+[2013-10-01 06:21:03] >> PONG :haless.cryto.net
+[2013-10-01 06:22:39] << PING :haless.cryto.net
+[2013-10-01 06:22:39] >> PONG :haless.cryto.net
+[2013-10-01 06:24:13] << PING :haless.cryto.net
+[2013-10-01 06:24:13] >> PONG :haless.cryto.net
+[2013-10-01 06:25:46] << PING :haless.cryto.net
+[2013-10-01 06:25:46] >> PONG :haless.cryto.net
+[2013-10-01 06:27:19] << PING :haless.cryto.net
+[2013-10-01 06:27:19] >> PONG :haless.cryto.net
+[2013-10-01 06:28:52] << PING :haless.cryto.net
+[2013-10-01 06:28:52] >> PONG :haless.cryto.net
+[2013-10-01 06:30:27] << PING :haless.cryto.net
+[2013-10-01 06:30:27] >> PONG :haless.cryto.net
+[2013-10-01 06:31:58] << PING :haless.cryto.net
+[2013-10-01 06:31:58] >> PONG :haless.cryto.net
+[2013-10-01 06:33:34] << PING :haless.cryto.net
+[2013-10-01 06:33:34] >> PONG :haless.cryto.net
+[2013-10-01 06:35:05] << PING :haless.cryto.net
+[2013-10-01 06:35:05] >> PONG :haless.cryto.net
+[2013-10-01 06:36:38] << PING :haless.cryto.net
+[2013-10-01 06:36:38] >> PONG :haless.cryto.net
+[2013-10-01 06:38:08] << PING :haless.cryto.net
+[2013-10-01 06:38:08] >> PONG :haless.cryto.net
+[2013-10-01 06:39:41] << PING :haless.cryto.net
+[2013-10-01 06:39:41] >> PONG :haless.cryto.net
+[2013-10-01 06:41:15] << PING :haless.cryto.net
+[2013-10-01 06:41:15] >> PONG :haless.cryto.net
+[2013-10-01 06:42:49] << PING :haless.cryto.net
+[2013-10-01 06:42:49] >> PONG :haless.cryto.net
+[2013-10-01 06:44:24] << PING :haless.cryto.net
+[2013-10-01 06:44:24] >> PONG :haless.cryto.net
+[2013-10-01 06:46:02] << PING :haless.cryto.net
+[2013-10-01 06:46:02] >> PONG :haless.cryto.net
+[2013-10-01 06:46:34] << :DrWhat!Snake@DrWhat.users.cryto JOIN :#drwhat
+[2013-10-01 06:46:34] >> WHO #drwhat
+[2013-10-01 06:46:35] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 06:46:35] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 06:46:35] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 06:46:35] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 06:48:07] << PING :haless.cryto.net
+[2013-10-01 06:48:07] >> PONG :haless.cryto.net
+[2013-10-01 06:49:38] << PING :haless.cryto.net
+[2013-10-01 06:49:38] >> PONG :haless.cryto.net
+[2013-10-01 06:51:15] << PING :haless.cryto.net
+[2013-10-01 06:51:15] >> PONG :haless.cryto.net
+[2013-10-01 06:52:48] << PING :haless.cryto.net
+[2013-10-01 06:52:48] >> PONG :haless.cryto.net
+[2013-10-01 06:54:20] << PING :haless.cryto.net
+[2013-10-01 06:54:20] >> PONG :haless.cryto.net
+[2013-10-01 06:55:57] << PING :haless.cryto.net
+[2013-10-01 06:55:57] >> PONG :haless.cryto.net
+[2013-10-01 06:57:34] << PING :haless.cryto.net
+[2013-10-01 06:57:34] >> PONG :haless.cryto.net
+[2013-10-01 06:59:11] << PING :haless.cryto.net
+[2013-10-01 06:59:11] >> PONG :haless.cryto.net
+[2013-10-01 07:00:43] << PING :haless.cryto.net
+[2013-10-01 07:00:43] >> PONG :haless.cryto.net
+[2013-10-01 07:02:17] << PING :haless.cryto.net
+[2013-10-01 07:02:17] >> PONG :haless.cryto.net
+[2013-10-01 07:03:54] << PING :haless.cryto.net
+[2013-10-01 07:03:54] >> PONG :haless.cryto.net
+[2013-10-01 07:05:28] << PING :haless.cryto.net
+[2013-10-01 07:05:28] >> PONG :haless.cryto.net
+[2013-10-01 07:07:00] << PING :haless.cryto.net
+[2013-10-01 07:07:00] >> PONG :haless.cryto.net
+[2013-10-01 07:08:34] << PING :haless.cryto.net
+[2013-10-01 07:08:34] >> PONG :haless.cryto.net
+[2013-10-01 07:10:07] << PING :haless.cryto.net
+[2013-10-01 07:10:07] >> PONG :haless.cryto.net
+[2013-10-01 07:11:42] << PING :haless.cryto.net
+[2013-10-01 07:11:42] >> PONG :haless.cryto.net
+[2013-10-01 07:13:15] << PING :haless.cryto.net
+[2013-10-01 07:13:15] >> PONG :haless.cryto.net
+[2013-10-01 07:14:49] << PING :haless.cryto.net
+[2013-10-01 07:14:49] >> PONG :haless.cryto.net
+[2013-10-01 07:16:21] << PING :haless.cryto.net
+[2013-10-01 07:16:21] >> PONG :haless.cryto.net
+[2013-10-01 07:17:53] << PING :haless.cryto.net
+[2013-10-01 07:17:53] >> PONG :haless.cryto.net
+[2013-10-01 07:19:29] << PING :haless.cryto.net
+[2013-10-01 07:19:29] >> PONG :haless.cryto.net
+[2013-10-01 07:21:04] << PING :haless.cryto.net
+[2013-10-01 07:21:04] >> PONG :haless.cryto.net
+[2013-10-01 07:22:36] << PING :haless.cryto.net
+[2013-10-01 07:22:36] >> PONG :haless.cryto.net
+[2013-10-01 07:24:11] << PING :haless.cryto.net
+[2013-10-01 07:24:11] >> PONG :haless.cryto.net
+[2013-10-01 07:25:45] << PING :haless.cryto.net
+[2013-10-01 07:25:45] >> PONG :haless.cryto.net
+[2013-10-01 07:27:21] << PING :haless.cryto.net
+[2013-10-01 07:27:21] >> PONG :haless.cryto.net
+[2013-10-01 07:28:52] << PING :haless.cryto.net
+[2013-10-01 07:28:52] >> PONG :haless.cryto.net
+[2013-10-01 07:30:24] << PING :haless.cryto.net
+[2013-10-01 07:30:24] >> PONG :haless.cryto.net
+[2013-10-01 07:31:59] << PING :haless.cryto.net
+[2013-10-01 07:31:59] >> PONG :haless.cryto.net
+[2013-10-01 07:33:36] << PING :haless.cryto.net
+[2013-10-01 07:33:36] >> PONG :haless.cryto.net
+[2013-10-01 07:35:08] << PING :haless.cryto.net
+[2013-10-01 07:35:08] >> PONG :haless.cryto.net
+[2013-10-01 07:36:43] << PING :haless.cryto.net
+[2013-10-01 07:36:43] >> PONG :haless.cryto.net
+[2013-10-01 07:38:17] << PING :haless.cryto.net
+[2013-10-01 07:38:17] >> PONG :haless.cryto.net
+[2013-10-01 07:39:51] << PING :haless.cryto.net
+[2013-10-01 07:39:51] >> PONG :haless.cryto.net
+[2013-10-01 07:41:25] << PING :haless.cryto.net
+[2013-10-01 07:41:25] >> PONG :haless.cryto.net
+[2013-10-01 07:42:57] << PING :haless.cryto.net
+[2013-10-01 07:42:57] >> PONG :haless.cryto.net
+[2013-10-01 07:44:28] << PING :haless.cryto.net
+[2013-10-01 07:44:28] >> PONG :haless.cryto.net
+[2013-10-01 07:46:04] << PING :haless.cryto.net
+[2013-10-01 07:46:04] >> PONG :haless.cryto.net
+[2013-10-01 07:47:43] << PING :haless.cryto.net
+[2013-10-01 07:47:43] >> PONG :haless.cryto.net
+[2013-10-01 07:49:13] << PING :haless.cryto.net
+[2013-10-01 07:49:13] >> PONG :haless.cryto.net
+[2013-10-01 07:50:48] << PING :haless.cryto.net
+[2013-10-01 07:50:48] >> PONG :haless.cryto.net
+[2013-10-01 07:52:21] << PING :haless.cryto.net
+[2013-10-01 07:52:21] >> PONG :haless.cryto.net
+[2013-10-01 07:53:55] << PING :haless.cryto.net
+[2013-10-01 07:53:55] >> PONG :haless.cryto.net
+[2013-10-01 07:55:27] << PING :haless.cryto.net
+[2013-10-01 07:55:27] >> PONG :haless.cryto.net
+[2013-10-01 07:57:02] << PING :haless.cryto.net
+[2013-10-01 07:57:02] >> PONG :haless.cryto.net
+[2013-10-01 07:58:35] << PING :haless.cryto.net
+[2013-10-01 07:58:35] >> PONG :haless.cryto.net
+[2013-10-01 08:00:08] << PING :haless.cryto.net
+[2013-10-01 08:00:08] >> PONG :haless.cryto.net
+[2013-10-01 08:01:41] << PING :haless.cryto.net
+[2013-10-01 08:01:41] >> PONG :haless.cryto.net
+[2013-10-01 08:03:13] << PING :haless.cryto.net
+[2013-10-01 08:03:13] >> PONG :haless.cryto.net
+[2013-10-01 08:04:46] << PING :haless.cryto.net
+[2013-10-01 08:04:46] >> PONG :haless.cryto.net
+[2013-10-01 08:06:22] << PING :haless.cryto.net
+[2013-10-01 08:06:22] >> PONG :haless.cryto.net
+[2013-10-01 08:07:57] << PING :haless.cryto.net
+[2013-10-01 08:07:57] >> PONG :haless.cryto.net
+[2013-10-01 08:09:30] << PING :haless.cryto.net
+[2013-10-01 08:09:30] >> PONG :haless.cryto.net
+[2013-10-01 08:11:05] << PING :haless.cryto.net
+[2013-10-01 08:11:05] >> PONG :haless.cryto.net
+[2013-10-01 08:12:39] << PING :haless.cryto.net
+[2013-10-01 08:12:39] >> PONG :haless.cryto.net
+[2013-10-01 08:14:14] << PING :haless.cryto.net
+[2013-10-01 08:14:14] >> PONG :haless.cryto.net
+[2013-10-01 08:15:47] << PING :haless.cryto.net
+[2013-10-01 08:15:47] >> PONG :haless.cryto.net
+[2013-10-01 08:17:21] << PING :haless.cryto.net
+[2013-10-01 08:17:21] >> PONG :haless.cryto.net
+[2013-10-01 08:18:54] << PING :haless.cryto.net
+[2013-10-01 08:18:54] >> PONG :haless.cryto.net
+[2013-10-01 08:20:27] << PING :haless.cryto.net
+[2013-10-01 08:20:27] >> PONG :haless.cryto.net
+[2013-10-01 08:22:00] << PING :haless.cryto.net
+[2013-10-01 08:22:00] >> PONG :haless.cryto.net
+[2013-10-01 08:23:34] << PING :haless.cryto.net
+[2013-10-01 08:23:34] >> PONG :haless.cryto.net
+[2013-10-01 08:25:08] << PING :haless.cryto.net
+[2013-10-01 08:25:08] >> PONG :haless.cryto.net
+[2013-10-01 08:26:42] << PING :haless.cryto.net
+[2013-10-01 08:26:42] >> PONG :haless.cryto.net
+[2013-10-01 08:28:18] << PING :haless.cryto.net
+[2013-10-01 08:28:18] >> PONG :haless.cryto.net
+[2013-10-01 08:29:52] << PING :haless.cryto.net
+[2013-10-01 08:29:52] >> PONG :haless.cryto.net
+[2013-10-01 08:31:25] << PING :haless.cryto.net
+[2013-10-01 08:31:25] >> PONG :haless.cryto.net
+[2013-10-01 08:32:59] << PING :haless.cryto.net
+[2013-10-01 08:32:59] >> PONG :haless.cryto.net
+[2013-10-01 08:34:34] << PING :haless.cryto.net
+[2013-10-01 08:34:34] >> PONG :haless.cryto.net
+[2013-10-01 08:36:09] << PING :haless.cryto.net
+[2013-10-01 08:36:09] >> PONG :haless.cryto.net
+[2013-10-01 08:37:39] << PING :haless.cryto.net
+[2013-10-01 08:37:39] >> PONG :haless.cryto.net
+[2013-10-01 08:39:17] << PING :haless.cryto.net
+[2013-10-01 08:39:17] >> PONG :haless.cryto.net
+[2013-10-01 08:40:47] << PING :haless.cryto.net
+[2013-10-01 08:40:47] >> PONG :haless.cryto.net
+[2013-10-01 08:42:23] << PING :haless.cryto.net
+[2013-10-01 08:42:23] >> PONG :haless.cryto.net
+[2013-10-01 08:43:58] << PING :haless.cryto.net
+[2013-10-01 08:43:58] >> PONG :haless.cryto.net
+[2013-10-01 08:45:31] << PING :haless.cryto.net
+[2013-10-01 08:45:31] >> PONG :haless.cryto.net
+[2013-10-01 08:47:04] << PING :haless.cryto.net
+[2013-10-01 08:47:04] >> PONG :haless.cryto.net
+[2013-10-01 08:48:37] << PING :haless.cryto.net
+[2013-10-01 08:48:37] >> PONG :haless.cryto.net
+[2013-10-01 08:50:12] << PING :haless.cryto.net
+[2013-10-01 08:50:12] >> PONG :haless.cryto.net
+[2013-10-01 08:51:46] << PING :haless.cryto.net
+[2013-10-01 08:51:46] >> PONG :haless.cryto.net
+[2013-10-01 08:53:21] << PING :haless.cryto.net
+[2013-10-01 08:53:21] >> PONG :haless.cryto.net
+[2013-10-01 08:54:55] << PING :haless.cryto.net
+[2013-10-01 08:54:55] >> PONG :haless.cryto.net
+[2013-10-01 08:56:29] << PING :haless.cryto.net
+[2013-10-01 08:56:29] >> PONG :haless.cryto.net
+[2013-10-01 08:58:02] << PING :haless.cryto.net
+[2013-10-01 08:58:02] >> PONG :haless.cryto.net
+[2013-10-01 08:59:33] << PING :haless.cryto.net
+[2013-10-01 08:59:33] >> PONG :haless.cryto.net
+[2013-10-01 09:00:20] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 09:01:00] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 09:01:00] >> WHO #drwhat
+[2013-10-01 09:01:00] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 09:01:00] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 09:01:00] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 09:01:00] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 09:02:35] << PING :haless.cryto.net
+[2013-10-01 09:02:35] >> PONG :haless.cryto.net
+[2013-10-01 09:04:09] << PING :haless.cryto.net
+[2013-10-01 09:04:09] >> PONG :haless.cryto.net
+[2013-10-01 09:05:42] << PING :haless.cryto.net
+[2013-10-01 09:05:42] >> PONG :haless.cryto.net
+[2013-10-01 09:07:18] << PING :haless.cryto.net
+[2013-10-01 09:07:18] >> PONG :haless.cryto.net
+[2013-10-01 09:08:51] << PING :haless.cryto.net
+[2013-10-01 09:08:51] >> PONG :haless.cryto.net
+[2013-10-01 09:10:24] << PING :haless.cryto.net
+[2013-10-01 09:10:24] >> PONG :haless.cryto.net
+[2013-10-01 09:11:57] << PING :haless.cryto.net
+[2013-10-01 09:11:57] >> PONG :haless.cryto.net
+[2013-10-01 09:13:34] << PING :haless.cryto.net
+[2013-10-01 09:13:34] >> PONG :haless.cryto.net
+[2013-10-01 09:15:07] << PING :haless.cryto.net
+[2013-10-01 09:15:07] >> PONG :haless.cryto.net
+[2013-10-01 09:16:39] << PING :haless.cryto.net
+[2013-10-01 09:16:39] >> PONG :haless.cryto.net
+[2013-10-01 09:18:13] << PING :haless.cryto.net
+[2013-10-01 09:18:13] >> PONG :haless.cryto.net
+[2013-10-01 09:19:49] << PING :haless.cryto.net
+[2013-10-01 09:19:49] >> PONG :haless.cryto.net
+[2013-10-01 09:21:20] << PING :haless.cryto.net
+[2013-10-01 09:21:20] >> PONG :haless.cryto.net
+[2013-10-01 09:22:54] << PING :haless.cryto.net
+[2013-10-01 09:22:54] >> PONG :haless.cryto.net
+[2013-10-01 09:24:27] << PING :haless.cryto.net
+[2013-10-01 09:24:27] >> PONG :haless.cryto.net
+[2013-10-01 09:25:59] << PING :haless.cryto.net
+[2013-10-01 09:25:59] >> PONG :haless.cryto.net
+[2013-10-01 09:27:37] << PING :haless.cryto.net
+[2013-10-01 09:27:37] >> PONG :haless.cryto.net
+[2013-10-01 09:29:09] << PING :haless.cryto.net
+[2013-10-01 09:29:09] >> PONG :haless.cryto.net
+[2013-10-01 09:30:42] << PING :haless.cryto.net
+[2013-10-01 09:30:42] >> PONG :haless.cryto.net
+[2013-10-01 09:32:17] << PING :haless.cryto.net
+[2013-10-01 09:32:17] >> PONG :haless.cryto.net
+[2013-10-01 09:33:47] << PING :haless.cryto.net
+[2013-10-01 09:33:47] >> PONG :haless.cryto.net
+[2013-10-01 09:35:24] << PING :haless.cryto.net
+[2013-10-01 09:35:24] >> PONG :haless.cryto.net
+[2013-10-01 09:36:58] << PING :haless.cryto.net
+[2013-10-01 09:36:58] >> PONG :haless.cryto.net
+[2013-10-01 09:38:33] << PING :haless.cryto.net
+[2013-10-01 09:38:33] >> PONG :haless.cryto.net
+[2013-10-01 09:40:06] << PING :haless.cryto.net
+[2013-10-01 09:40:06] >> PONG :haless.cryto.net
+[2013-10-01 09:40:43] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 09:41:40] << PING :haless.cryto.net
+[2013-10-01 09:41:40] >> PONG :haless.cryto.net
+[2013-10-01 09:43:17] << PING :haless.cryto.net
+[2013-10-01 09:43:17] >> PONG :haless.cryto.net
+[2013-10-01 09:44:48] << PING :haless.cryto.net
+[2013-10-01 09:44:48] >> PONG :haless.cryto.net
+[2013-10-01 09:46:15] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 09:46:15] >> WHO #drwhat
+[2013-10-01 09:46:16] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 09:46:16] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 09:46:16] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 09:46:16] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 09:47:47] << PING :haless.cryto.net
+[2013-10-01 09:47:47] >> PONG :haless.cryto.net
+[2013-10-01 09:49:22] << PING :haless.cryto.net
+[2013-10-01 09:49:22] >> PONG :haless.cryto.net
+[2013-10-01 09:50:55] << PING :haless.cryto.net
+[2013-10-01 09:50:55] >> PONG :haless.cryto.net
+[2013-10-01 09:52:30] << PING :haless.cryto.net
+[2013-10-01 09:52:30] >> PONG :haless.cryto.net
+[2013-10-01 09:54:04] << PING :haless.cryto.net
+[2013-10-01 09:54:04] >> PONG :haless.cryto.net
+[2013-10-01 09:55:40] << PING :haless.cryto.net
+[2013-10-01 09:55:40] >> PONG :haless.cryto.net
+[2013-10-01 09:57:13] << PING :haless.cryto.net
+[2013-10-01 09:57:13] >> PONG :haless.cryto.net
+[2013-10-01 09:58:49] << PING :haless.cryto.net
+[2013-10-01 09:58:49] >> PONG :haless.cryto.net
+[2013-10-01 10:00:11] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 10:00:21] << PING :haless.cryto.net
+[2013-10-01 10:00:21] >> PONG :haless.cryto.net
+[2013-10-01 10:01:54] << PING :haless.cryto.net
+[2013-10-01 10:01:54] >> PONG :haless.cryto.net
+[2013-10-01 10:03:30] << PING :haless.cryto.net
+[2013-10-01 10:03:30] >> PONG :haless.cryto.net
+[2013-10-01 10:05:04] << PING :haless.cryto.net
+[2013-10-01 10:05:04] >> PONG :haless.cryto.net
+[2013-10-01 10:05:51] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 10:05:51] >> WHO #drwhat
+[2013-10-01 10:05:51] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 10:05:51] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 10:05:51] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 10:05:51] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 10:07:24] << PING :haless.cryto.net
+[2013-10-01 10:07:24] >> PONG :haless.cryto.net
+[2013-10-01 10:08:57] << PING :haless.cryto.net
+[2013-10-01 10:08:57] >> PONG :haless.cryto.net
+[2013-10-01 10:10:33] << PING :haless.cryto.net
+[2013-10-01 10:10:33] >> PONG :haless.cryto.net
+[2013-10-01 10:12:03] << PING :haless.cryto.net
+[2013-10-01 10:12:03] >> PONG :haless.cryto.net
+[2013-10-01 10:13:36] << PING :haless.cryto.net
+[2013-10-01 10:13:36] >> PONG :haless.cryto.net
+[2013-10-01 10:15:13] << PING :haless.cryto.net
+[2013-10-01 10:15:13] >> PONG :haless.cryto.net
+[2013-10-01 10:16:46] << PING :haless.cryto.net
+[2013-10-01 10:16:46] >> PONG :haless.cryto.net
+[2013-10-01 10:18:19] << PING :haless.cryto.net
+[2013-10-01 10:18:19] >> PONG :haless.cryto.net
+[2013-10-01 10:19:55] << PING :haless.cryto.net
+[2013-10-01 10:19:55] >> PONG :haless.cryto.net
+[2013-10-01 10:21:29] << PING :haless.cryto.net
+[2013-10-01 10:21:29] >> PONG :haless.cryto.net
+[2013-10-01 10:23:02] << PING :haless.cryto.net
+[2013-10-01 10:23:02] >> PONG :haless.cryto.net
+[2013-10-01 10:24:33] << PING :haless.cryto.net
+[2013-10-01 10:24:33] >> PONG :haless.cryto.net
+[2013-10-01 10:26:08] << PING :haless.cryto.net
+[2013-10-01 10:26:08] >> PONG :haless.cryto.net
+[2013-10-01 10:27:43] << PING :haless.cryto.net
+[2013-10-01 10:27:43] >> PONG :haless.cryto.net
+[2013-10-01 10:29:15] << PING :haless.cryto.net
+[2013-10-01 10:29:15] >> PONG :haless.cryto.net
+[2013-10-01 10:30:52] << PING :haless.cryto.net
+[2013-10-01 10:30:52] >> PONG :haless.cryto.net
+[2013-10-01 10:32:26] << PING :haless.cryto.net
+[2013-10-01 10:32:26] >> PONG :haless.cryto.net
+[2013-10-01 10:33:58] << PING :haless.cryto.net
+[2013-10-01 10:33:58] >> PONG :haless.cryto.net
+[2013-10-01 10:35:34] << PING :haless.cryto.net
+[2013-10-01 10:35:34] >> PONG :haless.cryto.net
+[2013-10-01 10:37:07] << PING :haless.cryto.net
+[2013-10-01 10:37:07] >> PONG :haless.cryto.net
+[2013-10-01 10:38:39] << PING :haless.cryto.net
+[2013-10-01 10:38:39] >> PONG :haless.cryto.net
+[2013-10-01 10:40:14] << PING :haless.cryto.net
+[2013-10-01 10:40:14] >> PONG :haless.cryto.net
+[2013-10-01 10:41:51] << PING :haless.cryto.net
+[2013-10-01 10:41:51] >> PONG :haless.cryto.net
+[2013-10-01 10:43:20] << PING :haless.cryto.net
+[2013-10-01 10:43:20] >> PONG :haless.cryto.net
+[2013-10-01 10:44:56] << PING :haless.cryto.net
+[2013-10-01 10:44:56] >> PONG :haless.cryto.net
+[2013-10-01 10:46:25] << PING :haless.cryto.net
+[2013-10-01 10:46:25] >> PONG :haless.cryto.net
+[2013-10-01 10:48:04] << PING :haless.cryto.net
+[2013-10-01 10:48:04] >> PONG :haless.cryto.net
+[2013-10-01 10:49:35] << PING :haless.cryto.net
+[2013-10-01 10:49:35] >> PONG :haless.cryto.net
+[2013-10-01 10:51:10] << PING :haless.cryto.net
+[2013-10-01 10:51:10] >> PONG :haless.cryto.net
+[2013-10-01 10:52:45] << PING :haless.cryto.net
+[2013-10-01 10:52:45] >> PONG :haless.cryto.net
+[2013-10-01 10:54:16] << PING :haless.cryto.net
+[2013-10-01 10:54:16] >> PONG :haless.cryto.net
+[2013-10-01 10:55:52] << PING :haless.cryto.net
+[2013-10-01 10:55:52] >> PONG :haless.cryto.net
+[2013-10-01 10:57:26] << PING :haless.cryto.net
+[2013-10-01 10:57:26] >> PONG :haless.cryto.net
+[2013-10-01 10:58:56] << PING :haless.cryto.net
+[2013-10-01 10:58:56] >> PONG :haless.cryto.net
+[2013-10-01 11:00:26] << PING :haless.cryto.net
+[2013-10-01 11:00:26] >> PONG :haless.cryto.net
+[2013-10-01 11:01:57] << PING :haless.cryto.net
+[2013-10-01 11:01:57] >> PONG :haless.cryto.net
+[2013-10-01 11:03:32] << PING :haless.cryto.net
+[2013-10-01 11:03:32] >> PONG :haless.cryto.net
+[2013-10-01 11:05:08] << PING :haless.cryto.net
+[2013-10-01 11:05:08] >> PONG :haless.cryto.net
+[2013-10-01 11:06:38] << PING :haless.cryto.net
+[2013-10-01 11:06:38] >> PONG :haless.cryto.net
+[2013-10-01 11:08:13] << PING :haless.cryto.net
+[2013-10-01 11:08:13] >> PONG :haless.cryto.net
+[2013-10-01 11:09:47] << PING :haless.cryto.net
+[2013-10-01 11:09:47] >> PONG :haless.cryto.net
+[2013-10-01 11:11:23] << PING :haless.cryto.net
+[2013-10-01 11:11:23] >> PONG :haless.cryto.net
+[2013-10-01 11:11:36] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 11:11:36] >> WHO #drwhat
+[2013-10-01 11:11:36] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 11:11:36] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :0 joepie91
+[2013-10-01 11:11:36] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 11:11:36] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 11:11:36] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 11:11:45] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 11:13:13] << PING :haless.cryto.net
+[2013-10-01 11:13:13] >> PONG :haless.cryto.net
+[2013-10-01 11:14:48] << PING :haless.cryto.net
+[2013-10-01 11:14:48] >> PONG :haless.cryto.net
+[2013-10-01 11:16:20] << PING :haless.cryto.net
+[2013-10-01 11:16:20] >> PONG :haless.cryto.net
+[2013-10-01 11:17:55] << PING :haless.cryto.net
+[2013-10-01 11:17:55] >> PONG :haless.cryto.net
+[2013-10-01 11:19:30] << PING :haless.cryto.net
+[2013-10-01 11:19:30] >> PONG :haless.cryto.net
+[2013-10-01 11:21:03] << PING :haless.cryto.net
+[2013-10-01 11:21:03] >> PONG :haless.cryto.net
+[2013-10-01 11:22:36] << PING :haless.cryto.net
+[2013-10-01 11:22:36] >> PONG :haless.cryto.net
+[2013-10-01 11:24:09] << PING :haless.cryto.net
+[2013-10-01 11:24:09] >> PONG :haless.cryto.net
+[2013-10-01 11:25:45] << PING :haless.cryto.net
+[2013-10-01 11:25:45] >> PONG :haless.cryto.net
+[2013-10-01 11:27:20] << PING :haless.cryto.net
+[2013-10-01 11:27:20] >> PONG :haless.cryto.net
+[2013-10-01 11:28:53] << PING :haless.cryto.net
+[2013-10-01 11:28:53] >> PONG :haless.cryto.net
+[2013-10-01 11:30:27] << PING :haless.cryto.net
+[2013-10-01 11:30:27] >> PONG :haless.cryto.net
+[2013-10-01 11:32:01] << PING :haless.cryto.net
+[2013-10-01 11:32:01] >> PONG :haless.cryto.net
+[2013-10-01 11:33:34] << PING :haless.cryto.net
+[2013-10-01 11:33:34] >> PONG :haless.cryto.net
+[2013-10-01 11:35:09] << PING :haless.cryto.net
+[2013-10-01 11:35:09] >> PONG :haless.cryto.net
+[2013-10-01 11:36:43] << PING :haless.cryto.net
+[2013-10-01 11:36:43] >> PONG :haless.cryto.net
+[2013-10-01 11:38:14] << PING :haless.cryto.net
+[2013-10-01 11:38:14] >> PONG :haless.cryto.net
+[2013-10-01 11:39:49] << PING :haless.cryto.net
+[2013-10-01 11:39:49] >> PONG :haless.cryto.net
+[2013-10-01 11:41:23] << PING :haless.cryto.net
+[2013-10-01 11:41:23] >> PONG :haless.cryto.net
+[2013-10-01 11:42:55] << PING :haless.cryto.net
+[2013-10-01 11:42:55] >> PONG :haless.cryto.net
+[2013-10-01 11:44:33] << PING :haless.cryto.net
+[2013-10-01 11:44:33] >> PONG :haless.cryto.net
+[2013-10-01 11:46:05] << PING :haless.cryto.net
+[2013-10-01 11:46:05] >> PONG :haless.cryto.net
+[2013-10-01 11:47:39] << PING :haless.cryto.net
+[2013-10-01 11:47:39] >> PONG :haless.cryto.net
+[2013-10-01 11:49:15] << PING :haless.cryto.net
+[2013-10-01 11:49:15] >> PONG :haless.cryto.net
+[2013-10-01 11:50:47] << PING :haless.cryto.net
+[2013-10-01 11:50:47] >> PONG :haless.cryto.net
+[2013-10-01 11:52:24] << PING :haless.cryto.net
+[2013-10-01 11:52:24] >> PONG :haless.cryto.net
+[2013-10-01 11:53:56] << PING :haless.cryto.net
+[2013-10-01 11:53:56] >> PONG :haless.cryto.net
+[2013-10-01 11:55:29] << PING :haless.cryto.net
+[2013-10-01 11:55:29] >> PONG :haless.cryto.net
+[2013-10-01 11:57:02] << PING :haless.cryto.net
+[2013-10-01 11:57:02] >> PONG :haless.cryto.net
+[2013-10-01 11:58:37] << PING :haless.cryto.net
+[2013-10-01 11:58:37] >> PONG :haless.cryto.net
+[2013-10-01 12:00:11] << PING :haless.cryto.net
+[2013-10-01 12:00:11] >> PONG :haless.cryto.net
+[2013-10-01 12:01:46] << PING :haless.cryto.net
+[2013-10-01 12:01:46] >> PONG :haless.cryto.net
+[2013-10-01 12:03:20] << PING :haless.cryto.net
+[2013-10-01 12:03:20] >> PONG :haless.cryto.net
+[2013-10-01 12:04:54] << PING :haless.cryto.net
+[2013-10-01 12:04:54] >> PONG :haless.cryto.net
+[2013-10-01 12:06:25] << PING :haless.cryto.net
+[2013-10-01 12:06:25] >> PONG :haless.cryto.net
+[2013-10-01 12:06:44] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 12:07:40] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 12:07:40] >> WHO #drwhat
+[2013-10-01 12:07:40] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 12:07:40] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 12:07:40] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 12:07:40] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 12:09:13] << PING :haless.cryto.net
+[2013-10-01 12:09:13] >> PONG :haless.cryto.net
+[2013-10-01 12:10:48] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 12:10:48] << PING :haless.cryto.net
+[2013-10-01 12:10:48] >> PONG :haless.cryto.net
+[2013-10-01 12:11:22] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 12:11:22] >> WHO #drwhat
+[2013-10-01 12:11:23] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 12:11:23] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 12:11:23] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 12:11:23] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 12:12:59] << PING :haless.cryto.net
+[2013-10-01 12:12:59] >> PONG :haless.cryto.net
+[2013-10-01 12:14:34] << PING :haless.cryto.net
+[2013-10-01 12:14:34] >> PONG :haless.cryto.net
+[2013-10-01 12:16:08] << PING :haless.cryto.net
+[2013-10-01 12:16:08] >> PONG :haless.cryto.net
+[2013-10-01 12:17:42] << PING :haless.cryto.net
+[2013-10-01 12:17:42] >> PONG :haless.cryto.net
+[2013-10-01 12:19:18] << PING :haless.cryto.net
+[2013-10-01 12:19:18] >> PONG :haless.cryto.net
+[2013-10-01 12:20:51] << PING :haless.cryto.net
+[2013-10-01 12:20:51] >> PONG :haless.cryto.net
+[2013-10-01 12:22:26] << PING :haless.cryto.net
+[2013-10-01 12:22:26] >> PONG :haless.cryto.net
+[2013-10-01 12:23:57] << PING :haless.cryto.net
+[2013-10-01 12:23:57] >> PONG :haless.cryto.net
+[2013-10-01 12:25:32] << PING :haless.cryto.net
+[2013-10-01 12:25:32] >> PONG :haless.cryto.net
+[2013-10-01 12:27:05] << PING :haless.cryto.net
+[2013-10-01 12:27:05] >> PONG :haless.cryto.net
+[2013-10-01 12:28:36] << PING :haless.cryto.net
+[2013-10-01 12:28:36] >> PONG :haless.cryto.net
+[2013-10-01 12:30:11] << PING :haless.cryto.net
+[2013-10-01 12:30:11] >> PONG :haless.cryto.net
+[2013-10-01 12:31:43] << PING :haless.cryto.net
+[2013-10-01 12:31:43] >> PONG :haless.cryto.net
+[2013-10-01 12:33:22] << PING :haless.cryto.net
+[2013-10-01 12:33:22] >> PONG :haless.cryto.net
+[2013-10-01 12:34:55] << PING :haless.cryto.net
+[2013-10-01 12:34:55] >> PONG :haless.cryto.net
+[2013-10-01 12:36:30] << PING :haless.cryto.net
+[2013-10-01 12:36:30] >> PONG :haless.cryto.net
+[2013-10-01 12:38:02] << PING :haless.cryto.net
+[2013-10-01 12:38:02] >> PONG :haless.cryto.net
+[2013-10-01 12:39:39] << PING :haless.cryto.net
+[2013-10-01 12:39:39] >> PONG :haless.cryto.net
+[2013-10-01 12:41:10] << PING :haless.cryto.net
+[2013-10-01 12:41:10] >> PONG :haless.cryto.net
+[2013-10-01 12:42:44] << PING :haless.cryto.net
+[2013-10-01 12:42:44] >> PONG :haless.cryto.net
+[2013-10-01 12:44:20] << PING :haless.cryto.net
+[2013-10-01 12:44:20] >> PONG :haless.cryto.net
+[2013-10-01 12:45:52] << PING :haless.cryto.net
+[2013-10-01 12:45:52] >> PONG :haless.cryto.net
+[2013-10-01 12:47:27] << PING :haless.cryto.net
+[2013-10-01 12:47:27] >> PONG :haless.cryto.net
+[2013-10-01 12:48:57] << PING :haless.cryto.net
+[2013-10-01 12:48:57] >> PONG :haless.cryto.net
+[2013-10-01 12:50:37] << PING :haless.cryto.net
+[2013-10-01 12:50:37] >> PONG :haless.cryto.net
+[2013-10-01 12:52:08] << PING :haless.cryto.net
+[2013-10-01 12:52:08] >> PONG :haless.cryto.net
+[2013-10-01 12:53:43] << PING :haless.cryto.net
+[2013-10-01 12:53:43] >> PONG :haless.cryto.net
+[2013-10-01 12:55:13] << PING :haless.cryto.net
+[2013-10-01 12:55:13] >> PONG :haless.cryto.net
+[2013-10-01 12:56:47] << PING :haless.cryto.net
+[2013-10-01 12:56:47] >> PONG :haless.cryto.net
+[2013-10-01 12:58:22] << PING :haless.cryto.net
+[2013-10-01 12:58:22] >> PONG :haless.cryto.net
+[2013-10-01 12:59:58] << PING :haless.cryto.net
+[2013-10-01 12:59:58] >> PONG :haless.cryto.net
+[2013-10-01 13:01:32] << PING :haless.cryto.net
+[2013-10-01 13:01:33] >> PONG :haless.cryto.net
+[2013-10-01 13:03:05] << PING :haless.cryto.net
+[2013-10-01 13:03:05] >> PONG :haless.cryto.net
+[2013-10-01 13:04:40] << PING :haless.cryto.net
+[2013-10-01 13:04:40] >> PONG :haless.cryto.net
+[2013-10-01 13:06:12] << PING :haless.cryto.net
+[2013-10-01 13:06:12] >> PONG :haless.cryto.net
+[2013-10-01 13:07:44] << PING :haless.cryto.net
+[2013-10-01 13:07:44] >> PONG :haless.cryto.net
+[2013-10-01 13:09:18] << PING :haless.cryto.net
+[2013-10-01 13:09:18] >> PONG :haless.cryto.net
+[2013-10-01 13:10:53] << PING :haless.cryto.net
+[2013-10-01 13:10:53] >> PONG :haless.cryto.net
+[2013-10-01 13:12:28] << PING :haless.cryto.net
+[2013-10-01 13:12:28] >> PONG :haless.cryto.net
+[2013-10-01 13:14:02] << PING :haless.cryto.net
+[2013-10-01 13:14:02] >> PONG :haless.cryto.net
+[2013-10-01 13:14:48] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 13:15:26] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 13:15:26] >> WHO #drwhat
+[2013-10-01 13:15:27] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 13:15:27] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 13:15:27] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 13:15:27] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 13:17:03] << PING :haless.cryto.net
+[2013-10-01 13:17:03] >> PONG :haless.cryto.net
+[2013-10-01 13:18:35] << PING :haless.cryto.net
+[2013-10-01 13:18:35] >> PONG :haless.cryto.net
+[2013-10-01 13:20:05] << PING :haless.cryto.net
+[2013-10-01 13:20:05] >> PONG :haless.cryto.net
+[2013-10-01 13:21:40] << PING :haless.cryto.net
+[2013-10-01 13:21:40] >> PONG :haless.cryto.net
+[2013-10-01 13:23:16] << PING :haless.cryto.net
+[2013-10-01 13:23:16] >> PONG :haless.cryto.net
+[2013-10-01 13:24:53] << PING :haless.cryto.net
+[2013-10-01 13:24:53] >> PONG :haless.cryto.net
+[2013-10-01 13:26:26] << PING :haless.cryto.net
+[2013-10-01 13:26:26] >> PONG :haless.cryto.net
+[2013-10-01 13:26:44] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 13:27:10] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-01 13:27:10] >> WHO #drwhat
+[2013-10-01 13:27:10] << :haless.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 13:27:10] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 13:27:10] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 13:27:10] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 13:28:44] << PING :haless.cryto.net
+[2013-10-01 13:28:44] >> PONG :haless.cryto.net
+[2013-10-01 13:30:21] << PING :haless.cryto.net
+[2013-10-01 13:30:21] >> PONG :haless.cryto.net
+[2013-10-01 13:31:51] << PING :haless.cryto.net
+[2013-10-01 13:31:51] >> PONG :haless.cryto.net
+[2013-10-01 13:33:28] << PING :haless.cryto.net
+[2013-10-01 13:33:28] >> PONG :haless.cryto.net
+[2013-10-01 13:35:03] << PING :haless.cryto.net
+[2013-10-01 13:35:03] >> PONG :haless.cryto.net
+[2013-10-01 13:36:37] << PING :haless.cryto.net
+[2013-10-01 13:36:37] >> PONG :haless.cryto.net
+[2013-10-01 13:38:09] << PING :haless.cryto.net
+[2013-10-01 13:38:09] >> PONG :haless.cryto.net
+[2013-10-01 13:39:44] << PING :haless.cryto.net
+[2013-10-01 13:39:44] >> PONG :haless.cryto.net
+[2013-10-01 13:41:18] << PING :haless.cryto.net
+[2013-10-01 13:41:18] >> PONG :haless.cryto.net
+[2013-10-01 13:42:51] << PING :haless.cryto.net
+[2013-10-01 13:42:51] >> PONG :haless.cryto.net
+[2013-10-01 13:44:24] << PING :haless.cryto.net
+[2013-10-01 13:44:24] >> PONG :haless.cryto.net
+[2013-10-01 13:45:56] << PING :haless.cryto.net
+[2013-10-01 13:45:56] >> PONG :haless.cryto.net
+[2013-10-01 13:47:33] << PING :haless.cryto.net
+[2013-10-01 13:47:33] >> PONG :haless.cryto.net
+[2013-10-01 13:49:06] << PING :haless.cryto.net
+[2013-10-01 13:49:06] >> PONG :haless.cryto.net
+[2013-10-01 13:50:40] << PING :haless.cryto.net
+[2013-10-01 13:50:40] >> PONG :haless.cryto.net
+[2013-10-01 13:52:14] << PING :haless.cryto.net
+[2013-10-01 13:52:14] >> PONG :haless.cryto.net
+[2013-10-01 13:53:47] << PING :haless.cryto.net
+[2013-10-01 13:53:47] >> PONG :haless.cryto.net
+[2013-10-01 13:55:19] << PING :haless.cryto.net
+[2013-10-01 13:55:19] >> PONG :haless.cryto.net
+[2013-10-01 13:56:55] << PING :haless.cryto.net
+[2013-10-01 13:56:55] >> PONG :haless.cryto.net
+[2013-10-01 13:58:31] << PING :haless.cryto.net
+[2013-10-01 13:58:31] >> PONG :haless.cryto.net
+[2013-10-01 14:00:04] << PING :haless.cryto.net
+[2013-10-01 14:00:04] >> PONG :haless.cryto.net
+[2013-10-01 14:01:34] << PING :haless.cryto.net
+[2013-10-01 14:01:34] >> PONG :haless.cryto.net
+[2013-10-01 14:03:08] << PING :haless.cryto.net
+[2013-10-01 14:03:08] >> PONG :haless.cryto.net
+[2013-10-01 14:04:45] << PING :haless.cryto.net
+[2013-10-01 14:04:45] >> PONG :haless.cryto.net
+[2013-10-01 14:06:18] << PING :haless.cryto.net
+[2013-10-01 14:06:18] >> PONG :haless.cryto.net
+[2013-10-01 14:07:52] << PING :haless.cryto.net
+[2013-10-01 14:07:52] >> PONG :haless.cryto.net
+[2013-10-01 14:09:25] << PING :haless.cryto.net
+[2013-10-01 14:09:25] >> PONG :haless.cryto.net
+[2013-10-01 14:10:21] << :joepie92!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-01 14:10:59] << PING :haless.cryto.net
+[2013-10-01 14:10:59] >> PONG :haless.cryto.net
+[2013-10-01 14:12:32] << PING :haless.cryto.net
+[2013-10-01 14:12:32] >> PONG :haless.cryto.net
+[2013-10-01 14:14:06] << PING :haless.cryto.net
+[2013-10-01 14:14:06] >> PONG :haless.cryto.net
+[2013-10-01 14:15:40] << PING :haless.cryto.net
+[2013-10-01 14:15:40] >> PONG :haless.cryto.net
+[2013-10-01 14:17:14] << PING :haless.cryto.net
+[2013-10-01 14:17:14] >> PONG :haless.cryto.net
+[2013-10-01 14:18:48] << PING :haless.cryto.net
+[2013-10-01 14:18:48] >> PONG :haless.cryto.net
+[2013-10-01 14:20:20] << PING :haless.cryto.net
+[2013-10-01 14:20:20] >> PONG :haless.cryto.net
+[2013-10-01 14:21:55] << PING :haless.cryto.net
+[2013-10-01 14:21:55] >> PONG :haless.cryto.net
+[2013-10-01 14:23:26] << PING :haless.cryto.net
+[2013-10-01 14:23:26] >> PONG :haless.cryto.net
+[2013-10-01 14:25:01] << PING :haless.cryto.net
+[2013-10-01 14:25:01] >> PONG :haless.cryto.net
+[2013-10-01 14:26:10] << :joepie92!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-01 14:26:10] >> WHO #drwhat
+[2013-10-01 14:26:10] << :haless.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 14:26:10] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 14:26:10] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 14:26:10] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 14:27:43] << PING :haless.cryto.net
+[2013-10-01 14:27:43] >> PONG :haless.cryto.net
+[2013-10-01 14:29:18] << PING :haless.cryto.net
+[2013-10-01 14:29:18] >> PONG :haless.cryto.net
+[2013-10-01 14:30:52] << PING :haless.cryto.net
+[2013-10-01 14:30:52] >> PONG :haless.cryto.net
+[2013-10-01 14:32:24] << PING :haless.cryto.net
+[2013-10-01 14:32:24] >> PONG :haless.cryto.net
+[2013-10-01 14:39:09] >> PING DrBot haless.cryto.net
+[2013-10-01 14:39:28] >> QUIT :Connection timed out. Reconnecting..
+[2013-10-01 14:39:28] >> NICK DrBot
+[2013-10-01 14:39:28] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-10-01 14:39:28] << :haless.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-10-01 14:39:28] << :haless.cryto.net NOTICE AUTH :*** Found your hostname
+[2013-10-01 14:39:28] << PING :DF1BF7C8
+[2013-10-01 14:39:28] >> PONG :DF1BF7C8
+[2013-10-01 14:39:29] << :haless.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com
+[2013-10-01 14:39:29] << :haless.cryto.net 002 DrBot :Your host is haless.cryto.net, running version Unreal3.2.8.1
+[2013-10-01 14:39:29] << :haless.cryto.net 003 DrBot :This server was created Tue Aug 9 2011 at 15:06:39 MSD
+[2013-10-01 14:39:29] << :haless.cryto.net 004 DrBot haless.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-10-01 14:39:29] << :haless.cryto.net 005 DrBot UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+[2013-10-01 14:39:29] << :haless.cryto.net 005 DrBot WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+[2013-10-01 14:39:29] << :haless.cryto.net 005 DrBot EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+[2013-10-01 14:39:29] << :haless.cryto.net 251 DrBot :There are 1 users and 95 invisible on 5 servers
+[2013-10-01 14:39:29] << :haless.cryto.net 252 DrBot 32 :operator(s) online
+[2013-10-01 14:39:29] << :haless.cryto.net 253 DrBot 1 :unknown connection(s)
+[2013-10-01 14:39:29] << :haless.cryto.net 254 DrBot 17 :channels formed
+[2013-10-01 14:39:29] << :haless.cryto.net 255 DrBot :I have 53 clients and 1 servers
+[2013-10-01 14:39:29] << :haless.cryto.net 265 DrBot :Current Local Users: 53  Max: 500
+[2013-10-01 14:39:29] << :haless.cryto.net 266 DrBot :Current Global Users: 96  Max: 2021
+[2013-10-01 14:39:29] << :haless.cryto.net 375 DrBot :- haless.cryto.net Message of the Day -
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- 19/4/2012 18:08
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                   (                           )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                      ((                           ))
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                        ((                       ((
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-   Server: haless.cryto.net                      ISP: VPS-Forge
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-   Physical location: Falkenstein, Germany       Your host: joepie91
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- bot policy, etc.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- visible).
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- flood themselves.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- state his reasons.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- unjust judgments.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-10-01 14:39:29] << :haless.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-10-01 14:39:29] << :haless.cryto.net 376 DrBot :End of /MOTD command.
+[2013-10-01 14:39:29] >> JOIN #drwhat
+[2013-10-01 14:39:29] << :DrBot MODE DrBot :+iwx
+[2013-10-01 14:39:29] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :Welcome to Cryto IRC, DrBot! Here on Cryto IRC, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+[2013-10-01 14:39:29] << :DrBot!Nimda@cryto-C0B73CE6.cable.virginmedia.com JOIN :#drwhat
+[2013-10-01 14:39:29] >> WHO #drwhat
+[2013-10-01 14:39:29] << :haless.cryto.net 332 DrBot #drwhat :
+[2013-10-01 14:39:29] << :haless.cryto.net 333 DrBot #drwhat Macbeth 1380500571
+[2013-10-01 14:39:29] << :haless.cryto.net 353 DrBot = #drwhat :DrBot joepie92
+[2013-10-01 14:39:29] << :haless.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-10-01 14:39:29] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 14:39:29] << :haless.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 14:39:29] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 14:41:03] << PING :haless.cryto.net
+[2013-10-01 14:41:03] >> PONG :haless.cryto.net
+[2013-10-01 14:42:38] << PING :haless.cryto.net
+[2013-10-01 14:42:38] >> PONG :haless.cryto.net
+[2013-10-01 14:44:11] << PING :haless.cryto.net
+[2013-10-01 14:44:11] >> PONG :haless.cryto.net
+[2013-10-01 14:45:45] << PING :haless.cryto.net
+[2013-10-01 14:45:45] >> PONG :haless.cryto.net
+[2013-10-01 14:47:19] << PING :haless.cryto.net
+[2013-10-01 14:47:19] >> PONG :haless.cryto.net
+[2013-10-01 14:48:52] << PING :haless.cryto.net
+[2013-10-01 14:48:52] >> PONG :haless.cryto.net
+[2013-10-01 14:50:25] << PING :haless.cryto.net
+[2013-10-01 14:50:25] >> PONG :haless.cryto.net
+[2013-10-01 14:52:02] << PING :haless.cryto.net
+[2013-10-01 14:52:02] >> PONG :haless.cryto.net
+[2013-10-01 14:53:34] << PING :haless.cryto.net
+[2013-10-01 14:53:34] >> PONG :haless.cryto.net
+[2013-10-01 14:55:08] << PING :haless.cryto.net
+[2013-10-01 14:55:08] >> PONG :haless.cryto.net
+[2013-10-01 14:56:43] << PING :haless.cryto.net
+[2013-10-01 14:56:43] >> PONG :haless.cryto.net
+[2013-10-01 14:58:17] << PING :haless.cryto.net
+[2013-10-01 14:58:17] >> PONG :haless.cryto.net
+[2013-10-01 14:59:50] << PING :haless.cryto.net
+[2013-10-01 14:59:50] >> PONG :haless.cryto.net
+[2013-10-01 15:01:23] << PING :haless.cryto.net
+[2013-10-01 15:01:24] >> PONG :haless.cryto.net
+[2013-10-01 15:02:56] << PING :haless.cryto.net
+[2013-10-01 15:02:56] >> PONG :haless.cryto.net
+[2013-10-01 15:04:30] << PING :haless.cryto.net
+[2013-10-01 15:04:30] >> PONG :haless.cryto.net
+[2013-10-01 15:06:06] << PING :haless.cryto.net
+[2013-10-01 15:06:06] >> PONG :haless.cryto.net
+[2013-10-01 15:07:40] << PING :haless.cryto.net
+[2013-10-01 15:07:40] >> PONG :haless.cryto.net
+[2013-10-01 15:09:13] << PING :haless.cryto.net
+[2013-10-01 15:09:13] >> PONG :haless.cryto.net
+[2013-10-01 15:10:47] << PING :haless.cryto.net
+[2013-10-01 15:10:47] >> PONG :haless.cryto.net
+[2013-10-01 15:12:20] << PING :haless.cryto.net
+[2013-10-01 15:12:20] >> PONG :haless.cryto.net
+[2013-10-01 15:13:51] << PING :haless.cryto.net
+[2013-10-01 15:13:51] >> PONG :haless.cryto.net
+[2013-10-01 15:15:23] << PING :haless.cryto.net
+[2013-10-01 15:15:23] >> PONG :haless.cryto.net
+[2013-10-01 15:16:59] << PING :haless.cryto.net
+[2013-10-01 15:16:59] >> PONG :haless.cryto.net
+[2013-10-01 15:18:35] << PING :haless.cryto.net
+[2013-10-01 15:18:35] >> PONG :haless.cryto.net
+[2013-10-01 15:20:09] << PING :haless.cryto.net
+[2013-10-01 15:20:09] >> PONG :haless.cryto.net
+[2013-10-01 15:21:42] << PING :haless.cryto.net
+[2013-10-01 15:21:42] >> PONG :haless.cryto.net
+[2013-10-01 15:23:16] << PING :haless.cryto.net
+[2013-10-01 15:23:16] >> PONG :haless.cryto.net
+[2013-10-01 15:24:53] << PING :haless.cryto.net
+[2013-10-01 15:24:53] >> PONG :haless.cryto.net
+[2013-10-01 15:26:26] << PING :haless.cryto.net
+[2013-10-01 15:26:26] >> PONG :haless.cryto.net
+[2013-10-01 15:27:59] << PING :haless.cryto.net
+[2013-10-01 15:27:59] >> PONG :haless.cryto.net
+[2013-10-01 15:29:34] << PING :haless.cryto.net
+[2013-10-01 15:29:34] >> PONG :haless.cryto.net
+[2013-10-01 15:31:08] << PING :haless.cryto.net
+[2013-10-01 15:31:08] >> PONG :haless.cryto.net
+[2013-10-01 15:32:39] << PING :haless.cryto.net
+[2013-10-01 15:32:39] >> PONG :haless.cryto.net
+[2013-10-01 15:34:14] << PING :haless.cryto.net
+[2013-10-01 15:34:14] >> PONG :haless.cryto.net
+[2013-10-01 15:35:52] << PING :haless.cryto.net
+[2013-10-01 15:35:52] >> PONG :haless.cryto.net
+[2013-10-01 15:37:27] << PING :haless.cryto.net
+[2013-10-01 15:37:27] >> PONG :haless.cryto.net
+[2013-10-01 15:39:05] << PING :haless.cryto.net
+[2013-10-01 15:39:05] >> PONG :haless.cryto.net
+[2013-10-01 15:40:42] << PING :haless.cryto.net
+[2013-10-01 15:40:42] >> PONG :haless.cryto.net
+[2013-10-01 15:42:15] << PING :haless.cryto.net
+[2013-10-01 15:42:15] >> PONG :haless.cryto.net
+[2013-10-01 15:43:49] << PING :haless.cryto.net
+[2013-10-01 15:43:49] >> PONG :haless.cryto.net
+[2013-10-01 15:45:23] << PING :haless.cryto.net
+[2013-10-01 15:45:23] >> PONG :haless.cryto.net
+[2013-10-01 15:46:57] << PING :haless.cryto.net
+[2013-10-01 15:46:57] >> PONG :haless.cryto.net
+[2013-10-01 15:48:32] << PING :haless.cryto.net
+[2013-10-01 15:48:32] >> PONG :haless.cryto.net
+[2013-10-01 15:50:03] << PING :haless.cryto.net
+[2013-10-01 15:50:03] >> PONG :haless.cryto.net
+[2013-10-01 15:51:40] << PING :haless.cryto.net
+[2013-10-01 15:51:40] >> PONG :haless.cryto.net
+[2013-10-01 15:53:16] << PING :haless.cryto.net
+[2013-10-01 15:53:16] >> PONG :haless.cryto.net
+[2013-10-01 15:54:54] << PING :haless.cryto.net
+[2013-10-01 15:54:54] >> PONG :haless.cryto.net
+[2013-10-01 15:56:30] << PING :haless.cryto.net
+[2013-10-01 15:56:30] >> PONG :haless.cryto.net
+[2013-10-01 15:58:04] << PING :haless.cryto.net
+[2013-10-01 15:58:04] >> PONG :haless.cryto.net
+[2013-10-01 15:59:38] << PING :haless.cryto.net
+[2013-10-01 15:59:38] >> PONG :haless.cryto.net
+[2013-10-01 16:01:14] << PING :haless.cryto.net
+[2013-10-01 16:01:14] >> PONG :haless.cryto.net
+[2013-10-01 16:02:47] << PING :haless.cryto.net
+[2013-10-01 16:02:47] >> PONG :haless.cryto.net
+[2013-10-01 16:04:21] << PING :haless.cryto.net
+[2013-10-01 16:04:21] >> PONG :haless.cryto.net
+[2013-10-01 16:05:55] << PING :haless.cryto.net
+[2013-10-01 16:05:55] >> PONG :haless.cryto.net
+[2013-10-01 16:07:31] << PING :haless.cryto.net
+[2013-10-01 16:07:31] >> PONG :haless.cryto.net
+[2013-10-01 16:09:03] << PING :haless.cryto.net
+[2013-10-01 16:09:03] >> PONG :haless.cryto.net
+[2013-10-01 16:10:35] << PING :haless.cryto.net
+[2013-10-01 16:10:35] >> PONG :haless.cryto.net
+[2013-10-01 16:12:08] << PING :haless.cryto.net
+[2013-10-01 16:12:08] >> PONG :haless.cryto.net
+[2013-10-01 16:13:46] << PING :haless.cryto.net
+[2013-10-01 16:13:46] >> PONG :haless.cryto.net
+[2013-10-01 16:15:18] << PING :haless.cryto.net
+[2013-10-01 16:15:18] >> PONG :haless.cryto.net
+[2013-10-01 16:16:52] << PING :haless.cryto.net
+[2013-10-01 16:16:52] >> PONG :haless.cryto.net
+[2013-10-01 16:18:26] << PING :haless.cryto.net
+[2013-10-01 16:18:26] >> PONG :haless.cryto.net
+[2013-10-01 16:20:00] << PING :haless.cryto.net
+[2013-10-01 16:20:00] >> PONG :haless.cryto.net
+[2013-10-01 16:21:34] << PING :haless.cryto.net
+[2013-10-01 16:21:34] >> PONG :haless.cryto.net
+[2013-10-01 16:23:08] << PING :haless.cryto.net
+[2013-10-01 16:23:08] >> PONG :haless.cryto.net
+[2013-10-01 16:24:43] << PING :haless.cryto.net
+[2013-10-01 16:24:43] >> PONG :haless.cryto.net

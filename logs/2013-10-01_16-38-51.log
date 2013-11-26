@@ -1,0 +1,182 @@
+[2013-10-01 16:38:52] >> NICK DrBot
+[2013-10-01 16:38:52] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-10-01 16:38:52] << :haless.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-10-01 16:38:52] << :haless.cryto.net NOTICE AUTH :*** Found your hostname (cached)
+[2013-10-01 16:38:52] << PING :D2593E7C
+[2013-10-01 16:38:52] >> PONG :D2593E7C
+[2013-10-01 16:38:52] << :haless.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com
+[2013-10-01 16:38:52] << :haless.cryto.net 002 DrBot :Your host is haless.cryto.net, running version Unreal3.2.8.1
+[2013-10-01 16:38:52] << :haless.cryto.net 003 DrBot :This server was created Tue Aug 9 2011 at 15:06:39 MSD
+[2013-10-01 16:38:52] << :haless.cryto.net 004 DrBot haless.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-10-01 16:38:52] << :haless.cryto.net 005 DrBot UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+[2013-10-01 16:38:52] << :haless.cryto.net 005 DrBot WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+[2013-10-01 16:38:52] << :haless.cryto.net 005 DrBot EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+[2013-10-01 16:38:52] << :haless.cryto.net 251 DrBot :There are 1 users and 98 invisible on 5 servers
+[2013-10-01 16:38:52] << :haless.cryto.net 252 DrBot 32 :operator(s) online
+[2013-10-01 16:38:52] << :haless.cryto.net 254 DrBot 16 :channels formed
+[2013-10-01 16:38:52] << :haless.cryto.net 255 DrBot :I have 54 clients and 1 servers
+[2013-10-01 16:38:52] << :haless.cryto.net 265 DrBot :Current Local Users: 54  Max: 500
+[2013-10-01 16:38:52] << :haless.cryto.net 266 DrBot :Current Global Users: 99  Max: 2021
+[2013-10-01 16:38:52] << :haless.cryto.net 375 DrBot :- haless.cryto.net Message of the Day -
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- 19/4/2012 18:08
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                   (                           )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                      ((                           ))
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                        ((                       ((
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-   Server: haless.cryto.net                      ISP: VPS-Forge
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-   Physical location: Falkenstein, Germany       Your host: joepie91
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- bot policy, etc.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- visible).
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- flood themselves.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- state his reasons.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- unjust judgments.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- =======================================================================
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :-
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-10-01 16:38:52] << :haless.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-10-01 16:38:52] << :haless.cryto.net 376 DrBot :End of /MOTD command.
+[2013-10-01 16:38:52] >> JOIN #drwhat
+[2013-10-01 16:38:52] << :DrBot MODE DrBot :+iwx
+[2013-10-01 16:38:52] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :Welcome to Cryto IRC, DrBot! Here on Cryto IRC, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+[2013-10-01 16:38:52] << :DrBot!Nimda@cryto-C0B73CE6.cable.virginmedia.com JOIN :#drwhat
+[2013-10-01 16:38:52] >> WHO #drwhat
+[2013-10-01 16:38:52] << :haless.cryto.net 332 DrBot #drwhat :
+[2013-10-01 16:38:52] << :haless.cryto.net 333 DrBot #drwhat Macbeth 1380500571
+[2013-10-01 16:38:52] << :haless.cryto.net 353 DrBot = #drwhat :DrBot DrWhat joepie92
+[2013-10-01 16:38:52] << :haless.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-10-01 16:38:52] << :haless.cryto.net 352 DrBot #drwhat Nimda cryto-C0B73CE6.cable.virginmedia.com haless.cryto.net DrBot H :0 noother's Bot
+[2013-10-01 16:38:52] << :haless.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr :2 AnacønÐa ns2.15
+[2013-10-01 16:38:52] << :haless.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie92 H :0 joepie91
+[2013-10-01 16:38:52] << :haless.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-01 16:38:55] << :DrWhat!Snake@DrWhat.users.cryto PRIVMSG #drwhat :!Amf 0A0B0107636D64061961726D792E6E657741726D7909646174610A01176E657741726D794265616E0A010D74726F6F70730A0119626174746572696E6752616D040011636172726961676504001162616C6C697374610400196C69676874436176616C72790400116361746170756C7404000F6D696C6974696104001373776F7264736D656E04001170656173616E747304010D61726368657204000F73636F757465720400196865617679436176616C727904000F70696B656D656E040001176D69

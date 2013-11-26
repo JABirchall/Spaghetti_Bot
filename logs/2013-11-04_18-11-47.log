@@ -1,0 +1,986 @@
+[2013-11-04 18:11:47] >> NICK DrBot
+[2013-11-04 18:11:47] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-11-04 18:11:47] << :box.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-11-04 18:11:47] << :box.cryto.net NOTICE AUTH :*** Found your hostname
+[2013-11-04 18:11:48] << PING :83268736
+[2013-11-04 18:11:48] >> PONG :83268736
+[2013-11-04 18:11:48] << :box.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginm.net
+[2013-11-04 18:11:48] << :box.cryto.net 002 DrBot :Your host is box.cryto.net, running version Unreal3.2.8.1
+[2013-11-04 18:11:48] << :box.cryto.net 003 DrBot :This server was created Thu Sep 6 2012 at 14:42:06 MST
+[2013-11-04 18:11:48] << :box.cryto.net 004 DrBot box.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-11-04 18:11:48] << :box.cryto.net 005 DrBot CMDS=KNOCK,MAP,DCCALLOW,USERIP UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 :are supported by this server
+[2013-11-04 18:11:48] << :box.cryto.net 005 DrBot MAXTARGETS=20 WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT :are supported by this server
+[2013-11-04 18:11:48] << :box.cryto.net 005 DrBot STATUSMSG=~&@%+ EXCEPTS INVEX :are supported by this server
+[2013-11-04 18:11:48] << :box.cryto.net 251 DrBot :There are 1 users and 101 invisible on 6 servers
+[2013-11-04 18:11:48] << :box.cryto.net 252 DrBot 32 :operator(s) online
+[2013-11-04 18:11:48] << :box.cryto.net 254 DrBot 21 :channels formed
+[2013-11-04 18:11:48] << :box.cryto.net 255 DrBot :I have 13 clients and 1 servers
+[2013-11-04 18:11:48] << :box.cryto.net 265 DrBot :Current Local Users: 13  Max: 500
+[2013-11-04 18:11:48] << :box.cryto.net 266 DrBot :Current Global Users: 102  Max: 2021
+[2013-11-04 18:11:48] << :box.cryto.net 375 DrBot :- box.cryto.net Message of the Day -
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- 6/9/2012 14:42
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                   (                           )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                      ((                           ))
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                        ((                       ((
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-        Server: box.cryto.net                ISP: IPXCore
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-        Physical location: Buffalo, US       Your host: joepie91
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- bot policy, etc.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- visible).
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- flood themselves.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- state his reasons.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- unjust judgments.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- =======================================================================
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :-
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-11-04 18:11:48] << :box.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-11-04 18:11:48] << :box.cryto.net 376 DrBot :End of /MOTD command.
+[2013-11-04 18:11:48] >> PRIVMSG NickServ :identify Tyc00n
+[2013-11-04 18:11:53] >> JOIN #drwhat
+[2013-11-04 18:11:54] << :DrBot MODE DrBot :+iwx
+[2013-11-04 18:11:54] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+[2013-11-04 18:11:54] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :You are now identified for DrBot.
+[2013-11-04 18:11:54] << :NickServ MODE DrBot :+r
+[2013-11-04 18:11:54] << :services.cryto.net 396 DrBot DrBot.users.cryto :is now your hidden host (set by NickServ)
+[2013-11-04 18:11:54] << :DrBot!Nimda@DrBot.users.cryto JOIN :#drwhat
+[2013-11-04 18:11:54] >> WHO #drwhat
+[2013-11-04 18:11:54] << :box.cryto.net 353 DrBot = #drwhat :DrBot ~DrWhat @ChanServ joepie93
+[2013-11-04 18:11:54] << :box.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-11-04 18:11:54] << :ChanServ!ChanServ@services.cryto.net MODE #drwhat +ao DrBot DrBot
+[2013-11-04 18:11:54] << :box.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto box.cryto.net DrBot Hr& :0 noother's Bot
+[2013-11-04 18:11:54] << :box.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto haless.cryto.net DrWhat Hr~ :2 AnacønÐa ns2.15
+[2013-11-04 18:11:54] << :box.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-11-04 18:11:54] << :box.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl arvel.cryto.net joepie93 H :2 joepie91
+[2013-11-04 18:11:54] << :box.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-11-04 18:13:31] << PING :box.cryto.net
+[2013-11-04 18:13:31] >> PONG :box.cryto.net
+[2013-11-04 18:15:06] << PING :box.cryto.net
+[2013-11-04 18:15:06] >> PONG :box.cryto.net
+[2013-11-04 18:16:39] << PING :box.cryto.net
+[2013-11-04 18:16:39] >> PONG :box.cryto.net
+[2013-11-04 18:18:12] << PING :box.cryto.net
+[2013-11-04 18:18:12] >> PONG :box.cryto.net
+[2013-11-04 18:19:50] << PING :box.cryto.net
+[2013-11-04 18:19:50] >> PONG :box.cryto.net
+[2013-11-04 18:21:22] << PING :box.cryto.net
+[2013-11-04 18:21:22] >> PONG :box.cryto.net
+[2013-11-04 18:22:55] << PING :box.cryto.net
+[2013-11-04 18:22:55] >> PONG :box.cryto.net
+[2013-11-04 18:24:30] << PING :box.cryto.net
+[2013-11-04 18:24:30] >> PONG :box.cryto.net
+[2013-11-04 18:26:02] << PING :box.cryto.net
+[2013-11-04 18:26:02] >> PONG :box.cryto.net
+[2013-11-04 18:27:33] << PING :box.cryto.net
+[2013-11-04 18:27:33] >> PONG :box.cryto.net
+[2013-11-04 18:29:04] << PING :box.cryto.net
+[2013-11-04 18:29:04] >> PONG :box.cryto.net
+[2013-11-04 18:30:38] << PING :box.cryto.net
+[2013-11-04 18:30:38] >> PONG :box.cryto.net
+[2013-11-04 18:32:11] << PING :box.cryto.net
+[2013-11-04 18:32:11] >> PONG :box.cryto.net
+[2013-11-04 18:33:44] << PING :box.cryto.net
+[2013-11-04 18:33:44] >> PONG :box.cryto.net
+[2013-11-04 18:35:19] << PING :box.cryto.net
+[2013-11-04 18:35:19] >> PONG :box.cryto.net
+[2013-11-04 18:36:51] << PING :box.cryto.net
+[2013-11-04 18:36:51] >> PONG :box.cryto.net
+[2013-11-04 18:38:21] << PING :box.cryto.net
+[2013-11-04 18:38:21] >> PONG :box.cryto.net
+[2013-11-04 18:39:53] << PING :box.cryto.net
+[2013-11-04 18:39:53] >> PONG :box.cryto.net
+[2013-11-04 18:41:26] << PING :box.cryto.net
+[2013-11-04 18:41:26] >> PONG :box.cryto.net
+[2013-11-04 18:43:00] << PING :box.cryto.net
+[2013-11-04 18:43:00] >> PONG :box.cryto.net
+[2013-11-04 18:44:33] << PING :box.cryto.net
+[2013-11-04 18:44:33] >> PONG :box.cryto.net
+[2013-11-04 18:46:07] << PING :box.cryto.net
+[2013-11-04 18:46:07] >> PONG :box.cryto.net
+[2013-11-04 18:47:39] << PING :box.cryto.net
+[2013-11-04 18:47:39] >> PONG :box.cryto.net
+[2013-11-04 18:49:14] << PING :box.cryto.net
+[2013-11-04 18:49:14] >> PONG :box.cryto.net
+[2013-11-04 18:50:50] << PING :box.cryto.net
+[2013-11-04 18:50:50] >> PONG :box.cryto.net
+[2013-11-04 18:52:22] << PING :box.cryto.net
+[2013-11-04 18:52:22] >> PONG :box.cryto.net
+[2013-11-04 18:53:55] << PING :box.cryto.net
+[2013-11-04 18:53:55] >> PONG :box.cryto.net
+[2013-11-04 18:55:26] << PING :box.cryto.net
+[2013-11-04 18:55:26] >> PONG :box.cryto.net
+[2013-11-04 18:57:01] << PING :box.cryto.net
+[2013-11-04 18:57:01] >> PONG :box.cryto.net
+[2013-11-04 18:58:32] << PING :box.cryto.net
+[2013-11-04 18:58:32] >> PONG :box.cryto.net
+[2013-11-04 19:00:02] << PING :box.cryto.net
+[2013-11-04 19:00:02] >> PONG :box.cryto.net
+[2013-11-04 19:01:35] << PING :box.cryto.net
+[2013-11-04 19:01:35] >> PONG :box.cryto.net
+[2013-11-04 19:03:07] << PING :box.cryto.net
+[2013-11-04 19:03:07] >> PONG :box.cryto.net
+[2013-11-04 19:04:40] << PING :box.cryto.net
+[2013-11-04 19:04:40] >> PONG :box.cryto.net
+[2013-11-04 19:06:12] << PING :box.cryto.net
+[2013-11-04 19:06:12] >> PONG :box.cryto.net
+[2013-11-04 19:07:45] << PING :box.cryto.net
+[2013-11-04 19:07:45] >> PONG :box.cryto.net
+[2013-11-04 19:09:17] << PING :box.cryto.net
+[2013-11-04 19:09:17] >> PONG :box.cryto.net
+[2013-11-04 19:10:50] << PING :box.cryto.net
+[2013-11-04 19:10:50] >> PONG :box.cryto.net
+[2013-11-04 19:12:23] << PING :box.cryto.net
+[2013-11-04 19:12:23] >> PONG :box.cryto.net
+[2013-11-04 19:13:55] << PING :box.cryto.net
+[2013-11-04 19:13:55] >> PONG :box.cryto.net
+[2013-11-04 19:15:27] << PING :box.cryto.net
+[2013-11-04 19:15:27] >> PONG :box.cryto.net
+[2013-11-04 19:17:00] << PING :box.cryto.net
+[2013-11-04 19:17:00] >> PONG :box.cryto.net
+[2013-11-04 19:18:30] << PING :box.cryto.net
+[2013-11-04 19:18:30] >> PONG :box.cryto.net
+[2013-11-04 19:20:04] << PING :box.cryto.net
+[2013-11-04 19:20:04] >> PONG :box.cryto.net
+[2013-11-04 19:21:36] << PING :box.cryto.net
+[2013-11-04 19:21:36] >> PONG :box.cryto.net
+[2013-11-04 19:23:06] << PING :box.cryto.net
+[2013-11-04 19:23:06] >> PONG :box.cryto.net
+[2013-11-04 19:24:40] << PING :box.cryto.net
+[2013-11-04 19:24:40] >> PONG :box.cryto.net
+[2013-11-04 19:26:14] << PING :box.cryto.net
+[2013-11-04 19:26:14] >> PONG :box.cryto.net
+[2013-11-04 19:27:48] << PING :box.cryto.net
+[2013-11-04 19:27:48] >> PONG :box.cryto.net
+[2013-11-04 19:29:22] << PING :box.cryto.net
+[2013-11-04 19:29:22] >> PONG :box.cryto.net
+[2013-11-04 19:30:56] << PING :box.cryto.net
+[2013-11-04 19:30:56] >> PONG :box.cryto.net
+[2013-11-04 19:32:30] << PING :box.cryto.net
+[2013-11-04 19:32:30] >> PONG :box.cryto.net
+[2013-11-04 19:34:01] << PING :box.cryto.net
+[2013-11-04 19:34:01] >> PONG :box.cryto.net
+[2013-11-04 19:35:32] << PING :box.cryto.net
+[2013-11-04 19:35:32] >> PONG :box.cryto.net
+[2013-11-04 19:37:05] << PING :box.cryto.net
+[2013-11-04 19:37:05] >> PONG :box.cryto.net
+[2013-11-04 19:38:39] << PING :box.cryto.net
+[2013-11-04 19:38:39] >> PONG :box.cryto.net
+[2013-11-04 19:40:11] << PING :box.cryto.net
+[2013-11-04 19:40:11] >> PONG :box.cryto.net
+[2013-11-04 19:41:46] << PING :box.cryto.net
+[2013-11-04 19:41:46] >> PONG :box.cryto.net
+[2013-11-04 19:43:22] << PING :box.cryto.net
+[2013-11-04 19:43:22] >> PONG :box.cryto.net
+[2013-11-04 19:44:55] << PING :box.cryto.net
+[2013-11-04 19:44:55] >> PONG :box.cryto.net
+[2013-11-04 19:46:26] << PING :box.cryto.net
+[2013-11-04 19:46:26] >> PONG :box.cryto.net
+[2013-11-04 19:48:00] << PING :box.cryto.net
+[2013-11-04 19:48:00] >> PONG :box.cryto.net
+[2013-11-04 19:49:33] << PING :box.cryto.net
+[2013-11-04 19:49:33] >> PONG :box.cryto.net
+[2013-11-04 19:51:05] << PING :box.cryto.net
+[2013-11-04 19:51:05] >> PONG :box.cryto.net
+[2013-11-04 19:52:40] << PING :box.cryto.net
+[2013-11-04 19:52:40] >> PONG :box.cryto.net
+[2013-11-04 19:54:13] << PING :box.cryto.net
+[2013-11-04 19:54:13] >> PONG :box.cryto.net
+[2013-11-04 19:55:48] << PING :box.cryto.net
+[2013-11-04 19:55:48] >> PONG :box.cryto.net
+[2013-11-04 19:57:22] << PING :box.cryto.net
+[2013-11-04 19:57:22] >> PONG :box.cryto.net
+[2013-11-04 19:58:55] << PING :box.cryto.net
+[2013-11-04 19:58:55] >> PONG :box.cryto.net
+[2013-11-04 20:00:28] << PING :box.cryto.net
+[2013-11-04 20:00:28] >> PONG :box.cryto.net
+[2013-11-04 20:02:02] << PING :box.cryto.net
+[2013-11-04 20:02:02] >> PONG :box.cryto.net
+[2013-11-04 20:03:32] << PING :box.cryto.net
+[2013-11-04 20:03:32] >> PONG :box.cryto.net
+[2013-11-04 20:05:03] << PING :box.cryto.net
+[2013-11-04 20:05:03] >> PONG :box.cryto.net
+[2013-11-04 20:06:38] << PING :box.cryto.net
+[2013-11-04 20:06:38] >> PONG :box.cryto.net
+[2013-11-04 20:08:11] << PING :box.cryto.net
+[2013-11-04 20:08:11] >> PONG :box.cryto.net
+[2013-11-04 20:09:45] << PING :box.cryto.net
+[2013-11-04 20:09:45] >> PONG :box.cryto.net
+[2013-11-04 20:11:16] << PING :box.cryto.net
+[2013-11-04 20:11:16] >> PONG :box.cryto.net
+[2013-11-04 20:12:52] << PING :box.cryto.net
+[2013-11-04 20:12:52] >> PONG :box.cryto.net
+[2013-11-04 20:14:26] << PING :box.cryto.net
+[2013-11-04 20:14:26] >> PONG :box.cryto.net
+[2013-11-04 20:16:01] << PING :box.cryto.net
+[2013-11-04 20:16:01] >> PONG :box.cryto.net
+[2013-11-04 20:17:35] << PING :box.cryto.net
+[2013-11-04 20:17:35] >> PONG :box.cryto.net
+[2013-11-04 20:19:07] << PING :box.cryto.net
+[2013-11-04 20:19:07] >> PONG :box.cryto.net
+[2013-11-04 20:20:42] << PING :box.cryto.net
+[2013-11-04 20:20:42] >> PONG :box.cryto.net
+[2013-11-04 20:22:16] << PING :box.cryto.net
+[2013-11-04 20:22:16] >> PONG :box.cryto.net
+[2013-11-04 20:23:50] << PING :box.cryto.net
+[2013-11-04 20:23:50] >> PONG :box.cryto.net
+[2013-11-04 20:25:24] << PING :box.cryto.net
+[2013-11-04 20:25:24] >> PONG :box.cryto.net
+[2013-11-04 20:26:59] << PING :box.cryto.net
+[2013-11-04 20:26:59] >> PONG :box.cryto.net
+[2013-11-04 20:28:34] << PING :box.cryto.net
+[2013-11-04 20:28:34] >> PONG :box.cryto.net
+[2013-11-04 20:30:06] << PING :box.cryto.net
+[2013-11-04 20:30:06] >> PONG :box.cryto.net
+[2013-11-04 20:31:38] << PING :box.cryto.net
+[2013-11-04 20:31:38] >> PONG :box.cryto.net
+[2013-11-04 20:33:09] << PING :box.cryto.net
+[2013-11-04 20:33:09] >> PONG :box.cryto.net
+[2013-11-04 20:34:41] << PING :box.cryto.net
+[2013-11-04 20:34:41] >> PONG :box.cryto.net
+[2013-11-04 20:36:14] << PING :box.cryto.net
+[2013-11-04 20:36:14] >> PONG :box.cryto.net
+[2013-11-04 20:37:45] << PING :box.cryto.net
+[2013-11-04 20:37:45] >> PONG :box.cryto.net
+[2013-11-04 20:39:18] << PING :box.cryto.net
+[2013-11-04 20:39:18] >> PONG :box.cryto.net
+[2013-11-04 20:40:51] << PING :box.cryto.net
+[2013-11-04 20:40:51] >> PONG :box.cryto.net
+[2013-11-04 20:42:23] << PING :box.cryto.net
+[2013-11-04 20:42:23] >> PONG :box.cryto.net
+[2013-11-04 20:43:56] << PING :box.cryto.net
+[2013-11-04 20:43:56] >> PONG :box.cryto.net
+[2013-11-04 20:45:29] << PING :box.cryto.net
+[2013-11-04 20:45:29] >> PONG :box.cryto.net
+[2013-11-04 20:47:02] << PING :box.cryto.net
+[2013-11-04 20:47:02] >> PONG :box.cryto.net
+[2013-11-04 20:48:37] << PING :box.cryto.net
+[2013-11-04 20:48:37] >> PONG :box.cryto.net
+[2013-11-04 20:50:13] << PING :box.cryto.net
+[2013-11-04 20:50:13] >> PONG :box.cryto.net
+[2013-11-04 20:51:47] << PING :box.cryto.net
+[2013-11-04 20:51:47] >> PONG :box.cryto.net
+[2013-11-04 20:53:20] << PING :box.cryto.net
+[2013-11-04 20:53:20] >> PONG :box.cryto.net
+[2013-11-04 20:54:52] << PING :box.cryto.net
+[2013-11-04 20:54:52] >> PONG :box.cryto.net
+[2013-11-04 20:56:27] << PING :box.cryto.net
+[2013-11-04 20:56:27] >> PONG :box.cryto.net
+[2013-11-04 20:58:04] << PING :box.cryto.net
+[2013-11-04 20:58:04] >> PONG :box.cryto.net
+[2013-11-04 20:59:37] << PING :box.cryto.net
+[2013-11-04 20:59:37] >> PONG :box.cryto.net
+[2013-11-04 21:01:11] << PING :box.cryto.net
+[2013-11-04 21:01:11] >> PONG :box.cryto.net
+[2013-11-04 21:02:45] << PING :box.cryto.net
+[2013-11-04 21:02:45] >> PONG :box.cryto.net
+[2013-11-04 21:04:17] << PING :box.cryto.net
+[2013-11-04 21:04:17] >> PONG :box.cryto.net
+[2013-11-04 21:05:50] << PING :box.cryto.net
+[2013-11-04 21:05:50] >> PONG :box.cryto.net
+[2013-11-04 21:07:22] << PING :box.cryto.net
+[2013-11-04 21:07:22] >> PONG :box.cryto.net
+[2013-11-04 21:09:00] << PING :box.cryto.net
+[2013-11-04 21:09:00] >> PONG :box.cryto.net
+[2013-11-04 21:10:32] << PING :box.cryto.net
+[2013-11-04 21:10:32] >> PONG :box.cryto.net
+[2013-11-04 21:12:05] << PING :box.cryto.net
+[2013-11-04 21:12:05] >> PONG :box.cryto.net
+[2013-11-04 21:12:57] << :joepie93!joepie91@cryto-3E6002EF.direct-adsl.nl NICK :botpie91
+[2013-11-04 21:13:26] << :botpie91!joepie91@botpie91.users.cryto NICK :joepie91
+[2013-11-04 21:13:38] << PING :box.cryto.net
+[2013-11-04 21:13:38] >> PONG :box.cryto.net
+[2013-11-04 21:15:10] << PING :box.cryto.net
+[2013-11-04 21:15:10] >> PONG :box.cryto.net
+[2013-11-04 21:16:40] << PING :box.cryto.net
+[2013-11-04 21:16:40] >> PONG :box.cryto.net
+[2013-11-04 21:18:12] << PING :box.cryto.net
+[2013-11-04 21:18:12] >> PONG :box.cryto.net
+[2013-11-04 21:19:47] << PING :box.cryto.net
+[2013-11-04 21:19:47] >> PONG :box.cryto.net
+[2013-11-04 21:21:17] << PING :box.cryto.net
+[2013-11-04 21:21:17] >> PONG :box.cryto.net
+[2013-11-04 21:22:49] << PING :box.cryto.net
+[2013-11-04 21:22:49] >> PONG :box.cryto.net
+[2013-11-04 21:24:22] << PING :box.cryto.net
+[2013-11-04 21:24:22] >> PONG :box.cryto.net
+[2013-11-04 21:25:58] << PING :box.cryto.net
+[2013-11-04 21:25:58] >> PONG :box.cryto.net
+[2013-11-04 21:27:33] << PING :box.cryto.net
+[2013-11-04 21:27:33] >> PONG :box.cryto.net
+[2013-11-04 21:29:06] << PING :box.cryto.net
+[2013-11-04 21:29:06] >> PONG :box.cryto.net
+[2013-11-04 21:30:38] << PING :box.cryto.net
+[2013-11-04 21:30:38] >> PONG :box.cryto.net
+[2013-11-04 21:32:10] << PING :box.cryto.net
+[2013-11-04 21:32:10] >> PONG :box.cryto.net
+[2013-11-04 21:33:41] << PING :box.cryto.net
+[2013-11-04 21:33:41] >> PONG :box.cryto.net
+[2013-11-04 21:35:14] << PING :box.cryto.net
+[2013-11-04 21:35:14] >> PONG :box.cryto.net
+[2013-11-04 21:36:47] << PING :box.cryto.net
+[2013-11-04 21:36:47] >> PONG :box.cryto.net
+[2013-11-04 21:38:20] << PING :box.cryto.net
+[2013-11-04 21:38:20] >> PONG :box.cryto.net
+[2013-11-04 21:39:54] << PING :box.cryto.net
+[2013-11-04 21:39:54] >> PONG :box.cryto.net
+[2013-11-04 21:41:28] << PING :box.cryto.net
+[2013-11-04 21:41:28] >> PONG :box.cryto.net
+[2013-11-04 21:43:02] << PING :box.cryto.net
+[2013-11-04 21:43:02] >> PONG :box.cryto.net
+[2013-11-04 21:44:37] << PING :box.cryto.net
+[2013-11-04 21:44:37] >> PONG :box.cryto.net
+[2013-11-04 21:46:09] << PING :box.cryto.net
+[2013-11-04 21:46:09] >> PONG :box.cryto.net
+[2013-11-04 21:47:39] << PING :box.cryto.net
+[2013-11-04 21:47:39] >> PONG :box.cryto.net
+[2013-11-04 21:49:15] << PING :box.cryto.net
+[2013-11-04 21:49:15] >> PONG :box.cryto.net
+[2013-11-04 21:50:50] << PING :box.cryto.net
+[2013-11-04 21:50:50] >> PONG :box.cryto.net
+[2013-11-04 21:52:20] << PING :box.cryto.net
+[2013-11-04 21:52:20] >> PONG :box.cryto.net
+[2013-11-04 21:53:59] << PING :box.cryto.net
+[2013-11-04 21:53:59] >> PONG :box.cryto.net
+[2013-11-04 21:55:29] << PING :box.cryto.net
+[2013-11-04 21:55:29] >> PONG :box.cryto.net
+[2013-11-04 21:57:02] << PING :box.cryto.net
+[2013-11-04 21:57:02] >> PONG :box.cryto.net
+[2013-11-04 21:58:35] << PING :box.cryto.net
+[2013-11-04 21:58:35] >> PONG :box.cryto.net
+[2013-11-04 22:00:12] << PING :box.cryto.net
+[2013-11-04 22:00:12] >> PONG :box.cryto.net
+[2013-11-04 22:01:43] << PING :box.cryto.net
+[2013-11-04 22:01:43] >> PONG :box.cryto.net
+[2013-11-04 22:03:15] << PING :box.cryto.net
+[2013-11-04 22:03:15] >> PONG :box.cryto.net
+[2013-11-04 22:04:49] << PING :box.cryto.net
+[2013-11-04 22:04:49] >> PONG :box.cryto.net
+[2013-11-04 22:06:24] << PING :box.cryto.net
+[2013-11-04 22:06:24] >> PONG :box.cryto.net
+[2013-11-04 22:07:54] << :joepie91!joepie91@botpie91.users.cryto QUIT :Ping timeout
+[2013-11-04 22:07:59] << PING :box.cryto.net
+[2013-11-04 22:07:59] >> PONG :box.cryto.net
+[2013-11-04 22:09:33] << PING :box.cryto.net
+[2013-11-04 22:09:33] >> PONG :box.cryto.net
+[2013-11-04 22:11:09] << PING :box.cryto.net
+[2013-11-04 22:11:09] >> PONG :box.cryto.net
+[2013-11-04 22:12:43] << PING :box.cryto.net
+[2013-11-04 22:12:43] >> PONG :box.cryto.net
+[2013-11-04 22:14:18] << PING :box.cryto.net
+[2013-11-04 22:14:18] >> PONG :box.cryto.net
+[2013-11-04 22:15:55] << PING :box.cryto.net
+[2013-11-04 22:15:55] >> PONG :box.cryto.net
+[2013-11-04 22:17:27] << PING :box.cryto.net
+[2013-11-04 22:17:27] >> PONG :box.cryto.net
+[2013-11-04 22:19:00] << PING :box.cryto.net
+[2013-11-04 22:19:00] >> PONG :box.cryto.net
+[2013-11-04 22:20:34] << PING :box.cryto.net
+[2013-11-04 22:20:34] >> PONG :box.cryto.net
+[2013-11-04 22:22:11] << PING :box.cryto.net
+[2013-11-04 22:22:11] >> PONG :box.cryto.net
+[2013-11-04 22:23:49] << PING :box.cryto.net
+[2013-11-04 22:23:49] >> PONG :box.cryto.net
+[2013-11-04 22:25:24] << PING :box.cryto.net
+[2013-11-04 22:25:24] >> PONG :box.cryto.net
+[2013-11-04 22:26:56] << PING :box.cryto.net
+[2013-11-04 22:26:56] >> PONG :box.cryto.net
+[2013-11-04 22:28:30] << PING :box.cryto.net
+[2013-11-04 22:28:30] >> PONG :box.cryto.net
+[2013-11-04 22:30:03] << PING :box.cryto.net
+[2013-11-04 22:30:03] >> PONG :box.cryto.net
+[2013-11-04 22:31:35] << PING :box.cryto.net
+[2013-11-04 22:31:35] >> PONG :box.cryto.net
+[2013-11-04 22:33:10] << PING :box.cryto.net
+[2013-11-04 22:33:10] >> PONG :box.cryto.net
+[2013-11-04 22:34:42] << PING :box.cryto.net
+[2013-11-04 22:34:42] >> PONG :box.cryto.net
+[2013-11-04 22:36:16] << PING :box.cryto.net
+[2013-11-04 22:36:16] >> PONG :box.cryto.net
+[2013-11-04 22:37:48] << PING :box.cryto.net
+[2013-11-04 22:37:48] >> PONG :box.cryto.net
+[2013-11-04 22:39:23] << PING :box.cryto.net
+[2013-11-04 22:39:23] >> PONG :box.cryto.net
+[2013-11-04 22:40:58] << PING :box.cryto.net
+[2013-11-04 22:40:58] >> PONG :box.cryto.net
+[2013-11-04 22:42:30] << PING :box.cryto.net
+[2013-11-04 22:42:30] >> PONG :box.cryto.net
+[2013-11-04 22:44:02] << PING :box.cryto.net
+[2013-11-04 22:44:02] >> PONG :box.cryto.net
+[2013-11-04 22:45:34] << PING :box.cryto.net
+[2013-11-04 22:45:34] >> PONG :box.cryto.net
+[2013-11-04 22:47:08] << PING :box.cryto.net
+[2013-11-04 22:47:08] >> PONG :box.cryto.net
+[2013-11-04 22:48:41] << PING :box.cryto.net
+[2013-11-04 22:48:41] >> PONG :box.cryto.net
+[2013-11-04 22:50:15] << PING :box.cryto.net
+[2013-11-04 22:50:15] >> PONG :box.cryto.net
+[2013-11-04 22:51:49] << PING :box.cryto.net
+[2013-11-04 22:51:49] >> PONG :box.cryto.net
+[2013-11-04 22:53:19] << PING :box.cryto.net
+[2013-11-04 22:53:19] >> PONG :box.cryto.net
+[2013-11-04 22:54:53] << PING :box.cryto.net
+[2013-11-04 22:54:53] >> PONG :box.cryto.net
+[2013-11-04 22:56:25] << PING :box.cryto.net
+[2013-11-04 22:56:25] >> PONG :box.cryto.net
+[2013-11-04 22:57:59] << PING :box.cryto.net
+[2013-11-04 22:57:59] >> PONG :box.cryto.net
+[2013-11-04 22:59:32] << PING :box.cryto.net
+[2013-11-04 22:59:32] >> PONG :box.cryto.net
+[2013-11-04 23:01:06] << PING :box.cryto.net
+[2013-11-04 23:01:06] >> PONG :box.cryto.net
+[2013-11-04 23:02:40] << PING :box.cryto.net
+[2013-11-04 23:02:40] >> PONG :box.cryto.net
+[2013-11-04 23:04:15] << PING :box.cryto.net
+[2013-11-04 23:04:15] >> PONG :box.cryto.net
+[2013-11-04 23:05:47] << PING :box.cryto.net
+[2013-11-04 23:05:47] >> PONG :box.cryto.net
+[2013-11-04 23:07:20] << PING :box.cryto.net
+[2013-11-04 23:07:20] >> PONG :box.cryto.net
+[2013-11-04 23:08:53] << PING :box.cryto.net
+[2013-11-04 23:08:53] >> PONG :box.cryto.net
+[2013-11-04 23:10:26] << PING :box.cryto.net
+[2013-11-04 23:10:26] >> PONG :box.cryto.net
+[2013-11-04 23:11:58] << PING :box.cryto.net
+[2013-11-04 23:11:58] >> PONG :box.cryto.net
+[2013-11-04 23:13:30] << PING :box.cryto.net
+[2013-11-04 23:13:30] >> PONG :box.cryto.net
+[2013-11-04 23:15:01] << PING :box.cryto.net
+[2013-11-04 23:15:01] >> PONG :box.cryto.net
+[2013-11-04 23:16:37] << PING :box.cryto.net
+[2013-11-04 23:16:37] >> PONG :box.cryto.net
+[2013-11-04 23:18:08] << PING :box.cryto.net
+[2013-11-04 23:18:08] >> PONG :box.cryto.net
+[2013-11-04 23:19:44] << PING :box.cryto.net
+[2013-11-04 23:19:44] >> PONG :box.cryto.net
+[2013-11-04 23:21:19] << PING :box.cryto.net
+[2013-11-04 23:21:19] >> PONG :box.cryto.net
+[2013-11-04 23:22:49] << PING :box.cryto.net
+[2013-11-04 23:22:49] >> PONG :box.cryto.net
+[2013-11-04 23:24:20] << PING :box.cryto.net
+[2013-11-04 23:24:20] >> PONG :box.cryto.net
+[2013-11-04 23:25:52] << PING :box.cryto.net
+[2013-11-04 23:25:52] >> PONG :box.cryto.net
+[2013-11-04 23:27:27] << PING :box.cryto.net
+[2013-11-04 23:27:27] >> PONG :box.cryto.net
+[2013-11-04 23:29:00] << PING :box.cryto.net
+[2013-11-04 23:29:00] >> PONG :box.cryto.net
+[2013-11-04 23:30:34] << PING :box.cryto.net
+[2013-11-04 23:30:34] >> PONG :box.cryto.net
+[2013-11-04 23:32:09] << PING :box.cryto.net
+[2013-11-04 23:32:09] >> PONG :box.cryto.net
+[2013-11-04 23:33:41] << PING :box.cryto.net
+[2013-11-04 23:33:41] >> PONG :box.cryto.net
+[2013-11-04 23:35:14] << PING :box.cryto.net
+[2013-11-04 23:35:14] >> PONG :box.cryto.net
+[2013-11-04 23:36:45] << PING :box.cryto.net
+[2013-11-04 23:36:45] >> PONG :box.cryto.net
+[2013-11-04 23:38:19] << PING :box.cryto.net
+[2013-11-04 23:38:19] >> PONG :box.cryto.net
+[2013-11-04 23:39:52] << PING :box.cryto.net
+[2013-11-04 23:39:52] >> PONG :box.cryto.net
+[2013-11-04 23:41:24] << PING :box.cryto.net
+[2013-11-04 23:41:24] >> PONG :box.cryto.net
+[2013-11-04 23:43:03] << PING :box.cryto.net
+[2013-11-04 23:43:03] >> PONG :box.cryto.net
+[2013-11-04 23:44:37] << PING :box.cryto.net
+[2013-11-04 23:44:37] >> PONG :box.cryto.net
+[2013-11-04 23:46:11] << PING :box.cryto.net
+[2013-11-04 23:46:11] >> PONG :box.cryto.net
+[2013-11-04 23:47:47] << PING :box.cryto.net
+[2013-11-04 23:47:47] >> PONG :box.cryto.net
+[2013-11-04 23:49:20] << PING :box.cryto.net
+[2013-11-04 23:49:20] >> PONG :box.cryto.net
+[2013-11-04 23:50:55] << PING :box.cryto.net
+[2013-11-04 23:50:55] >> PONG :box.cryto.net
+[2013-11-04 23:52:31] << PING :box.cryto.net
+[2013-11-04 23:52:31] >> PONG :box.cryto.net
+[2013-11-04 23:54:04] << PING :box.cryto.net
+[2013-11-04 23:54:04] >> PONG :box.cryto.net
+[2013-11-04 23:55:37] << PING :box.cryto.net
+[2013-11-04 23:55:37] >> PONG :box.cryto.net
+[2013-11-04 23:57:10] << PING :box.cryto.net
+[2013-11-04 23:57:10] >> PONG :box.cryto.net
+[2013-11-04 23:58:44] << PING :box.cryto.net
+[2013-11-04 23:58:44] >> PONG :box.cryto.net
+[2013-11-05 00:00:17] << PING :box.cryto.net
+[2013-11-05 00:00:17] >> PONG :box.cryto.net
+[2013-11-05 00:01:55] << PING :box.cryto.net
+[2013-11-05 00:01:55] >> PONG :box.cryto.net
+[2013-11-05 00:03:32] << PING :box.cryto.net
+[2013-11-05 00:03:32] >> PONG :box.cryto.net
+[2013-11-05 00:05:03] << PING :box.cryto.net
+[2013-11-05 00:05:03] >> PONG :box.cryto.net
+[2013-11-05 00:06:37] << PING :box.cryto.net
+[2013-11-05 00:06:37] >> PONG :box.cryto.net
+[2013-11-05 00:08:11] << PING :box.cryto.net
+[2013-11-05 00:08:11] >> PONG :box.cryto.net
+[2013-11-05 00:09:43] << PING :box.cryto.net
+[2013-11-05 00:09:43] >> PONG :box.cryto.net
+[2013-11-05 00:11:15] << PING :box.cryto.net
+[2013-11-05 00:11:15] >> PONG :box.cryto.net
+[2013-11-05 00:12:52] << PING :box.cryto.net
+[2013-11-05 00:12:52] >> PONG :box.cryto.net
+[2013-11-05 00:14:23] << PING :box.cryto.net
+[2013-11-05 00:14:23] >> PONG :box.cryto.net
+[2013-11-05 00:15:59] << PING :box.cryto.net
+[2013-11-05 00:15:59] >> PONG :box.cryto.net
+[2013-11-05 00:17:32] << PING :box.cryto.net
+[2013-11-05 00:17:32] >> PONG :box.cryto.net
+[2013-11-05 00:19:03] << PING :box.cryto.net
+[2013-11-05 00:19:03] >> PONG :box.cryto.net
+[2013-11-05 00:20:36] << PING :box.cryto.net
+[2013-11-05 00:20:36] >> PONG :box.cryto.net
+[2013-11-05 00:22:10] << PING :box.cryto.net
+[2013-11-05 00:22:10] >> PONG :box.cryto.net
+[2013-11-05 00:23:46] << PING :box.cryto.net
+[2013-11-05 00:23:46] >> PONG :box.cryto.net
+[2013-11-05 00:25:21] << PING :box.cryto.net
+[2013-11-05 00:25:21] >> PONG :box.cryto.net
+[2013-11-05 00:26:53] << PING :box.cryto.net
+[2013-11-05 00:26:53] >> PONG :box.cryto.net
+[2013-11-05 00:28:27] << PING :box.cryto.net
+[2013-11-05 00:28:27] >> PONG :box.cryto.net
+[2013-11-05 00:30:00] << PING :box.cryto.net
+[2013-11-05 00:30:00] >> PONG :box.cryto.net
+[2013-11-05 00:31:32] << PING :box.cryto.net
+[2013-11-05 00:31:32] >> PONG :box.cryto.net
+[2013-11-05 00:33:10] << PING :box.cryto.net
+[2013-11-05 00:33:10] >> PONG :box.cryto.net
+[2013-11-05 00:34:44] << PING :box.cryto.net
+[2013-11-05 00:34:44] >> PONG :box.cryto.net
+[2013-11-05 00:36:20] << PING :box.cryto.net
+[2013-11-05 00:36:20] >> PONG :box.cryto.net
+[2013-11-05 00:37:53] << PING :box.cryto.net
+[2013-11-05 00:37:53] >> PONG :box.cryto.net
+[2013-11-05 00:39:26] << PING :box.cryto.net
+[2013-11-05 00:39:26] >> PONG :box.cryto.net
+[2013-11-05 00:40:57] << PING :box.cryto.net
+[2013-11-05 00:40:57] >> PONG :box.cryto.net
+[2013-11-05 00:42:29] << PING :box.cryto.net
+[2013-11-05 00:42:29] >> PONG :box.cryto.net
+[2013-11-05 00:44:03] << PING :box.cryto.net
+[2013-11-05 00:44:03] >> PONG :box.cryto.net
+[2013-11-05 00:45:37] << PING :box.cryto.net
+[2013-11-05 00:45:37] >> PONG :box.cryto.net
+[2013-11-05 00:47:12] << PING :box.cryto.net
+[2013-11-05 00:47:12] >> PONG :box.cryto.net
+[2013-11-05 00:48:46] << PING :box.cryto.net
+[2013-11-05 00:48:46] >> PONG :box.cryto.net
+[2013-11-05 00:50:19] << PING :box.cryto.net
+[2013-11-05 00:50:19] >> PONG :box.cryto.net
+[2013-11-05 00:51:51] << PING :box.cryto.net
+[2013-11-05 00:51:51] >> PONG :box.cryto.net
+[2013-11-05 00:53:25] << PING :box.cryto.net
+[2013-11-05 00:53:25] >> PONG :box.cryto.net
+[2013-11-05 00:54:59] << PING :box.cryto.net
+[2013-11-05 00:54:59] >> PONG :box.cryto.net
+[2013-11-05 00:56:31] << PING :box.cryto.net
+[2013-11-05 00:56:31] >> PONG :box.cryto.net
+[2013-11-05 00:58:04] << PING :box.cryto.net
+[2013-11-05 00:58:04] >> PONG :box.cryto.net
+[2013-11-05 00:59:36] << PING :box.cryto.net
+[2013-11-05 00:59:36] >> PONG :box.cryto.net
+[2013-11-05 01:01:11] << PING :box.cryto.net
+[2013-11-05 01:01:11] >> PONG :box.cryto.net
+[2013-11-05 01:02:45] << PING :box.cryto.net
+[2013-11-05 01:02:45] >> PONG :box.cryto.net
+[2013-11-05 01:04:21] << PING :box.cryto.net
+[2013-11-05 01:04:21] >> PONG :box.cryto.net
+[2013-11-05 01:05:56] << PING :box.cryto.net
+[2013-11-05 01:05:56] >> PONG :box.cryto.net
+[2013-11-05 01:07:32] << PING :box.cryto.net
+[2013-11-05 01:07:32] >> PONG :box.cryto.net
+[2013-11-05 01:09:05] << PING :box.cryto.net
+[2013-11-05 01:09:05] >> PONG :box.cryto.net
+[2013-11-05 01:10:40] << PING :box.cryto.net
+[2013-11-05 01:10:40] >> PONG :box.cryto.net
+[2013-11-05 01:12:15] << PING :box.cryto.net
+[2013-11-05 01:12:15] >> PONG :box.cryto.net
+[2013-11-05 01:13:47] << PING :box.cryto.net
+[2013-11-05 01:13:47] >> PONG :box.cryto.net
+[2013-11-05 01:15:21] << PING :box.cryto.net
+[2013-11-05 01:15:21] >> PONG :box.cryto.net
+[2013-11-05 01:16:54] << PING :box.cryto.net
+[2013-11-05 01:16:54] >> PONG :box.cryto.net
+[2013-11-05 01:18:27] << PING :box.cryto.net
+[2013-11-05 01:18:27] >> PONG :box.cryto.net
+[2013-11-05 01:19:59] << PING :box.cryto.net
+[2013-11-05 01:19:59] >> PONG :box.cryto.net
+[2013-11-05 01:21:34] << PING :box.cryto.net
+[2013-11-05 01:21:34] >> PONG :box.cryto.net
+[2013-11-05 01:23:07] << PING :box.cryto.net
+[2013-11-05 01:23:07] >> PONG :box.cryto.net
+[2013-11-05 01:24:40] << PING :box.cryto.net
+[2013-11-05 01:24:40] >> PONG :box.cryto.net
+[2013-11-05 01:26:13] << PING :box.cryto.net
+[2013-11-05 01:26:13] >> PONG :box.cryto.net
+[2013-11-05 01:27:46] << PING :box.cryto.net
+[2013-11-05 01:27:46] >> PONG :box.cryto.net
+[2013-11-05 01:29:17] << PING :box.cryto.net
+[2013-11-05 01:29:17] >> PONG :box.cryto.net
+[2013-11-05 01:30:50] << PING :box.cryto.net
+[2013-11-05 01:30:50] >> PONG :box.cryto.net
+[2013-11-05 01:32:25] << PING :box.cryto.net
+[2013-11-05 01:32:25] >> PONG :box.cryto.net
+[2013-11-05 01:34:00] << PING :box.cryto.net
+[2013-11-05 01:34:00] >> PONG :box.cryto.net
+[2013-11-05 01:35:39] << PING :box.cryto.net
+[2013-11-05 01:35:39] >> PONG :box.cryto.net
+[2013-11-05 01:37:13] << PING :box.cryto.net
+[2013-11-05 01:37:13] >> PONG :box.cryto.net
+[2013-11-05 01:38:48] << PING :box.cryto.net
+[2013-11-05 01:38:48] >> PONG :box.cryto.net
+[2013-11-05 01:40:22] << PING :box.cryto.net
+[2013-11-05 01:40:22] >> PONG :box.cryto.net
+[2013-11-05 01:41:59] << PING :box.cryto.net
+[2013-11-05 01:41:59] >> PONG :box.cryto.net
+[2013-11-05 01:43:35] << PING :box.cryto.net
+[2013-11-05 01:43:35] >> PONG :box.cryto.net
+[2013-11-05 01:45:10] << PING :box.cryto.net
+[2013-11-05 01:45:10] >> PONG :box.cryto.net
+[2013-11-05 01:46:45] << PING :box.cryto.net
+[2013-11-05 01:46:45] >> PONG :box.cryto.net
+[2013-11-05 01:48:17] << PING :box.cryto.net
+[2013-11-05 01:48:17] >> PONG :box.cryto.net
+[2013-11-05 01:49:51] << PING :box.cryto.net
+[2013-11-05 01:49:51] >> PONG :box.cryto.net
+[2013-11-05 01:51:27] << PING :box.cryto.net
+[2013-11-05 01:51:27] >> PONG :box.cryto.net
+[2013-11-05 01:53:02] << PING :box.cryto.net
+[2013-11-05 01:53:02] >> PONG :box.cryto.net
+[2013-11-05 01:54:38] << PING :box.cryto.net
+[2013-11-05 01:54:38] >> PONG :box.cryto.net
+[2013-11-05 01:56:13] << PING :box.cryto.net
+[2013-11-05 01:56:13] >> PONG :box.cryto.net
+[2013-11-05 01:57:46] << PING :box.cryto.net
+[2013-11-05 01:57:46] >> PONG :box.cryto.net
+[2013-11-05 01:59:17] << PING :box.cryto.net
+[2013-11-05 01:59:17] >> PONG :box.cryto.net
+[2013-11-05 02:00:53] << PING :box.cryto.net
+[2013-11-05 02:00:53] >> PONG :box.cryto.net
+[2013-11-05 02:02:29] << PING :box.cryto.net
+[2013-11-05 02:02:29] >> PONG :box.cryto.net
+[2013-11-05 02:04:01] << PING :box.cryto.net
+[2013-11-05 02:04:01] >> PONG :box.cryto.net
+[2013-11-05 02:05:33] << PING :box.cryto.net
+[2013-11-05 02:05:33] >> PONG :box.cryto.net
+[2013-11-05 02:07:07] << PING :box.cryto.net
+[2013-11-05 02:07:07] >> PONG :box.cryto.net
+[2013-11-05 02:08:38] << PING :box.cryto.net
+[2013-11-05 02:08:38] >> PONG :box.cryto.net
+[2013-11-05 02:10:14] << PING :box.cryto.net
+[2013-11-05 02:10:14] >> PONG :box.cryto.net
+[2013-11-05 02:11:48] << PING :box.cryto.net
+[2013-11-05 02:11:48] >> PONG :box.cryto.net
+[2013-11-05 02:13:20] << PING :box.cryto.net
+[2013-11-05 02:13:20] >> PONG :box.cryto.net
+[2013-11-05 02:14:49] << PING :box.cryto.net
+[2013-11-05 02:14:49] >> PONG :box.cryto.net
+[2013-11-05 02:16:24] << PING :box.cryto.net
+[2013-11-05 02:16:24] >> PONG :box.cryto.net
+[2013-11-05 02:17:59] << PING :box.cryto.net
+[2013-11-05 02:17:59] >> PONG :box.cryto.net
+[2013-11-05 02:19:32] << PING :box.cryto.net
+[2013-11-05 02:19:32] >> PONG :box.cryto.net
+[2013-11-05 02:21:05] << PING :box.cryto.net
+[2013-11-05 02:21:05] >> PONG :box.cryto.net
+[2013-11-05 02:22:38] << PING :box.cryto.net
+[2013-11-05 02:22:38] >> PONG :box.cryto.net
+[2013-11-05 02:24:09] << PING :box.cryto.net
+[2013-11-05 02:24:09] >> PONG :box.cryto.net
+[2013-11-05 02:25:42] << PING :box.cryto.net
+[2013-11-05 02:25:42] >> PONG :box.cryto.net
+[2013-11-05 02:27:14] << PING :box.cryto.net
+[2013-11-05 02:27:14] >> PONG :box.cryto.net
+[2013-11-05 02:28:47] << PING :box.cryto.net
+[2013-11-05 02:28:47] >> PONG :box.cryto.net
+[2013-11-05 02:30:19] << PING :box.cryto.net
+[2013-11-05 02:30:19] >> PONG :box.cryto.net
+[2013-11-05 02:31:53] << PING :box.cryto.net
+[2013-11-05 02:31:53] >> PONG :box.cryto.net
+[2013-11-05 02:33:28] << PING :box.cryto.net
+[2013-11-05 02:33:28] >> PONG :box.cryto.net
+[2013-11-05 02:35:02] << PING :box.cryto.net
+[2013-11-05 02:35:02] >> PONG :box.cryto.net
+[2013-11-05 02:36:39] << PING :box.cryto.net
+[2013-11-05 02:36:39] >> PONG :box.cryto.net
+[2013-11-05 02:38:11] << PING :box.cryto.net
+[2013-11-05 02:38:11] >> PONG :box.cryto.net
+[2013-11-05 02:39:47] << PING :box.cryto.net
+[2013-11-05 02:39:47] >> PONG :box.cryto.net
+[2013-11-05 02:41:22] << PING :box.cryto.net
+[2013-11-05 02:41:22] >> PONG :box.cryto.net
+[2013-11-05 02:42:56] << PING :box.cryto.net
+[2013-11-05 02:42:56] >> PONG :box.cryto.net
+[2013-11-05 02:44:32] << PING :box.cryto.net
+[2013-11-05 02:44:32] >> PONG :box.cryto.net
+[2013-11-05 02:46:07] << PING :box.cryto.net
+[2013-11-05 02:46:07] >> PONG :box.cryto.net
+[2013-11-05 02:47:44] << PING :box.cryto.net
+[2013-11-05 02:47:44] >> PONG :box.cryto.net
+[2013-11-05 02:49:20] << PING :box.cryto.net
+[2013-11-05 02:49:20] >> PONG :box.cryto.net
+[2013-11-05 02:50:54] << PING :box.cryto.net
+[2013-11-05 02:50:54] >> PONG :box.cryto.net
+[2013-11-05 02:52:26] << PING :box.cryto.net
+[2013-11-05 02:52:26] >> PONG :box.cryto.net
+[2013-11-05 02:53:59] << PING :box.cryto.net
+[2013-11-05 02:53:59] >> PONG :box.cryto.net
+[2013-11-05 02:55:32] << PING :box.cryto.net
+[2013-11-05 02:55:32] >> PONG :box.cryto.net
+[2013-11-05 02:57:05] << PING :box.cryto.net
+[2013-11-05 02:57:05] >> PONG :box.cryto.net
+[2013-11-05 02:58:39] << PING :box.cryto.net
+[2013-11-05 02:58:39] >> PONG :box.cryto.net
+[2013-11-05 03:00:16] << PING :box.cryto.net
+[2013-11-05 03:00:16] >> PONG :box.cryto.net
+[2013-11-05 03:01:55] << PING :box.cryto.net
+[2013-11-05 03:01:55] >> PONG :box.cryto.net
+[2013-11-05 03:03:32] << PING :box.cryto.net
+[2013-11-05 03:03:32] >> PONG :box.cryto.net
+[2013-11-05 03:05:06] << PING :box.cryto.net
+[2013-11-05 03:05:06] >> PONG :box.cryto.net
+[2013-11-05 03:06:44] << PING :box.cryto.net
+[2013-11-05 03:06:44] >> PONG :box.cryto.net
+[2013-11-05 03:08:20] << PING :box.cryto.net
+[2013-11-05 03:08:20] >> PONG :box.cryto.net
+[2013-11-05 03:09:53] << PING :box.cryto.net
+[2013-11-05 03:09:53] >> PONG :box.cryto.net
+[2013-11-05 03:11:27] << PING :box.cryto.net
+[2013-11-05 03:11:27] >> PONG :box.cryto.net
+[2013-11-05 03:13:02] << PING :box.cryto.net
+[2013-11-05 03:13:02] >> PONG :box.cryto.net
+[2013-11-05 03:14:34] << PING :box.cryto.net
+[2013-11-05 03:14:34] >> PONG :box.cryto.net
+[2013-11-05 03:16:09] << PING :box.cryto.net
+[2013-11-05 03:16:09] >> PONG :box.cryto.net
+[2013-11-05 03:17:47] << PING :box.cryto.net
+[2013-11-05 03:17:47] >> PONG :box.cryto.net
+[2013-11-05 03:19:18] << PING :box.cryto.net
+[2013-11-05 03:19:18] >> PONG :box.cryto.net
+[2013-11-05 03:20:54] << PING :box.cryto.net
+[2013-11-05 03:20:54] >> PONG :box.cryto.net
+[2013-11-05 03:22:32] << PING :box.cryto.net
+[2013-11-05 03:22:32] >> PONG :box.cryto.net
+[2013-11-05 03:24:05] << PING :box.cryto.net
+[2013-11-05 03:24:05] >> PONG :box.cryto.net
+[2013-11-05 03:25:41] << PING :box.cryto.net
+[2013-11-05 03:25:41] >> PONG :box.cryto.net
+[2013-11-05 03:27:15] << PING :box.cryto.net
+[2013-11-05 03:27:15] >> PONG :box.cryto.net
+[2013-11-05 03:28:50] << PING :box.cryto.net
+[2013-11-05 03:28:50] >> PONG :box.cryto.net
+[2013-11-05 03:30:25] << PING :box.cryto.net
+[2013-11-05 03:30:25] >> PONG :box.cryto.net
+[2013-11-05 03:31:58] << PING :box.cryto.net
+[2013-11-05 03:31:58] >> PONG :box.cryto.net
+[2013-11-05 03:33:34] << PING :box.cryto.net
+[2013-11-05 03:33:34] >> PONG :box.cryto.net
+[2013-11-05 03:35:07] << PING :box.cryto.net
+[2013-11-05 03:35:07] >> PONG :box.cryto.net
+[2013-11-05 03:36:42] << PING :box.cryto.net
+[2013-11-05 03:36:42] >> PONG :box.cryto.net
+[2013-11-05 03:38:17] << PING :box.cryto.net
+[2013-11-05 03:38:17] >> PONG :box.cryto.net
+[2013-11-05 03:39:51] << PING :box.cryto.net
+[2013-11-05 03:39:51] >> PONG :box.cryto.net
+[2013-11-05 03:41:27] << PING :box.cryto.net
+[2013-11-05 03:41:27] >> PONG :box.cryto.net
+[2013-11-05 03:43:04] << PING :box.cryto.net
+[2013-11-05 03:43:04] >> PONG :box.cryto.net
+[2013-11-05 03:43:12] << :DrWhat!Snake@DrWhat.users.cryto QUIT :nexus.cryto.net haless.cryto.net
+[2013-11-05 03:44:41] << PING :box.cryto.net
+[2013-11-05 03:44:41] >> PONG :box.cryto.net
+[2013-11-05 03:46:13] << PING :box.cryto.net
+[2013-11-05 03:46:13] >> PONG :box.cryto.net
+[2013-11-05 03:47:48] << PING :box.cryto.net
+[2013-11-05 03:47:48] >> PONG :box.cryto.net
+[2013-11-05 03:48:13] << :DrWhat!Snake@DrWhat.users.cryto JOIN :#drwhat
+[2013-11-05 03:48:13] >> WHO #drwhat
+[2013-11-05 03:48:13] << :haless.cryto.net MODE #drwhat +qo DrWhat DrWhat
+[2013-11-05 03:48:13] << :box.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto haless.cryto.net DrWhat Hr~ :2 AnacønÐa ns2.15
+[2013-11-05 03:48:13] << :box.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto box.cryto.net DrBot Hr& :0 noother's Bot
+[2013-11-05 03:48:13] << :box.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-11-05 03:48:13] << :box.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-11-05 03:49:45] << PING :box.cryto.net
+[2013-11-05 03:49:45] >> PONG :box.cryto.net
+[2013-11-05 03:51:17] << PING :box.cryto.net
+[2013-11-05 03:51:17] >> PONG :box.cryto.net
+[2013-11-05 03:52:50] << PING :box.cryto.net
+[2013-11-05 03:52:50] >> PONG :box.cryto.net
+[2013-11-05 03:53:43] << :DrWhat!Snake@DrWhat.users.cryto QUIT :nexus.cryto.net haless.cryto.net
+[2013-11-05 03:54:25] << PING :box.cryto.net
+[2013-11-05 03:54:25] >> PONG :box.cryto.net
+[2013-11-05 03:55:21] << :DrWhat!Snake@DrWhat.users.cryto JOIN :#drwhat
+[2013-11-05 03:55:21] >> WHO #drwhat
+[2013-11-05 03:55:21] << :haless.cryto.net MODE #drwhat +qo DrWhat DrWhat
+[2013-11-05 03:55:21] << :box.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto haless.cryto.net DrWhat Hr~ :2 AnacønÐa ns2.15
+[2013-11-05 03:55:21] << :box.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto box.cryto.net DrBot Hr& :0 noother's Bot
+[2013-11-05 03:55:21] << :box.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-11-05 03:55:21] << :box.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-11-05 03:56:53] << PING :box.cryto.net
+[2013-11-05 03:56:53] >> PONG :box.cryto.net
+[2013-11-05 03:58:29] << PING :box.cryto.net
+[2013-11-05 03:58:29] >> PONG :box.cryto.net
+[2013-11-05 04:00:05] << PING :box.cryto.net
+[2013-11-05 04:00:05] >> PONG :box.cryto.net
+[2013-11-05 04:01:40] << PING :box.cryto.net
+[2013-11-05 04:01:40] >> PONG :box.cryto.net
+[2013-11-05 04:02:00] << :DrWhat!Snake@DrWhat.users.cryto QUIT :nexus.cryto.net haless.cryto.net
+[2013-11-05 04:03:13] << PING :box.cryto.net
+[2013-11-05 04:03:13] >> PONG :box.cryto.net
+[2013-11-05 04:03:33] << :DrWhat!Snake@DrWhat.users.cryto JOIN :#drwhat
+[2013-11-05 04:03:33] >> WHO #drwhat
+[2013-11-05 04:03:33] << :haless.cryto.net MODE #drwhat +qo DrWhat DrWhat
+[2013-11-05 04:03:34] << :box.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto haless.cryto.net DrWhat Hr~ :2 AnacønÐa ns2.15
+[2013-11-05 04:03:34] << :box.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto box.cryto.net DrBot Hr& :0 noother's Bot
+[2013-11-05 04:03:34] << :box.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-11-05 04:03:34] << :box.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-11-05 04:05:07] << PING :box.cryto.net
+[2013-11-05 04:05:07] >> PONG :box.cryto.net
+[2013-11-05 04:06:40] << PING :box.cryto.net
+[2013-11-05 04:06:40] >> PONG :box.cryto.net
+[2013-11-05 04:08:15] << PING :box.cryto.net
+[2013-11-05 04:08:15] >> PONG :box.cryto.net
+[2013-11-05 04:09:46] << PING :box.cryto.net
+[2013-11-05 04:09:46] >> PONG :box.cryto.net
+[2013-11-05 04:11:17] << PING :box.cryto.net
+[2013-11-05 04:11:17] >> PONG :box.cryto.net
+[2013-11-05 04:12:51] << PING :box.cryto.net
+[2013-11-05 04:12:51] >> PONG :box.cryto.net
+[2013-11-05 04:14:26] << PING :box.cryto.net
+[2013-11-05 04:14:26] >> PONG :box.cryto.net
+[2013-11-05 04:16:01] << PING :box.cryto.net
+[2013-11-05 04:16:01] >> PONG :box.cryto.net
+[2013-11-05 04:17:36] << PING :box.cryto.net
+[2013-11-05 04:17:36] >> PONG :box.cryto.net

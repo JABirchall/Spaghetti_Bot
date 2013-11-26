@@ -1,0 +1,422 @@
+[2013-11-25 16:57:27] >> PASS oauth:323igsfqd7a5ti3azfvg7iksxnmzlb0
+[2013-11-25 16:57:27] >> NICK Spaghetti_Bot
+[2013-11-25 16:57:27] >> USER Speghetti_Bot 0 199.9.250.229 :DrWhat's Bot
+[2013-11-25 16:57:28] << :tmi.twitch.tv 001 spaghetti_bot :connected to TMI
+[2013-11-25 16:57:28] << :tmi.twitch.tv 002 spaghetti_bot :your host is TMI
+[2013-11-25 16:57:28] << :tmi.twitch.tv 003 spaghetti_bot :this server is pretty new
+[2013-11-25 16:57:28] << :tmi.twitch.tv 004 spaghetti_bot tmi.twitch.tv 0.0.1 w n
+[2013-11-25 16:57:28] << :tmi.twitch.tv 375 spaghetti_bot :- tmi.twitch.tv Message of the day -
+[2013-11-25 16:57:28] << :tmi.twitch.tv 372 spaghetti_bot :- not much to say here
+[2013-11-25 16:57:28] << :tmi.twitch.tv 376 spaghetti_bot :End of /MOTD command
+[2013-11-25 16:57:28] >> PRIVMSG NickServ :identify 
+[2013-11-25 16:57:34] >> JOIN #nodrwhat
+[2013-11-25 16:57:34] << :spaghetti_bot!spaghetti_bot@spaghetti_bot.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 16:57:34] >> WHO #nodrwhat
+[2013-11-25 16:57:34] << :spaghetti_bot.tmi.twitch.tv 353 spaghetti_bot = #nodrwhat :spaghetti_bot
+[2013-11-25 16:57:34] << :spaghetti_bot.tmi.twitch.tv 366 spaghetti_bot #nodrwhat :End of /NAMES list
+[2013-11-25 16:57:34] << :jtv!jtv@jtv.tmi.twitch.tv PRIVMSG spaghetti_bot :HISTORYEND nodrwhat
+[2013-11-25 16:57:34] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 16:57:36] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!hash Password
+[2013-11-25 16:57:37] >> PRIVMSG #nodrwhat :ALGO: sha512 - ITERATIONS: 10000 - SALT: 3jK/fn/HlLU= - HASH: H7HwcQRfFuk2GWg6EAlOmdwImeuB+ErMt7/oURF3t8+Xz9ShhmmjzGUMZyhFi2AmLBG3kufUZpHj7cxhIc8zJ16UbzxCCaQDh2Ms2cHocRq/IHod50iRPXwfrNKIcKPxlDPeAtZ1Sf/X4SsZvGs/OH5AXOQh4UnJG3+SYIwy2v0=
+[2013-11-25 16:57:46] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 16:57:46] >> WHO #nodrwhat
+[2013-11-25 16:57:46] << :jtv MODE #nodrwhat +o nodrwhat
+[2013-11-25 16:57:47] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat nodrwhat spaghetti_bot.tmi.twitch.tv tmi.twitch.tv nodrwhat H :0 nodrwhat
+[2013-11-25 16:57:47] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat spaghetti_bot spaghetti_bot.tmi.twitch.tv tmi.twitch.tv spaghetti_bot H :0 spaghetti_bot
+[2013-11-25 16:57:47] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 16:58:05] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:05] >> PRIVMSG #nodrwhat :ACTION geht in eine Kinovorstellung: "nodrwhat's fat ass"
+[2013-11-25 16:58:30] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:30] >> PRIVMSG #nodrwhat :ACTION smacks a juicy red tomato over nodrwhat's head
+[2013-11-25 16:58:32] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:32] >> PRIVMSG #nodrwhat :ACTION slaps nodrwhat with a soft nearly clean t-shirt
+[2013-11-25 16:58:35] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:35] >> PRIVMSG #nodrwhat :ACTION sneaks in and reformats nodrwhat's c drive
+[2013-11-25 16:58:51] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:51] >> PRIVMSG #nodrwhat :ACTION slaps nodrwhat with a James Brown single
+[2013-11-25 16:58:54] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:54] >> PRIVMSG #nodrwhat :ACTION puts a tight rope around nodrwhat's neck and opens the channel trapdoor
+[2013-11-25 16:58:55] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:55] >> PRIVMSG #nodrwhat :ACTION slaps nodrwhat with an old used popup
+[2013-11-25 16:58:58] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:58] >> PRIVMSG #nodrwhat :ACTION isst nodrwhat auf
+[2013-11-25 16:58:59] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:58:59] >> PRIVMSG #nodrwhat :ACTION discovered nodrwhat's picture on uglypeople.com
+[2013-11-25 16:59:01] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!slap nodrwhat
+[2013-11-25 16:59:02] >> PRIVMSG #nodrwhat :ACTION stabs nodrwhat repeatedly with a bear
+[2013-11-25 16:59:06] << :jtv MODE #nodrwhat -o nodrwhat
+[2013-11-25 16:59:26] << :jtv MODE #nodrwhat +o nodrwhat
+[2013-11-25 17:03:39] << PING tmi.twitch.tv
+[2013-11-25 17:03:39] >> PONG :tmi.twitch.tv
+[2013-11-25 17:08:20] << PING tmi.twitch.tv
+[2013-11-25 17:08:20] >> PONG :tmi.twitch.tv
+[2013-11-25 17:12:57] << PING tmi.twitch.tv
+[2013-11-25 17:12:57] >> PONG :tmi.twitch.tv
+[2013-11-25 17:17:22] << PING tmi.twitch.tv
+[2013-11-25 17:17:22] >> PONG :tmi.twitch.tv
+[2013-11-25 17:21:34] << PING tmi.twitch.tv
+[2013-11-25 17:21:34] >> PONG :tmi.twitch.tv
+[2013-11-25 17:26:23] << PING tmi.twitch.tv
+[2013-11-25 17:26:23] >> PONG :tmi.twitch.tv
+[2013-11-25 17:30:57] << PING tmi.twitch.tv
+[2013-11-25 17:30:57] >> PONG :tmi.twitch.tv
+[2013-11-25 17:35:05] << PING tmi.twitch.tv
+[2013-11-25 17:35:05] >> PONG :tmi.twitch.tv
+[2013-11-25 17:39:50] << PING tmi.twitch.tv
+[2013-11-25 17:39:50] >> PONG :tmi.twitch.tv
+[2013-11-25 17:44:27] << PING tmi.twitch.tv
+[2013-11-25 17:44:27] >> PONG :tmi.twitch.tv
+[2013-11-25 17:48:59] << PING tmi.twitch.tv
+[2013-11-25 17:48:59] >> PONG :tmi.twitch.tv
+[2013-11-25 17:53:26] << PING tmi.twitch.tv
+[2013-11-25 17:53:26] >> PONG :tmi.twitch.tv
+[2013-11-25 17:58:25] << PING tmi.twitch.tv
+[2013-11-25 17:58:25] >> PONG :tmi.twitch.tv
+[2013-11-25 18:02:28] << PING tmi.twitch.tv
+[2013-11-25 18:02:28] >> PONG :tmi.twitch.tv
+[2013-11-25 18:07:25] << PING tmi.twitch.tv
+[2013-11-25 18:07:25] >> PONG :tmi.twitch.tv
+[2013-11-25 18:11:50] << PING tmi.twitch.tv
+[2013-11-25 18:11:50] >> PONG :tmi.twitch.tv
+[2013-11-25 18:16:04] << PING tmi.twitch.tv
+[2013-11-25 18:16:04] >> PONG :tmi.twitch.tv
+[2013-11-25 18:20:32] << PING tmi.twitch.tv
+[2013-11-25 18:20:32] >> PONG :tmi.twitch.tv
+[2013-11-25 18:24:46] << PING tmi.twitch.tv
+[2013-11-25 18:24:46] >> PONG :tmi.twitch.tv
+[2013-11-25 18:29:18] << PING tmi.twitch.tv
+[2013-11-25 18:29:18] >> PONG :tmi.twitch.tv
+[2013-11-25 18:34:04] << PING tmi.twitch.tv
+[2013-11-25 18:34:04] >> PONG :tmi.twitch.tv
+[2013-11-25 18:38:40] << PING tmi.twitch.tv
+[2013-11-25 18:38:40] >> PONG :tmi.twitch.tv
+[2013-11-25 18:43:12] << PING tmi.twitch.tv
+[2013-11-25 18:43:12] >> PONG :tmi.twitch.tv
+[2013-11-25 18:47:25] << PING tmi.twitch.tv
+[2013-11-25 18:47:25] >> PONG :tmi.twitch.tv
+[2013-11-25 18:51:37] << PING tmi.twitch.tv
+[2013-11-25 18:51:37] >> PONG :tmi.twitch.tv
+[2013-11-25 18:55:38] << PING tmi.twitch.tv
+[2013-11-25 18:55:38] >> PONG :tmi.twitch.tv
+[2013-11-25 19:00:33] << PING tmi.twitch.tv
+[2013-11-25 19:00:33] >> PONG :tmi.twitch.tv
+[2013-11-25 19:05:17] << PING tmi.twitch.tv
+[2013-11-25 19:05:17] >> PONG :tmi.twitch.tv
+[2013-11-25 19:09:50] << PING tmi.twitch.tv
+[2013-11-25 19:09:50] >> PONG :tmi.twitch.tv
+[2013-11-25 19:14:29] << PING tmi.twitch.tv
+[2013-11-25 19:14:29] >> PONG :tmi.twitch.tv
+[2013-11-25 19:18:42] << PING tmi.twitch.tv
+[2013-11-25 19:18:42] >> PONG :tmi.twitch.tv
+[2013-11-25 19:22:43] << PING tmi.twitch.tv
+[2013-11-25 19:22:43] >> PONG :tmi.twitch.tv
+[2013-11-25 19:27:17] << PING tmi.twitch.tv
+[2013-11-25 19:27:17] >> PONG :tmi.twitch.tv
+[2013-11-25 19:31:18] << PING tmi.twitch.tv
+[2013-11-25 19:31:18] >> PONG :tmi.twitch.tv
+[2013-11-25 19:35:46] << PING tmi.twitch.tv
+[2013-11-25 19:35:46] >> PONG :tmi.twitch.tv
+[2013-11-25 19:39:48] << PING tmi.twitch.tv
+[2013-11-25 19:39:48] >> PONG :tmi.twitch.tv
+[2013-11-25 19:44:41] << PING tmi.twitch.tv
+[2013-11-25 19:44:41] >> PONG :tmi.twitch.tv
+[2013-11-25 19:49:00] << PING tmi.twitch.tv
+[2013-11-25 19:49:00] >> PONG :tmi.twitch.tv
+[2013-11-25 19:53:22] << PING tmi.twitch.tv
+[2013-11-25 19:53:22] >> PONG :tmi.twitch.tv
+[2013-11-25 19:57:53] << PING tmi.twitch.tv
+[2013-11-25 19:57:53] >> PONG :tmi.twitch.tv
+[2013-11-25 20:02:04] << PING tmi.twitch.tv
+[2013-11-25 20:02:04] >> PONG :tmi.twitch.tv
+[2013-11-25 20:07:03] << PING tmi.twitch.tv
+[2013-11-25 20:07:03] >> PONG :tmi.twitch.tv
+[2013-11-25 20:11:58] << PING tmi.twitch.tv
+[2013-11-25 20:11:58] >> PONG :tmi.twitch.tv
+[2013-11-25 20:16:43] << PING tmi.twitch.tv
+[2013-11-25 20:16:43] >> PONG :tmi.twitch.tv
+[2013-11-25 20:21:20] << PING tmi.twitch.tv
+[2013-11-25 20:21:20] >> PONG :tmi.twitch.tv
+[2013-11-25 20:25:38] << PING tmi.twitch.tv
+[2013-11-25 20:25:38] >> PONG :tmi.twitch.tv
+[2013-11-25 20:29:56] << PING tmi.twitch.tv
+[2013-11-25 20:29:56] >> PONG :tmi.twitch.tv
+[2013-11-25 20:34:20] << PING tmi.twitch.tv
+[2013-11-25 20:34:20] >> PONG :tmi.twitch.tv
+[2013-11-25 20:38:52] << PING tmi.twitch.tv
+[2013-11-25 20:38:52] >> PONG :tmi.twitch.tv
+[2013-11-25 20:43:09] << PING tmi.twitch.tv
+[2013-11-25 20:43:09] >> PONG :tmi.twitch.tv
+[2013-11-25 20:47:14] << PING tmi.twitch.tv
+[2013-11-25 20:47:14] >> PONG :tmi.twitch.tv
+[2013-11-25 20:52:08] << PING tmi.twitch.tv
+[2013-11-25 20:52:08] >> PONG :tmi.twitch.tv
+[2013-11-25 20:57:02] << PING tmi.twitch.tv
+[2013-11-25 20:57:02] >> PONG :tmi.twitch.tv
+[2013-11-25 21:01:29] << PING tmi.twitch.tv
+[2013-11-25 21:01:29] >> PONG :tmi.twitch.tv
+[2013-11-25 21:05:33] << PING tmi.twitch.tv
+[2013-11-25 21:05:33] >> PONG :tmi.twitch.tv
+[2013-11-25 21:09:34] << PING tmi.twitch.tv
+[2013-11-25 21:09:34] >> PONG :tmi.twitch.tv
+[2013-11-25 21:13:52] << PING tmi.twitch.tv
+[2013-11-25 21:13:52] >> PONG :tmi.twitch.tv
+[2013-11-25 21:18:39] << PING tmi.twitch.tv
+[2013-11-25 21:18:39] >> PONG :tmi.twitch.tv
+[2013-11-25 21:23:26] << PING tmi.twitch.tv
+[2013-11-25 21:23:26] >> PONG :tmi.twitch.tv
+[2013-11-25 21:28:06] << PING tmi.twitch.tv
+[2013-11-25 21:28:06] >> PONG :tmi.twitch.tv
+[2013-11-25 21:32:49] << PING tmi.twitch.tv
+[2013-11-25 21:32:49] >> PONG :tmi.twitch.tv
+[2013-11-25 21:37:08] << PING tmi.twitch.tv
+[2013-11-25 21:37:08] >> PONG :tmi.twitch.tv
+[2013-11-25 21:41:42] << PING tmi.twitch.tv
+[2013-11-25 21:41:42] >> PONG :tmi.twitch.tv
+[2013-11-25 21:46:20] << PING tmi.twitch.tv
+[2013-11-25 21:46:20] >> PONG :tmi.twitch.tv
+[2013-11-25 21:50:36] << PING tmi.twitch.tv
+[2013-11-25 21:50:36] >> PONG :tmi.twitch.tv
+[2013-11-25 21:55:14] << PING tmi.twitch.tv
+[2013-11-25 21:55:14] >> PONG :tmi.twitch.tv
+[2013-11-25 21:59:18] << PING tmi.twitch.tv
+[2013-11-25 21:59:18] >> PONG :tmi.twitch.tv
+[2013-11-25 22:04:07] << PING tmi.twitch.tv
+[2013-11-25 22:04:07] >> PONG :tmi.twitch.tv
+[2013-11-25 22:08:56] << PING tmi.twitch.tv
+[2013-11-25 22:08:56] >> PONG :tmi.twitch.tv
+[2013-11-25 22:13:26] << PING tmi.twitch.tv
+[2013-11-25 22:13:26] >> PONG :tmi.twitch.tv
+[2013-11-25 22:17:55] << PING tmi.twitch.tv
+[2013-11-25 22:17:55] >> PONG :tmi.twitch.tv
+[2013-11-25 22:22:50] << PING tmi.twitch.tv
+[2013-11-25 22:22:50] >> PONG :tmi.twitch.tv
+[2013-11-25 22:27:32] << PING tmi.twitch.tv
+[2013-11-25 22:27:32] >> PONG :tmi.twitch.tv
+[2013-11-25 22:31:55] << PING tmi.twitch.tv
+[2013-11-25 22:31:55] >> PONG :tmi.twitch.tv
+[2013-11-25 22:36:15] << PING tmi.twitch.tv
+[2013-11-25 22:36:15] >> PONG :tmi.twitch.tv
+[2013-11-25 22:40:20] << PING tmi.twitch.tv
+[2013-11-25 22:40:20] >> PONG :tmi.twitch.tv
+[2013-11-25 22:45:09] << PING tmi.twitch.tv
+[2013-11-25 22:45:09] >> PONG :tmi.twitch.tv
+[2013-11-25 22:49:32] << PING tmi.twitch.tv
+[2013-11-25 22:49:32] >> PONG :tmi.twitch.tv
+[2013-11-25 22:54:01] << PING tmi.twitch.tv
+[2013-11-25 22:54:01] >> PONG :tmi.twitch.tv
+[2013-11-25 22:58:01] << PING tmi.twitch.tv
+[2013-11-25 22:58:01] >> PONG :tmi.twitch.tv
+[2013-11-25 23:02:03] << PING tmi.twitch.tv
+[2013-11-25 23:02:03] >> PONG :tmi.twitch.tv
+[2013-11-25 23:06:18] << PING tmi.twitch.tv
+[2013-11-25 23:06:18] >> PONG :tmi.twitch.tv
+[2013-11-25 23:11:17] << PING tmi.twitch.tv
+[2013-11-25 23:11:17] >> PONG :tmi.twitch.tv
+[2013-11-25 23:16:03] << PING tmi.twitch.tv
+[2013-11-25 23:16:03] >> PONG :tmi.twitch.tv
+[2013-11-25 23:20:47] << PING tmi.twitch.tv
+[2013-11-25 23:20:47] >> PONG :tmi.twitch.tv
+[2013-11-25 23:25:38] << PING tmi.twitch.tv
+[2013-11-25 23:25:38] >> PONG :tmi.twitch.tv
+[2013-11-25 23:30:35] << PING tmi.twitch.tv
+[2013-11-25 23:30:35] >> PONG :tmi.twitch.tv
+[2013-11-25 23:35:08] << PING tmi.twitch.tv
+[2013-11-25 23:35:08] >> PONG :tmi.twitch.tv
+[2013-11-25 23:39:14] << PING tmi.twitch.tv
+[2013-11-25 23:39:14] >> PONG :tmi.twitch.tv
+[2013-11-25 23:43:35] << PING tmi.twitch.tv
+[2013-11-25 23:43:35] >> PONG :tmi.twitch.tv
+[2013-11-25 23:48:22] << PING tmi.twitch.tv
+[2013-11-25 23:48:22] >> PONG :tmi.twitch.tv
+[2013-11-25 23:52:32] << PING tmi.twitch.tv
+[2013-11-25 23:52:32] >> PONG :tmi.twitch.tv
+[2013-11-25 23:57:26] << PING tmi.twitch.tv
+[2013-11-25 23:57:26] >> PONG :tmi.twitch.tv
+[2013-11-26 00:02:03] << PING tmi.twitch.tv
+[2013-11-26 00:02:03] >> PONG :tmi.twitch.tv
+[2013-11-26 00:06:27] << PING tmi.twitch.tv
+[2013-11-26 00:06:27] >> PONG :tmi.twitch.tv
+[2013-11-26 00:11:17] << PING tmi.twitch.tv
+[2013-11-26 00:11:17] >> PONG :tmi.twitch.tv
+[2013-11-26 00:15:38] << PING tmi.twitch.tv
+[2013-11-26 00:15:38] >> PONG :tmi.twitch.tv
+[2013-11-26 00:20:21] << PING tmi.twitch.tv
+[2013-11-26 00:20:21] >> PONG :tmi.twitch.tv
+[2013-11-26 00:25:16] << PING tmi.twitch.tv
+[2013-11-26 00:25:16] >> PONG :tmi.twitch.tv
+[2013-11-26 00:29:17] << PING tmi.twitch.tv
+[2013-11-26 00:29:17] >> PONG :tmi.twitch.tv
+[2013-11-26 00:34:01] << PING tmi.twitch.tv
+[2013-11-26 00:34:01] >> PONG :tmi.twitch.tv
+[2013-11-26 00:38:51] << PING tmi.twitch.tv
+[2013-11-26 00:38:51] >> PONG :tmi.twitch.tv
+[2013-11-26 00:42:51] << PING tmi.twitch.tv
+[2013-11-26 00:42:51] >> PONG :tmi.twitch.tv
+[2013-11-26 00:47:25] << PING tmi.twitch.tv
+[2013-11-26 00:47:25] >> PONG :tmi.twitch.tv
+[2013-11-26 00:51:45] << PING tmi.twitch.tv
+[2013-11-26 00:51:45] >> PONG :tmi.twitch.tv
+[2013-11-26 00:56:00] << PING tmi.twitch.tv
+[2013-11-26 00:56:00] >> PONG :tmi.twitch.tv
+[2013-11-26 01:00:59] << PING tmi.twitch.tv
+[2013-11-26 01:00:59] >> PONG :tmi.twitch.tv
+[2013-11-26 01:05:09] << PING tmi.twitch.tv
+[2013-11-26 01:05:09] >> PONG :tmi.twitch.tv
+[2013-11-26 01:09:48] << PING tmi.twitch.tv
+[2013-11-26 01:09:48] >> PONG :tmi.twitch.tv
+[2013-11-26 01:14:32] << PING tmi.twitch.tv
+[2013-11-26 01:14:32] >> PONG :tmi.twitch.tv
+[2013-11-26 01:18:58] << PING tmi.twitch.tv
+[2013-11-26 01:18:58] >> PONG :tmi.twitch.tv
+[2013-11-26 01:23:40] << PING tmi.twitch.tv
+[2013-11-26 01:23:40] >> PONG :tmi.twitch.tv
+[2013-11-26 01:27:54] << PING tmi.twitch.tv
+[2013-11-26 01:27:54] >> PONG :tmi.twitch.tv
+[2013-11-26 01:32:08] << PING tmi.twitch.tv
+[2013-11-26 01:32:08] >> PONG :tmi.twitch.tv
+[2013-11-26 01:36:56] << PING tmi.twitch.tv
+[2013-11-26 01:36:56] >> PONG :tmi.twitch.tv
+[2013-11-26 01:41:11] << PING tmi.twitch.tv
+[2013-11-26 01:41:11] >> PONG :tmi.twitch.tv
+[2013-11-26 01:45:24] << PING tmi.twitch.tv
+[2013-11-26 01:45:24] >> PONG :tmi.twitch.tv
+[2013-11-26 01:49:38] << PING tmi.twitch.tv
+[2013-11-26 01:49:38] >> PONG :tmi.twitch.tv
+[2013-11-26 01:54:25] << PING tmi.twitch.tv
+[2013-11-26 01:54:25] >> PONG :tmi.twitch.tv
+[2013-11-26 01:58:42] << PING tmi.twitch.tv
+[2013-11-26 01:58:42] >> PONG :tmi.twitch.tv
+[2013-11-26 02:03:28] << PING tmi.twitch.tv
+[2013-11-26 02:03:28] >> PONG :tmi.twitch.tv
+[2013-11-26 02:08:23] << PING tmi.twitch.tv
+[2013-11-26 02:08:23] >> PONG :tmi.twitch.tv
+[2013-11-26 02:12:24] << PING tmi.twitch.tv
+[2013-11-26 02:12:24] >> PONG :tmi.twitch.tv
+[2013-11-26 02:17:06] << PING tmi.twitch.tv
+[2013-11-26 02:17:06] >> PONG :tmi.twitch.tv
+[2013-11-26 02:21:59] << PING tmi.twitch.tv
+[2013-11-26 02:21:59] >> PONG :tmi.twitch.tv
+[2013-11-26 02:26:17] << PING tmi.twitch.tv
+[2013-11-26 02:26:17] >> PONG :tmi.twitch.tv
+[2013-11-26 02:30:46] << PING tmi.twitch.tv
+[2013-11-26 02:30:46] >> PONG :tmi.twitch.tv
+[2013-11-26 02:35:02] << PING tmi.twitch.tv
+[2013-11-26 02:35:02] >> PONG :tmi.twitch.tv
+[2013-11-26 02:39:46] << PING tmi.twitch.tv
+[2013-11-26 02:39:46] >> PONG :tmi.twitch.tv
+[2013-11-26 02:44:26] << PING tmi.twitch.tv
+[2013-11-26 02:44:26] >> PONG :tmi.twitch.tv
+[2013-11-26 02:48:57] << PING tmi.twitch.tv
+[2013-11-26 02:48:57] >> PONG :tmi.twitch.tv
+[2013-11-26 02:53:27] << PING tmi.twitch.tv
+[2013-11-26 02:53:27] >> PONG :tmi.twitch.tv
+[2013-11-26 02:57:50] << PING tmi.twitch.tv
+[2013-11-26 02:57:50] >> PONG :tmi.twitch.tv
+[2013-11-26 03:02:04] << PING tmi.twitch.tv
+[2013-11-26 03:02:04] >> PONG :tmi.twitch.tv
+[2013-11-26 03:06:23] << PING tmi.twitch.tv
+[2013-11-26 03:06:23] >> PONG :tmi.twitch.tv
+[2013-11-26 03:10:31] << PING tmi.twitch.tv
+[2013-11-26 03:10:31] >> PONG :tmi.twitch.tv
+[2013-11-26 03:15:18] << PING tmi.twitch.tv
+[2013-11-26 03:15:19] >> PONG :tmi.twitch.tv
+[2013-11-26 03:20:15] << PING tmi.twitch.tv
+[2013-11-26 03:20:15] >> PONG :tmi.twitch.tv
+[2013-11-26 03:24:37] << PING tmi.twitch.tv
+[2013-11-26 03:24:37] >> PONG :tmi.twitch.tv
+[2013-11-26 03:28:56] << PING tmi.twitch.tv
+[2013-11-26 03:28:56] >> PONG :tmi.twitch.tv
+[2013-11-26 03:33:47] << PING tmi.twitch.tv
+[2013-11-26 03:33:47] >> PONG :tmi.twitch.tv
+[2013-11-26 03:38:22] << PING tmi.twitch.tv
+[2013-11-26 03:38:22] >> PONG :tmi.twitch.tv
+[2013-11-26 03:42:57] << PING tmi.twitch.tv
+[2013-11-26 03:42:57] >> PONG :tmi.twitch.tv
+[2013-11-26 03:47:40] << PING tmi.twitch.tv
+[2013-11-26 03:47:40] >> PONG :tmi.twitch.tv
+[2013-11-26 03:51:56] << PING tmi.twitch.tv
+[2013-11-26 03:51:56] >> PONG :tmi.twitch.tv
+[2013-11-26 03:56:53] << PING tmi.twitch.tv
+[2013-11-26 03:56:53] >> PONG :tmi.twitch.tv
+[2013-11-26 04:01:20] << PING tmi.twitch.tv
+[2013-11-26 04:01:20] >> PONG :tmi.twitch.tv
+[2013-11-26 04:06:06] << PING tmi.twitch.tv
+[2013-11-26 04:06:06] >> PONG :tmi.twitch.tv
+[2013-11-26 04:10:56] << PING tmi.twitch.tv
+[2013-11-26 04:10:56] >> PONG :tmi.twitch.tv
+[2013-11-26 04:15:07] << PING tmi.twitch.tv
+[2013-11-26 04:15:07] >> PONG :tmi.twitch.tv
+[2013-11-26 04:19:54] << PING tmi.twitch.tv
+[2013-11-26 04:19:54] >> PONG :tmi.twitch.tv
+[2013-11-26 04:24:48] << PING tmi.twitch.tv
+[2013-11-26 04:24:48] >> PONG :tmi.twitch.tv
+[2013-11-26 04:28:51] << PING tmi.twitch.tv
+[2013-11-26 04:28:51] >> PONG :tmi.twitch.tv
+[2013-11-26 04:33:45] << PING tmi.twitch.tv
+[2013-11-26 04:33:45] >> PONG :tmi.twitch.tv
+[2013-11-26 04:38:15] << PING tmi.twitch.tv
+[2013-11-26 04:38:15] >> PONG :tmi.twitch.tv
+[2013-11-26 04:42:54] << PING tmi.twitch.tv
+[2013-11-26 04:42:54] >> PONG :tmi.twitch.tv
+[2013-11-26 04:47:02] << PING tmi.twitch.tv
+[2013-11-26 04:47:02] >> PONG :tmi.twitch.tv
+[2013-11-26 04:51:18] << PING tmi.twitch.tv
+[2013-11-26 04:51:18] >> PONG :tmi.twitch.tv
+[2013-11-26 04:55:24] << PING tmi.twitch.tv
+[2013-11-26 04:55:24] >> PONG :tmi.twitch.tv
+[2013-11-26 04:59:43] << PING tmi.twitch.tv
+[2013-11-26 04:59:43] >> PONG :tmi.twitch.tv
+[2013-11-26 05:04:20] << PING tmi.twitch.tv
+[2013-11-26 05:04:20] >> PONG :tmi.twitch.tv
+[2013-11-26 05:08:57] << PING tmi.twitch.tv
+[2013-11-26 05:08:57] >> PONG :tmi.twitch.tv
+[2013-11-26 05:13:52] << PING tmi.twitch.tv
+[2013-11-26 05:13:52] >> PONG :tmi.twitch.tv
+[2013-11-26 05:18:20] << PING tmi.twitch.tv
+[2013-11-26 05:18:20] >> PONG :tmi.twitch.tv
+[2013-11-26 05:23:14] << PING tmi.twitch.tv
+[2013-11-26 05:23:14] >> PONG :tmi.twitch.tv
+[2013-11-26 05:27:16] << PING tmi.twitch.tv
+[2013-11-26 05:27:16] >> PONG :tmi.twitch.tv
+[2013-11-26 05:32:10] << PING tmi.twitch.tv
+[2013-11-26 05:32:10] >> PONG :tmi.twitch.tv
+[2013-11-26 05:36:17] << PING tmi.twitch.tv
+[2013-11-26 05:36:17] >> PONG :tmi.twitch.tv
+[2013-11-26 05:40:37] << PING tmi.twitch.tv
+[2013-11-26 05:40:37] >> PONG :tmi.twitch.tv
+[2013-11-26 05:44:46] << PING tmi.twitch.tv
+[2013-11-26 05:44:46] >> PONG :tmi.twitch.tv
+[2013-11-26 05:49:38] << PING tmi.twitch.tv
+[2013-11-26 05:49:38] >> PONG :tmi.twitch.tv
+[2013-11-26 05:54:31] << PING tmi.twitch.tv
+[2013-11-26 05:54:31] >> PONG :tmi.twitch.tv
+[2013-11-26 05:59:06] << PING tmi.twitch.tv
+[2013-11-26 05:59:06] >> PONG :tmi.twitch.tv
+[2013-11-26 06:03:58] << PING tmi.twitch.tv
+[2013-11-26 06:03:58] >> PONG :tmi.twitch.tv
+[2013-11-26 06:08:45] << PING tmi.twitch.tv
+[2013-11-26 06:08:45] >> PONG :tmi.twitch.tv
+[2013-11-26 06:13:10] << PING tmi.twitch.tv
+[2013-11-26 06:13:10] >> PONG :tmi.twitch.tv
+[2013-11-26 06:17:23] << PING tmi.twitch.tv
+[2013-11-26 06:17:23] >> PONG :tmi.twitch.tv
+[2013-11-26 06:21:28] << PING tmi.twitch.tv
+[2013-11-26 06:21:28] >> PONG :tmi.twitch.tv
+[2013-11-26 06:25:44] << PING tmi.twitch.tv
+[2013-11-26 06:25:44] >> PONG :tmi.twitch.tv
+[2013-11-26 06:30:02] << PING tmi.twitch.tv
+[2013-11-26 06:30:02] >> PONG :tmi.twitch.tv
+[2013-11-26 06:34:30] << PING tmi.twitch.tv
+[2013-11-26 06:34:30] >> PONG :tmi.twitch.tv
+[2013-11-26 06:38:47] << PING tmi.twitch.tv
+[2013-11-26 06:38:47] >> PONG :tmi.twitch.tv
+[2013-11-26 06:43:15] << PING tmi.twitch.tv
+[2013-11-26 06:43:15] >> PONG :tmi.twitch.tv
+[2013-11-26 06:47:45] << PING tmi.twitch.tv
+[2013-11-26 06:47:45] >> PONG :tmi.twitch.tv
+[2013-11-26 06:52:24] << PING tmi.twitch.tv
+[2013-11-26 06:52:24] >> PONG :tmi.twitch.tv
+[2013-11-26 06:56:34] << PING tmi.twitch.tv
+[2013-11-26 06:56:34] >> PONG :tmi.twitch.tv
+[2013-11-26 07:00:53] << PING tmi.twitch.tv
+[2013-11-26 07:00:53] >> PONG :tmi.twitch.tv

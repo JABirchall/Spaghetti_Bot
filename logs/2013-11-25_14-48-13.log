@@ -1,0 +1,4 @@
+[2013-11-25 14:48:13] >> PASS oauth:8ob7ci7hp7qhp8nps9yoemdtu70y2qt
+[2013-11-25 14:48:13] >> NICK Speghetti_Bot
+[2013-11-25 14:48:13] >> USER Speghetti_Bot 0 irc.twitch.tv :DrWhat's Bot
+[2013-11-25 14:48:23] << :tmi.twitch.tv NOTICE * :Login unsuccessful

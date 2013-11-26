@@ -1,0 +1,2529 @@
+[2013-10-12 13:18:24] >> NICK DrBot
+[2013-10-12 13:18:24] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-10-12 13:18:25] << :arvel.cryto.net NOTICE AUTH :*** Looking up your hostname...
+[2013-10-12 13:18:25] << :arvel.cryto.net NOTICE AUTH :*** Found your hostname
+[2013-10-12 13:18:25] << PING :39125A1D
+[2013-10-12 13:18:25] >> PONG :39125A1D
+[2013-10-12 13:18:25] << :arvel.cryto.net 001 DrBot :Welcome to the Cryto IRC IRC Network DrBot!Nimda@cpc2-wals11-2-0-cust156.16-1.cable.virginmedia.com
+[2013-10-12 13:18:25] << :arvel.cryto.net 002 DrBot :Your host is arvel.cryto.net, running version Unreal3.2.8.1
+[2013-10-12 13:18:25] << :arvel.cryto.net 003 DrBot :This server was created Mon Sep 30 2013 at 17:07:44 CEST
+[2013-10-12 13:18:25] << :arvel.cryto.net 004 DrBot arvel.cryto.net Unreal3.2.8.1 iowghraAsORTVSxNCWqBzvdHtGp lvhopsmntikrRcaqOALQbSeIKVfMCuzNTGj
+[2013-10-12 13:18:25] << :arvel.cryto.net 005 DrBot UHNAMES NAMESX SAFELIST HCN MAXCHANNELS=100 CHANLIMIT=#:100 MAXLIST=b:60,e:60,I:60 NICKLEN=30 CHANNELLEN=32 TOPICLEN=307 KICKLEN=307 AWAYLEN=307 MAXTARGETS=20 :are supported by this server
+[2013-10-12 13:18:25] << :arvel.cryto.net 005 DrBot WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=Cryto-IRC CASEMAPPING=ascii EXTBAN=~,cqnr ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+[2013-10-12 13:18:25] << :arvel.cryto.net 005 DrBot EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP :are supported by this server
+[2013-10-12 13:18:25] << :arvel.cryto.net 251 DrBot :There are 1 users and 100 invisible on 5 servers
+[2013-10-12 13:18:25] << :arvel.cryto.net 252 DrBot 32 :operator(s) online
+[2013-10-12 13:18:25] << :arvel.cryto.net 254 DrBot 23 :channels formed
+[2013-10-12 13:18:25] << :arvel.cryto.net 255 DrBot :I have 20 clients and 1 servers
+[2013-10-12 13:18:25] << :arvel.cryto.net 265 DrBot :Current Local Users: 20  Max: 27
+[2013-10-12 13:18:25] << :arvel.cryto.net 266 DrBot :Current Global Users: 101  Max: 2021
+[2013-10-12 13:18:25] << :arvel.cryto.net 375 DrBot :- arvel.cryto.net Message of the Day -
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- 30/9/2013 17:12
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                   (                           )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-             ) )( (                           ( ) )( (
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-         ( ( ( )  ) )                     ( (   (  ) )(
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-         ) )     ,,\\\                     ///,,       ) (
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-      (  ((    (\\\\//                     \\////)      )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-       ) )    (-(__//                       \\__)-)     (
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-      (((   ((-(__||                         ||__)-))    ) )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-     ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-     ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-      )   (-(-(/(/(/\\      '';;;;-\~      //\)\)\)-)-)   (   )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-   (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-       )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-      ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-        ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`    ((
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-     (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`     ))
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-           ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``     ((   )
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-             ((      '''''''\uuuuuuuu/``````         ))
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-               ))            `JJJJJJJJJ`           ((
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                ((            LLLLLLLLLLL         ))
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                  ))         ///|||||||\\\       ((
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                    ))      (/(/(/(^)\)\)\)       ((
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                      ((                           ))
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                        ((                       ((
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                          ( )( ))( ( ( ) )( ) (()
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                    WELCOME TO THE CRYTO IRC NETWORK
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-        Server: arvel.cryto.net              ISP: BlueVM
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-        Physical location: Chicago, US       Your host: joepie91
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-   For more information about the Cryto IRC network, please refer to
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-   the wiki page at http://wiki.cryto.net/doku.php?id=irc:serverinfo
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-      IF YOU ARE IN NEED OF NETWORK SUPPORT, PLEASE JOIN #cryto
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                       USER RIGHTS AND GUARANTEES
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Contrary to most traditional IRC networks, on the Cryto IRC network,
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- the rights that users have are considered more important than the rules
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- they have to follow. As such, the following has been established:
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Unless a user or channel is a threat to the network or other users or
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- channels that do not choose to be involved in the problematic user's
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- business, network operators will not involve themselves into channel
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- business. This means you are free to use your channel in a manner that
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- you wish, as long as the few network-wide rules that exist are followed.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- We do not impose restrictions on discussion topics, channel moderation,
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- bot policy, etc.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Confidential user information (such as IP addresses) will not be
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- released to anyone other than network operators under any circumstances.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Basic obfuscation of your IP address / hostname is in place, in the form
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- of partial hostmask scrambling (keep in mind that your ISP is still
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- visible).
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Network operators do not get involved in channel access conflicts, such
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- as disagreement between channel operators or disagreement with the
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- channel owner, unless explicitly requested by the user that is
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- registered with ChanServ as the channel owner.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Network-wide bans are only put in place if a client is threatening the
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- network or its users without being a direct result of predictable
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- actions taken by those users. This means that while for example NickServ
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- impersonators, intentional user impersonators, botfloods, and malware
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- spreaders are banned from the network, action will likely not be taken
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- against a small flood in a channel that did something to cause that
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- flood themselves.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Network operators will respect channel modes and not enter private
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- channels unless there is a reason to suspect they put the network or its
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- operators into danger. If this were to happen, the reason for entry will
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- be stated directly after entering the channel.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Network operators, in channel business, do not have any status over
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- 'regular' users. They can be kicked and banned from a channel as any
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- other users when they do not honour the rules of a channel. If a network
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- operator is present for network-related business, he will always clearly
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- state his reasons.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Simply put, your channel is your business and we do not get involved
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- unless we have a solid reason to do so, as stated above.
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-                          NETWORK-WIDE RULES
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- Do not do anything that can get the network into trouble. If you attract
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- DDoS, get leafs shut down, or get network operators into trouble (or are
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- reasonably expected to do so), you're likely to get a polite request to
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- make yourself or your channel scarce. Don't try to, for example, run
+[2013-10-12 13:18:25] << :arvel.cryto.net 372 DrBot :- LOIC operations, botnets, or warez/childporn trading channels from the
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- Cryto IRC network. If you think your channel may cause other people
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- problems, it's probably not a good idea to set it up. When in doubt, ask
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- a network operator (use the !staff command in any channel to receive a
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- list of currently available network operators).
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- Obviously, do not attack the Cryto IRC network. If you have a conflict
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- with someone on the Cryto IRC network, try to talk it out with them
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- first. If you believe the conflict is related to the entire network,
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- pick it up with a network operator; we're always willing to discuss real
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- issues, no matter what it's about. We don't run this network to get it
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- attacked, we run it to offer a friendly place, especially for those that
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- tend to get thrown out on other networks because of stereotyped views or
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- unjust judgments.
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- Bots are welcome, as long as they do not harm the network or its
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- operators in any way. Individual channels may have their own policies.
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- Follow channel policies. If a channel owner does not feel he has to
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- impose rules on the users of his channel, he will tell you so.
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- Otherwise, it's his channel and you'll have to follow his rules.
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-                     REGARDING "FAMILY-FRIENDLINESS"
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- The Cryto IRC network does not aim to conform to a specific set of
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- guidelines that would allegedly be 'family-friendly'. While individual
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- channels may have their own rules, we cannot guarantee any particular
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- environment that exists network-wide.
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- Additionally, if you are a concerned parent, consider whether you
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- *really* want to shield off your child from what the real world is like,
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- as it will likely only serve to cause a bigger shock when (s)he steps
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- into reality. Maybe it's a better idea to just let them explore and ask
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- questions, to understand the real world, rather than fearing it.
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-                           REGARDING ANONYMOUS
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- =======================================================================
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :-
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- While the Cryto IRC network is home to some Anonymous-related channels,
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- it is in no way an 'Anonymous network', and was in fact not even set up
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- with Anonymous in mind. These channels are simply channels that happen
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- to exist, just as any other user-created channel would. They have the
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- same freedoms as any other users on the network have, and have to stick
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- to the same rules/guidelines as other users on the network have to stick
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- to. Especially the first network rule applies here; things like LOIC
+[2013-10-12 13:18:26] << :arvel.cryto.net 372 DrBot :- operations are not welcome on the Cryto IRC network.
+[2013-10-12 13:18:26] << :arvel.cryto.net 376 DrBot :End of /MOTD command.
+[2013-10-12 13:18:26] >> PRIVMSG NickServ :identify Tyc00n
+[2013-10-12 13:18:31] >> JOIN #drwhat
+[2013-10-12 13:18:31] << :DrBot MODE DrBot :+iwx
+[2013-10-12 13:18:31] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+[2013-10-12 13:18:31] << :NickServ!NickServ@services.cryto.net NOTICE DrBot :You are now identified for DrBot.
+[2013-10-12 13:18:31] << :NickServ MODE DrBot :+r
+[2013-10-12 13:18:31] << :services.cryto.net 396 DrBot DrBot.users.cryto :is now your hidden host (set by NickServ)
+[2013-10-12 13:18:31] << :DrBot!Nimda@DrBot.users.cryto JOIN :#drwhat
+[2013-10-12 13:18:31] >> WHO #drwhat
+[2013-10-12 13:18:32] << :arvel.cryto.net 353 DrBot = #drwhat :DrBot joepie91 ~DrWhat @ChanServ
+[2013-10-12 13:18:32] << :arvel.cryto.net 366 DrBot #drwhat :End of /NAMES list.
+[2013-10-12 13:18:32] << :ChanServ!ChanServ@services.cryto.net MODE #drwhat +ao DrBot DrBot
+[2013-10-12 13:18:32] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-12 13:18:32] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-12 13:18:32] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-12 13:18:32] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-12 13:18:32] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-12 13:18:40] << :DrWhat!Snake@DrWhat.users.cryto PRIVMSG #drwhat :!hash GimmE
+[2013-10-12 13:18:40] >> PRIVMSG #drwhat :ALGO: sha512 - ITERATIONS: 10000 - SALT: DJ149lRqAPk= - HASH: ykJemBhgPChx+qOleaMxqdt1YU8lGbf3s7E0pMxcTnAC/SN/LZqV1n6N+UhpOQwGdcwA0MfWmvzqLPF5xm4GIRXzpUunM2W3ugWqHGON8pOho7CygzNoAIZFdwwq+MiOVT01L06FniBD+4ld+Wj6gcUFsOuXrCPONM+Dim3VH0Q=
+[2013-10-12 13:18:41] << :DrWhat!Snake@DrWhat.users.cryto PRIVMSG #drwhat :!hash GimmE
+[2013-10-12 13:18:42] >> PRIVMSG #drwhat :ALGO: sha512 - ITERATIONS: 10000 - SALT: 6Ai/PhkSFjo= - HASH: IHI/Ni1O1Sei68Le1eHP2I+F4i0XqycBWvaJVz7k1Ckz/DCTEqx/pWLDSDktzJpgIZNmSJMLWdRI1SnOmF1jGR3szH67MiZa5ZAtbbYTed7fQQM3jvOMh1ES1QCZMbnCy+G0U/iVcPSibPk+sgEKDktsVFqdc26owP3JvBDQvTQ=
+[2013-10-12 13:18:42] << :DrWhat!Snake@DrWhat.users.cryto PRIVMSG #drwhat :!hash GimmE
+[2013-10-12 13:18:43] >> PRIVMSG #drwhat :ALGO: sha512 - ITERATIONS: 10000 - SALT: k7zauG/PX1U= - HASH: a5oUySGB7F8npTkVbqYHEWR+HYJuZ4FvfmWTgATEnhoANstbTo/NVmpAvuaYp/1LOG651gful47KApCRPY7EjiUBk5h6iH65XJE82GN9yCOlvDqEyzAs6ITf9ANm4WDVSXXFA/cNNenG02bwl/BzBT8iGa7l2aB8oD/QS3zjPhc=
+[2013-10-12 13:18:44] << :DrWhat!Snake@DrWhat.users.cryto PRIVMSG #drwhat :!hash GimmE
+[2013-10-12 13:18:44] >> PRIVMSG #drwhat :ALGO: sha512 - ITERATIONS: 10000 - SALT: 1LaY42CpNN8= - HASH: +a/VhRhA5PgudK5p6jQneZRq0e7jha/8ahDQweGGjEzj8SFpjCIDBTBR89eGw680HL9yQSHzytvX74lZe1Xiu6HQbmdAMNi7ZdJ2quygCd2KMlsz+pBrAN1nuvbxE0v0+sxhJexHvSvh+hMPBpweL8DxVImrNSlN5yl3UBKdwBo=
+[2013-10-12 13:20:15] << PING :arvel.cryto.net
+[2013-10-12 13:20:15] >> PONG :arvel.cryto.net
+[2013-10-12 13:21:48] << PING :arvel.cryto.net
+[2013-10-12 13:21:48] >> PONG :arvel.cryto.net
+[2013-10-12 13:23:20] << PING :arvel.cryto.net
+[2013-10-12 13:23:20] >> PONG :arvel.cryto.net
+[2013-10-12 13:24:54] << PING :arvel.cryto.net
+[2013-10-12 13:24:54] >> PONG :arvel.cryto.net
+[2013-10-12 13:26:31] << PING :arvel.cryto.net
+[2013-10-12 13:26:31] >> PONG :arvel.cryto.net
+[2013-10-12 13:28:03] << PING :arvel.cryto.net
+[2013-10-12 13:28:03] >> PONG :arvel.cryto.net
+[2013-10-12 13:29:37] << PING :arvel.cryto.net
+[2013-10-12 13:29:37] >> PONG :arvel.cryto.net
+[2013-10-12 13:31:11] << PING :arvel.cryto.net
+[2013-10-12 13:31:11] >> PONG :arvel.cryto.net
+[2013-10-12 13:32:46] << PING :arvel.cryto.net
+[2013-10-12 13:32:46] >> PONG :arvel.cryto.net
+[2013-10-12 13:34:18] << PING :arvel.cryto.net
+[2013-10-12 13:34:18] >> PONG :arvel.cryto.net
+[2013-10-12 13:35:53] << PING :arvel.cryto.net
+[2013-10-12 13:35:53] >> PONG :arvel.cryto.net
+[2013-10-12 13:37:27] << PING :arvel.cryto.net
+[2013-10-12 13:37:27] >> PONG :arvel.cryto.net
+[2013-10-12 13:39:03] << PING :arvel.cryto.net
+[2013-10-12 13:39:03] >> PONG :arvel.cryto.net
+[2013-10-12 13:40:36] << PING :arvel.cryto.net
+[2013-10-12 13:40:36] >> PONG :arvel.cryto.net
+[2013-10-12 13:42:10] << PING :arvel.cryto.net
+[2013-10-12 13:42:10] >> PONG :arvel.cryto.net
+[2013-10-12 13:43:44] << PING :arvel.cryto.net
+[2013-10-12 13:43:44] >> PONG :arvel.cryto.net
+[2013-10-12 13:45:15] << PING :arvel.cryto.net
+[2013-10-12 13:45:15] >> PONG :arvel.cryto.net
+[2013-10-12 13:46:48] << PING :arvel.cryto.net
+[2013-10-12 13:46:48] >> PONG :arvel.cryto.net
+[2013-10-12 13:48:24] << PING :arvel.cryto.net
+[2013-10-12 13:48:24] >> PONG :arvel.cryto.net
+[2013-10-12 13:49:56] << PING :arvel.cryto.net
+[2013-10-12 13:49:56] >> PONG :arvel.cryto.net
+[2013-10-12 13:51:31] << PING :arvel.cryto.net
+[2013-10-12 13:51:31] >> PONG :arvel.cryto.net
+[2013-10-12 13:53:03] << PING :arvel.cryto.net
+[2013-10-12 13:53:03] >> PONG :arvel.cryto.net
+[2013-10-12 13:54:34] << PING :arvel.cryto.net
+[2013-10-12 13:54:34] >> PONG :arvel.cryto.net
+[2013-10-12 13:56:06] << PING :arvel.cryto.net
+[2013-10-12 13:56:06] >> PONG :arvel.cryto.net
+[2013-10-12 13:57:42] << PING :arvel.cryto.net
+[2013-10-12 13:57:42] >> PONG :arvel.cryto.net
+[2013-10-12 13:59:16] << PING :arvel.cryto.net
+[2013-10-12 13:59:16] >> PONG :arvel.cryto.net
+[2013-10-12 14:00:48] << PING :arvel.cryto.net
+[2013-10-12 14:00:48] >> PONG :arvel.cryto.net
+[2013-10-12 14:02:21] << PING :arvel.cryto.net
+[2013-10-12 14:02:21] >> PONG :arvel.cryto.net
+[2013-10-12 14:03:54] << PING :arvel.cryto.net
+[2013-10-12 14:03:54] >> PONG :arvel.cryto.net
+[2013-10-12 14:05:30] << PING :arvel.cryto.net
+[2013-10-12 14:05:30] >> PONG :arvel.cryto.net
+[2013-10-12 14:07:06] << PING :arvel.cryto.net
+[2013-10-12 14:07:06] >> PONG :arvel.cryto.net
+[2013-10-12 14:08:37] << PING :arvel.cryto.net
+[2013-10-12 14:08:37] >> PONG :arvel.cryto.net
+[2013-10-12 14:10:10] << PING :arvel.cryto.net
+[2013-10-12 14:10:10] >> PONG :arvel.cryto.net
+[2013-10-12 14:11:42] << PING :arvel.cryto.net
+[2013-10-12 14:11:42] >> PONG :arvel.cryto.net
+[2013-10-12 14:13:17] << PING :arvel.cryto.net
+[2013-10-12 14:13:17] >> PONG :arvel.cryto.net
+[2013-10-12 14:14:50] << PING :arvel.cryto.net
+[2013-10-12 14:14:50] >> PONG :arvel.cryto.net
+[2013-10-12 14:16:21] << PING :arvel.cryto.net
+[2013-10-12 14:16:21] >> PONG :arvel.cryto.net
+[2013-10-12 14:17:56] << PING :arvel.cryto.net
+[2013-10-12 14:17:56] >> PONG :arvel.cryto.net
+[2013-10-12 14:19:32] << PING :arvel.cryto.net
+[2013-10-12 14:19:32] >> PONG :arvel.cryto.net
+[2013-10-12 14:21:04] << PING :arvel.cryto.net
+[2013-10-12 14:21:04] >> PONG :arvel.cryto.net
+[2013-10-12 14:22:37] << PING :arvel.cryto.net
+[2013-10-12 14:22:37] >> PONG :arvel.cryto.net
+[2013-10-12 14:24:12] << PING :arvel.cryto.net
+[2013-10-12 14:24:12] >> PONG :arvel.cryto.net
+[2013-10-12 14:25:45] << PING :arvel.cryto.net
+[2013-10-12 14:25:45] >> PONG :arvel.cryto.net
+[2013-10-12 14:27:17] << PING :arvel.cryto.net
+[2013-10-12 14:27:17] >> PONG :arvel.cryto.net
+[2013-10-12 14:28:52] << PING :arvel.cryto.net
+[2013-10-12 14:28:52] >> PONG :arvel.cryto.net
+[2013-10-12 14:30:25] << PING :arvel.cryto.net
+[2013-10-12 14:30:25] >> PONG :arvel.cryto.net
+[2013-10-12 14:32:00] << PING :arvel.cryto.net
+[2013-10-12 14:32:00] >> PONG :arvel.cryto.net
+[2013-10-12 14:33:33] << PING :arvel.cryto.net
+[2013-10-12 14:33:33] >> PONG :arvel.cryto.net
+[2013-10-12 14:35:06] << PING :arvel.cryto.net
+[2013-10-12 14:35:06] >> PONG :arvel.cryto.net
+[2013-10-12 14:36:39] << PING :arvel.cryto.net
+[2013-10-12 14:36:39] >> PONG :arvel.cryto.net
+[2013-10-12 14:38:10] << PING :arvel.cryto.net
+[2013-10-12 14:38:10] >> PONG :arvel.cryto.net
+[2013-10-12 14:39:45] << PING :arvel.cryto.net
+[2013-10-12 14:39:45] >> PONG :arvel.cryto.net
+[2013-10-12 14:41:22] << PING :arvel.cryto.net
+[2013-10-12 14:41:22] >> PONG :arvel.cryto.net
+[2013-10-12 14:42:57] << PING :arvel.cryto.net
+[2013-10-12 14:42:57] >> PONG :arvel.cryto.net
+[2013-10-12 14:44:28] << PING :arvel.cryto.net
+[2013-10-12 14:44:28] >> PONG :arvel.cryto.net
+[2013-10-12 14:46:04] << PING :arvel.cryto.net
+[2013-10-12 14:46:04] >> PONG :arvel.cryto.net
+[2013-10-12 14:47:35] << PING :arvel.cryto.net
+[2013-10-12 14:47:35] >> PONG :arvel.cryto.net
+[2013-10-12 14:49:08] << PING :arvel.cryto.net
+[2013-10-12 14:49:08] >> PONG :arvel.cryto.net
+[2013-10-12 14:50:41] << PING :arvel.cryto.net
+[2013-10-12 14:50:41] >> PONG :arvel.cryto.net
+[2013-10-12 14:52:12] << PING :arvel.cryto.net
+[2013-10-12 14:52:12] >> PONG :arvel.cryto.net
+[2013-10-12 14:53:46] << PING :arvel.cryto.net
+[2013-10-12 14:53:46] >> PONG :arvel.cryto.net
+[2013-10-12 14:55:19] << PING :arvel.cryto.net
+[2013-10-12 14:55:19] >> PONG :arvel.cryto.net
+[2013-10-12 14:56:52] << PING :arvel.cryto.net
+[2013-10-12 14:56:52] >> PONG :arvel.cryto.net
+[2013-10-12 14:58:23] << PING :arvel.cryto.net
+[2013-10-12 14:58:23] >> PONG :arvel.cryto.net
+[2013-10-12 14:59:59] << PING :arvel.cryto.net
+[2013-10-12 14:59:59] >> PONG :arvel.cryto.net
+[2013-10-12 15:01:32] << PING :arvel.cryto.net
+[2013-10-12 15:01:32] >> PONG :arvel.cryto.net
+[2013-10-12 15:03:03] << PING :arvel.cryto.net
+[2013-10-12 15:03:03] >> PONG :arvel.cryto.net
+[2013-10-12 15:04:37] << PING :arvel.cryto.net
+[2013-10-12 15:04:37] >> PONG :arvel.cryto.net
+[2013-10-12 15:06:08] << PING :arvel.cryto.net
+[2013-10-12 15:06:08] >> PONG :arvel.cryto.net
+[2013-10-12 15:07:39] << PING :arvel.cryto.net
+[2013-10-12 15:07:39] >> PONG :arvel.cryto.net
+[2013-10-12 15:09:12] << PING :arvel.cryto.net
+[2013-10-12 15:09:12] >> PONG :arvel.cryto.net
+[2013-10-12 15:10:44] << PING :arvel.cryto.net
+[2013-10-12 15:10:44] >> PONG :arvel.cryto.net
+[2013-10-12 15:12:16] << PING :arvel.cryto.net
+[2013-10-12 15:12:16] >> PONG :arvel.cryto.net
+[2013-10-12 15:13:51] << PING :arvel.cryto.net
+[2013-10-12 15:13:51] >> PONG :arvel.cryto.net
+[2013-10-12 15:15:26] << PING :arvel.cryto.net
+[2013-10-12 15:15:26] >> PONG :arvel.cryto.net
+[2013-10-12 15:16:57] << PING :arvel.cryto.net
+[2013-10-12 15:16:57] >> PONG :arvel.cryto.net
+[2013-10-12 15:18:27] << PING :arvel.cryto.net
+[2013-10-12 15:18:27] >> PONG :arvel.cryto.net
+[2013-10-12 15:20:05] << PING :arvel.cryto.net
+[2013-10-12 15:20:05] >> PONG :arvel.cryto.net
+[2013-10-12 15:21:35] << PING :arvel.cryto.net
+[2013-10-12 15:21:35] >> PONG :arvel.cryto.net
+[2013-10-12 15:23:08] << PING :arvel.cryto.net
+[2013-10-12 15:23:08] >> PONG :arvel.cryto.net
+[2013-10-12 15:24:41] << PING :arvel.cryto.net
+[2013-10-12 15:24:41] >> PONG :arvel.cryto.net
+[2013-10-12 15:26:13] << PING :arvel.cryto.net
+[2013-10-12 15:26:13] >> PONG :arvel.cryto.net
+[2013-10-12 15:27:43] << PING :arvel.cryto.net
+[2013-10-12 15:27:43] >> PONG :arvel.cryto.net
+[2013-10-12 15:29:18] << PING :arvel.cryto.net
+[2013-10-12 15:29:18] >> PONG :arvel.cryto.net
+[2013-10-12 15:30:51] << PING :arvel.cryto.net
+[2013-10-12 15:30:51] >> PONG :arvel.cryto.net
+[2013-10-12 15:32:25] << PING :arvel.cryto.net
+[2013-10-12 15:32:25] >> PONG :arvel.cryto.net
+[2013-10-12 15:33:57] << PING :arvel.cryto.net
+[2013-10-12 15:33:57] >> PONG :arvel.cryto.net
+[2013-10-12 15:35:34] << PING :arvel.cryto.net
+[2013-10-12 15:35:34] >> PONG :arvel.cryto.net
+[2013-10-12 15:37:07] << PING :arvel.cryto.net
+[2013-10-12 15:37:07] >> PONG :arvel.cryto.net
+[2013-10-12 15:38:42] << PING :arvel.cryto.net
+[2013-10-12 15:38:42] >> PONG :arvel.cryto.net
+[2013-10-12 15:40:13] << PING :arvel.cryto.net
+[2013-10-12 15:40:13] >> PONG :arvel.cryto.net
+[2013-10-12 15:41:46] << PING :arvel.cryto.net
+[2013-10-12 15:41:46] >> PONG :arvel.cryto.net
+[2013-10-12 15:43:21] << PING :arvel.cryto.net
+[2013-10-12 15:43:21] >> PONG :arvel.cryto.net
+[2013-10-12 15:44:56] << PING :arvel.cryto.net
+[2013-10-12 15:44:56] >> PONG :arvel.cryto.net
+[2013-10-12 15:46:26] << PING :arvel.cryto.net
+[2013-10-12 15:46:26] >> PONG :arvel.cryto.net
+[2013-10-12 15:47:59] << PING :arvel.cryto.net
+[2013-10-12 15:47:59] >> PONG :arvel.cryto.net
+[2013-10-12 15:49:35] << PING :arvel.cryto.net
+[2013-10-12 15:49:35] >> PONG :arvel.cryto.net
+[2013-10-12 15:51:06] << PING :arvel.cryto.net
+[2013-10-12 15:51:06] >> PONG :arvel.cryto.net
+[2013-10-12 15:52:40] << PING :arvel.cryto.net
+[2013-10-12 15:52:40] >> PONG :arvel.cryto.net
+[2013-10-12 15:54:15] << PING :arvel.cryto.net
+[2013-10-12 15:54:15] >> PONG :arvel.cryto.net
+[2013-10-12 15:55:53] << PING :arvel.cryto.net
+[2013-10-12 15:55:53] >> PONG :arvel.cryto.net
+[2013-10-12 15:57:27] << PING :arvel.cryto.net
+[2013-10-12 15:57:27] >> PONG :arvel.cryto.net
+[2013-10-12 15:59:00] << PING :arvel.cryto.net
+[2013-10-12 15:59:00] >> PONG :arvel.cryto.net
+[2013-10-12 16:00:32] << PING :arvel.cryto.net
+[2013-10-12 16:00:32] >> PONG :arvel.cryto.net
+[2013-10-12 16:02:06] << PING :arvel.cryto.net
+[2013-10-12 16:02:06] >> PONG :arvel.cryto.net
+[2013-10-12 16:03:37] << PING :arvel.cryto.net
+[2013-10-12 16:03:37] >> PONG :arvel.cryto.net
+[2013-10-12 16:05:08] << PING :arvel.cryto.net
+[2013-10-12 16:05:08] >> PONG :arvel.cryto.net
+[2013-10-12 16:06:42] << PING :arvel.cryto.net
+[2013-10-12 16:06:42] >> PONG :arvel.cryto.net
+[2013-10-12 16:08:16] << PING :arvel.cryto.net
+[2013-10-12 16:08:16] >> PONG :arvel.cryto.net
+[2013-10-12 16:09:50] << PING :arvel.cryto.net
+[2013-10-12 16:09:50] >> PONG :arvel.cryto.net
+[2013-10-12 16:11:23] << PING :arvel.cryto.net
+[2013-10-12 16:11:23] >> PONG :arvel.cryto.net
+[2013-10-12 16:12:57] << PING :arvel.cryto.net
+[2013-10-12 16:12:57] >> PONG :arvel.cryto.net
+[2013-10-12 16:14:31] << PING :arvel.cryto.net
+[2013-10-12 16:14:31] >> PONG :arvel.cryto.net
+[2013-10-12 16:16:04] << PING :arvel.cryto.net
+[2013-10-12 16:16:04] >> PONG :arvel.cryto.net
+[2013-10-12 16:17:39] << PING :arvel.cryto.net
+[2013-10-12 16:17:39] >> PONG :arvel.cryto.net
+[2013-10-12 16:19:12] << PING :arvel.cryto.net
+[2013-10-12 16:19:12] >> PONG :arvel.cryto.net
+[2013-10-12 16:20:46] << PING :arvel.cryto.net
+[2013-10-12 16:20:46] >> PONG :arvel.cryto.net
+[2013-10-12 16:22:21] << PING :arvel.cryto.net
+[2013-10-12 16:22:21] >> PONG :arvel.cryto.net
+[2013-10-12 16:23:56] << PING :arvel.cryto.net
+[2013-10-12 16:23:56] >> PONG :arvel.cryto.net
+[2013-10-12 16:25:30] << PING :arvel.cryto.net
+[2013-10-12 16:25:30] >> PONG :arvel.cryto.net
+[2013-10-12 16:27:02] << PING :arvel.cryto.net
+[2013-10-12 16:27:02] >> PONG :arvel.cryto.net
+[2013-10-12 16:28:34] << PING :arvel.cryto.net
+[2013-10-12 16:28:34] >> PONG :arvel.cryto.net
+[2013-10-12 16:30:06] << PING :arvel.cryto.net
+[2013-10-12 16:30:06] >> PONG :arvel.cryto.net
+[2013-10-12 16:31:41] << PING :arvel.cryto.net
+[2013-10-12 16:31:41] >> PONG :arvel.cryto.net
+[2013-10-12 16:33:16] << PING :arvel.cryto.net
+[2013-10-12 16:33:16] >> PONG :arvel.cryto.net
+[2013-10-12 16:34:51] << PING :arvel.cryto.net
+[2013-10-12 16:34:51] >> PONG :arvel.cryto.net
+[2013-10-12 16:36:22] << PING :arvel.cryto.net
+[2013-10-12 16:36:22] >> PONG :arvel.cryto.net
+[2013-10-12 16:37:57] << PING :arvel.cryto.net
+[2013-10-12 16:37:57] >> PONG :arvel.cryto.net
+[2013-10-12 16:39:30] << PING :arvel.cryto.net
+[2013-10-12 16:39:30] >> PONG :arvel.cryto.net
+[2013-10-12 16:41:04] << PING :arvel.cryto.net
+[2013-10-12 16:41:04] >> PONG :arvel.cryto.net
+[2013-10-12 16:42:36] << PING :arvel.cryto.net
+[2013-10-12 16:42:36] >> PONG :arvel.cryto.net
+[2013-10-12 16:44:11] << PING :arvel.cryto.net
+[2013-10-12 16:44:11] >> PONG :arvel.cryto.net
+[2013-10-12 16:45:44] << PING :arvel.cryto.net
+[2013-10-12 16:45:44] >> PONG :arvel.cryto.net
+[2013-10-12 16:47:17] << PING :arvel.cryto.net
+[2013-10-12 16:47:17] >> PONG :arvel.cryto.net
+[2013-10-12 16:48:49] << PING :arvel.cryto.net
+[2013-10-12 16:48:49] >> PONG :arvel.cryto.net
+[2013-10-12 16:50:23] << PING :arvel.cryto.net
+[2013-10-12 16:50:23] >> PONG :arvel.cryto.net
+[2013-10-12 16:51:56] << PING :arvel.cryto.net
+[2013-10-12 16:51:56] >> PONG :arvel.cryto.net
+[2013-10-12 16:53:27] << PING :arvel.cryto.net
+[2013-10-12 16:53:27] >> PONG :arvel.cryto.net
+[2013-10-12 16:54:58] << PING :arvel.cryto.net
+[2013-10-12 16:54:58] >> PONG :arvel.cryto.net
+[2013-10-12 16:56:32] << PING :arvel.cryto.net
+[2013-10-12 16:56:32] >> PONG :arvel.cryto.net
+[2013-10-12 16:58:03] << PING :arvel.cryto.net
+[2013-10-12 16:58:03] >> PONG :arvel.cryto.net
+[2013-10-12 16:59:37] << PING :arvel.cryto.net
+[2013-10-12 16:59:37] >> PONG :arvel.cryto.net
+[2013-10-12 17:01:11] << PING :arvel.cryto.net
+[2013-10-12 17:01:11] >> PONG :arvel.cryto.net
+[2013-10-12 17:02:44] << PING :arvel.cryto.net
+[2013-10-12 17:02:44] >> PONG :arvel.cryto.net
+[2013-10-12 17:04:18] << PING :arvel.cryto.net
+[2013-10-12 17:04:18] >> PONG :arvel.cryto.net
+[2013-10-12 17:05:51] << PING :arvel.cryto.net
+[2013-10-12 17:05:51] >> PONG :arvel.cryto.net
+[2013-10-12 17:07:26] << PING :arvel.cryto.net
+[2013-10-12 17:07:26] >> PONG :arvel.cryto.net
+[2013-10-12 17:08:58] << PING :arvel.cryto.net
+[2013-10-12 17:08:58] >> PONG :arvel.cryto.net
+[2013-10-12 17:10:32] << PING :arvel.cryto.net
+[2013-10-12 17:10:32] >> PONG :arvel.cryto.net
+[2013-10-12 17:12:01] << PING :arvel.cryto.net
+[2013-10-12 17:12:01] >> PONG :arvel.cryto.net
+[2013-10-12 17:13:36] << PING :arvel.cryto.net
+[2013-10-12 17:13:36] >> PONG :arvel.cryto.net
+[2013-10-12 17:15:07] << PING :arvel.cryto.net
+[2013-10-12 17:15:07] >> PONG :arvel.cryto.net
+[2013-10-12 17:16:39] << PING :arvel.cryto.net
+[2013-10-12 17:16:39] >> PONG :arvel.cryto.net
+[2013-10-12 17:18:11] << PING :arvel.cryto.net
+[2013-10-12 17:18:11] >> PONG :arvel.cryto.net
+[2013-10-12 17:19:46] << PING :arvel.cryto.net
+[2013-10-12 17:19:46] >> PONG :arvel.cryto.net
+[2013-10-12 17:21:21] << PING :arvel.cryto.net
+[2013-10-12 17:21:21] >> PONG :arvel.cryto.net
+[2013-10-12 17:22:52] << PING :arvel.cryto.net
+[2013-10-12 17:22:52] >> PONG :arvel.cryto.net
+[2013-10-12 17:24:25] << PING :arvel.cryto.net
+[2013-10-12 17:24:25] >> PONG :arvel.cryto.net
+[2013-10-12 17:25:57] << PING :arvel.cryto.net
+[2013-10-12 17:25:57] >> PONG :arvel.cryto.net
+[2013-10-12 17:27:33] << PING :arvel.cryto.net
+[2013-10-12 17:27:33] >> PONG :arvel.cryto.net
+[2013-10-12 17:29:06] << PING :arvel.cryto.net
+[2013-10-12 17:29:06] >> PONG :arvel.cryto.net
+[2013-10-12 17:30:39] << PING :arvel.cryto.net
+[2013-10-12 17:30:39] >> PONG :arvel.cryto.net
+[2013-10-12 17:32:13] << PING :arvel.cryto.net
+[2013-10-12 17:32:13] >> PONG :arvel.cryto.net
+[2013-10-12 17:33:47] << PING :arvel.cryto.net
+[2013-10-12 17:33:47] >> PONG :arvel.cryto.net
+[2013-10-12 17:35:18] << PING :arvel.cryto.net
+[2013-10-12 17:35:18] >> PONG :arvel.cryto.net
+[2013-10-12 17:36:54] << PING :arvel.cryto.net
+[2013-10-12 17:36:54] >> PONG :arvel.cryto.net
+[2013-10-12 17:38:27] << PING :arvel.cryto.net
+[2013-10-12 17:38:27] >> PONG :arvel.cryto.net
+[2013-10-12 17:40:02] << PING :arvel.cryto.net
+[2013-10-12 17:40:02] >> PONG :arvel.cryto.net
+[2013-10-12 17:41:35] << PING :arvel.cryto.net
+[2013-10-12 17:41:35] >> PONG :arvel.cryto.net
+[2013-10-12 17:43:10] << PING :arvel.cryto.net
+[2013-10-12 17:43:10] >> PONG :arvel.cryto.net
+[2013-10-12 17:44:44] << PING :arvel.cryto.net
+[2013-10-12 17:44:44] >> PONG :arvel.cryto.net
+[2013-10-12 17:46:18] << PING :arvel.cryto.net
+[2013-10-12 17:46:18] >> PONG :arvel.cryto.net
+[2013-10-12 17:47:53] << PING :arvel.cryto.net
+[2013-10-12 17:47:53] >> PONG :arvel.cryto.net
+[2013-10-12 17:49:28] << PING :arvel.cryto.net
+[2013-10-12 17:49:28] >> PONG :arvel.cryto.net
+[2013-10-12 17:51:03] << PING :arvel.cryto.net
+[2013-10-12 17:51:03] >> PONG :arvel.cryto.net
+[2013-10-12 17:52:39] << PING :arvel.cryto.net
+[2013-10-12 17:52:39] >> PONG :arvel.cryto.net
+[2013-10-12 17:54:13] << PING :arvel.cryto.net
+[2013-10-12 17:54:13] >> PONG :arvel.cryto.net
+[2013-10-12 17:55:46] << PING :arvel.cryto.net
+[2013-10-12 17:55:46] >> PONG :arvel.cryto.net
+[2013-10-12 17:57:21] << PING :arvel.cryto.net
+[2013-10-12 17:57:21] >> PONG :arvel.cryto.net
+[2013-10-12 17:58:55] << PING :arvel.cryto.net
+[2013-10-12 17:58:55] >> PONG :arvel.cryto.net
+[2013-10-12 18:00:30] << PING :arvel.cryto.net
+[2013-10-12 18:00:30] >> PONG :arvel.cryto.net
+[2013-10-12 18:02:06] << PING :arvel.cryto.net
+[2013-10-12 18:02:06] >> PONG :arvel.cryto.net
+[2013-10-12 18:03:43] << PING :arvel.cryto.net
+[2013-10-12 18:03:43] >> PONG :arvel.cryto.net
+[2013-10-12 18:05:14] << PING :arvel.cryto.net
+[2013-10-12 18:05:14] >> PONG :arvel.cryto.net
+[2013-10-12 18:06:46] << PING :arvel.cryto.net
+[2013-10-12 18:06:46] >> PONG :arvel.cryto.net
+[2013-10-12 18:08:21] << PING :arvel.cryto.net
+[2013-10-12 18:08:21] >> PONG :arvel.cryto.net
+[2013-10-12 18:09:55] << PING :arvel.cryto.net
+[2013-10-12 18:09:55] >> PONG :arvel.cryto.net
+[2013-10-12 18:11:28] << PING :arvel.cryto.net
+[2013-10-12 18:11:28] >> PONG :arvel.cryto.net
+[2013-10-12 18:13:03] << PING :arvel.cryto.net
+[2013-10-12 18:13:03] >> PONG :arvel.cryto.net
+[2013-10-12 18:14:37] << PING :arvel.cryto.net
+[2013-10-12 18:14:37] >> PONG :arvel.cryto.net
+[2013-10-12 18:16:11] << PING :arvel.cryto.net
+[2013-10-12 18:16:11] >> PONG :arvel.cryto.net
+[2013-10-12 18:17:45] << PING :arvel.cryto.net
+[2013-10-12 18:17:45] >> PONG :arvel.cryto.net
+[2013-10-12 18:19:17] << PING :arvel.cryto.net
+[2013-10-12 18:19:17] >> PONG :arvel.cryto.net
+[2013-10-12 18:20:50] << PING :arvel.cryto.net
+[2013-10-12 18:20:50] >> PONG :arvel.cryto.net
+[2013-10-12 18:22:23] << PING :arvel.cryto.net
+[2013-10-12 18:22:23] >> PONG :arvel.cryto.net
+[2013-10-12 18:24:00] << PING :arvel.cryto.net
+[2013-10-12 18:24:00] >> PONG :arvel.cryto.net
+[2013-10-12 18:25:32] << PING :arvel.cryto.net
+[2013-10-12 18:25:32] >> PONG :arvel.cryto.net
+[2013-10-12 18:27:07] << PING :arvel.cryto.net
+[2013-10-12 18:27:07] >> PONG :arvel.cryto.net
+[2013-10-12 18:28:42] << PING :arvel.cryto.net
+[2013-10-12 18:28:42] >> PONG :arvel.cryto.net
+[2013-10-12 18:30:17] << PING :arvel.cryto.net
+[2013-10-12 18:30:17] >> PONG :arvel.cryto.net
+[2013-10-12 18:31:48] << PING :arvel.cryto.net
+[2013-10-12 18:31:48] >> PONG :arvel.cryto.net
+[2013-10-12 18:33:22] << PING :arvel.cryto.net
+[2013-10-12 18:33:22] >> PONG :arvel.cryto.net
+[2013-10-12 18:34:54] << PING :arvel.cryto.net
+[2013-10-12 18:34:54] >> PONG :arvel.cryto.net
+[2013-10-12 18:36:26] << PING :arvel.cryto.net
+[2013-10-12 18:36:26] >> PONG :arvel.cryto.net
+[2013-10-12 18:38:00] << PING :arvel.cryto.net
+[2013-10-12 18:38:00] >> PONG :arvel.cryto.net
+[2013-10-12 18:39:34] << PING :arvel.cryto.net
+[2013-10-12 18:39:34] >> PONG :arvel.cryto.net
+[2013-10-12 18:41:06] << PING :arvel.cryto.net
+[2013-10-12 18:41:06] >> PONG :arvel.cryto.net
+[2013-10-12 18:42:40] << PING :arvel.cryto.net
+[2013-10-12 18:42:40] >> PONG :arvel.cryto.net
+[2013-10-12 18:44:11] << PING :arvel.cryto.net
+[2013-10-12 18:44:11] >> PONG :arvel.cryto.net
+[2013-10-12 18:45:46] << PING :arvel.cryto.net
+[2013-10-12 18:45:46] >> PONG :arvel.cryto.net
+[2013-10-12 18:47:22] << PING :arvel.cryto.net
+[2013-10-12 18:47:22] >> PONG :arvel.cryto.net
+[2013-10-12 18:48:54] << PING :arvel.cryto.net
+[2013-10-12 18:48:54] >> PONG :arvel.cryto.net
+[2013-10-12 18:50:30] << PING :arvel.cryto.net
+[2013-10-12 18:50:30] >> PONG :arvel.cryto.net
+[2013-10-12 18:52:05] << PING :arvel.cryto.net
+[2013-10-12 18:52:05] >> PONG :arvel.cryto.net
+[2013-10-12 18:53:37] << PING :arvel.cryto.net
+[2013-10-12 18:53:37] >> PONG :arvel.cryto.net
+[2013-10-12 18:55:15] << PING :arvel.cryto.net
+[2013-10-12 18:55:15] >> PONG :arvel.cryto.net
+[2013-10-12 18:56:49] << PING :arvel.cryto.net
+[2013-10-12 18:56:49] >> PONG :arvel.cryto.net
+[2013-10-12 18:58:25] << PING :arvel.cryto.net
+[2013-10-12 18:58:25] >> PONG :arvel.cryto.net
+[2013-10-12 19:00:00] << PING :arvel.cryto.net
+[2013-10-12 19:00:00] >> PONG :arvel.cryto.net
+[2013-10-12 19:01:32] << PING :arvel.cryto.net
+[2013-10-12 19:01:32] >> PONG :arvel.cryto.net
+[2013-10-12 19:03:07] << PING :arvel.cryto.net
+[2013-10-12 19:03:07] >> PONG :arvel.cryto.net
+[2013-10-12 19:04:44] << PING :arvel.cryto.net
+[2013-10-12 19:04:44] >> PONG :arvel.cryto.net
+[2013-10-12 19:06:19] << PING :arvel.cryto.net
+[2013-10-12 19:06:19] >> PONG :arvel.cryto.net
+[2013-10-12 19:07:53] << PING :arvel.cryto.net
+[2013-10-12 19:07:53] >> PONG :arvel.cryto.net
+[2013-10-12 19:09:26] << PING :arvel.cryto.net
+[2013-10-12 19:09:26] >> PONG :arvel.cryto.net
+[2013-10-12 19:10:56] << PING :arvel.cryto.net
+[2013-10-12 19:10:56] >> PONG :arvel.cryto.net
+[2013-10-12 19:12:27] << PING :arvel.cryto.net
+[2013-10-12 19:12:27] >> PONG :arvel.cryto.net
+[2013-10-12 19:13:59] << PING :arvel.cryto.net
+[2013-10-12 19:13:59] >> PONG :arvel.cryto.net
+[2013-10-12 19:15:34] << PING :arvel.cryto.net
+[2013-10-12 19:15:34] >> PONG :arvel.cryto.net
+[2013-10-12 19:17:09] << PING :arvel.cryto.net
+[2013-10-12 19:17:09] >> PONG :arvel.cryto.net
+[2013-10-12 19:18:43] << PING :arvel.cryto.net
+[2013-10-12 19:18:43] >> PONG :arvel.cryto.net
+[2013-10-12 19:20:13] << PING :arvel.cryto.net
+[2013-10-12 19:20:13] >> PONG :arvel.cryto.net
+[2013-10-12 19:21:49] << PING :arvel.cryto.net
+[2013-10-12 19:21:49] >> PONG :arvel.cryto.net
+[2013-10-12 19:23:21] << PING :arvel.cryto.net
+[2013-10-12 19:23:21] >> PONG :arvel.cryto.net
+[2013-10-12 19:24:54] << PING :arvel.cryto.net
+[2013-10-12 19:24:54] >> PONG :arvel.cryto.net
+[2013-10-12 19:26:30] << PING :arvel.cryto.net
+[2013-10-12 19:26:30] >> PONG :arvel.cryto.net
+[2013-10-12 19:28:04] << PING :arvel.cryto.net
+[2013-10-12 19:28:04] >> PONG :arvel.cryto.net
+[2013-10-12 19:29:38] << PING :arvel.cryto.net
+[2013-10-12 19:29:38] >> PONG :arvel.cryto.net
+[2013-10-12 19:31:14] << PING :arvel.cryto.net
+[2013-10-12 19:31:14] >> PONG :arvel.cryto.net
+[2013-10-12 19:32:46] << PING :arvel.cryto.net
+[2013-10-12 19:32:46] >> PONG :arvel.cryto.net
+[2013-10-12 19:34:21] << PING :arvel.cryto.net
+[2013-10-12 19:34:21] >> PONG :arvel.cryto.net
+[2013-10-12 19:35:57] << PING :arvel.cryto.net
+[2013-10-12 19:35:57] >> PONG :arvel.cryto.net
+[2013-10-12 19:37:32] << PING :arvel.cryto.net
+[2013-10-12 19:37:32] >> PONG :arvel.cryto.net
+[2013-10-12 19:39:04] << PING :arvel.cryto.net
+[2013-10-12 19:39:04] >> PONG :arvel.cryto.net
+[2013-10-12 19:40:40] << PING :arvel.cryto.net
+[2013-10-12 19:40:40] >> PONG :arvel.cryto.net
+[2013-10-12 19:42:12] << PING :arvel.cryto.net
+[2013-10-12 19:42:12] >> PONG :arvel.cryto.net
+[2013-10-12 19:43:47] << PING :arvel.cryto.net
+[2013-10-12 19:43:47] >> PONG :arvel.cryto.net
+[2013-10-12 19:45:21] << PING :arvel.cryto.net
+[2013-10-12 19:45:21] >> PONG :arvel.cryto.net
+[2013-10-12 19:46:53] << PING :arvel.cryto.net
+[2013-10-12 19:46:53] >> PONG :arvel.cryto.net
+[2013-10-12 19:48:29] << PING :arvel.cryto.net
+[2013-10-12 19:48:29] >> PONG :arvel.cryto.net
+[2013-10-12 19:50:02] << PING :arvel.cryto.net
+[2013-10-12 19:50:02] >> PONG :arvel.cryto.net
+[2013-10-12 19:51:34] << PING :arvel.cryto.net
+[2013-10-12 19:51:34] >> PONG :arvel.cryto.net
+[2013-10-12 19:53:07] << PING :arvel.cryto.net
+[2013-10-12 19:53:07] >> PONG :arvel.cryto.net
+[2013-10-12 19:54:39] << PING :arvel.cryto.net
+[2013-10-12 19:54:39] >> PONG :arvel.cryto.net
+[2013-10-12 19:56:13] << PING :arvel.cryto.net
+[2013-10-12 19:56:13] >> PONG :arvel.cryto.net
+[2013-10-12 19:57:48] << PING :arvel.cryto.net
+[2013-10-12 19:57:48] >> PONG :arvel.cryto.net
+[2013-10-12 19:59:20] << PING :arvel.cryto.net
+[2013-10-12 19:59:20] >> PONG :arvel.cryto.net
+[2013-10-12 20:00:53] << PING :arvel.cryto.net
+[2013-10-12 20:00:53] >> PONG :arvel.cryto.net
+[2013-10-12 20:02:25] << PING :arvel.cryto.net
+[2013-10-12 20:02:25] >> PONG :arvel.cryto.net
+[2013-10-12 20:04:00] << PING :arvel.cryto.net
+[2013-10-12 20:04:00] >> PONG :arvel.cryto.net
+[2013-10-12 20:05:33] << PING :arvel.cryto.net
+[2013-10-12 20:05:33] >> PONG :arvel.cryto.net
+[2013-10-12 20:07:06] << PING :arvel.cryto.net
+[2013-10-12 20:07:06] >> PONG :arvel.cryto.net
+[2013-10-12 20:08:41] << PING :arvel.cryto.net
+[2013-10-12 20:08:41] >> PONG :arvel.cryto.net
+[2013-10-12 20:10:13] << PING :arvel.cryto.net
+[2013-10-12 20:10:13] >> PONG :arvel.cryto.net
+[2013-10-12 20:11:45] << PING :arvel.cryto.net
+[2013-10-12 20:11:45] >> PONG :arvel.cryto.net
+[2013-10-12 20:13:19] << PING :arvel.cryto.net
+[2013-10-12 20:13:19] >> PONG :arvel.cryto.net
+[2013-10-12 20:14:51] << PING :arvel.cryto.net
+[2013-10-12 20:14:51] >> PONG :arvel.cryto.net
+[2013-10-12 20:16:25] << PING :arvel.cryto.net
+[2013-10-12 20:16:25] >> PONG :arvel.cryto.net
+[2013-10-12 20:17:57] << PING :arvel.cryto.net
+[2013-10-12 20:17:57] >> PONG :arvel.cryto.net
+[2013-10-12 20:19:31] << PING :arvel.cryto.net
+[2013-10-12 20:19:31] >> PONG :arvel.cryto.net
+[2013-10-12 20:21:05] << PING :arvel.cryto.net
+[2013-10-12 20:21:05] >> PONG :arvel.cryto.net
+[2013-10-12 20:22:39] << PING :arvel.cryto.net
+[2013-10-12 20:22:39] >> PONG :arvel.cryto.net
+[2013-10-12 20:24:14] << PING :arvel.cryto.net
+[2013-10-12 20:24:14] >> PONG :arvel.cryto.net
+[2013-10-12 20:25:49] << PING :arvel.cryto.net
+[2013-10-12 20:25:49] >> PONG :arvel.cryto.net
+[2013-10-12 20:27:21] << PING :arvel.cryto.net
+[2013-10-12 20:27:21] >> PONG :arvel.cryto.net
+[2013-10-12 20:28:56] << PING :arvel.cryto.net
+[2013-10-12 20:28:56] >> PONG :arvel.cryto.net
+[2013-10-12 20:30:30] << PING :arvel.cryto.net
+[2013-10-12 20:30:30] >> PONG :arvel.cryto.net
+[2013-10-12 20:32:01] << PING :arvel.cryto.net
+[2013-10-12 20:32:01] >> PONG :arvel.cryto.net
+[2013-10-12 20:33:33] << PING :arvel.cryto.net
+[2013-10-12 20:33:33] >> PONG :arvel.cryto.net
+[2013-10-12 20:35:06] << PING :arvel.cryto.net
+[2013-10-12 20:35:06] >> PONG :arvel.cryto.net
+[2013-10-12 20:36:38] << PING :arvel.cryto.net
+[2013-10-12 20:36:38] >> PONG :arvel.cryto.net
+[2013-10-12 20:38:13] << PING :arvel.cryto.net
+[2013-10-12 20:38:13] >> PONG :arvel.cryto.net
+[2013-10-12 20:39:47] << PING :arvel.cryto.net
+[2013-10-12 20:39:47] >> PONG :arvel.cryto.net
+[2013-10-12 20:41:19] << PING :arvel.cryto.net
+[2013-10-12 20:41:19] >> PONG :arvel.cryto.net
+[2013-10-12 20:42:53] << PING :arvel.cryto.net
+[2013-10-12 20:42:53] >> PONG :arvel.cryto.net
+[2013-10-12 20:44:27] << PING :arvel.cryto.net
+[2013-10-12 20:44:27] >> PONG :arvel.cryto.net
+[2013-10-12 20:46:01] << PING :arvel.cryto.net
+[2013-10-12 20:46:01] >> PONG :arvel.cryto.net
+[2013-10-12 20:47:35] << PING :arvel.cryto.net
+[2013-10-12 20:47:35] >> PONG :arvel.cryto.net
+[2013-10-12 20:49:10] << PING :arvel.cryto.net
+[2013-10-12 20:49:10] >> PONG :arvel.cryto.net
+[2013-10-12 20:50:43] << PING :arvel.cryto.net
+[2013-10-12 20:50:43] >> PONG :arvel.cryto.net
+[2013-10-12 20:52:19] << PING :arvel.cryto.net
+[2013-10-12 20:52:19] >> PONG :arvel.cryto.net
+[2013-10-12 20:53:51] << PING :arvel.cryto.net
+[2013-10-12 20:53:51] >> PONG :arvel.cryto.net
+[2013-10-12 20:55:27] << PING :arvel.cryto.net
+[2013-10-12 20:55:27] >> PONG :arvel.cryto.net
+[2013-10-12 20:57:00] << PING :arvel.cryto.net
+[2013-10-12 20:57:00] >> PONG :arvel.cryto.net
+[2013-10-12 20:58:35] << PING :arvel.cryto.net
+[2013-10-12 20:58:35] >> PONG :arvel.cryto.net
+[2013-10-12 21:00:10] << PING :arvel.cryto.net
+[2013-10-12 21:00:10] >> PONG :arvel.cryto.net
+[2013-10-12 21:01:43] << PING :arvel.cryto.net
+[2013-10-12 21:01:43] >> PONG :arvel.cryto.net
+[2013-10-12 21:03:17] << PING :arvel.cryto.net
+[2013-10-12 21:03:17] >> PONG :arvel.cryto.net
+[2013-10-12 21:04:51] << PING :arvel.cryto.net
+[2013-10-12 21:04:51] >> PONG :arvel.cryto.net
+[2013-10-12 21:06:25] << PING :arvel.cryto.net
+[2013-10-12 21:06:25] >> PONG :arvel.cryto.net
+[2013-10-12 21:08:01] << PING :arvel.cryto.net
+[2013-10-12 21:08:01] >> PONG :arvel.cryto.net
+[2013-10-12 21:09:34] << PING :arvel.cryto.net
+[2013-10-12 21:09:34] >> PONG :arvel.cryto.net
+[2013-10-12 21:11:10] << PING :arvel.cryto.net
+[2013-10-12 21:11:10] >> PONG :arvel.cryto.net
+[2013-10-12 21:12:44] << PING :arvel.cryto.net
+[2013-10-12 21:12:44] >> PONG :arvel.cryto.net
+[2013-10-12 21:14:17] << PING :arvel.cryto.net
+[2013-10-12 21:14:17] >> PONG :arvel.cryto.net
+[2013-10-12 21:15:50] << PING :arvel.cryto.net
+[2013-10-12 21:15:50] >> PONG :arvel.cryto.net
+[2013-10-12 21:17:25] << PING :arvel.cryto.net
+[2013-10-12 21:17:25] >> PONG :arvel.cryto.net
+[2013-10-12 21:19:00] << PING :arvel.cryto.net
+[2013-10-12 21:19:00] >> PONG :arvel.cryto.net
+[2013-10-12 21:20:34] << PING :arvel.cryto.net
+[2013-10-12 21:20:34] >> PONG :arvel.cryto.net
+[2013-10-12 21:22:09] << PING :arvel.cryto.net
+[2013-10-12 21:22:09] >> PONG :arvel.cryto.net
+[2013-10-12 21:23:41] << PING :arvel.cryto.net
+[2013-10-12 21:23:41] >> PONG :arvel.cryto.net
+[2013-10-12 21:25:16] << PING :arvel.cryto.net
+[2013-10-12 21:25:16] >> PONG :arvel.cryto.net
+[2013-10-12 21:26:49] << PING :arvel.cryto.net
+[2013-10-12 21:26:49] >> PONG :arvel.cryto.net
+[2013-10-12 21:28:21] << PING :arvel.cryto.net
+[2013-10-12 21:28:21] >> PONG :arvel.cryto.net
+[2013-10-12 21:29:53] << PING :arvel.cryto.net
+[2013-10-12 21:29:53] >> PONG :arvel.cryto.net
+[2013-10-12 21:31:27] << PING :arvel.cryto.net
+[2013-10-12 21:31:27] >> PONG :arvel.cryto.net
+[2013-10-12 21:33:01] << PING :arvel.cryto.net
+[2013-10-12 21:33:01] >> PONG :arvel.cryto.net
+[2013-10-12 21:34:35] << PING :arvel.cryto.net
+[2013-10-12 21:34:35] >> PONG :arvel.cryto.net
+[2013-10-12 21:36:09] << PING :arvel.cryto.net
+[2013-10-12 21:36:09] >> PONG :arvel.cryto.net
+[2013-10-12 21:37:45] << PING :arvel.cryto.net
+[2013-10-12 21:37:45] >> PONG :arvel.cryto.net
+[2013-10-12 21:39:22] << PING :arvel.cryto.net
+[2013-10-12 21:39:22] >> PONG :arvel.cryto.net
+[2013-10-12 21:40:57] << PING :arvel.cryto.net
+[2013-10-12 21:40:57] >> PONG :arvel.cryto.net
+[2013-10-12 21:42:28] << PING :arvel.cryto.net
+[2013-10-12 21:42:28] >> PONG :arvel.cryto.net
+[2013-10-12 21:44:03] << PING :arvel.cryto.net
+[2013-10-12 21:44:03] >> PONG :arvel.cryto.net
+[2013-10-12 21:45:37] << PING :arvel.cryto.net
+[2013-10-12 21:45:37] >> PONG :arvel.cryto.net
+[2013-10-12 21:47:08] << PING :arvel.cryto.net
+[2013-10-12 21:47:08] >> PONG :arvel.cryto.net
+[2013-10-12 21:48:42] << PING :arvel.cryto.net
+[2013-10-12 21:48:42] >> PONG :arvel.cryto.net
+[2013-10-12 21:50:17] << PING :arvel.cryto.net
+[2013-10-12 21:50:17] >> PONG :arvel.cryto.net
+[2013-10-12 21:51:52] << PING :arvel.cryto.net
+[2013-10-12 21:51:52] >> PONG :arvel.cryto.net
+[2013-10-12 21:53:25] << PING :arvel.cryto.net
+[2013-10-12 21:53:25] >> PONG :arvel.cryto.net
+[2013-10-12 21:55:00] << PING :arvel.cryto.net
+[2013-10-12 21:55:00] >> PONG :arvel.cryto.net
+[2013-10-12 21:56:30] << PING :arvel.cryto.net
+[2013-10-12 21:56:30] >> PONG :arvel.cryto.net
+[2013-10-12 21:58:02] << PING :arvel.cryto.net
+[2013-10-12 21:58:02] >> PONG :arvel.cryto.net
+[2013-10-12 21:59:35] << PING :arvel.cryto.net
+[2013-10-12 21:59:35] >> PONG :arvel.cryto.net
+[2013-10-12 22:01:09] << PING :arvel.cryto.net
+[2013-10-12 22:01:09] >> PONG :arvel.cryto.net
+[2013-10-12 22:02:44] << PING :arvel.cryto.net
+[2013-10-12 22:02:44] >> PONG :arvel.cryto.net
+[2013-10-12 22:04:19] << PING :arvel.cryto.net
+[2013-10-12 22:04:19] >> PONG :arvel.cryto.net
+[2013-10-12 22:05:53] << PING :arvel.cryto.net
+[2013-10-12 22:05:53] >> PONG :arvel.cryto.net
+[2013-10-12 22:07:28] << PING :arvel.cryto.net
+[2013-10-12 22:07:28] >> PONG :arvel.cryto.net
+[2013-10-12 22:09:02] << PING :arvel.cryto.net
+[2013-10-12 22:09:02] >> PONG :arvel.cryto.net
+[2013-10-12 22:10:34] << PING :arvel.cryto.net
+[2013-10-12 22:10:34] >> PONG :arvel.cryto.net
+[2013-10-12 22:12:06] << PING :arvel.cryto.net
+[2013-10-12 22:12:06] >> PONG :arvel.cryto.net
+[2013-10-12 22:13:38] << PING :arvel.cryto.net
+[2013-10-12 22:13:38] >> PONG :arvel.cryto.net
+[2013-10-12 22:15:13] << PING :arvel.cryto.net
+[2013-10-12 22:15:13] >> PONG :arvel.cryto.net
+[2013-10-12 22:16:43] << PING :arvel.cryto.net
+[2013-10-12 22:16:43] >> PONG :arvel.cryto.net
+[2013-10-12 22:18:20] << PING :arvel.cryto.net
+[2013-10-12 22:18:20] >> PONG :arvel.cryto.net
+[2013-10-12 22:19:53] << PING :arvel.cryto.net
+[2013-10-12 22:19:53] >> PONG :arvel.cryto.net
+[2013-10-12 22:21:26] << PING :arvel.cryto.net
+[2013-10-12 22:21:26] >> PONG :arvel.cryto.net
+[2013-10-12 22:22:59] << PING :arvel.cryto.net
+[2013-10-12 22:22:59] >> PONG :arvel.cryto.net
+[2013-10-12 22:24:30] << PING :arvel.cryto.net
+[2013-10-12 22:24:30] >> PONG :arvel.cryto.net
+[2013-10-12 22:26:04] << PING :arvel.cryto.net
+[2013-10-12 22:26:04] >> PONG :arvel.cryto.net
+[2013-10-12 22:27:34] << PING :arvel.cryto.net
+[2013-10-12 22:27:34] >> PONG :arvel.cryto.net
+[2013-10-12 22:29:09] << PING :arvel.cryto.net
+[2013-10-12 22:29:09] >> PONG :arvel.cryto.net
+[2013-10-12 22:30:46] << PING :arvel.cryto.net
+[2013-10-12 22:30:46] >> PONG :arvel.cryto.net
+[2013-10-12 22:32:20] << PING :arvel.cryto.net
+[2013-10-12 22:32:20] >> PONG :arvel.cryto.net
+[2013-10-12 22:33:51] << PING :arvel.cryto.net
+[2013-10-12 22:33:51] >> PONG :arvel.cryto.net
+[2013-10-12 22:35:24] << PING :arvel.cryto.net
+[2013-10-12 22:35:24] >> PONG :arvel.cryto.net
+[2013-10-12 22:36:58] << PING :arvel.cryto.net
+[2013-10-12 22:36:58] >> PONG :arvel.cryto.net
+[2013-10-12 22:38:33] << PING :arvel.cryto.net
+[2013-10-12 22:38:33] >> PONG :arvel.cryto.net
+[2013-10-12 22:40:06] << PING :arvel.cryto.net
+[2013-10-12 22:40:06] >> PONG :arvel.cryto.net
+[2013-10-12 22:41:36] << PING :arvel.cryto.net
+[2013-10-12 22:41:36] >> PONG :arvel.cryto.net
+[2013-10-12 22:43:07] << PING :arvel.cryto.net
+[2013-10-12 22:43:07] >> PONG :arvel.cryto.net
+[2013-10-12 22:44:39] << PING :arvel.cryto.net
+[2013-10-12 22:44:39] >> PONG :arvel.cryto.net
+[2013-10-12 22:46:14] << PING :arvel.cryto.net
+[2013-10-12 22:46:14] >> PONG :arvel.cryto.net
+[2013-10-12 22:47:45] << PING :arvel.cryto.net
+[2013-10-12 22:47:45] >> PONG :arvel.cryto.net
+[2013-10-12 22:49:19] << PING :arvel.cryto.net
+[2013-10-12 22:49:19] >> PONG :arvel.cryto.net
+[2013-10-12 22:50:51] << PING :arvel.cryto.net
+[2013-10-12 22:50:51] >> PONG :arvel.cryto.net
+[2013-10-12 22:52:24] << PING :arvel.cryto.net
+[2013-10-12 22:52:24] >> PONG :arvel.cryto.net
+[2013-10-12 22:53:57] << PING :arvel.cryto.net
+[2013-10-12 22:53:57] >> PONG :arvel.cryto.net
+[2013-10-12 22:55:34] << PING :arvel.cryto.net
+[2013-10-12 22:55:34] >> PONG :arvel.cryto.net
+[2013-10-12 22:57:07] << PING :arvel.cryto.net
+[2013-10-12 22:57:07] >> PONG :arvel.cryto.net
+[2013-10-12 22:58:42] << PING :arvel.cryto.net
+[2013-10-12 22:58:42] >> PONG :arvel.cryto.net
+[2013-10-12 23:00:14] << PING :arvel.cryto.net
+[2013-10-12 23:00:14] >> PONG :arvel.cryto.net
+[2013-10-12 23:01:48] << PING :arvel.cryto.net
+[2013-10-12 23:01:48] >> PONG :arvel.cryto.net
+[2013-10-12 23:03:21] << PING :arvel.cryto.net
+[2013-10-12 23:03:21] >> PONG :arvel.cryto.net
+[2013-10-12 23:04:53] << PING :arvel.cryto.net
+[2013-10-12 23:04:53] >> PONG :arvel.cryto.net
+[2013-10-12 23:06:27] << PING :arvel.cryto.net
+[2013-10-12 23:06:27] >> PONG :arvel.cryto.net
+[2013-10-12 23:08:02] << PING :arvel.cryto.net
+[2013-10-12 23:08:02] >> PONG :arvel.cryto.net
+[2013-10-12 23:09:33] << PING :arvel.cryto.net
+[2013-10-12 23:09:33] >> PONG :arvel.cryto.net
+[2013-10-12 23:11:07] << PING :arvel.cryto.net
+[2013-10-12 23:11:07] >> PONG :arvel.cryto.net
+[2013-10-12 23:12:41] << PING :arvel.cryto.net
+[2013-10-12 23:12:41] >> PONG :arvel.cryto.net
+[2013-10-12 23:14:12] << PING :arvel.cryto.net
+[2013-10-12 23:14:12] >> PONG :arvel.cryto.net
+[2013-10-12 23:15:51] << PING :arvel.cryto.net
+[2013-10-12 23:15:51] >> PONG :arvel.cryto.net
+[2013-10-12 23:17:25] << PING :arvel.cryto.net
+[2013-10-12 23:17:25] >> PONG :arvel.cryto.net
+[2013-10-12 23:18:58] << PING :arvel.cryto.net
+[2013-10-12 23:18:58] >> PONG :arvel.cryto.net
+[2013-10-12 23:20:29] << PING :arvel.cryto.net
+[2013-10-12 23:20:29] >> PONG :arvel.cryto.net
+[2013-10-12 23:22:02] << PING :arvel.cryto.net
+[2013-10-12 23:22:02] >> PONG :arvel.cryto.net
+[2013-10-12 23:23:34] << PING :arvel.cryto.net
+[2013-10-12 23:23:34] >> PONG :arvel.cryto.net
+[2013-10-12 23:25:06] << PING :arvel.cryto.net
+[2013-10-12 23:25:06] >> PONG :arvel.cryto.net
+[2013-10-12 23:26:42] << PING :arvel.cryto.net
+[2013-10-12 23:26:42] >> PONG :arvel.cryto.net
+[2013-10-12 23:28:14] << PING :arvel.cryto.net
+[2013-10-12 23:28:14] >> PONG :arvel.cryto.net
+[2013-10-12 23:29:49] << PING :arvel.cryto.net
+[2013-10-12 23:29:49] >> PONG :arvel.cryto.net
+[2013-10-12 23:31:24] << PING :arvel.cryto.net
+[2013-10-12 23:31:24] >> PONG :arvel.cryto.net
+[2013-10-12 23:32:55] << PING :arvel.cryto.net
+[2013-10-12 23:32:55] >> PONG :arvel.cryto.net
+[2013-10-12 23:34:27] << PING :arvel.cryto.net
+[2013-10-12 23:34:27] >> PONG :arvel.cryto.net
+[2013-10-12 23:36:02] << PING :arvel.cryto.net
+[2013-10-12 23:36:02] >> PONG :arvel.cryto.net
+[2013-10-12 23:37:36] << PING :arvel.cryto.net
+[2013-10-12 23:37:36] >> PONG :arvel.cryto.net
+[2013-10-12 23:39:13] << PING :arvel.cryto.net
+[2013-10-12 23:39:13] >> PONG :arvel.cryto.net
+[2013-10-12 23:40:45] << PING :arvel.cryto.net
+[2013-10-12 23:40:45] >> PONG :arvel.cryto.net
+[2013-10-12 23:42:17] << PING :arvel.cryto.net
+[2013-10-12 23:42:17] >> PONG :arvel.cryto.net
+[2013-10-12 23:43:49] << PING :arvel.cryto.net
+[2013-10-12 23:43:49] >> PONG :arvel.cryto.net
+[2013-10-12 23:45:20] << PING :arvel.cryto.net
+[2013-10-12 23:45:20] >> PONG :arvel.cryto.net
+[2013-10-12 23:46:52] << PING :arvel.cryto.net
+[2013-10-12 23:46:52] >> PONG :arvel.cryto.net
+[2013-10-12 23:48:26] << PING :arvel.cryto.net
+[2013-10-12 23:48:26] >> PONG :arvel.cryto.net
+[2013-10-12 23:50:00] << PING :arvel.cryto.net
+[2013-10-12 23:50:00] >> PONG :arvel.cryto.net
+[2013-10-12 23:51:31] << PING :arvel.cryto.net
+[2013-10-12 23:51:31] >> PONG :arvel.cryto.net
+[2013-10-12 23:53:02] << PING :arvel.cryto.net
+[2013-10-12 23:53:02] >> PONG :arvel.cryto.net
+[2013-10-12 23:54:35] << PING :arvel.cryto.net
+[2013-10-12 23:54:35] >> PONG :arvel.cryto.net
+[2013-10-12 23:56:13] << PING :arvel.cryto.net
+[2013-10-12 23:56:13] >> PONG :arvel.cryto.net
+[2013-10-12 23:57:47] << PING :arvel.cryto.net
+[2013-10-12 23:57:47] >> PONG :arvel.cryto.net
+[2013-10-12 23:59:24] << PING :arvel.cryto.net
+[2013-10-12 23:59:24] >> PONG :arvel.cryto.net
+[2013-10-13 00:00:57] << PING :arvel.cryto.net
+[2013-10-13 00:00:57] >> PONG :arvel.cryto.net
+[2013-10-13 00:02:29] << PING :arvel.cryto.net
+[2013-10-13 00:02:29] >> PONG :arvel.cryto.net
+[2013-10-13 00:04:01] << PING :arvel.cryto.net
+[2013-10-13 00:04:01] >> PONG :arvel.cryto.net
+[2013-10-13 00:05:34] << PING :arvel.cryto.net
+[2013-10-13 00:05:34] >> PONG :arvel.cryto.net
+[2013-10-13 00:07:06] << PING :arvel.cryto.net
+[2013-10-13 00:07:06] >> PONG :arvel.cryto.net
+[2013-10-13 00:08:40] << PING :arvel.cryto.net
+[2013-10-13 00:08:40] >> PONG :arvel.cryto.net
+[2013-10-13 00:10:12] << PING :arvel.cryto.net
+[2013-10-13 00:10:12] >> PONG :arvel.cryto.net
+[2013-10-13 00:11:49] << PING :arvel.cryto.net
+[2013-10-13 00:11:49] >> PONG :arvel.cryto.net
+[2013-10-13 00:13:20] << PING :arvel.cryto.net
+[2013-10-13 00:13:20] >> PONG :arvel.cryto.net
+[2013-10-13 00:14:55] << PING :arvel.cryto.net
+[2013-10-13 00:14:55] >> PONG :arvel.cryto.net
+[2013-10-13 00:16:27] << PING :arvel.cryto.net
+[2013-10-13 00:16:27] >> PONG :arvel.cryto.net
+[2013-10-13 00:17:58] << PING :arvel.cryto.net
+[2013-10-13 00:17:58] >> PONG :arvel.cryto.net
+[2013-10-13 00:19:33] << PING :arvel.cryto.net
+[2013-10-13 00:19:33] >> PONG :arvel.cryto.net
+[2013-10-13 00:21:07] << PING :arvel.cryto.net
+[2013-10-13 00:21:07] >> PONG :arvel.cryto.net
+[2013-10-13 00:22:43] << PING :arvel.cryto.net
+[2013-10-13 00:22:43] >> PONG :arvel.cryto.net
+[2013-10-13 00:24:16] << PING :arvel.cryto.net
+[2013-10-13 00:24:16] >> PONG :arvel.cryto.net
+[2013-10-13 00:25:49] << PING :arvel.cryto.net
+[2013-10-13 00:25:49] >> PONG :arvel.cryto.net
+[2013-10-13 00:27:21] << PING :arvel.cryto.net
+[2013-10-13 00:27:21] >> PONG :arvel.cryto.net
+[2013-10-13 00:28:53] << PING :arvel.cryto.net
+[2013-10-13 00:28:53] >> PONG :arvel.cryto.net
+[2013-10-13 00:30:28] << PING :arvel.cryto.net
+[2013-10-13 00:30:28] >> PONG :arvel.cryto.net
+[2013-10-13 00:32:00] << PING :arvel.cryto.net
+[2013-10-13 00:32:00] >> PONG :arvel.cryto.net
+[2013-10-13 00:33:35] << PING :arvel.cryto.net
+[2013-10-13 00:33:35] >> PONG :arvel.cryto.net
+[2013-10-13 00:35:07] << PING :arvel.cryto.net
+[2013-10-13 00:35:07] >> PONG :arvel.cryto.net
+[2013-10-13 00:36:38] << PING :arvel.cryto.net
+[2013-10-13 00:36:38] >> PONG :arvel.cryto.net
+[2013-10-13 00:38:15] << PING :arvel.cryto.net
+[2013-10-13 00:38:15] >> PONG :arvel.cryto.net
+[2013-10-13 00:39:47] << PING :arvel.cryto.net
+[2013-10-13 00:39:47] >> PONG :arvel.cryto.net
+[2013-10-13 00:41:20] << PING :arvel.cryto.net
+[2013-10-13 00:41:20] >> PONG :arvel.cryto.net
+[2013-10-13 00:42:50] << PING :arvel.cryto.net
+[2013-10-13 00:42:50] >> PONG :arvel.cryto.net
+[2013-10-13 00:44:22] << PING :arvel.cryto.net
+[2013-10-13 00:44:22] >> PONG :arvel.cryto.net
+[2013-10-13 00:45:54] << PING :arvel.cryto.net
+[2013-10-13 00:45:54] >> PONG :arvel.cryto.net
+[2013-10-13 00:47:30] << PING :arvel.cryto.net
+[2013-10-13 00:47:30] >> PONG :arvel.cryto.net
+[2013-10-13 00:49:05] << PING :arvel.cryto.net
+[2013-10-13 00:49:05] >> PONG :arvel.cryto.net
+[2013-10-13 00:50:38] << PING :arvel.cryto.net
+[2013-10-13 00:50:38] >> PONG :arvel.cryto.net
+[2013-10-13 00:52:16] << PING :arvel.cryto.net
+[2013-10-13 00:52:16] >> PONG :arvel.cryto.net
+[2013-10-13 00:53:51] << PING :arvel.cryto.net
+[2013-10-13 00:53:51] >> PONG :arvel.cryto.net
+[2013-10-13 00:55:23] << PING :arvel.cryto.net
+[2013-10-13 00:55:23] >> PONG :arvel.cryto.net
+[2013-10-13 00:56:56] << PING :arvel.cryto.net
+[2013-10-13 00:56:56] >> PONG :arvel.cryto.net
+[2013-10-13 00:58:28] << PING :arvel.cryto.net
+[2013-10-13 00:58:28] >> PONG :arvel.cryto.net
+[2013-10-13 00:59:58] << PING :arvel.cryto.net
+[2013-10-13 00:59:58] >> PONG :arvel.cryto.net
+[2013-10-13 01:01:31] << PING :arvel.cryto.net
+[2013-10-13 01:01:31] >> PONG :arvel.cryto.net
+[2013-10-13 01:03:03] << PING :arvel.cryto.net
+[2013-10-13 01:03:03] >> PONG :arvel.cryto.net
+[2013-10-13 01:04:36] << PING :arvel.cryto.net
+[2013-10-13 01:04:36] >> PONG :arvel.cryto.net
+[2013-10-13 01:06:09] << PING :arvel.cryto.net
+[2013-10-13 01:06:09] >> PONG :arvel.cryto.net
+[2013-10-13 01:07:43] << PING :arvel.cryto.net
+[2013-10-13 01:07:43] >> PONG :arvel.cryto.net
+[2013-10-13 01:09:18] << PING :arvel.cryto.net
+[2013-10-13 01:09:18] >> PONG :arvel.cryto.net
+[2013-10-13 01:10:50] << PING :arvel.cryto.net
+[2013-10-13 01:10:50] >> PONG :arvel.cryto.net
+[2013-10-13 01:12:25] << PING :arvel.cryto.net
+[2013-10-13 01:12:25] >> PONG :arvel.cryto.net
+[2013-10-13 01:13:58] << PING :arvel.cryto.net
+[2013-10-13 01:13:58] >> PONG :arvel.cryto.net
+[2013-10-13 01:15:31] << PING :arvel.cryto.net
+[2013-10-13 01:15:31] >> PONG :arvel.cryto.net
+[2013-10-13 01:17:03] << PING :arvel.cryto.net
+[2013-10-13 01:17:03] >> PONG :arvel.cryto.net
+[2013-10-13 01:18:38] << PING :arvel.cryto.net
+[2013-10-13 01:18:38] >> PONG :arvel.cryto.net
+[2013-10-13 01:20:09] << PING :arvel.cryto.net
+[2013-10-13 01:20:09] >> PONG :arvel.cryto.net
+[2013-10-13 01:21:43] << PING :arvel.cryto.net
+[2013-10-13 01:21:43] >> PONG :arvel.cryto.net
+[2013-10-13 01:23:17] << PING :arvel.cryto.net
+[2013-10-13 01:23:17] >> PONG :arvel.cryto.net
+[2013-10-13 01:24:48] << PING :arvel.cryto.net
+[2013-10-13 01:24:48] >> PONG :arvel.cryto.net
+[2013-10-13 01:26:22] << PING :arvel.cryto.net
+[2013-10-13 01:26:22] >> PONG :arvel.cryto.net
+[2013-10-13 01:27:59] << PING :arvel.cryto.net
+[2013-10-13 01:27:59] >> PONG :arvel.cryto.net
+[2013-10-13 01:29:32] << PING :arvel.cryto.net
+[2013-10-13 01:29:32] >> PONG :arvel.cryto.net
+[2013-10-13 01:31:04] << PING :arvel.cryto.net
+[2013-10-13 01:31:04] >> PONG :arvel.cryto.net
+[2013-10-13 01:32:41] << PING :arvel.cryto.net
+[2013-10-13 01:32:41] >> PONG :arvel.cryto.net
+[2013-10-13 01:34:13] << PING :arvel.cryto.net
+[2013-10-13 01:34:13] >> PONG :arvel.cryto.net
+[2013-10-13 01:35:47] << PING :arvel.cryto.net
+[2013-10-13 01:35:47] >> PONG :arvel.cryto.net
+[2013-10-13 01:37:19] << PING :arvel.cryto.net
+[2013-10-13 01:37:19] >> PONG :arvel.cryto.net
+[2013-10-13 01:38:51] << PING :arvel.cryto.net
+[2013-10-13 01:38:51] >> PONG :arvel.cryto.net
+[2013-10-13 01:40:25] << PING :arvel.cryto.net
+[2013-10-13 01:40:25] >> PONG :arvel.cryto.net
+[2013-10-13 01:41:56] << PING :arvel.cryto.net
+[2013-10-13 01:41:56] >> PONG :arvel.cryto.net
+[2013-10-13 01:43:28] << PING :arvel.cryto.net
+[2013-10-13 01:43:28] >> PONG :arvel.cryto.net
+[2013-10-13 01:44:59] << PING :arvel.cryto.net
+[2013-10-13 01:44:59] >> PONG :arvel.cryto.net
+[2013-10-13 01:46:37] << PING :arvel.cryto.net
+[2013-10-13 01:46:37] >> PONG :arvel.cryto.net
+[2013-10-13 01:48:09] << PING :arvel.cryto.net
+[2013-10-13 01:48:09] >> PONG :arvel.cryto.net
+[2013-10-13 01:49:40] << PING :arvel.cryto.net
+[2013-10-13 01:49:40] >> PONG :arvel.cryto.net
+[2013-10-13 01:51:13] << PING :arvel.cryto.net
+[2013-10-13 01:51:13] >> PONG :arvel.cryto.net
+[2013-10-13 01:52:46] << PING :arvel.cryto.net
+[2013-10-13 01:52:46] >> PONG :arvel.cryto.net
+[2013-10-13 01:54:20] << PING :arvel.cryto.net
+[2013-10-13 01:54:20] >> PONG :arvel.cryto.net
+[2013-10-13 01:55:54] << PING :arvel.cryto.net
+[2013-10-13 01:55:54] >> PONG :arvel.cryto.net
+[2013-10-13 01:57:24] << PING :arvel.cryto.net
+[2013-10-13 01:57:24] >> PONG :arvel.cryto.net
+[2013-10-13 01:58:58] << PING :arvel.cryto.net
+[2013-10-13 01:58:58] >> PONG :arvel.cryto.net
+[2013-10-13 02:00:30] << PING :arvel.cryto.net
+[2013-10-13 02:00:30] >> PONG :arvel.cryto.net
+[2013-10-13 02:02:04] << PING :arvel.cryto.net
+[2013-10-13 02:02:04] >> PONG :arvel.cryto.net
+[2013-10-13 02:03:39] << PING :arvel.cryto.net
+[2013-10-13 02:03:39] >> PONG :arvel.cryto.net
+[2013-10-13 02:05:10] << PING :arvel.cryto.net
+[2013-10-13 02:05:10] >> PONG :arvel.cryto.net
+[2013-10-13 02:06:41] << PING :arvel.cryto.net
+[2013-10-13 02:06:41] >> PONG :arvel.cryto.net
+[2013-10-13 02:08:15] << PING :arvel.cryto.net
+[2013-10-13 02:08:15] >> PONG :arvel.cryto.net
+[2013-10-13 02:09:48] << PING :arvel.cryto.net
+[2013-10-13 02:09:48] >> PONG :arvel.cryto.net
+[2013-10-13 02:11:21] << PING :arvel.cryto.net
+[2013-10-13 02:11:21] >> PONG :arvel.cryto.net
+[2013-10-13 02:12:57] << PING :arvel.cryto.net
+[2013-10-13 02:12:57] >> PONG :arvel.cryto.net
+[2013-10-13 02:14:29] << PING :arvel.cryto.net
+[2013-10-13 02:14:29] >> PONG :arvel.cryto.net
+[2013-10-13 02:16:04] << PING :arvel.cryto.net
+[2013-10-13 02:16:04] >> PONG :arvel.cryto.net
+[2013-10-13 02:17:37] << PING :arvel.cryto.net
+[2013-10-13 02:17:37] >> PONG :arvel.cryto.net
+[2013-10-13 02:19:08] << PING :arvel.cryto.net
+[2013-10-13 02:19:08] >> PONG :arvel.cryto.net
+[2013-10-13 02:20:43] << PING :arvel.cryto.net
+[2013-10-13 02:20:43] >> PONG :arvel.cryto.net
+[2013-10-13 02:22:14] << PING :arvel.cryto.net
+[2013-10-13 02:22:14] >> PONG :arvel.cryto.net
+[2013-10-13 02:23:47] << PING :arvel.cryto.net
+[2013-10-13 02:23:47] >> PONG :arvel.cryto.net
+[2013-10-13 02:25:19] << PING :arvel.cryto.net
+[2013-10-13 02:25:19] >> PONG :arvel.cryto.net
+[2013-10-13 02:26:51] << PING :arvel.cryto.net
+[2013-10-13 02:26:51] >> PONG :arvel.cryto.net
+[2013-10-13 02:28:22] << PING :arvel.cryto.net
+[2013-10-13 02:28:22] >> PONG :arvel.cryto.net
+[2013-10-13 02:29:57] << PING :arvel.cryto.net
+[2013-10-13 02:29:57] >> PONG :arvel.cryto.net
+[2013-10-13 02:30:59] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 02:31:34] << PING :arvel.cryto.net
+[2013-10-13 02:31:34] >> PONG :arvel.cryto.net
+[2013-10-13 02:33:12] << PING :arvel.cryto.net
+[2013-10-13 02:33:12] >> PONG :arvel.cryto.net
+[2013-10-13 02:34:44] << PING :arvel.cryto.net
+[2013-10-13 02:34:44] >> PONG :arvel.cryto.net
+[2013-10-13 02:36:15] << PING :arvel.cryto.net
+[2013-10-13 02:36:15] >> PONG :arvel.cryto.net
+[2013-10-13 02:37:48] << PING :arvel.cryto.net
+[2013-10-13 02:37:48] >> PONG :arvel.cryto.net
+[2013-10-13 02:39:18] << PING :arvel.cryto.net
+[2013-10-13 02:39:18] >> PONG :arvel.cryto.net
+[2013-10-13 02:40:51] << PING :arvel.cryto.net
+[2013-10-13 02:40:51] >> PONG :arvel.cryto.net
+[2013-10-13 02:42:25] << PING :arvel.cryto.net
+[2013-10-13 02:42:25] >> PONG :arvel.cryto.net
+[2013-10-13 02:43:59] << PING :arvel.cryto.net
+[2013-10-13 02:43:59] >> PONG :arvel.cryto.net
+[2013-10-13 02:45:35] << PING :arvel.cryto.net
+[2013-10-13 02:45:35] >> PONG :arvel.cryto.net
+[2013-10-13 02:47:11] << PING :arvel.cryto.net
+[2013-10-13 02:47:11] >> PONG :arvel.cryto.net
+[2013-10-13 02:48:44] << PING :arvel.cryto.net
+[2013-10-13 02:48:44] >> PONG :arvel.cryto.net
+[2013-10-13 02:48:59] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-13 02:48:59] >> WHO #drwhat
+[2013-10-13 02:49:00] << :arvel.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 02:49:00] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 02:49:00] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 02:49:00] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 02:49:00] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 02:50:35] << PING :arvel.cryto.net
+[2013-10-13 02:50:35] >> PONG :arvel.cryto.net
+[2013-10-13 02:52:09] << PING :arvel.cryto.net
+[2013-10-13 02:52:09] >> PONG :arvel.cryto.net
+[2013-10-13 02:53:44] << PING :arvel.cryto.net
+[2013-10-13 02:53:44] >> PONG :arvel.cryto.net
+[2013-10-13 02:55:03] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-13 02:55:15] << PING :arvel.cryto.net
+[2013-10-13 02:55:15] >> PONG :arvel.cryto.net
+[2013-10-13 02:56:47] << PING :arvel.cryto.net
+[2013-10-13 02:56:47] >> PONG :arvel.cryto.net
+[2013-10-13 02:58:24] << PING :arvel.cryto.net
+[2013-10-13 02:58:24] >> PONG :arvel.cryto.net
+[2013-10-13 02:59:55] << PING :arvel.cryto.net
+[2013-10-13 02:59:55] >> PONG :arvel.cryto.net
+[2013-10-13 03:01:30] << PING :arvel.cryto.net
+[2013-10-13 03:01:30] >> PONG :arvel.cryto.net
+[2013-10-13 03:03:05] << PING :arvel.cryto.net
+[2013-10-13 03:03:05] >> PONG :arvel.cryto.net
+[2013-10-13 03:04:37] << PING :arvel.cryto.net
+[2013-10-13 03:04:37] >> PONG :arvel.cryto.net
+[2013-10-13 03:06:12] << PING :arvel.cryto.net
+[2013-10-13 03:06:12] >> PONG :arvel.cryto.net
+[2013-10-13 03:07:46] << PING :arvel.cryto.net
+[2013-10-13 03:07:46] >> PONG :arvel.cryto.net
+[2013-10-13 03:09:18] << PING :arvel.cryto.net
+[2013-10-13 03:09:18] >> PONG :arvel.cryto.net
+[2013-10-13 03:10:53] << PING :arvel.cryto.net
+[2013-10-13 03:10:53] >> PONG :arvel.cryto.net
+[2013-10-13 03:10:59] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 03:10:59] >> WHO #drwhat
+[2013-10-13 03:11:00] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 03:11:00] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 03:11:00] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 03:11:00] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 03:11:00] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 03:12:36] << PING :arvel.cryto.net
+[2013-10-13 03:12:36] >> PONG :arvel.cryto.net
+[2013-10-13 03:14:11] << PING :arvel.cryto.net
+[2013-10-13 03:14:11] >> PONG :arvel.cryto.net
+[2013-10-13 03:15:46] << PING :arvel.cryto.net
+[2013-10-13 03:15:46] >> PONG :arvel.cryto.net
+[2013-10-13 03:17:19] << PING :arvel.cryto.net
+[2013-10-13 03:17:19] >> PONG :arvel.cryto.net
+[2013-10-13 03:18:50] << PING :arvel.cryto.net
+[2013-10-13 03:18:50] >> PONG :arvel.cryto.net
+[2013-10-13 03:20:22] << PING :arvel.cryto.net
+[2013-10-13 03:20:22] >> PONG :arvel.cryto.net
+[2013-10-13 03:21:58] << PING :arvel.cryto.net
+[2013-10-13 03:21:58] >> PONG :arvel.cryto.net
+[2013-10-13 03:23:29] << PING :arvel.cryto.net
+[2013-10-13 03:23:29] >> PONG :arvel.cryto.net
+[2013-10-13 03:25:04] << PING :arvel.cryto.net
+[2013-10-13 03:25:04] >> PONG :arvel.cryto.net
+[2013-10-13 03:26:40] << PING :arvel.cryto.net
+[2013-10-13 03:26:40] >> PONG :arvel.cryto.net
+[2013-10-13 03:28:11] << PING :arvel.cryto.net
+[2013-10-13 03:28:11] >> PONG :arvel.cryto.net
+[2013-10-13 03:29:43] << PING :arvel.cryto.net
+[2013-10-13 03:29:43] >> PONG :arvel.cryto.net
+[2013-10-13 03:31:17] << PING :arvel.cryto.net
+[2013-10-13 03:31:17] >> PONG :arvel.cryto.net
+[2013-10-13 03:32:50] << PING :arvel.cryto.net
+[2013-10-13 03:32:50] >> PONG :arvel.cryto.net
+[2013-10-13 03:34:24] << PING :arvel.cryto.net
+[2013-10-13 03:34:24] >> PONG :arvel.cryto.net
+[2013-10-13 03:36:01] << PING :arvel.cryto.net
+[2013-10-13 03:36:01] >> PONG :arvel.cryto.net
+[2013-10-13 03:37:35] << PING :arvel.cryto.net
+[2013-10-13 03:37:35] >> PONG :arvel.cryto.net
+[2013-10-13 03:39:08] << PING :arvel.cryto.net
+[2013-10-13 03:39:08] >> PONG :arvel.cryto.net
+[2013-10-13 03:40:40] << PING :arvel.cryto.net
+[2013-10-13 03:40:40] >> PONG :arvel.cryto.net
+[2013-10-13 03:42:13] << PING :arvel.cryto.net
+[2013-10-13 03:42:13] >> PONG :arvel.cryto.net
+[2013-10-13 03:43:44] << PING :arvel.cryto.net
+[2013-10-13 03:43:44] >> PONG :arvel.cryto.net
+[2013-10-13 03:45:18] << PING :arvel.cryto.net
+[2013-10-13 03:45:18] >> PONG :arvel.cryto.net
+[2013-10-13 03:46:48] << PING :arvel.cryto.net
+[2013-10-13 03:46:48] >> PONG :arvel.cryto.net
+[2013-10-13 03:47:04] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 03:48:21] << PING :arvel.cryto.net
+[2013-10-13 03:48:21] >> PONG :arvel.cryto.net
+[2013-10-13 03:49:55] << PING :arvel.cryto.net
+[2013-10-13 03:49:55] >> PONG :arvel.cryto.net
+[2013-10-13 03:51:27] << PING :arvel.cryto.net
+[2013-10-13 03:51:27] >> PONG :arvel.cryto.net
+[2013-10-13 03:53:00] << PING :arvel.cryto.net
+[2013-10-13 03:53:00] >> PONG :arvel.cryto.net
+[2013-10-13 03:54:33] << PING :arvel.cryto.net
+[2013-10-13 03:54:33] >> PONG :arvel.cryto.net
+[2013-10-13 03:56:07] << PING :arvel.cryto.net
+[2013-10-13 03:56:07] >> PONG :arvel.cryto.net
+[2013-10-13 03:57:42] << PING :arvel.cryto.net
+[2013-10-13 03:57:42] >> PONG :arvel.cryto.net
+[2013-10-13 03:59:16] << PING :arvel.cryto.net
+[2013-10-13 03:59:16] >> PONG :arvel.cryto.net
+[2013-10-13 04:00:51] << PING :arvel.cryto.net
+[2013-10-13 04:00:51] >> PONG :arvel.cryto.net
+[2013-10-13 04:02:23] << PING :arvel.cryto.net
+[2013-10-13 04:02:23] >> PONG :arvel.cryto.net
+[2013-10-13 04:03:56] << PING :arvel.cryto.net
+[2013-10-13 04:03:56] >> PONG :arvel.cryto.net
+[2013-10-13 04:05:31] << PING :arvel.cryto.net
+[2013-10-13 04:05:31] >> PONG :arvel.cryto.net
+[2013-10-13 04:07:03] << PING :arvel.cryto.net
+[2013-10-13 04:07:03] >> PONG :arvel.cryto.net
+[2013-10-13 04:08:36] << PING :arvel.cryto.net
+[2013-10-13 04:08:36] >> PONG :arvel.cryto.net
+[2013-10-13 04:10:09] << PING :arvel.cryto.net
+[2013-10-13 04:10:09] >> PONG :arvel.cryto.net
+[2013-10-13 04:11:43] << PING :arvel.cryto.net
+[2013-10-13 04:11:43] >> PONG :arvel.cryto.net
+[2013-10-13 04:13:17] << PING :arvel.cryto.net
+[2013-10-13 04:13:17] >> PONG :arvel.cryto.net
+[2013-10-13 04:14:49] << PING :arvel.cryto.net
+[2013-10-13 04:14:49] >> PONG :arvel.cryto.net
+[2013-10-13 04:16:21] << PING :arvel.cryto.net
+[2013-10-13 04:16:21] >> PONG :arvel.cryto.net
+[2013-10-13 04:17:57] << PING :arvel.cryto.net
+[2013-10-13 04:17:57] >> PONG :arvel.cryto.net
+[2013-10-13 04:19:31] << PING :arvel.cryto.net
+[2013-10-13 04:19:31] >> PONG :arvel.cryto.net
+[2013-10-13 04:21:04] << PING :arvel.cryto.net
+[2013-10-13 04:21:04] >> PONG :arvel.cryto.net
+[2013-10-13 04:22:36] << PING :arvel.cryto.net
+[2013-10-13 04:22:36] >> PONG :arvel.cryto.net
+[2013-10-13 04:24:10] << PING :arvel.cryto.net
+[2013-10-13 04:24:10] >> PONG :arvel.cryto.net
+[2013-10-13 04:25:46] << PING :arvel.cryto.net
+[2013-10-13 04:25:46] >> PONG :arvel.cryto.net
+[2013-10-13 04:27:17] << PING :arvel.cryto.net
+[2013-10-13 04:27:17] >> PONG :arvel.cryto.net
+[2013-10-13 04:28:51] << PING :arvel.cryto.net
+[2013-10-13 04:28:51] >> PONG :arvel.cryto.net
+[2013-10-13 04:30:22] << PING :arvel.cryto.net
+[2013-10-13 04:30:22] >> PONG :arvel.cryto.net
+[2013-10-13 04:31:53] << PING :arvel.cryto.net
+[2013-10-13 04:31:53] >> PONG :arvel.cryto.net
+[2013-10-13 04:33:28] << PING :arvel.cryto.net
+[2013-10-13 04:33:28] >> PONG :arvel.cryto.net
+[2013-10-13 04:35:03] << PING :arvel.cryto.net
+[2013-10-13 04:35:03] >> PONG :arvel.cryto.net
+[2013-10-13 04:36:36] << PING :arvel.cryto.net
+[2013-10-13 04:36:36] >> PONG :arvel.cryto.net
+[2013-10-13 04:38:10] << PING :arvel.cryto.net
+[2013-10-13 04:38:10] >> PONG :arvel.cryto.net
+[2013-10-13 04:39:42] << PING :arvel.cryto.net
+[2013-10-13 04:39:42] >> PONG :arvel.cryto.net
+[2013-10-13 04:41:17] << PING :arvel.cryto.net
+[2013-10-13 04:41:17] >> PONG :arvel.cryto.net
+[2013-10-13 04:42:50] << PING :arvel.cryto.net
+[2013-10-13 04:42:50] >> PONG :arvel.cryto.net
+[2013-10-13 04:44:23] << PING :arvel.cryto.net
+[2013-10-13 04:44:23] >> PONG :arvel.cryto.net
+[2013-10-13 04:45:55] << PING :arvel.cryto.net
+[2013-10-13 04:45:55] >> PONG :arvel.cryto.net
+[2013-10-13 04:47:27] << PING :arvel.cryto.net
+[2013-10-13 04:47:28] >> PONG :arvel.cryto.net
+[2013-10-13 04:49:01] << PING :arvel.cryto.net
+[2013-10-13 04:49:01] >> PONG :arvel.cryto.net
+[2013-10-13 04:50:36] << PING :arvel.cryto.net
+[2013-10-13 04:50:36] >> PONG :arvel.cryto.net
+[2013-10-13 04:52:08] << PING :arvel.cryto.net
+[2013-10-13 04:52:08] >> PONG :arvel.cryto.net
+[2013-10-13 04:53:41] << PING :arvel.cryto.net
+[2013-10-13 04:53:41] >> PONG :arvel.cryto.net
+[2013-10-13 04:55:16] << PING :arvel.cryto.net
+[2013-10-13 04:55:16] >> PONG :arvel.cryto.net
+[2013-10-13 04:56:52] << PING :arvel.cryto.net
+[2013-10-13 04:56:52] >> PONG :arvel.cryto.net
+[2013-10-13 04:58:25] << PING :arvel.cryto.net
+[2013-10-13 04:58:25] >> PONG :arvel.cryto.net
+[2013-10-13 04:59:59] << PING :arvel.cryto.net
+[2013-10-13 04:59:59] >> PONG :arvel.cryto.net
+[2013-10-13 05:01:34] << PING :arvel.cryto.net
+[2013-10-13 05:01:34] >> PONG :arvel.cryto.net
+[2013-10-13 05:03:09] << PING :arvel.cryto.net
+[2013-10-13 05:03:09] >> PONG :arvel.cryto.net
+[2013-10-13 05:04:41] << PING :arvel.cryto.net
+[2013-10-13 05:04:41] >> PONG :arvel.cryto.net
+[2013-10-13 05:06:13] << PING :arvel.cryto.net
+[2013-10-13 05:06:13] >> PONG :arvel.cryto.net
+[2013-10-13 05:07:46] << PING :arvel.cryto.net
+[2013-10-13 05:07:46] >> PONG :arvel.cryto.net
+[2013-10-13 05:09:20] << PING :arvel.cryto.net
+[2013-10-13 05:09:20] >> PONG :arvel.cryto.net
+[2013-10-13 05:10:56] << PING :arvel.cryto.net
+[2013-10-13 05:10:56] >> PONG :arvel.cryto.net
+[2013-10-13 05:12:32] << PING :arvel.cryto.net
+[2013-10-13 05:12:32] >> PONG :arvel.cryto.net
+[2013-10-13 05:14:04] << PING :arvel.cryto.net
+[2013-10-13 05:14:04] >> PONG :arvel.cryto.net
+[2013-10-13 05:15:38] << PING :arvel.cryto.net
+[2013-10-13 05:15:38] >> PONG :arvel.cryto.net
+[2013-10-13 05:17:12] << PING :arvel.cryto.net
+[2013-10-13 05:17:12] >> PONG :arvel.cryto.net
+[2013-10-13 05:18:46] << PING :arvel.cryto.net
+[2013-10-13 05:18:46] >> PONG :arvel.cryto.net
+[2013-10-13 05:20:20] << PING :arvel.cryto.net
+[2013-10-13 05:20:20] >> PONG :arvel.cryto.net
+[2013-10-13 05:21:53] << PING :arvel.cryto.net
+[2013-10-13 05:21:53] >> PONG :arvel.cryto.net
+[2013-10-13 05:23:29] << PING :arvel.cryto.net
+[2013-10-13 05:23:29] >> PONG :arvel.cryto.net
+[2013-10-13 05:25:03] << PING :arvel.cryto.net
+[2013-10-13 05:25:03] >> PONG :arvel.cryto.net
+[2013-10-13 05:26:36] << PING :arvel.cryto.net
+[2013-10-13 05:26:36] >> PONG :arvel.cryto.net
+[2013-10-13 05:28:07] << PING :arvel.cryto.net
+[2013-10-13 05:28:07] >> PONG :arvel.cryto.net
+[2013-10-13 05:29:41] << PING :arvel.cryto.net
+[2013-10-13 05:29:41] >> PONG :arvel.cryto.net
+[2013-10-13 05:31:14] << PING :arvel.cryto.net
+[2013-10-13 05:31:14] >> PONG :arvel.cryto.net
+[2013-10-13 05:32:48] << PING :arvel.cryto.net
+[2013-10-13 05:32:48] >> PONG :arvel.cryto.net
+[2013-10-13 05:34:20] << PING :arvel.cryto.net
+[2013-10-13 05:34:20] >> PONG :arvel.cryto.net
+[2013-10-13 05:35:54] << PING :arvel.cryto.net
+[2013-10-13 05:35:54] >> PONG :arvel.cryto.net
+[2013-10-13 05:37:25] << PING :arvel.cryto.net
+[2013-10-13 05:37:25] >> PONG :arvel.cryto.net
+[2013-10-13 05:39:00] << PING :arvel.cryto.net
+[2013-10-13 05:39:00] >> PONG :arvel.cryto.net
+[2013-10-13 05:40:31] << PING :arvel.cryto.net
+[2013-10-13 05:40:31] >> PONG :arvel.cryto.net
+[2013-10-13 05:42:05] << PING :arvel.cryto.net
+[2013-10-13 05:42:05] >> PONG :arvel.cryto.net
+[2013-10-13 05:43:39] << PING :arvel.cryto.net
+[2013-10-13 05:43:39] >> PONG :arvel.cryto.net
+[2013-10-13 05:45:15] << PING :arvel.cryto.net
+[2013-10-13 05:45:15] >> PONG :arvel.cryto.net
+[2013-10-13 05:46:49] << PING :arvel.cryto.net
+[2013-10-13 05:46:49] >> PONG :arvel.cryto.net
+[2013-10-13 05:48:22] << PING :arvel.cryto.net
+[2013-10-13 05:48:22] >> PONG :arvel.cryto.net
+[2013-10-13 05:49:58] << PING :arvel.cryto.net
+[2013-10-13 05:49:58] >> PONG :arvel.cryto.net
+[2013-10-13 05:51:31] << PING :arvel.cryto.net
+[2013-10-13 05:51:31] >> PONG :arvel.cryto.net
+[2013-10-13 05:53:03] << PING :arvel.cryto.net
+[2013-10-13 05:53:03] >> PONG :arvel.cryto.net
+[2013-10-13 05:54:38] << PING :arvel.cryto.net
+[2013-10-13 05:54:38] >> PONG :arvel.cryto.net
+[2013-10-13 05:56:13] << PING :arvel.cryto.net
+[2013-10-13 05:56:13] >> PONG :arvel.cryto.net
+[2013-10-13 05:57:45] << PING :arvel.cryto.net
+[2013-10-13 05:57:45] >> PONG :arvel.cryto.net
+[2013-10-13 05:59:21] << PING :arvel.cryto.net
+[2013-10-13 05:59:21] >> PONG :arvel.cryto.net
+[2013-10-13 06:00:56] << PING :arvel.cryto.net
+[2013-10-13 06:00:56] >> PONG :arvel.cryto.net
+[2013-10-13 06:02:32] << PING :arvel.cryto.net
+[2013-10-13 06:02:32] >> PONG :arvel.cryto.net
+[2013-10-13 06:04:05] << PING :arvel.cryto.net
+[2013-10-13 06:04:05] >> PONG :arvel.cryto.net
+[2013-10-13 06:05:40] << PING :arvel.cryto.net
+[2013-10-13 06:05:40] >> PONG :arvel.cryto.net
+[2013-10-13 06:07:13] << PING :arvel.cryto.net
+[2013-10-13 06:07:13] >> PONG :arvel.cryto.net
+[2013-10-13 06:08:45] << PING :arvel.cryto.net
+[2013-10-13 06:08:45] >> PONG :arvel.cryto.net
+[2013-10-13 06:10:20] << PING :arvel.cryto.net
+[2013-10-13 06:10:20] >> PONG :arvel.cryto.net
+[2013-10-13 06:11:53] << PING :arvel.cryto.net
+[2013-10-13 06:11:53] >> PONG :arvel.cryto.net
+[2013-10-13 06:13:25] << PING :arvel.cryto.net
+[2013-10-13 06:13:25] >> PONG :arvel.cryto.net
+[2013-10-13 06:14:57] << PING :arvel.cryto.net
+[2013-10-13 06:14:57] >> PONG :arvel.cryto.net
+[2013-10-13 06:16:33] << PING :arvel.cryto.net
+[2013-10-13 06:16:33] >> PONG :arvel.cryto.net
+[2013-10-13 06:18:08] << PING :arvel.cryto.net
+[2013-10-13 06:18:08] >> PONG :arvel.cryto.net
+[2013-10-13 06:19:43] << PING :arvel.cryto.net
+[2013-10-13 06:19:43] >> PONG :arvel.cryto.net
+[2013-10-13 06:21:18] << PING :arvel.cryto.net
+[2013-10-13 06:21:18] >> PONG :arvel.cryto.net
+[2013-10-13 06:22:50] << PING :arvel.cryto.net
+[2013-10-13 06:22:50] >> PONG :arvel.cryto.net
+[2013-10-13 06:24:22] << PING :arvel.cryto.net
+[2013-10-13 06:24:22] >> PONG :arvel.cryto.net
+[2013-10-13 06:25:55] << PING :arvel.cryto.net
+[2013-10-13 06:25:55] >> PONG :arvel.cryto.net
+[2013-10-13 06:27:30] << PING :arvel.cryto.net
+[2013-10-13 06:27:30] >> PONG :arvel.cryto.net
+[2013-10-13 06:29:02] << PING :arvel.cryto.net
+[2013-10-13 06:29:02] >> PONG :arvel.cryto.net
+[2013-10-13 06:30:32] << PING :arvel.cryto.net
+[2013-10-13 06:30:32] >> PONG :arvel.cryto.net
+[2013-10-13 06:32:06] << PING :arvel.cryto.net
+[2013-10-13 06:32:06] >> PONG :arvel.cryto.net
+[2013-10-13 06:33:37] << PING :arvel.cryto.net
+[2013-10-13 06:33:37] >> PONG :arvel.cryto.net
+[2013-10-13 06:35:11] << PING :arvel.cryto.net
+[2013-10-13 06:35:11] >> PONG :arvel.cryto.net
+[2013-10-13 06:36:45] << PING :arvel.cryto.net
+[2013-10-13 06:36:45] >> PONG :arvel.cryto.net
+[2013-10-13 06:38:20] << PING :arvel.cryto.net
+[2013-10-13 06:38:20] >> PONG :arvel.cryto.net
+[2013-10-13 06:39:53] << PING :arvel.cryto.net
+[2013-10-13 06:39:53] >> PONG :arvel.cryto.net
+[2013-10-13 06:41:28] << PING :arvel.cryto.net
+[2013-10-13 06:41:28] >> PONG :arvel.cryto.net
+[2013-10-13 06:43:02] << PING :arvel.cryto.net
+[2013-10-13 06:43:02] >> PONG :arvel.cryto.net
+[2013-10-13 06:44:33] << PING :arvel.cryto.net
+[2013-10-13 06:44:33] >> PONG :arvel.cryto.net
+[2013-10-13 06:46:06] << PING :arvel.cryto.net
+[2013-10-13 06:46:06] >> PONG :arvel.cryto.net
+[2013-10-13 06:47:38] << PING :arvel.cryto.net
+[2013-10-13 06:47:38] >> PONG :arvel.cryto.net
+[2013-10-13 06:49:12] << PING :arvel.cryto.net
+[2013-10-13 06:49:12] >> PONG :arvel.cryto.net
+[2013-10-13 06:50:44] << PING :arvel.cryto.net
+[2013-10-13 06:50:44] >> PONG :arvel.cryto.net
+[2013-10-13 06:52:19] << PING :arvel.cryto.net
+[2013-10-13 06:52:19] >> PONG :arvel.cryto.net
+[2013-10-13 06:53:55] << PING :arvel.cryto.net
+[2013-10-13 06:53:55] >> PONG :arvel.cryto.net
+[2013-10-13 06:55:30] << PING :arvel.cryto.net
+[2013-10-13 06:55:30] >> PONG :arvel.cryto.net
+[2013-10-13 06:57:02] << PING :arvel.cryto.net
+[2013-10-13 06:57:02] >> PONG :arvel.cryto.net
+[2013-10-13 06:58:34] << PING :arvel.cryto.net
+[2013-10-13 06:58:34] >> PONG :arvel.cryto.net
+[2013-10-13 07:00:08] << PING :arvel.cryto.net
+[2013-10-13 07:00:08] >> PONG :arvel.cryto.net
+[2013-10-13 07:01:42] << PING :arvel.cryto.net
+[2013-10-13 07:01:42] >> PONG :arvel.cryto.net
+[2013-10-13 07:03:19] << PING :arvel.cryto.net
+[2013-10-13 07:03:19] >> PONG :arvel.cryto.net
+[2013-10-13 07:04:52] << PING :arvel.cryto.net
+[2013-10-13 07:04:52] >> PONG :arvel.cryto.net
+[2013-10-13 07:06:27] << PING :arvel.cryto.net
+[2013-10-13 07:06:27] >> PONG :arvel.cryto.net
+[2013-10-13 07:08:00] << PING :arvel.cryto.net
+[2013-10-13 07:08:00] >> PONG :arvel.cryto.net
+[2013-10-13 07:09:33] << PING :arvel.cryto.net
+[2013-10-13 07:09:33] >> PONG :arvel.cryto.net
+[2013-10-13 07:11:07] << PING :arvel.cryto.net
+[2013-10-13 07:11:07] >> PONG :arvel.cryto.net
+[2013-10-13 07:12:40] << PING :arvel.cryto.net
+[2013-10-13 07:12:40] >> PONG :arvel.cryto.net
+[2013-10-13 07:14:15] << PING :arvel.cryto.net
+[2013-10-13 07:14:15] >> PONG :arvel.cryto.net
+[2013-10-13 07:15:47] << PING :arvel.cryto.net
+[2013-10-13 07:15:47] >> PONG :arvel.cryto.net
+[2013-10-13 07:17:25] << PING :arvel.cryto.net
+[2013-10-13 07:17:25] >> PONG :arvel.cryto.net
+[2013-10-13 07:18:57] << PING :arvel.cryto.net
+[2013-10-13 07:18:57] >> PONG :arvel.cryto.net
+[2013-10-13 07:20:29] << PING :arvel.cryto.net
+[2013-10-13 07:20:29] >> PONG :arvel.cryto.net
+[2013-10-13 07:22:05] << PING :arvel.cryto.net
+[2013-10-13 07:22:05] >> PONG :arvel.cryto.net
+[2013-10-13 07:23:40] << PING :arvel.cryto.net
+[2013-10-13 07:23:40] >> PONG :arvel.cryto.net
+[2013-10-13 07:25:14] << PING :arvel.cryto.net
+[2013-10-13 07:25:14] >> PONG :arvel.cryto.net
+[2013-10-13 07:26:46] << PING :arvel.cryto.net
+[2013-10-13 07:26:46] >> PONG :arvel.cryto.net
+[2013-10-13 07:28:20] << PING :arvel.cryto.net
+[2013-10-13 07:28:20] >> PONG :arvel.cryto.net
+[2013-10-13 07:29:53] << PING :arvel.cryto.net
+[2013-10-13 07:29:53] >> PONG :arvel.cryto.net
+[2013-10-13 07:31:29] << PING :arvel.cryto.net
+[2013-10-13 07:31:29] >> PONG :arvel.cryto.net
+[2013-10-13 07:33:00] << PING :arvel.cryto.net
+[2013-10-13 07:33:00] >> PONG :arvel.cryto.net
+[2013-10-13 07:34:32] << PING :arvel.cryto.net
+[2013-10-13 07:34:32] >> PONG :arvel.cryto.net
+[2013-10-13 07:36:04] << PING :arvel.cryto.net
+[2013-10-13 07:36:04] >> PONG :arvel.cryto.net
+[2013-10-13 07:37:42] << PING :arvel.cryto.net
+[2013-10-13 07:37:42] >> PONG :arvel.cryto.net
+[2013-10-13 07:39:12] << PING :arvel.cryto.net
+[2013-10-13 07:39:12] >> PONG :arvel.cryto.net
+[2013-10-13 07:40:46] << PING :arvel.cryto.net
+[2013-10-13 07:40:46] >> PONG :arvel.cryto.net
+[2013-10-13 07:42:19] << PING :arvel.cryto.net
+[2013-10-13 07:42:19] >> PONG :arvel.cryto.net
+[2013-10-13 07:43:54] << PING :arvel.cryto.net
+[2013-10-13 07:43:54] >> PONG :arvel.cryto.net
+[2013-10-13 07:45:28] << PING :arvel.cryto.net
+[2013-10-13 07:45:28] >> PONG :arvel.cryto.net
+[2013-10-13 07:47:02] << PING :arvel.cryto.net
+[2013-10-13 07:47:02] >> PONG :arvel.cryto.net
+[2013-10-13 07:48:36] << PING :arvel.cryto.net
+[2013-10-13 07:48:36] >> PONG :arvel.cryto.net
+[2013-10-13 07:50:08] << PING :arvel.cryto.net
+[2013-10-13 07:50:08] >> PONG :arvel.cryto.net
+[2013-10-13 07:51:45] << PING :arvel.cryto.net
+[2013-10-13 07:51:45] >> PONG :arvel.cryto.net
+[2013-10-13 07:53:18] << PING :arvel.cryto.net
+[2013-10-13 07:53:18] >> PONG :arvel.cryto.net
+[2013-10-13 07:54:54] << PING :arvel.cryto.net
+[2013-10-13 07:54:54] >> PONG :arvel.cryto.net
+[2013-10-13 07:56:28] << PING :arvel.cryto.net
+[2013-10-13 07:56:28] >> PONG :arvel.cryto.net
+[2013-10-13 07:58:00] << PING :arvel.cryto.net
+[2013-10-13 07:58:00] >> PONG :arvel.cryto.net
+[2013-10-13 07:59:35] << PING :arvel.cryto.net
+[2013-10-13 07:59:35] >> PONG :arvel.cryto.net
+[2013-10-13 08:01:09] << PING :arvel.cryto.net
+[2013-10-13 08:01:09] >> PONG :arvel.cryto.net
+[2013-10-13 08:02:43] << PING :arvel.cryto.net
+[2013-10-13 08:02:43] >> PONG :arvel.cryto.net
+[2013-10-13 08:04:16] << PING :arvel.cryto.net
+[2013-10-13 08:04:16] >> PONG :arvel.cryto.net
+[2013-10-13 08:05:50] << PING :arvel.cryto.net
+[2013-10-13 08:05:50] >> PONG :arvel.cryto.net
+[2013-10-13 08:07:26] << PING :arvel.cryto.net
+[2013-10-13 08:07:26] >> PONG :arvel.cryto.net
+[2013-10-13 08:08:59] << PING :arvel.cryto.net
+[2013-10-13 08:08:59] >> PONG :arvel.cryto.net
+[2013-10-13 08:10:34] << PING :arvel.cryto.net
+[2013-10-13 08:10:34] >> PONG :arvel.cryto.net
+[2013-10-13 08:12:07] << PING :arvel.cryto.net
+[2013-10-13 08:12:07] >> PONG :arvel.cryto.net
+[2013-10-13 08:13:40] << PING :arvel.cryto.net
+[2013-10-13 08:13:40] >> PONG :arvel.cryto.net
+[2013-10-13 08:15:14] << PING :arvel.cryto.net
+[2013-10-13 08:15:14] >> PONG :arvel.cryto.net
+[2013-10-13 08:16:49] << PING :arvel.cryto.net
+[2013-10-13 08:16:49] >> PONG :arvel.cryto.net
+[2013-10-13 08:18:23] << PING :arvel.cryto.net
+[2013-10-13 08:18:23] >> PONG :arvel.cryto.net
+[2013-10-13 08:19:55] << PING :arvel.cryto.net
+[2013-10-13 08:19:55] >> PONG :arvel.cryto.net
+[2013-10-13 08:21:29] << PING :arvel.cryto.net
+[2013-10-13 08:21:29] >> PONG :arvel.cryto.net
+[2013-10-13 08:23:03] << PING :arvel.cryto.net
+[2013-10-13 08:23:03] >> PONG :arvel.cryto.net
+[2013-10-13 08:24:37] << PING :arvel.cryto.net
+[2013-10-13 08:24:37] >> PONG :arvel.cryto.net
+[2013-10-13 08:26:09] << PING :arvel.cryto.net
+[2013-10-13 08:26:09] >> PONG :arvel.cryto.net
+[2013-10-13 08:27:39] << PING :arvel.cryto.net
+[2013-10-13 08:27:39] >> PONG :arvel.cryto.net
+[2013-10-13 08:29:15] << PING :arvel.cryto.net
+[2013-10-13 08:29:15] >> PONG :arvel.cryto.net
+[2013-10-13 08:30:48] << PING :arvel.cryto.net
+[2013-10-13 08:30:48] >> PONG :arvel.cryto.net
+[2013-10-13 08:32:21] << PING :arvel.cryto.net
+[2013-10-13 08:32:21] >> PONG :arvel.cryto.net
+[2013-10-13 08:33:59] << PING :arvel.cryto.net
+[2013-10-13 08:33:59] >> PONG :arvel.cryto.net
+[2013-10-13 08:35:34] << PING :arvel.cryto.net
+[2013-10-13 08:35:34] >> PONG :arvel.cryto.net
+[2013-10-13 08:37:08] << PING :arvel.cryto.net
+[2013-10-13 08:37:08] >> PONG :arvel.cryto.net
+[2013-10-13 08:38:42] << PING :arvel.cryto.net
+[2013-10-13 08:38:42] >> PONG :arvel.cryto.net
+[2013-10-13 08:40:16] << PING :arvel.cryto.net
+[2013-10-13 08:40:16] >> PONG :arvel.cryto.net
+[2013-10-13 08:41:49] << PING :arvel.cryto.net
+[2013-10-13 08:41:49] >> PONG :arvel.cryto.net
+[2013-10-13 08:43:23] << PING :arvel.cryto.net
+[2013-10-13 08:43:23] >> PONG :arvel.cryto.net
+[2013-10-13 08:45:00] << PING :arvel.cryto.net
+[2013-10-13 08:45:00] >> PONG :arvel.cryto.net
+[2013-10-13 08:46:35] << PING :arvel.cryto.net
+[2013-10-13 08:46:35] >> PONG :arvel.cryto.net
+[2013-10-13 08:48:06] << PING :arvel.cryto.net
+[2013-10-13 08:48:06] >> PONG :arvel.cryto.net
+[2013-10-13 08:49:39] << PING :arvel.cryto.net
+[2013-10-13 08:49:39] >> PONG :arvel.cryto.net
+[2013-10-13 08:51:13] << PING :arvel.cryto.net
+[2013-10-13 08:51:13] >> PONG :arvel.cryto.net
+[2013-10-13 08:52:46] << PING :arvel.cryto.net
+[2013-10-13 08:52:46] >> PONG :arvel.cryto.net
+[2013-10-13 08:54:22] << PING :arvel.cryto.net
+[2013-10-13 08:54:22] >> PONG :arvel.cryto.net
+[2013-10-13 08:55:55] << PING :arvel.cryto.net
+[2013-10-13 08:55:55] >> PONG :arvel.cryto.net
+[2013-10-13 08:57:30] << PING :arvel.cryto.net
+[2013-10-13 08:57:30] >> PONG :arvel.cryto.net
+[2013-10-13 08:59:05] << PING :arvel.cryto.net
+[2013-10-13 08:59:05] >> PONG :arvel.cryto.net
+[2013-10-13 09:00:39] << PING :arvel.cryto.net
+[2013-10-13 09:00:39] >> PONG :arvel.cryto.net
+[2013-10-13 09:02:14] << PING :arvel.cryto.net
+[2013-10-13 09:02:14] >> PONG :arvel.cryto.net
+[2013-10-13 09:03:47] << PING :arvel.cryto.net
+[2013-10-13 09:03:47] >> PONG :arvel.cryto.net
+[2013-10-13 09:05:22] << PING :arvel.cryto.net
+[2013-10-13 09:05:22] >> PONG :arvel.cryto.net
+[2013-10-13 09:06:53] << PING :arvel.cryto.net
+[2013-10-13 09:06:53] >> PONG :arvel.cryto.net
+[2013-10-13 09:08:27] << PING :arvel.cryto.net
+[2013-10-13 09:08:27] >> PONG :arvel.cryto.net
+[2013-10-13 09:10:04] << PING :arvel.cryto.net
+[2013-10-13 09:10:04] >> PONG :arvel.cryto.net
+[2013-10-13 09:11:36] << PING :arvel.cryto.net
+[2013-10-13 09:11:36] >> PONG :arvel.cryto.net
+[2013-10-13 09:13:09] << PING :arvel.cryto.net
+[2013-10-13 09:13:09] >> PONG :arvel.cryto.net
+[2013-10-13 09:14:43] << PING :arvel.cryto.net
+[2013-10-13 09:14:43] >> PONG :arvel.cryto.net
+[2013-10-13 09:16:20] << PING :arvel.cryto.net
+[2013-10-13 09:16:20] >> PONG :arvel.cryto.net
+[2013-10-13 09:17:53] << PING :arvel.cryto.net
+[2013-10-13 09:17:53] >> PONG :arvel.cryto.net
+[2013-10-13 09:19:29] << PING :arvel.cryto.net
+[2013-10-13 09:19:29] >> PONG :arvel.cryto.net
+[2013-10-13 09:21:06] << PING :arvel.cryto.net
+[2013-10-13 09:21:06] >> PONG :arvel.cryto.net
+[2013-10-13 09:22:42] << PING :arvel.cryto.net
+[2013-10-13 09:22:42] >> PONG :arvel.cryto.net
+[2013-10-13 09:24:16] << PING :arvel.cryto.net
+[2013-10-13 09:24:16] >> PONG :arvel.cryto.net
+[2013-10-13 09:25:49] << PING :arvel.cryto.net
+[2013-10-13 09:25:49] >> PONG :arvel.cryto.net
+[2013-10-13 09:27:22] << PING :arvel.cryto.net
+[2013-10-13 09:27:22] >> PONG :arvel.cryto.net
+[2013-10-13 09:28:55] << PING :arvel.cryto.net
+[2013-10-13 09:28:55] >> PONG :arvel.cryto.net
+[2013-10-13 09:30:31] << PING :arvel.cryto.net
+[2013-10-13 09:30:31] >> PONG :arvel.cryto.net
+[2013-10-13 09:32:08] << PING :arvel.cryto.net
+[2013-10-13 09:32:08] >> PONG :arvel.cryto.net
+[2013-10-13 09:33:43] << PING :arvel.cryto.net
+[2013-10-13 09:33:43] >> PONG :arvel.cryto.net
+[2013-10-13 09:35:18] << PING :arvel.cryto.net
+[2013-10-13 09:35:18] >> PONG :arvel.cryto.net
+[2013-10-13 09:36:49] << PING :arvel.cryto.net
+[2013-10-13 09:36:49] >> PONG :arvel.cryto.net
+[2013-10-13 09:38:24] << PING :arvel.cryto.net
+[2013-10-13 09:38:24] >> PONG :arvel.cryto.net
+[2013-10-13 09:39:58] << PING :arvel.cryto.net
+[2013-10-13 09:39:58] >> PONG :arvel.cryto.net
+[2013-10-13 09:41:32] << PING :arvel.cryto.net
+[2013-10-13 09:41:32] >> PONG :arvel.cryto.net
+[2013-10-13 09:43:05] << PING :arvel.cryto.net
+[2013-10-13 09:43:05] >> PONG :arvel.cryto.net
+[2013-10-13 09:44:36] << PING :arvel.cryto.net
+[2013-10-13 09:44:36] >> PONG :arvel.cryto.net
+[2013-10-13 09:46:08] << PING :arvel.cryto.net
+[2013-10-13 09:46:08] >> PONG :arvel.cryto.net
+[2013-10-13 09:47:42] << PING :arvel.cryto.net
+[2013-10-13 09:47:42] >> PONG :arvel.cryto.net
+[2013-10-13 09:49:15] << PING :arvel.cryto.net
+[2013-10-13 09:49:15] >> PONG :arvel.cryto.net
+[2013-10-13 09:50:50] << PING :arvel.cryto.net
+[2013-10-13 09:50:50] >> PONG :arvel.cryto.net
+[2013-10-13 09:52:23] << PING :arvel.cryto.net
+[2013-10-13 09:52:23] >> PONG :arvel.cryto.net
+[2013-10-13 09:53:57] << PING :arvel.cryto.net
+[2013-10-13 09:53:57] >> PONG :arvel.cryto.net
+[2013-10-13 09:55:28] << PING :arvel.cryto.net
+[2013-10-13 09:55:28] >> PONG :arvel.cryto.net
+[2013-10-13 09:57:05] << PING :arvel.cryto.net
+[2013-10-13 09:57:05] >> PONG :arvel.cryto.net
+[2013-10-13 09:58:41] << PING :arvel.cryto.net
+[2013-10-13 09:58:41] >> PONG :arvel.cryto.net
+[2013-10-13 10:00:13] << PING :arvel.cryto.net
+[2013-10-13 10:00:13] >> PONG :arvel.cryto.net
+[2013-10-13 10:01:46] << PING :arvel.cryto.net
+[2013-10-13 10:01:46] >> PONG :arvel.cryto.net
+[2013-10-13 10:03:18] << PING :arvel.cryto.net
+[2013-10-13 10:03:18] >> PONG :arvel.cryto.net
+[2013-10-13 10:04:50] << PING :arvel.cryto.net
+[2013-10-13 10:04:50] >> PONG :arvel.cryto.net
+[2013-10-13 10:06:23] << PING :arvel.cryto.net
+[2013-10-13 10:06:23] >> PONG :arvel.cryto.net
+[2013-10-13 10:07:56] << PING :arvel.cryto.net
+[2013-10-13 10:07:56] >> PONG :arvel.cryto.net
+[2013-10-13 10:09:26] << PING :arvel.cryto.net
+[2013-10-13 10:09:26] >> PONG :arvel.cryto.net
+[2013-10-13 10:11:02] << PING :arvel.cryto.net
+[2013-10-13 10:11:02] >> PONG :arvel.cryto.net
+[2013-10-13 10:12:36] << PING :arvel.cryto.net
+[2013-10-13 10:12:36] >> PONG :arvel.cryto.net
+[2013-10-13 10:14:13] << PING :arvel.cryto.net
+[2013-10-13 10:14:13] >> PONG :arvel.cryto.net
+[2013-10-13 10:15:47] << PING :arvel.cryto.net
+[2013-10-13 10:15:47] >> PONG :arvel.cryto.net
+[2013-10-13 10:17:22] << PING :arvel.cryto.net
+[2013-10-13 10:17:22] >> PONG :arvel.cryto.net
+[2013-10-13 10:18:55] << PING :arvel.cryto.net
+[2013-10-13 10:18:55] >> PONG :arvel.cryto.net
+[2013-10-13 10:20:29] << PING :arvel.cryto.net
+[2013-10-13 10:20:29] >> PONG :arvel.cryto.net
+[2013-10-13 10:22:04] << PING :arvel.cryto.net
+[2013-10-13 10:22:04] >> PONG :arvel.cryto.net
+[2013-10-13 10:23:37] << PING :arvel.cryto.net
+[2013-10-13 10:23:37] >> PONG :arvel.cryto.net
+[2013-10-13 10:25:13] << PING :arvel.cryto.net
+[2013-10-13 10:25:13] >> PONG :arvel.cryto.net
+[2013-10-13 10:26:47] << PING :arvel.cryto.net
+[2013-10-13 10:26:47] >> PONG :arvel.cryto.net
+[2013-10-13 10:28:19] << PING :arvel.cryto.net
+[2013-10-13 10:28:19] >> PONG :arvel.cryto.net
+[2013-10-13 10:29:51] << PING :arvel.cryto.net
+[2013-10-13 10:29:51] >> PONG :arvel.cryto.net
+[2013-10-13 10:31:24] << PING :arvel.cryto.net
+[2013-10-13 10:31:24] >> PONG :arvel.cryto.net
+[2013-10-13 10:32:56] << PING :arvel.cryto.net
+[2013-10-13 10:32:56] >> PONG :arvel.cryto.net
+[2013-10-13 10:34:32] << PING :arvel.cryto.net
+[2013-10-13 10:34:32] >> PONG :arvel.cryto.net
+[2013-10-13 10:36:06] << PING :arvel.cryto.net
+[2013-10-13 10:36:06] >> PONG :arvel.cryto.net
+[2013-10-13 10:37:40] << PING :arvel.cryto.net
+[2013-10-13 10:37:40] >> PONG :arvel.cryto.net
+[2013-10-13 10:39:14] << PING :arvel.cryto.net
+[2013-10-13 10:39:14] >> PONG :arvel.cryto.net
+[2013-10-13 10:40:51] << PING :arvel.cryto.net
+[2013-10-13 10:40:51] >> PONG :arvel.cryto.net
+[2013-10-13 10:42:22] << PING :arvel.cryto.net
+[2013-10-13 10:42:22] >> PONG :arvel.cryto.net
+[2013-10-13 10:43:59] << PING :arvel.cryto.net
+[2013-10-13 10:43:59] >> PONG :arvel.cryto.net
+[2013-10-13 10:45:32] << PING :arvel.cryto.net
+[2013-10-13 10:45:32] >> PONG :arvel.cryto.net
+[2013-10-13 10:47:05] << PING :arvel.cryto.net
+[2013-10-13 10:47:05] >> PONG :arvel.cryto.net
+[2013-10-13 10:48:37] << PING :arvel.cryto.net
+[2013-10-13 10:48:37] >> PONG :arvel.cryto.net
+[2013-10-13 10:50:11] << PING :arvel.cryto.net
+[2013-10-13 10:50:11] >> PONG :arvel.cryto.net
+[2013-10-13 10:51:44] << PING :arvel.cryto.net
+[2013-10-13 10:51:44] >> PONG :arvel.cryto.net
+[2013-10-13 10:53:16] << PING :arvel.cryto.net
+[2013-10-13 10:53:16] >> PONG :arvel.cryto.net
+[2013-10-13 10:54:49] << PING :arvel.cryto.net
+[2013-10-13 10:54:49] >> PONG :arvel.cryto.net
+[2013-10-13 10:56:23] << PING :arvel.cryto.net
+[2013-10-13 10:56:23] >> PONG :arvel.cryto.net
+[2013-10-13 10:57:54] << PING :arvel.cryto.net
+[2013-10-13 10:57:54] >> PONG :arvel.cryto.net
+[2013-10-13 10:59:27] << PING :arvel.cryto.net
+[2013-10-13 10:59:27] >> PONG :arvel.cryto.net
+[2013-10-13 11:00:58] << PING :arvel.cryto.net
+[2013-10-13 11:00:58] >> PONG :arvel.cryto.net
+[2013-10-13 11:02:30] << PING :arvel.cryto.net
+[2013-10-13 11:02:30] >> PONG :arvel.cryto.net
+[2013-10-13 11:04:08] << PING :arvel.cryto.net
+[2013-10-13 11:04:08] >> PONG :arvel.cryto.net
+[2013-10-13 11:05:44] << PING :arvel.cryto.net
+[2013-10-13 11:05:44] >> PONG :arvel.cryto.net
+[2013-10-13 11:07:17] << PING :arvel.cryto.net
+[2013-10-13 11:07:17] >> PONG :arvel.cryto.net
+[2013-10-13 11:08:53] << PING :arvel.cryto.net
+[2013-10-13 11:08:53] >> PONG :arvel.cryto.net
+[2013-10-13 11:10:26] << PING :arvel.cryto.net
+[2013-10-13 11:10:26] >> PONG :arvel.cryto.net
+[2013-10-13 11:11:58] << PING :arvel.cryto.net
+[2013-10-13 11:11:58] >> PONG :arvel.cryto.net
+[2013-10-13 11:13:30] << PING :arvel.cryto.net
+[2013-10-13 11:13:30] >> PONG :arvel.cryto.net
+[2013-10-13 11:15:06] << PING :arvel.cryto.net
+[2013-10-13 11:15:06] >> PONG :arvel.cryto.net
+[2013-10-13 11:16:40] << PING :arvel.cryto.net
+[2013-10-13 11:16:40] >> PONG :arvel.cryto.net
+[2013-10-13 11:18:15] << PING :arvel.cryto.net
+[2013-10-13 11:18:15] >> PONG :arvel.cryto.net
+[2013-10-13 11:19:48] << PING :arvel.cryto.net
+[2013-10-13 11:19:48] >> PONG :arvel.cryto.net
+[2013-10-13 11:21:24] << PING :arvel.cryto.net
+[2013-10-13 11:21:24] >> PONG :arvel.cryto.net
+[2013-10-13 11:23:00] << PING :arvel.cryto.net
+[2013-10-13 11:23:00] >> PONG :arvel.cryto.net
+[2013-10-13 11:24:35] << PING :arvel.cryto.net
+[2013-10-13 11:24:35] >> PONG :arvel.cryto.net
+[2013-10-13 11:26:08] << PING :arvel.cryto.net
+[2013-10-13 11:26:08] >> PONG :arvel.cryto.net
+[2013-10-13 11:27:42] << PING :arvel.cryto.net
+[2013-10-13 11:27:42] >> PONG :arvel.cryto.net
+[2013-10-13 11:29:15] << PING :arvel.cryto.net
+[2013-10-13 11:29:15] >> PONG :arvel.cryto.net
+[2013-10-13 11:30:47] << PING :arvel.cryto.net
+[2013-10-13 11:30:47] >> PONG :arvel.cryto.net
+[2013-10-13 11:32:19] << PING :arvel.cryto.net
+[2013-10-13 11:32:19] >> PONG :arvel.cryto.net
+[2013-10-13 11:33:55] << PING :arvel.cryto.net
+[2013-10-13 11:33:55] >> PONG :arvel.cryto.net
+[2013-10-13 11:35:29] << PING :arvel.cryto.net
+[2013-10-13 11:35:29] >> PONG :arvel.cryto.net
+[2013-10-13 11:37:02] << PING :arvel.cryto.net
+[2013-10-13 11:37:02] >> PONG :arvel.cryto.net
+[2013-10-13 11:38:37] << PING :arvel.cryto.net
+[2013-10-13 11:38:37] >> PONG :arvel.cryto.net
+[2013-10-13 11:40:09] << PING :arvel.cryto.net
+[2013-10-13 11:40:09] >> PONG :arvel.cryto.net
+[2013-10-13 11:41:41] << PING :arvel.cryto.net
+[2013-10-13 11:41:41] >> PONG :arvel.cryto.net
+[2013-10-13 11:43:13] << PING :arvel.cryto.net
+[2013-10-13 11:43:13] >> PONG :arvel.cryto.net
+[2013-10-13 11:44:46] << PING :arvel.cryto.net
+[2013-10-13 11:44:46] >> PONG :arvel.cryto.net
+[2013-10-13 11:46:18] << PING :arvel.cryto.net
+[2013-10-13 11:46:18] >> PONG :arvel.cryto.net
+[2013-10-13 11:47:51] << PING :arvel.cryto.net
+[2013-10-13 11:47:51] >> PONG :arvel.cryto.net
+[2013-10-13 11:49:23] << PING :arvel.cryto.net
+[2013-10-13 11:49:23] >> PONG :arvel.cryto.net
+[2013-10-13 11:50:56] << PING :arvel.cryto.net
+[2013-10-13 11:50:56] >> PONG :arvel.cryto.net
+[2013-10-13 11:52:29] << PING :arvel.cryto.net
+[2013-10-13 11:52:29] >> PONG :arvel.cryto.net
+[2013-10-13 11:54:02] << PING :arvel.cryto.net
+[2013-10-13 11:54:02] >> PONG :arvel.cryto.net
+[2013-10-13 11:55:35] << PING :arvel.cryto.net
+[2013-10-13 11:55:35] >> PONG :arvel.cryto.net
+[2013-10-13 11:57:09] << PING :arvel.cryto.net
+[2013-10-13 11:57:09] >> PONG :arvel.cryto.net
+[2013-10-13 11:58:43] << PING :arvel.cryto.net
+[2013-10-13 11:58:43] >> PONG :arvel.cryto.net
+[2013-10-13 12:00:17] << PING :arvel.cryto.net
+[2013-10-13 12:00:17] >> PONG :arvel.cryto.net
+[2013-10-13 12:01:51] << PING :arvel.cryto.net
+[2013-10-13 12:01:51] >> PONG :arvel.cryto.net
+[2013-10-13 12:03:29] << PING :arvel.cryto.net
+[2013-10-13 12:03:29] >> PONG :arvel.cryto.net
+[2013-10-13 12:05:04] << PING :arvel.cryto.net
+[2013-10-13 12:05:04] >> PONG :arvel.cryto.net
+[2013-10-13 12:06:37] << PING :arvel.cryto.net
+[2013-10-13 12:06:37] >> PONG :arvel.cryto.net
+[2013-10-13 12:08:11] << PING :arvel.cryto.net
+[2013-10-13 12:08:11] >> PONG :arvel.cryto.net
+[2013-10-13 12:09:46] << PING :arvel.cryto.net
+[2013-10-13 12:09:46] >> PONG :arvel.cryto.net
+[2013-10-13 12:11:22] << PING :arvel.cryto.net
+[2013-10-13 12:11:22] >> PONG :arvel.cryto.net
+[2013-10-13 12:12:55] << PING :arvel.cryto.net
+[2013-10-13 12:12:55] >> PONG :arvel.cryto.net
+[2013-10-13 12:14:27] << PING :arvel.cryto.net
+[2013-10-13 12:14:27] >> PONG :arvel.cryto.net
+[2013-10-13 12:16:01] << PING :arvel.cryto.net
+[2013-10-13 12:16:01] >> PONG :arvel.cryto.net
+[2013-10-13 12:17:37] << PING :arvel.cryto.net
+[2013-10-13 12:17:37] >> PONG :arvel.cryto.net
+[2013-10-13 12:19:11] << PING :arvel.cryto.net
+[2013-10-13 12:19:11] >> PONG :arvel.cryto.net
+[2013-10-13 12:20:48] << PING :arvel.cryto.net
+[2013-10-13 12:20:48] >> PONG :arvel.cryto.net
+[2013-10-13 12:22:22] << PING :arvel.cryto.net
+[2013-10-13 12:22:22] >> PONG :arvel.cryto.net
+[2013-10-13 12:23:55] << PING :arvel.cryto.net
+[2013-10-13 12:23:55] >> PONG :arvel.cryto.net
+[2013-10-13 12:25:30] << PING :arvel.cryto.net
+[2013-10-13 12:25:30] >> PONG :arvel.cryto.net
+[2013-10-13 12:27:02] << PING :arvel.cryto.net
+[2013-10-13 12:27:02] >> PONG :arvel.cryto.net
+[2013-10-13 12:28:33] << PING :arvel.cryto.net
+[2013-10-13 12:28:33] >> PONG :arvel.cryto.net
+[2013-10-13 12:30:09] << PING :arvel.cryto.net
+[2013-10-13 12:30:09] >> PONG :arvel.cryto.net
+[2013-10-13 12:31:43] << PING :arvel.cryto.net
+[2013-10-13 12:31:43] >> PONG :arvel.cryto.net
+[2013-10-13 12:33:16] << PING :arvel.cryto.net
+[2013-10-13 12:33:16] >> PONG :arvel.cryto.net
+[2013-10-13 12:34:48] << PING :arvel.cryto.net
+[2013-10-13 12:34:48] >> PONG :arvel.cryto.net
+[2013-10-13 12:36:21] << PING :arvel.cryto.net
+[2013-10-13 12:36:21] >> PONG :arvel.cryto.net
+[2013-10-13 12:37:54] << PING :arvel.cryto.net
+[2013-10-13 12:37:54] >> PONG :arvel.cryto.net
+[2013-10-13 12:39:28] << PING :arvel.cryto.net
+[2013-10-13 12:39:28] >> PONG :arvel.cryto.net
+[2013-10-13 12:41:01] << PING :arvel.cryto.net
+[2013-10-13 12:41:01] >> PONG :arvel.cryto.net
+[2013-10-13 12:42:32] << PING :arvel.cryto.net
+[2013-10-13 12:42:32] >> PONG :arvel.cryto.net
+[2013-10-13 12:44:07] << PING :arvel.cryto.net
+[2013-10-13 12:44:07] >> PONG :arvel.cryto.net
+[2013-10-13 12:45:39] << PING :arvel.cryto.net
+[2013-10-13 12:45:39] >> PONG :arvel.cryto.net
+[2013-10-13 12:47:10] << PING :arvel.cryto.net
+[2013-10-13 12:47:10] >> PONG :arvel.cryto.net
+[2013-10-13 12:48:46] << PING :arvel.cryto.net
+[2013-10-13 12:48:46] >> PONG :arvel.cryto.net
+[2013-10-13 12:50:18] << PING :arvel.cryto.net
+[2013-10-13 12:50:18] >> PONG :arvel.cryto.net
+[2013-10-13 12:51:50] << PING :arvel.cryto.net
+[2013-10-13 12:51:50] >> PONG :arvel.cryto.net
+[2013-10-13 12:53:23] << PING :arvel.cryto.net
+[2013-10-13 12:53:23] >> PONG :arvel.cryto.net
+[2013-10-13 12:54:55] << PING :arvel.cryto.net
+[2013-10-13 12:54:55] >> PONG :arvel.cryto.net
+[2013-10-13 12:56:32] << PING :arvel.cryto.net
+[2013-10-13 12:56:32] >> PONG :arvel.cryto.net
+[2013-10-13 12:58:04] << PING :arvel.cryto.net
+[2013-10-13 12:58:04] >> PONG :arvel.cryto.net
+[2013-10-13 12:59:35] << PING :arvel.cryto.net
+[2013-10-13 12:59:35] >> PONG :arvel.cryto.net
+[2013-10-13 13:01:07] << PING :arvel.cryto.net
+[2013-10-13 13:01:07] >> PONG :arvel.cryto.net
+[2013-10-13 13:02:42] << PING :arvel.cryto.net
+[2013-10-13 13:02:42] >> PONG :arvel.cryto.net
+[2013-10-13 13:04:15] << PING :arvel.cryto.net
+[2013-10-13 13:04:15] >> PONG :arvel.cryto.net
+[2013-10-13 13:05:49] << PING :arvel.cryto.net
+[2013-10-13 13:05:49] >> PONG :arvel.cryto.net
+[2013-10-13 13:07:21] << PING :arvel.cryto.net
+[2013-10-13 13:07:21] >> PONG :arvel.cryto.net
+[2013-10-13 13:08:54] << PING :arvel.cryto.net
+[2013-10-13 13:08:54] >> PONG :arvel.cryto.net
+[2013-10-13 13:10:29] << PING :arvel.cryto.net
+[2013-10-13 13:10:29] >> PONG :arvel.cryto.net
+[2013-10-13 13:12:02] << PING :arvel.cryto.net
+[2013-10-13 13:12:02] >> PONG :arvel.cryto.net
+[2013-10-13 13:13:37] << PING :arvel.cryto.net
+[2013-10-13 13:13:37] >> PONG :arvel.cryto.net
+[2013-10-13 13:15:09] << PING :arvel.cryto.net
+[2013-10-13 13:15:09] >> PONG :arvel.cryto.net
+[2013-10-13 13:16:41] << PING :arvel.cryto.net
+[2013-10-13 13:16:41] >> PONG :arvel.cryto.net
+[2013-10-13 13:18:10] << PING :arvel.cryto.net
+[2013-10-13 13:18:10] >> PONG :arvel.cryto.net
+[2013-10-13 13:19:47] << PING :arvel.cryto.net
+[2013-10-13 13:19:47] >> PONG :arvel.cryto.net
+[2013-10-13 13:21:21] << PING :arvel.cryto.net
+[2013-10-13 13:21:21] >> PONG :arvel.cryto.net
+[2013-10-13 13:22:56] << PING :arvel.cryto.net
+[2013-10-13 13:22:56] >> PONG :arvel.cryto.net
+[2013-10-13 13:24:28] << PING :arvel.cryto.net
+[2013-10-13 13:24:28] >> PONG :arvel.cryto.net
+[2013-10-13 13:26:04] << PING :arvel.cryto.net
+[2013-10-13 13:26:04] >> PONG :arvel.cryto.net
+[2013-10-13 13:27:38] << PING :arvel.cryto.net
+[2013-10-13 13:27:38] >> PONG :arvel.cryto.net
+[2013-10-13 13:29:11] << PING :arvel.cryto.net
+[2013-10-13 13:29:11] >> PONG :arvel.cryto.net
+[2013-10-13 13:30:46] << PING :arvel.cryto.net
+[2013-10-13 13:30:46] >> PONG :arvel.cryto.net
+[2013-10-13 13:32:19] << PING :arvel.cryto.net
+[2013-10-13 13:32:19] >> PONG :arvel.cryto.net
+[2013-10-13 13:33:52] << PING :arvel.cryto.net
+[2013-10-13 13:33:52] >> PONG :arvel.cryto.net
+[2013-10-13 13:35:28] << PING :arvel.cryto.net
+[2013-10-13 13:35:28] >> PONG :arvel.cryto.net
+[2013-10-13 13:37:00] << PING :arvel.cryto.net
+[2013-10-13 13:37:00] >> PONG :arvel.cryto.net
+[2013-10-13 13:38:34] << PING :arvel.cryto.net
+[2013-10-13 13:38:34] >> PONG :arvel.cryto.net
+[2013-10-13 13:40:10] << PING :arvel.cryto.net
+[2013-10-13 13:40:10] >> PONG :arvel.cryto.net
+[2013-10-13 13:41:42] << PING :arvel.cryto.net
+[2013-10-13 13:41:42] >> PONG :arvel.cryto.net
+[2013-10-13 13:43:15] << PING :arvel.cryto.net
+[2013-10-13 13:43:15] >> PONG :arvel.cryto.net
+[2013-10-13 13:44:49] << PING :arvel.cryto.net
+[2013-10-13 13:44:49] >> PONG :arvel.cryto.net
+[2013-10-13 13:46:21] << PING :arvel.cryto.net
+[2013-10-13 13:46:21] >> PONG :arvel.cryto.net
+[2013-10-13 13:47:53] << PING :arvel.cryto.net
+[2013-10-13 13:47:53] >> PONG :arvel.cryto.net
+[2013-10-13 13:49:27] << PING :arvel.cryto.net
+[2013-10-13 13:49:27] >> PONG :arvel.cryto.net
+[2013-10-13 13:51:00] << PING :arvel.cryto.net
+[2013-10-13 13:51:00] >> PONG :arvel.cryto.net
+[2013-10-13 13:52:32] << PING :arvel.cryto.net
+[2013-10-13 13:52:32] >> PONG :arvel.cryto.net
+[2013-10-13 13:54:04] << PING :arvel.cryto.net
+[2013-10-13 13:54:04] >> PONG :arvel.cryto.net
+[2013-10-13 13:55:39] << PING :arvel.cryto.net
+[2013-10-13 13:55:39] >> PONG :arvel.cryto.net
+[2013-10-13 13:57:13] << PING :arvel.cryto.net
+[2013-10-13 13:57:13] >> PONG :arvel.cryto.net
+[2013-10-13 13:58:49] << PING :arvel.cryto.net
+[2013-10-13 13:58:49] >> PONG :arvel.cryto.net
+[2013-10-13 14:00:19] << PING :arvel.cryto.net
+[2013-10-13 14:00:19] >> PONG :arvel.cryto.net
+[2013-10-13 14:01:53] << PING :arvel.cryto.net
+[2013-10-13 14:01:53] >> PONG :arvel.cryto.net
+[2013-10-13 14:03:26] << PING :arvel.cryto.net
+[2013-10-13 14:03:26] >> PONG :arvel.cryto.net
+[2013-10-13 14:04:57] << PING :arvel.cryto.net
+[2013-10-13 14:04:57] >> PONG :arvel.cryto.net
+[2013-10-13 14:06:33] << PING :arvel.cryto.net
+[2013-10-13 14:06:33] >> PONG :arvel.cryto.net
+[2013-10-13 14:08:04] << PING :arvel.cryto.net
+[2013-10-13 14:08:04] >> PONG :arvel.cryto.net
+[2013-10-13 14:09:38] << PING :arvel.cryto.net
+[2013-10-13 14:09:38] >> PONG :arvel.cryto.net
+[2013-10-13 14:11:10] << PING :arvel.cryto.net
+[2013-10-13 14:11:10] >> PONG :arvel.cryto.net
+[2013-10-13 14:12:41] << PING :arvel.cryto.net
+[2013-10-13 14:12:41] >> PONG :arvel.cryto.net
+[2013-10-13 14:14:13] << PING :arvel.cryto.net
+[2013-10-13 14:14:13] >> PONG :arvel.cryto.net
+[2013-10-13 14:15:44] << PING :arvel.cryto.net
+[2013-10-13 14:15:44] >> PONG :arvel.cryto.net
+[2013-10-13 14:17:20] << PING :arvel.cryto.net
+[2013-10-13 14:17:20] >> PONG :arvel.cryto.net
+[2013-10-13 14:18:55] << PING :arvel.cryto.net
+[2013-10-13 14:18:55] >> PONG :arvel.cryto.net
+[2013-10-13 14:20:28] << PING :arvel.cryto.net
+[2013-10-13 14:20:28] >> PONG :arvel.cryto.net
+[2013-10-13 14:22:00] << PING :arvel.cryto.net
+[2013-10-13 14:22:00] >> PONG :arvel.cryto.net
+[2013-10-13 14:23:34] << PING :arvel.cryto.net
+[2013-10-13 14:23:34] >> PONG :arvel.cryto.net
+[2013-10-13 14:25:12] << PING :arvel.cryto.net
+[2013-10-13 14:25:12] >> PONG :arvel.cryto.net
+[2013-10-13 14:26:44] << PING :arvel.cryto.net
+[2013-10-13 14:26:44] >> PONG :arvel.cryto.net
+[2013-10-13 14:28:16] << PING :arvel.cryto.net
+[2013-10-13 14:28:16] >> PONG :arvel.cryto.net
+[2013-10-13 14:29:48] << PING :arvel.cryto.net
+[2013-10-13 14:29:48] >> PONG :arvel.cryto.net
+[2013-10-13 14:31:22] << PING :arvel.cryto.net
+[2013-10-13 14:31:22] >> PONG :arvel.cryto.net
+[2013-10-13 14:32:55] << PING :arvel.cryto.net
+[2013-10-13 14:32:55] >> PONG :arvel.cryto.net
+[2013-10-13 14:34:29] << PING :arvel.cryto.net
+[2013-10-13 14:34:29] >> PONG :arvel.cryto.net
+[2013-10-13 14:36:01] << PING :arvel.cryto.net
+[2013-10-13 14:36:01] >> PONG :arvel.cryto.net
+[2013-10-13 14:37:33] << PING :arvel.cryto.net
+[2013-10-13 14:37:33] >> PONG :arvel.cryto.net
+[2013-10-13 14:39:04] << PING :arvel.cryto.net
+[2013-10-13 14:39:04] >> PONG :arvel.cryto.net
+[2013-10-13 14:40:38] << PING :arvel.cryto.net
+[2013-10-13 14:40:38] >> PONG :arvel.cryto.net
+[2013-10-13 14:42:10] << PING :arvel.cryto.net
+[2013-10-13 14:42:10] >> PONG :arvel.cryto.net
+[2013-10-13 14:43:45] << PING :arvel.cryto.net
+[2013-10-13 14:43:45] >> PONG :arvel.cryto.net
+[2013-10-13 14:45:20] << PING :arvel.cryto.net
+[2013-10-13 14:45:20] >> PONG :arvel.cryto.net
+[2013-10-13 14:46:53] << PING :arvel.cryto.net
+[2013-10-13 14:46:53] >> PONG :arvel.cryto.net
+[2013-10-13 14:48:28] << PING :arvel.cryto.net
+[2013-10-13 14:48:28] >> PONG :arvel.cryto.net
+[2013-10-13 14:50:03] << PING :arvel.cryto.net
+[2013-10-13 14:50:03] >> PONG :arvel.cryto.net
+[2013-10-13 14:51:39] << PING :arvel.cryto.net
+[2013-10-13 14:51:39] >> PONG :arvel.cryto.net
+[2013-10-13 14:53:13] << PING :arvel.cryto.net
+[2013-10-13 14:53:13] >> PONG :arvel.cryto.net
+[2013-10-13 14:54:46] << PING :arvel.cryto.net
+[2013-10-13 14:54:46] >> PONG :arvel.cryto.net
+[2013-10-13 14:56:21] << PING :arvel.cryto.net
+[2013-10-13 14:56:21] >> PONG :arvel.cryto.net
+[2013-10-13 14:57:55] << PING :arvel.cryto.net
+[2013-10-13 14:57:55] >> PONG :arvel.cryto.net
+[2013-10-13 14:59:30] << PING :arvel.cryto.net
+[2013-10-13 14:59:30] >> PONG :arvel.cryto.net
+[2013-10-13 15:01:03] << PING :arvel.cryto.net
+[2013-10-13 15:01:03] >> PONG :arvel.cryto.net
+[2013-10-13 15:02:37] << PING :arvel.cryto.net
+[2013-10-13 15:02:37] >> PONG :arvel.cryto.net
+[2013-10-13 15:04:09] << PING :arvel.cryto.net
+[2013-10-13 15:04:09] >> PONG :arvel.cryto.net
+[2013-10-13 15:05:42] << PING :arvel.cryto.net
+[2013-10-13 15:05:42] >> PONG :arvel.cryto.net
+[2013-10-13 15:07:13] << PING :arvel.cryto.net
+[2013-10-13 15:07:13] >> PONG :arvel.cryto.net
+[2013-10-13 15:08:46] << PING :arvel.cryto.net
+[2013-10-13 15:08:46] >> PONG :arvel.cryto.net
+[2013-10-13 15:10:20] << PING :arvel.cryto.net
+[2013-10-13 15:10:20] >> PONG :arvel.cryto.net
+[2013-10-13 15:11:56] << PING :arvel.cryto.net
+[2013-10-13 15:11:56] >> PONG :arvel.cryto.net
+[2013-10-13 15:13:30] << PING :arvel.cryto.net
+[2013-10-13 15:13:30] >> PONG :arvel.cryto.net
+[2013-10-13 15:15:05] << PING :arvel.cryto.net
+[2013-10-13 15:15:05] >> PONG :arvel.cryto.net
+[2013-10-13 15:16:37] << PING :arvel.cryto.net
+[2013-10-13 15:16:37] >> PONG :arvel.cryto.net
+[2013-10-13 15:18:10] << PING :arvel.cryto.net
+[2013-10-13 15:18:10] >> PONG :arvel.cryto.net
+[2013-10-13 15:19:43] << PING :arvel.cryto.net
+[2013-10-13 15:19:43] >> PONG :arvel.cryto.net
+[2013-10-13 15:21:18] << PING :arvel.cryto.net
+[2013-10-13 15:21:18] >> PONG :arvel.cryto.net
+[2013-10-13 15:22:51] << PING :arvel.cryto.net
+[2013-10-13 15:22:51] >> PONG :arvel.cryto.net
+[2013-10-13 15:24:25] << PING :arvel.cryto.net
+[2013-10-13 15:24:25] >> PONG :arvel.cryto.net
+[2013-10-13 15:26:01] << PING :arvel.cryto.net
+[2013-10-13 15:26:01] >> PONG :arvel.cryto.net
+[2013-10-13 15:27:34] << PING :arvel.cryto.net
+[2013-10-13 15:27:34] >> PONG :arvel.cryto.net
+[2013-10-13 15:29:08] << PING :arvel.cryto.net
+[2013-10-13 15:29:08] >> PONG :arvel.cryto.net
+[2013-10-13 15:30:43] << PING :arvel.cryto.net
+[2013-10-13 15:30:43] >> PONG :arvel.cryto.net
+[2013-10-13 15:32:15] << PING :arvel.cryto.net
+[2013-10-13 15:32:15] >> PONG :arvel.cryto.net
+[2013-10-13 15:33:49] << PING :arvel.cryto.net
+[2013-10-13 15:33:49] >> PONG :arvel.cryto.net
+[2013-10-13 15:34:42] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 15:34:42] >> WHO #drwhat
+[2013-10-13 15:34:43] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 15:34:43] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 15:34:43] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 15:34:43] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 15:34:43] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 15:36:13] << PING :arvel.cryto.net
+[2013-10-13 15:36:13] >> PONG :arvel.cryto.net
+[2013-10-13 15:37:47] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 15:37:48] << PING :arvel.cryto.net
+[2013-10-13 15:37:48] >> PONG :arvel.cryto.net
+[2013-10-13 15:38:11] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 15:38:11] >> WHO #drwhat
+[2013-10-13 15:38:12] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 15:38:12] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 15:38:12] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 15:38:12] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 15:38:12] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 15:39:50] << PING :arvel.cryto.net
+[2013-10-13 15:39:50] >> PONG :arvel.cryto.net
+[2013-10-13 15:41:22] << PING :arvel.cryto.net
+[2013-10-13 15:41:22] >> PONG :arvel.cryto.net
+[2013-10-13 15:42:55] << PING :arvel.cryto.net
+[2013-10-13 15:42:55] >> PONG :arvel.cryto.net
+[2013-10-13 15:42:55] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 15:44:28] << PING :arvel.cryto.net
+[2013-10-13 15:44:28] >> PONG :arvel.cryto.net
+[2013-10-13 15:46:05] << PING :arvel.cryto.net
+[2013-10-13 15:46:05] >> PONG :arvel.cryto.net
+[2013-10-13 15:47:38] << PING :arvel.cryto.net
+[2013-10-13 15:47:38] >> PONG :arvel.cryto.net
+[2013-10-13 15:49:14] << PING :arvel.cryto.net
+[2013-10-13 15:49:14] >> PONG :arvel.cryto.net
+[2013-10-13 15:50:46] << PING :arvel.cryto.net
+[2013-10-13 15:50:46] >> PONG :arvel.cryto.net
+[2013-10-13 15:52:18] << PING :arvel.cryto.net
+[2013-10-13 15:52:18] >> PONG :arvel.cryto.net
+[2013-10-13 15:53:51] << PING :arvel.cryto.net
+[2013-10-13 15:53:51] >> PONG :arvel.cryto.net
+[2013-10-13 15:55:24] << PING :arvel.cryto.net
+[2013-10-13 15:55:24] >> PONG :arvel.cryto.net
+[2013-10-13 15:56:58] << PING :arvel.cryto.net
+[2013-10-13 15:56:58] >> PONG :arvel.cryto.net
+[2013-10-13 15:58:36] << PING :arvel.cryto.net
+[2013-10-13 15:58:36] >> PONG :arvel.cryto.net
+[2013-10-13 16:00:12] << PING :arvel.cryto.net
+[2013-10-13 16:00:12] >> PONG :arvel.cryto.net
+[2013-10-13 16:00:44] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl JOIN :#drwhat
+[2013-10-13 16:00:44] >> WHO #drwhat
+[2013-10-13 16:00:45] << :arvel.cryto.net 352 DrBot #drwhat joepie91 cryto-3E6002EF.direct-adsl.nl haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 16:00:45] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 16:00:45] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 16:00:45] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 16:00:45] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 16:02:15] << PING :arvel.cryto.net
+[2013-10-13 16:02:15] >> PONG :arvel.cryto.net
+[2013-10-13 16:03:45] << PING :arvel.cryto.net
+[2013-10-13 16:03:45] >> PONG :arvel.cryto.net
+[2013-10-13 16:05:19] << PING :arvel.cryto.net
+[2013-10-13 16:05:19] >> PONG :arvel.cryto.net
+[2013-10-13 16:06:53] << PING :arvel.cryto.net
+[2013-10-13 16:06:53] >> PONG :arvel.cryto.net
+[2013-10-13 16:08:25] << PING :arvel.cryto.net
+[2013-10-13 16:08:25] >> PONG :arvel.cryto.net
+[2013-10-13 16:09:59] << PING :arvel.cryto.net
+[2013-10-13 16:09:59] >> PONG :arvel.cryto.net
+[2013-10-13 16:11:34] << PING :arvel.cryto.net
+[2013-10-13 16:11:34] >> PONG :arvel.cryto.net
+[2013-10-13 16:13:10] << PING :arvel.cryto.net
+[2013-10-13 16:13:10] >> PONG :arvel.cryto.net
+[2013-10-13 16:14:42] << PING :arvel.cryto.net
+[2013-10-13 16:14:42] >> PONG :arvel.cryto.net
+[2013-10-13 16:16:13] << PING :arvel.cryto.net
+[2013-10-13 16:16:13] >> PONG :arvel.cryto.net
+[2013-10-13 16:17:50] << PING :arvel.cryto.net
+[2013-10-13 16:17:50] >> PONG :arvel.cryto.net
+[2013-10-13 16:19:23] << PING :arvel.cryto.net
+[2013-10-13 16:19:23] >> PONG :arvel.cryto.net
+[2013-10-13 16:20:54] << PING :arvel.cryto.net
+[2013-10-13 16:20:54] >> PONG :arvel.cryto.net
+[2013-10-13 16:22:32] << PING :arvel.cryto.net
+[2013-10-13 16:22:32] >> PONG :arvel.cryto.net
+[2013-10-13 16:22:43] << :joepie91!joepie91@cryto-3E6002EF.direct-adsl.nl QUIT :Ping timeout
+[2013-10-13 16:23:59] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 16:23:59] >> WHO #drwhat
+[2013-10-13 16:24:00] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 16:24:00] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 16:24:00] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 16:24:00] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 16:24:00] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 16:25:32] << PING :arvel.cryto.net
+[2013-10-13 16:25:32] >> PONG :arvel.cryto.net
+[2013-10-13 16:27:08] << PING :arvel.cryto.net
+[2013-10-13 16:27:08] >> PONG :arvel.cryto.net
+[2013-10-13 16:28:38] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 16:28:40] << PING :arvel.cryto.net
+[2013-10-13 16:28:40] >> PONG :arvel.cryto.net
+[2013-10-13 16:29:13] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 16:29:13] >> WHO #drwhat
+[2013-10-13 16:29:14] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 16:29:14] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 16:29:14] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 16:29:14] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 16:29:14] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 16:30:51] << PING :arvel.cryto.net
+[2013-10-13 16:30:51] >> PONG :arvel.cryto.net
+[2013-10-13 16:32:25] << PING :arvel.cryto.net
+[2013-10-13 16:32:25] >> PONG :arvel.cryto.net
+[2013-10-13 16:34:01] << PING :arvel.cryto.net
+[2013-10-13 16:34:01] >> PONG :arvel.cryto.net
+[2013-10-13 16:35:35] << PING :arvel.cryto.net
+[2013-10-13 16:35:35] >> PONG :arvel.cryto.net
+[2013-10-13 16:35:58] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :User quit:  Nettalk6 - www.ntalk.de
+[2013-10-13 16:35:59] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 16:35:59] >> WHO #drwhat
+[2013-10-13 16:36:00] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 16:36:00] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 16:36:00] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 16:36:00] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 16:36:00] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 16:37:39] << PING :arvel.cryto.net
+[2013-10-13 16:37:39] >> PONG :arvel.cryto.net
+[2013-10-13 16:39:05] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 16:39:13] << PING :arvel.cryto.net
+[2013-10-13 16:39:13] >> PONG :arvel.cryto.net
+[2013-10-13 16:40:44] << PING :arvel.cryto.net
+[2013-10-13 16:40:44] >> PONG :arvel.cryto.net
+[2013-10-13 16:42:20] << PING :arvel.cryto.net
+[2013-10-13 16:42:20] >> PONG :arvel.cryto.net
+[2013-10-13 16:43:55] << PING :arvel.cryto.net
+[2013-10-13 16:43:55] >> PONG :arvel.cryto.net
+[2013-10-13 16:45:30] << PING :arvel.cryto.net
+[2013-10-13 16:45:30] >> PONG :arvel.cryto.net
+[2013-10-13 16:46:14] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 16:46:14] >> WHO #drwhat
+[2013-10-13 16:46:15] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 16:46:15] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 16:46:15] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 16:46:15] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 16:46:15] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 16:47:44] << PING :arvel.cryto.net
+[2013-10-13 16:47:44] >> PONG :arvel.cryto.net
+[2013-10-13 16:49:16] << PING :arvel.cryto.net
+[2013-10-13 16:49:16] >> PONG :arvel.cryto.net
+[2013-10-13 16:49:44] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP QUIT :Ping timeout
+[2013-10-13 16:50:50] << PING :arvel.cryto.net
+[2013-10-13 16:50:50] >> PONG :arvel.cryto.net
+[2013-10-13 16:52:22] << PING :arvel.cryto.net
+[2013-10-13 16:52:22] >> PONG :arvel.cryto.net
+[2013-10-13 16:53:54] << PING :arvel.cryto.net
+[2013-10-13 16:53:54] >> PONG :arvel.cryto.net
+[2013-10-13 16:55:27] << PING :arvel.cryto.net
+[2013-10-13 16:55:27] >> PONG :arvel.cryto.net
+[2013-10-13 16:57:02] << PING :arvel.cryto.net
+[2013-10-13 16:57:02] >> PONG :arvel.cryto.net
+[2013-10-13 16:58:35] << PING :arvel.cryto.net
+[2013-10-13 16:58:35] >> PONG :arvel.cryto.net
+[2013-10-13 17:00:07] << PING :arvel.cryto.net
+[2013-10-13 17:00:07] >> PONG :arvel.cryto.net
+[2013-10-13 17:01:43] << PING :arvel.cryto.net
+[2013-10-13 17:01:43] >> PONG :arvel.cryto.net
+[2013-10-13 17:03:16] << PING :arvel.cryto.net
+[2013-10-13 17:03:16] >> PONG :arvel.cryto.net
+[2013-10-13 17:04:50] << PING :arvel.cryto.net
+[2013-10-13 17:04:50] >> PONG :arvel.cryto.net
+[2013-10-13 17:05:38] << :joepie91!joepie91@E0EF0B4E.8949E6E0.92880880.IP JOIN :#drwhat
+[2013-10-13 17:05:38] >> WHO #drwhat
+[2013-10-13 17:05:39] << :arvel.cryto.net 352 DrBot #drwhat joepie91 E0EF0B4E.8949E6E0.92880880.IP haless.cryto.net joepie91 H :2 joepie91
+[2013-10-13 17:05:39] << :arvel.cryto.net 352 DrBot #drwhat Nimda DrBot.users.cryto arvel.cryto.net DrBot Hr& :0 noother's Bot
+[2013-10-13 17:05:39] << :arvel.cryto.net 352 DrBot #drwhat Snake DrWhat.users.cryto arvel.cryto.net DrWhat Hr~ :0 AnacønÐa ns2.15
+[2013-10-13 17:05:39] << :arvel.cryto.net 352 DrBot #drwhat ChanServ services.cryto.net hidden ChanServ H*@ :0 Channel Services
+[2013-10-13 17:05:39] << :arvel.cryto.net 315 DrBot #drwhat :End of /WHO list.
+[2013-10-13 17:07:09] << PING :arvel.cryto.net
+[2013-10-13 17:07:09] >> PONG :arvel.cryto.net
+[2013-10-13 17:08:44] << PING :arvel.cryto.net
+[2013-10-13 17:08:44] >> PONG :arvel.cryto.net
+[2013-10-13 17:10:17] << PING :arvel.cryto.net
+[2013-10-13 17:10:17] >> PONG :arvel.cryto.net
+[2013-10-13 17:11:51] << PING :arvel.cryto.net
+[2013-10-13 17:11:51] >> PONG :arvel.cryto.net
+[2013-10-13 17:13:24] << PING :arvel.cryto.net
+[2013-10-13 17:13:24] >> PONG :arvel.cryto.net
+[2013-10-13 17:14:57] << PING :arvel.cryto.net
+[2013-10-13 17:14:57] >> PONG :arvel.cryto.net
+[2013-10-13 17:16:30] << PING :arvel.cryto.net
+[2013-10-13 17:16:30] >> PONG :arvel.cryto.net
+[2013-10-13 17:18:03] << PING :arvel.cryto.net
+[2013-10-13 17:18:03] >> PONG :arvel.cryto.net
+[2013-10-13 17:19:37] << PING :arvel.cryto.net
+[2013-10-13 17:19:37] >> PONG :arvel.cryto.net
+[2013-10-13 17:21:09] << PING :arvel.cryto.net
+[2013-10-13 17:21:09] >> PONG :arvel.cryto.net
+[2013-10-13 17:22:45] << PING :arvel.cryto.net
+[2013-10-13 17:22:45] >> PONG :arvel.cryto.net
+[2013-10-13 17:24:16] << PING :arvel.cryto.net
+[2013-10-13 17:24:16] >> PONG :arvel.cryto.net
+[2013-10-13 17:25:51] << PING :arvel.cryto.net
+[2013-10-13 17:25:51] >> PONG :arvel.cryto.net
+[2013-10-13 17:27:25] << PING :arvel.cryto.net
+[2013-10-13 17:27:25] >> PONG :arvel.cryto.net
+[2013-10-13 17:28:58] << PING :arvel.cryto.net
+[2013-10-13 17:28:58] >> PONG :arvel.cryto.net
+[2013-10-13 17:30:30] << PING :arvel.cryto.net
+[2013-10-13 17:30:30] >> PONG :arvel.cryto.net
+[2013-10-13 17:32:05] << PING :arvel.cryto.net
+[2013-10-13 17:32:05] >> PONG :arvel.cryto.net
+[2013-10-13 17:33:43] << PING :arvel.cryto.net
+[2013-10-13 17:33:43] >> PONG :arvel.cryto.net
+[2013-10-13 17:35:18] << PING :arvel.cryto.net
+[2013-10-13 17:35:18] >> PONG :arvel.cryto.net
+[2013-10-13 17:36:53] << PING :arvel.cryto.net
+[2013-10-13 17:36:53] >> PONG :arvel.cryto.net
+[2013-10-13 17:38:25] << PING :arvel.cryto.net
+[2013-10-13 17:38:25] >> PONG :arvel.cryto.net
+[2013-10-13 17:39:58] << PING :arvel.cryto.net
+[2013-10-13 17:39:58] >> PONG :arvel.cryto.net
+[2013-10-13 17:41:30] << PING :arvel.cryto.net
+[2013-10-13 17:41:30] >> PONG :arvel.cryto.net
+[2013-10-13 17:43:05] << PING :arvel.cryto.net
+[2013-10-13 17:43:05] >> PONG :arvel.cryto.net
+[2013-10-13 17:44:38] << PING :arvel.cryto.net
+[2013-10-13 17:44:38] >> PONG :arvel.cryto.net
+[2013-10-13 17:46:11] << PING :arvel.cryto.net
+[2013-10-13 17:46:11] >> PONG :arvel.cryto.net
+[2013-10-13 17:47:44] << PING :arvel.cryto.net
+[2013-10-13 17:47:44] >> PONG :arvel.cryto.net
+[2013-10-13 17:49:18] << PING :arvel.cryto.net
+[2013-10-13 17:49:18] >> PONG :arvel.cryto.net
+[2013-10-13 17:50:50] << PING :arvel.cryto.net
+[2013-10-13 17:50:50] >> PONG :arvel.cryto.net
+[2013-10-13 17:52:23] << PING :arvel.cryto.net
+[2013-10-13 17:52:23] >> PONG :arvel.cryto.net
+[2013-10-13 17:53:55] << PING :arvel.cryto.net
+[2013-10-13 17:53:55] >> PONG :arvel.cryto.net
+[2013-10-13 17:55:26] << PING :arvel.cryto.net
+[2013-10-13 17:55:26] >> PONG :arvel.cryto.net
+[2013-10-13 17:56:59] << PING :arvel.cryto.net
+[2013-10-13 17:56:59] >> PONG :arvel.cryto.net
+[2013-10-13 17:58:33] << PING :arvel.cryto.net
+[2013-10-13 17:58:33] >> PONG :arvel.cryto.net
+[2013-10-13 18:00:08] << PING :arvel.cryto.net
+[2013-10-13 18:00:08] >> PONG :arvel.cryto.net
+[2013-10-13 18:01:42] << PING :arvel.cryto.net
+[2013-10-13 18:01:42] >> PONG :arvel.cryto.net
+[2013-10-13 18:03:15] << PING :arvel.cryto.net
+[2013-10-13 18:03:15] >> PONG :arvel.cryto.net
+[2013-10-13 18:04:47] << PING :arvel.cryto.net
+[2013-10-13 18:04:48] >> PONG :arvel.cryto.net
+[2013-10-13 18:06:22] << PING :arvel.cryto.net
+[2013-10-13 18:06:22] >> PONG :arvel.cryto.net
+[2013-10-13 18:07:55] << PING :arvel.cryto.net
+[2013-10-13 18:07:55] >> PONG :arvel.cryto.net
+[2013-10-13 18:09:28] << PING :arvel.cryto.net
+[2013-10-13 18:09:28] >> PONG :arvel.cryto.net
+[2013-10-13 18:11:04] << PING :arvel.cryto.net
+[2013-10-13 18:11:04] >> PONG :arvel.cryto.net
+[2013-10-13 18:12:37] << PING :arvel.cryto.net
+[2013-10-13 18:12:37] >> PONG :arvel.cryto.net
+[2013-10-13 18:14:09] << PING :arvel.cryto.net
+[2013-10-13 18:14:09] >> PONG :arvel.cryto.net
+[2013-10-13 18:15:41] << PING :arvel.cryto.net
+[2013-10-13 18:15:41] >> PONG :arvel.cryto.net
+[2013-10-13 18:17:19] << PING :arvel.cryto.net
+[2013-10-13 18:17:19] >> PONG :arvel.cryto.net
+[2013-10-13 18:18:51] << PING :arvel.cryto.net
+[2013-10-13 18:18:51] >> PONG :arvel.cryto.net
+[2013-10-13 18:20:26] << PING :arvel.cryto.net
+[2013-10-13 18:20:26] >> PONG :arvel.cryto.net
+[2013-10-13 18:22:00] << PING :arvel.cryto.net
+[2013-10-13 18:22:00] >> PONG :arvel.cryto.net
+[2013-10-13 18:23:35] << PING :arvel.cryto.net
+[2013-10-13 18:23:35] >> PONG :arvel.cryto.net
+[2013-10-13 18:25:05] << PING :arvel.cryto.net
+[2013-10-13 18:25:05] >> PONG :arvel.cryto.net
+[2013-10-13 18:26:42] << PING :arvel.cryto.net
+[2013-10-13 18:26:42] >> PONG :arvel.cryto.net
+[2013-10-13 18:28:14] << PING :arvel.cryto.net
+[2013-10-13 18:28:14] >> PONG :arvel.cryto.net
+[2013-10-13 18:29:46] << PING :arvel.cryto.net
+[2013-10-13 18:29:46] >> PONG :arvel.cryto.net
+[2013-10-13 18:31:20] << PING :arvel.cryto.net
+[2013-10-13 18:31:20] >> PONG :arvel.cryto.net
+[2013-10-13 18:32:56] << PING :arvel.cryto.net
+[2013-10-13 18:32:56] >> PONG :arvel.cryto.net
+[2013-10-13 18:34:30] << PING :arvel.cryto.net
+[2013-10-13 18:34:30] >> PONG :arvel.cryto.net
+[2013-10-13 18:39:35] >> PING DrBot arvel.cryto.net
+[2013-10-13 18:39:54] >> QUIT :Connection timed out. Reconnecting..
+[2013-10-13 18:40:28] >> NICK DrBot
+[2013-10-13 18:40:29] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-10-13 18:44:35] >> PING DrBot arvel.cryto.net
+[2013-10-13 18:44:35] >> QUIT :Connection timed out. Reconnecting..
+[2013-10-13 18:45:09] >> NICK DrBot
+[2013-10-13 18:45:10] >> USER Nimda 0 irc.cryto.net :noother's Bot
+[2013-10-13 18:49:35] >> PING DrBot arvel.cryto.net
+[2013-10-13 18:49:35] >> QUIT :Connection timed out. Reconnecting..
+[2013-10-13 18:50:09] >> NICK DrBot
+[2013-10-13 18:50:10] >> USER Nimda 0 irc.cryto.net :noother's Bot

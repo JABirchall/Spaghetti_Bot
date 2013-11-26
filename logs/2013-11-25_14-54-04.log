@@ -1,0 +1,6 @@
+[2013-11-25 14:54:04] >> CAP LS
+[2013-11-25 14:54:04] >> PASS oauth:8ob7ci7hp7qhp8nps9yoemdtu70y2qt
+[2013-11-25 14:54:04] >> NICK Speghetti_Bot
+[2013-11-25 14:54:04] >> USER Speghetti_Bot 0 irc.twitch.tv :DrWhat's Bot
+[2013-11-25 14:54:04] << :tmi.twitch.tv 421 you CAP :Unknown command
+[2013-11-25 14:54:14] << :tmi.twitch.tv NOTICE * :Login unsuccessful

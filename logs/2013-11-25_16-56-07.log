@@ -1,0 +1,25 @@
+[2013-11-25 16:56:07] >> PASS oauth:323igsfqd7a5ti3azfvg7iksxnmzlb0
+[2013-11-25 16:56:07] >> NICK Spaghetti_Bot
+[2013-11-25 16:56:07] >> USER Speghetti_Bot 0 199.9.250.229 :DrWhat's Bot
+[2013-11-25 16:56:07] << :tmi.twitch.tv 001 spaghetti_bot :connected to TMI
+[2013-11-25 16:56:08] << :tmi.twitch.tv 002 spaghetti_bot :your host is TMI
+[2013-11-25 16:56:08] << :tmi.twitch.tv 003 spaghetti_bot :this server is pretty new
+[2013-11-25 16:56:08] << :tmi.twitch.tv 004 spaghetti_bot tmi.twitch.tv 0.0.1 w n
+[2013-11-25 16:56:08] << :tmi.twitch.tv 375 spaghetti_bot :- tmi.twitch.tv Message of the day -
+[2013-11-25 16:56:08] << :tmi.twitch.tv 372 spaghetti_bot :- not much to say here
+[2013-11-25 16:56:08] << :tmi.twitch.tv 376 spaghetti_bot :End of /MOTD command
+[2013-11-25 16:56:08] >> PRIVMSG NickServ :identify 
+[2013-11-25 16:56:13] >> JOIN #nodrwhat
+[2013-11-25 16:56:13] << :spaghetti_bot!spaghetti_bot@spaghetti_bot.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 16:56:13] >> WHO #nodrwhat
+[2013-11-25 16:56:14] << :spaghetti_bot.tmi.twitch.tv 353 spaghetti_bot = #nodrwhat :spaghetti_bot
+[2013-11-25 16:56:14] << :spaghetti_bot.tmi.twitch.tv 366 spaghetti_bot #nodrwhat :End of /NAMES list
+[2013-11-25 16:56:14] << :jtv!jtv@jtv.tmi.twitch.tv PRIVMSG spaghetti_bot :HISTORYEND nodrwhat
+[2013-11-25 16:56:14] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 16:56:49] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv JOIN #nodrwhat
+[2013-11-25 16:56:49] >> WHO #nodrwhat
+[2013-11-25 16:56:49] << :jtv MODE #nodrwhat +o nodrwhat
+[2013-11-25 16:56:49] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat nodrwhat spaghetti_bot.tmi.twitch.tv tmi.twitch.tv nodrwhat H :0 nodrwhat
+[2013-11-25 16:56:49] << :spaghetti_bot.tmi.twitch.tv 352 spaghetti_bot #nodrwhat spaghetti_bot spaghetti_bot.tmi.twitch.tv tmi.twitch.tv spaghetti_bot H :0 spaghetti_bot
+[2013-11-25 16:56:49] << :spaghetti_bot.tmi.twitch.tv 315 spaghetti_bot #nodrwhat :End of /WHO list
+[2013-11-25 16:57:17] << :nodrwhat!nodrwhat@nodrwhat.tmi.twitch.tv PRIVMSG #nodrwhat :!8ball will xdaino pay me
